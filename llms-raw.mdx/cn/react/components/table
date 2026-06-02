@@ -1,0 +1,1744 @@
+<page url="/cn/docs/react/components/table">
+# Table 表格
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/table
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(data-display)/table.mdx
+> 表格以行和列展示结构化数据，支持排序、选择、列宽调整与无限滚动。
+
+
+***
+
+## 引入
+
+```tsx
+import { Table } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Table} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content aria-label="团队成员" className="min-w-[600px]">
+          <Table.Header>
+            <Table.Column isRowHeader>姓名</Table.Column>
+            <Table.Column>角色</Table.Column>
+            <Table.Column>状态</Table.Column>
+            <Table.Column>邮箱</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>Kate Moore</Table.Cell>
+              <Table.Cell>首席执行官</Table.Cell>
+              <Table.Cell>在职</Table.Cell>
+              <Table.Cell>kate@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>John Smith</Table.Cell>
+              <Table.Cell>首席技术官</Table.Cell>
+              <Table.Cell>在职</Table.Cell>
+              <Table.Cell>john@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Sara Johnson</Table.Cell>
+              <Table.Cell>首席营销官</Table.Cell>
+              <Table.Cell>休假</Table.Cell>
+              <Table.Cell>sara@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Michael Brown</Table.Cell>
+              <Table.Cell>首席财务官</Table.Cell>
+              <Table.Cell>在职</Table.Cell>
+              <Table.Cell>michael@acme.com</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 组件结构
+
+引入 Table 组件，并通过点语法访问各部分。
+
+```tsx
+import { Table } from '@heroui/react';
+
+export default () => (
+  <Table>
+    <Table.ScrollContainer>
+      <Table.Content aria-label="Example table">
+        <Table.Header>
+          <Table.Column>Name</Table.Column>
+          <Table.Column>Role</Table.Column>
+        </Table.Header>
+        <Table.Body>
+          <Table.Row>
+            <Table.Cell>Kate Moore</Table.Cell>
+            <Table.Cell>CEO</Table.Cell>
+          </Table.Row>
+        </Table.Body>
+      </Table.Content>
+    </Table.ScrollContainer>
+    <Table.Footer>{/* Optional footer content */}</Table.Footer>
+  </Table>
+);
+
+```
+
+### 次要变体
+
+```tsx
+import {Table} from "@heroui/react";
+
+export function SecondaryVariant() {
+  return (
+    <Table variant="secondary">
+      <Table.ScrollContainer>
+        <Table.Content aria-label="团队成员" className="min-w-[600px]">
+          <Table.Header>
+            <Table.Column isRowHeader>姓名</Table.Column>
+            <Table.Column>角色</Table.Column>
+            <Table.Column>状态</Table.Column>
+            <Table.Column>邮箱</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>Kate Moore</Table.Cell>
+              <Table.Cell>首席执行官</Table.Cell>
+              <Table.Cell>在职</Table.Cell>
+              <Table.Cell>kate@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>John Smith</Table.Cell>
+              <Table.Cell>首席技术官</Table.Cell>
+              <Table.Cell>在职</Table.Cell>
+              <Table.Cell>john@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Sara Johnson</Table.Cell>
+              <Table.Cell>首席营销官</Table.Cell>
+              <Table.Cell>休假</Table.Cell>
+              <Table.Cell>sara@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Michael Brown</Table.Cell>
+              <Table.Cell>首席财务官</Table.Cell>
+              <Table.Cell>在职</Table.Cell>
+              <Table.Cell>michael@acme.com</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 排序
+
+在 `Table.Column` 上设置 `allowsSorting` 可将列设为可排序。在 `Table.Content` 上使用 `sortDescriptor` 与 `onSortChange` 管理排序状态。
+
+```tsx
+"use client";
+
+import type {SortDescriptor} from "@heroui/react";
+
+import {Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useMemo, useState} from "react";
+
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  status: string;
+  email: string;
+}
+
+const users: User[] = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "首席执行官", status: "在职"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "首席技术官", status: "在职"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "首席营销官", status: "休假"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "首席财务官", status: "在职"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "产品经理",
+    status: "未激活",
+  },
+];
+
+function SortableColumnHeader({
+  children,
+  sortDirection,
+}: {
+  children: React.ReactNode;
+  sortDirection?: "ascending" | "descending";
+}) {
+  return (
+    <span className="flex items-center justify-between">
+      {children}
+      {!!sortDirection && (
+        <Icon
+          icon="gravity-ui:chevron-up"
+          className={cn(
+            "size-3 transform transition-transform duration-100 ease-out",
+            sortDirection === "descending" ? "rotate-180" : "",
+          )}
+        />
+      )}
+    </span>
+  );
+}
+
+export function Sorting() {
+  const [sortDescriptor, setSortDescriptor] = useState<SortDescriptor>({
+    column: "name",
+    direction: "ascending",
+  });
+
+  const sortedUsers = useMemo(() => {
+    return [...users].sort((a, b) => {
+      const col = sortDescriptor.column as keyof User;
+      const first = String(a[col]);
+      const second = String(b[col]);
+      let cmp = first.localeCompare(second);
+
+      if (sortDescriptor.direction === "descending") {
+        cmp *= -1;
+      }
+
+      return cmp;
+    });
+  }, [sortDescriptor]);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="可排序表格"
+          className="min-w-[600px]"
+          sortDescriptor={sortDescriptor}
+          onSortChange={setSortDescriptor}
+        >
+          <Table.Header>
+            <Table.Column allowsSorting isRowHeader id="name">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>姓名</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="role">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>角色</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="status">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>状态</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="email">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>邮箱</SortableColumnHeader>
+              )}
+            </Table.Column>
+          </Table.Header>
+          <Table.Body>
+            {sortedUsers.map((user) => (
+              <Table.Row key={user.id} id={user.id}>
+                <Table.Cell>{user.name}</Table.Cell>
+                <Table.Cell>{user.role}</Table.Cell>
+                <Table.Cell>{user.status}</Table.Cell>
+                <Table.Cell>{user.email}</Table.Cell>
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 选择
+
+在 `Table.Content` 上设置 `selectionMode` 以启用行选择。全选与每行复选框可使用带 `slot="selection"` 的 `Checkbox`。
+
+```tsx
+"use client";
+
+import type {Selection} from "@heroui/react";
+
+import {Checkbox, Table} from "@heroui/react";
+import {useState} from "react";
+
+const users = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "首席执行官", status: "在职"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "首席技术官", status: "在职"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "首席营销官", status: "休假"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "首席财务官", status: "在职"},
+];
+
+export function SelectionDemo() {
+  const [selectedKeys, setSelectedKeys] = useState<Selection>(new Set());
+
+  return (
+    <div className="flex flex-col gap-3">
+      <Table>
+        <Table.ScrollContainer>
+          <Table.Content
+            aria-label="带选择的表格"
+            className="min-w-[600px]"
+            selectedKeys={selectedKeys}
+            selectionMode="multiple"
+            onSelectionChange={setSelectedKeys}
+          >
+            <Table.Header>
+              <Table.Column className="pr-0">
+                <Checkbox aria-label="全选" slot="selection">
+                  <Checkbox.Control>
+                    <Checkbox.Indicator />
+                  </Checkbox.Control>
+                </Checkbox>
+              </Table.Column>
+              <Table.Column isRowHeader>姓名</Table.Column>
+              <Table.Column>角色</Table.Column>
+              <Table.Column>状态</Table.Column>
+              <Table.Column>邮箱</Table.Column>
+            </Table.Header>
+            <Table.Body>
+              {users.map((user) => (
+                <Table.Row key={user.id} id={user.id}>
+                  <Table.Cell className="pr-0">
+                    <Checkbox aria-label={`选择 ${user.name}`} slot="selection" variant="secondary">
+                      <Checkbox.Control>
+                        <Checkbox.Indicator />
+                      </Checkbox.Control>
+                    </Checkbox>
+                  </Table.Cell>
+                  <Table.Cell>{user.name}</Table.Cell>
+                  <Table.Cell>{user.role}</Table.Cell>
+                  <Table.Cell>{user.status}</Table.Cell>
+                  <Table.Cell>{user.email}</Table.Cell>
+                </Table.Row>
+              ))}
+            </Table.Body>
+          </Table.Content>
+        </Table.ScrollContainer>
+      </Table>
+      <p className="text-sm text-muted">
+        已选：{" "}
+        <span className="font-medium">
+          {selectedKeys === "all"
+            ? "全部"
+            : selectedKeys.size > 0
+              ? Array.from(selectedKeys).join(", ")
+              : "无"}
+        </span>
+      </p>
+    </div>
+  );
+}
+
+```
+
+### 自定义单元格
+
+```tsx
+"use client";
+
+import type {Selection, SortDescriptor} from "@heroui/react";
+
+import {Avatar, Button, Checkbox, Chip, Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useMemo, useState} from "react";
+
+interface User {
+  id: number;
+  name: string;
+  image_url: string;
+  role: string;
+  status: "在职" | "未激活" | "休假";
+  email: string;
+}
+
+const statusColorMap: Record<string, "success" | "danger" | "warning"> = {
+  休假: "warning",
+  在职: "success",
+  未激活: "danger",
+};
+
+const users: User[] = [
+  {
+    email: "kate@acme.com",
+    id: 4586932,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg",
+    name: "Kate Moore",
+    role: "首席执行官",
+    status: "在职",
+  },
+  {
+    email: "john@acme.com",
+    id: 5273849,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/green.jpg",
+    name: "John Smith",
+    role: "首席技术官",
+    status: "在职",
+  },
+  {
+    email: "sara@acme.com",
+    id: 7492836,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg",
+    name: "Sara Johnson",
+    role: "首席营销官",
+    status: "休假",
+  },
+  {
+    email: "michael@acme.com",
+    id: 8293746,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/purple.jpg",
+    name: "Michael Brown",
+    role: "首席财务官",
+    status: "在职",
+  },
+  {
+    email: "emily@acme.com",
+    id: 1234567,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/orange.jpg",
+    name: "Emily Davis",
+    role: "产品经理",
+    status: "未激活",
+  },
+];
+
+function SortableColumnHeader({
+  children,
+  sortDirection,
+}: {
+  children: React.ReactNode;
+  sortDirection?: "ascending" | "descending";
+}) {
+  return (
+    <span className="flex items-center justify-between">
+      {children}
+      {!!sortDirection && (
+        <Icon
+          icon="gravity-ui:chevron-up"
+          className={cn(
+            "size-3 transform transition-transform duration-100 ease-out",
+            sortDirection === "descending" ? "rotate-180" : "",
+          )}
+        />
+      )}
+    </span>
+  );
+}
+
+export function CustomCells() {
+  const [selectedKeys, setSelectedKeys] = useState<Selection>(new Set());
+  const [sortDescriptor, setSortDescriptor] = useState<SortDescriptor>({
+    column: "name",
+    direction: "ascending",
+  });
+
+  const sortedUsers = useMemo(() => {
+    return [...users].sort((a, b) => {
+      const col = sortDescriptor.column as keyof User;
+      const first = String(a[col]);
+      const second = String(b[col]);
+      let cmp = first.localeCompare(second);
+
+      if (sortDescriptor.direction === "descending") {
+        cmp *= -1;
+      }
+
+      return cmp;
+    });
+  }, [sortDescriptor]);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="自定义单元格表格"
+          className="min-w-[800px]"
+          selectedKeys={selectedKeys}
+          selectionMode="multiple"
+          sortDescriptor={sortDescriptor}
+          onSelectionChange={setSelectedKeys}
+          onSortChange={setSortDescriptor}
+        >
+          <Table.Header>
+            <Table.Column className="pr-0">
+              <Checkbox aria-label="全选" slot="selection">
+                <Checkbox.Control>
+                  <Checkbox.Indicator />
+                </Checkbox.Control>
+              </Checkbox>
+            </Table.Column>
+            <Table.Column allowsSorting isRowHeader className="after:hidden" id="id">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>员工 ID</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="name">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>成员</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="role">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>角色</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="status">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>状态</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column className="text-end">操作</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            {sortedUsers.map((user) => (
+              <Table.Row key={user.id} id={user.id}>
+                <Table.Cell className="pr-0">
+                  <Checkbox aria-label={`选择 ${user.name}`} slot="selection" variant="secondary">
+                    <Checkbox.Control>
+                      <Checkbox.Indicator />
+                    </Checkbox.Control>
+                  </Checkbox>
+                </Table.Cell>
+                <Table.Cell className="font-medium">
+                  <div className="flex items-center gap-2">
+                    #{user.id.toString()}{" "}
+                    <Button isIconOnly size="sm" variant="ghost">
+                      <Icon className="size-4 text-muted" icon="gravity-ui:copy" />
+                    </Button>
+                  </div>
+                </Table.Cell>
+                <Table.Cell>
+                  <div className="flex items-center gap-3">
+                    <Avatar size="sm">
+                      <Avatar.Image src={user.image_url} />
+                      <Avatar.Fallback>
+                        {user.name
+                          .split(" ")
+                          .map((n) => n[0])
+                          .join("")}
+                      </Avatar.Fallback>
+                    </Avatar>
+                    <div className="flex flex-col">
+                      <span className="text-xs">{user.name}</span>
+                      <span className="text-xs text-muted">{user.email}</span>
+                    </div>
+                  </div>
+                </Table.Cell>
+                <Table.Cell className="min-w-52">{user.role}</Table.Cell>
+                <Table.Cell className="min-w-25">
+                  <Chip color={statusColorMap[user.status]} size="sm" variant="soft">
+                    {user.status}
+                  </Chip>
+                </Table.Cell>
+                <Table.Cell>
+                  <div className="flex items-center gap-1">
+                    <Button isIconOnly size="sm" variant="tertiary">
+                      <Icon className="size-4" icon="gravity-ui:eye" />
+                    </Button>
+                    <Button isIconOnly size="sm" variant="tertiary">
+                      <Icon className="size-4" icon="gravity-ui:pencil" />
+                    </Button>
+                    <Button isIconOnly size="sm" variant="danger-soft">
+                      <Icon className="size-4" icon="gravity-ui:trash-bin" />
+                    </Button>
+                  </div>
+                </Table.Cell>
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 可展开行
+
+行可以嵌套以展示层级数据。使用 `treeColumn` 指定列，并在该列单元格内渲染带 `slot="chevron"` 的 `Button`，以便用户展开/收起行。使用 `expandedKeys` 控制哪些行处于展开状态。
+
+```tsx
+"use client";
+
+import type {Selection} from "@heroui/react";
+
+import {Button, Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useState} from "react";
+
+export function ExpandableRows() {
+  type Row = {
+    children: Row[];
+    date: string;
+    id: string;
+    title: string;
+    type: string;
+  };
+
+  const data: Row[] = [
+    {
+      children: [
+        {
+          children: [
+            {children: [], date: "7/10/2025", id: "3", title: "周报", type: "文件"},
+            {children: [], date: "8/20/2025", id: "4", title: "预算", type: "文件"},
+          ],
+          date: "8/2/2025",
+          id: "2",
+          title: "项目",
+          type: "文件夹",
+        },
+      ],
+      date: "10/20/2025",
+      id: "1",
+      title: "文档",
+      type: "文件夹",
+    },
+    {
+      children: [
+        {children: [], date: "1/23/2026", id: "6", title: "图片 1", type: "文件"},
+        {children: [], date: "2/3/2026", id: "7", title: "图片 2", type: "文件"},
+      ],
+      date: "2/3/2026",
+      id: "5",
+      title: "照片",
+      type: "文件夹",
+    },
+  ];
+
+  const [expandedKeys, setExpandedKeys] = useState<Selection>(() => new Set(["1"]));
+
+  const renderExpandableRow = (item: Row) => {
+    return (
+      <Table.Row id={item.id} textValue={item.title}>
+        <Table.Cell textValue={item.title}>
+          {({hasChildItems, isDisabled, isExpanded, isTreeColumn}) => (
+            <span className="flex items-center gap-1">
+              {hasChildItems && isTreeColumn ? (
+                <Button
+                  isIconOnly
+                  aria-label="切换行"
+                  isDisabled={isDisabled}
+                  size="sm"
+                  slot="chevron"
+                  variant="ghost"
+                >
+                  <Icon
+                    aria-hidden
+                    icon="gravity-ui:chevron-right"
+                    className={cn(
+                      "size-4 text-muted transition-transform duration-150",
+                      isExpanded ? "rotate-90" : "",
+                    )}
+                  />
+                </Button>
+              ) : null}
+              <span>{item.title}</span>
+            </span>
+          )}
+        </Table.Cell>
+        <Table.Cell>{item.type}</Table.Cell>
+        <Table.Cell>{item.date}</Table.Cell>
+        <Table.Collection items={item.children}>{renderExpandableRow}</Table.Collection>
+      </Table.Row>
+    );
+  };
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="文件"
+          className="min-w-[520px]"
+          expandedKeys={expandedKeys}
+          treeColumn="name"
+          onExpandedChange={setExpandedKeys}
+        >
+          <Table.Header>
+            <Table.Column isRowHeader id="name">
+              姓名
+            </Table.Column>
+            <Table.Column id="type">类型</Table.Column>
+            <Table.Column id="date">修改日期</Table.Column>
+          </Table.Header>
+          <Table.Body items={data}>{renderExpandableRow}</Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 分页
+
+使用 `Table.Footer` 在表格下方添加分页组件。
+
+```tsx
+"use client";
+
+import {Pagination, Table} from "@heroui/react";
+import {useMemo, useState} from "react";
+
+const columns = [
+  {id: "name", name: "姓名"},
+  {id: "role", name: "角色"},
+  {id: "status", name: "状态"},
+  {id: "email", name: "邮箱"},
+];
+
+const users = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "首席执行官", status: "在职"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "首席技术官", status: "在职"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "首席营销官", status: "休假"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "首席财务官", status: "在职"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "产品经理",
+    status: "未激活",
+  },
+  {email: "davis@acme.com", id: 6, name: "Davis Wilson", role: "首席设计师", status: "在职"},
+  {
+    email: "olivia@acme.com",
+    id: 7,
+    name: "Olivia Martinez",
+    role: "前端工程师",
+    status: "在职",
+  },
+  {
+    email: "james@acme.com",
+    id: 8,
+    name: "James Taylor",
+    role: "后端工程师",
+    status: "在职",
+  },
+];
+
+const ROWS_PER_PAGE = 4;
+
+export function PaginationDemo() {
+  const [page, setPage] = useState(1);
+  const totalPages = Math.ceil(users.length / ROWS_PER_PAGE);
+  const pages = Array.from({length: totalPages}, (_, i) => i + 1);
+
+  const paginatedItems = useMemo(() => {
+    const start = (page - 1) * ROWS_PER_PAGE;
+
+    return users.slice(start, start + ROWS_PER_PAGE);
+  }, [page]);
+
+  const start = (page - 1) * ROWS_PER_PAGE + 1;
+  const end = Math.min(page * ROWS_PER_PAGE, users.length);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content aria-label="带分页的表格" className="min-w-[600px]">
+          <Table.Header columns={columns}>
+            {(column) => (
+              <Table.Column isRowHeader={column.id === "name"}>{column.name}</Table.Column>
+            )}
+          </Table.Header>
+          <Table.Body items={paginatedItems}>
+            {(user) => (
+              <Table.Row>
+                <Table.Collection items={columns}>
+                  {(column) => <Table.Cell>{user[column.id as keyof typeof user]}</Table.Cell>}
+                </Table.Collection>
+              </Table.Row>
+            )}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+      <Table.Footer>
+        <Pagination size="sm">
+          <Pagination.Summary>
+            {start}–{end} / 共 {users.length} 条
+          </Pagination.Summary>
+          <Pagination.Content>
+            <Pagination.Item>
+              <Pagination.Previous
+                isDisabled={page === 1}
+                onPress={() => setPage((p) => Math.max(1, p - 1))}
+              >
+                <Pagination.PreviousIcon />
+                上一页
+              </Pagination.Previous>
+            </Pagination.Item>
+            {pages.map((p) => (
+              <Pagination.Item key={p}>
+                <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+                  {p}
+                </Pagination.Link>
+              </Pagination.Item>
+            ))}
+            <Pagination.Item>
+              <Pagination.Next
+                isDisabled={page === totalPages}
+                onPress={() => setPage((p) => Math.min(totalPages, p + 1))}
+              >
+                下一页
+                <Pagination.NextIcon />
+              </Pagination.Next>
+            </Pagination.Item>
+          </Pagination.Content>
+        </Pagination>
+      </Table.Footer>
+    </Table>
+  );
+}
+
+```
+
+### 列宽调整
+
+使用 `Table.ResizableContainer` 包裹表格，并在每个可调整宽度的列中加入 `Table.ColumnResizer`。
+
+```tsx
+import {Chip, Table} from "@heroui/react";
+
+export function ColumnResizing() {
+  return (
+    <Table>
+      <Table.ResizableContainer>
+        <Table.Content aria-label="可调整列宽的表格" className="min-w-[700px]">
+          <Table.Header>
+            <Table.Column isRowHeader defaultWidth="1fr" id="name" minWidth={160}>
+              姓名
+              <Table.ColumnResizer />
+            </Table.Column>
+            <Table.Column defaultWidth="1fr" id="role" minWidth={220}>
+              角色
+              <Table.ColumnResizer />
+            </Table.Column>
+            <Table.Column defaultWidth="1fr" id="status" minWidth={100}>
+              状态
+              <Table.ColumnResizer />
+            </Table.Column>
+            <Table.Column defaultWidth="1fr" id="email" minWidth={200}>
+              邮箱
+            </Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>Kate Moore</Table.Cell>
+              <Table.Cell>首席执行官</Table.Cell>
+              <Table.Cell>
+                <Chip color="success" size="sm" variant="soft">
+                  Active
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>kate@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>John Smith</Table.Cell>
+              <Table.Cell>首席技术官</Table.Cell>
+              <Table.Cell>
+                <Chip color="success" size="sm" variant="soft">
+                  Active
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>john@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Sara Johnson</Table.Cell>
+              <Table.Cell>首席营销官</Table.Cell>
+              <Table.Cell>
+                <Chip color="warning" size="sm" variant="soft">
+                  On Leave
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>sara@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Michael Brown</Table.Cell>
+              <Table.Cell>首席财务官</Table.Cell>
+              <Table.Cell>
+                <Chip color="success" size="sm" variant="soft">
+                  Active
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>michael@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Emily Davis</Table.Cell>
+              <Table.Cell>产品经理</Table.Cell>
+              <Table.Cell>
+                <Chip color="danger" size="sm" variant="soft">
+                  Inactive
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>emily@acme.com</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ResizableContainer>
+    </Table>
+  );
+}
+
+```
+
+### 空状态
+
+在 `Table.Body` 上使用 `renderEmptyState`，在表格无数据时展示自定义内容。
+
+```tsx
+"use client";
+
+import {EmptyState, Table} from "@heroui/react";
+import {Icon} from "@iconify/react";
+
+export function EmptyStateDemo() {
+  return (
+    <Table className="min-h-[200px]">
+      <Table.ScrollContainer>
+        <Table.Content aria-label="空表格" className="h-full min-w-[600px]">
+          <Table.Header>
+            <Table.Column isRowHeader>姓名</Table.Column>
+            <Table.Column>角色</Table.Column>
+            <Table.Column>状态</Table.Column>
+            <Table.Column>邮箱</Table.Column>
+          </Table.Header>
+          <Table.Body
+            renderEmptyState={() => (
+              <EmptyState className="flex h-full w-full flex-col items-center justify-center gap-4 text-center">
+                <Icon className="size-6 text-muted" icon="gravity-ui:tray" />
+                <span className="text-sm text-muted">未找到结果</span>
+              </EmptyState>
+            )}
+          >
+            {[]}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 异步加载
+
+使用 `Table.LoadMore` 实现无限滚动：会渲染一行哨兵节点，在进入视口时触发 `onLoadMore`。
+
+```tsx
+"use client";
+
+import {Chip, Spinner, Table} from "@heroui/react";
+import {useCallback, useRef, useState} from "react";
+
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  status: string;
+  email: string;
+}
+
+const statusColorMap: Record<string, "success" | "danger" | "warning"> = {
+  休假: "warning",
+  在职: "success",
+  未激活: "danger",
+};
+
+const allUsers: User[] = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "首席执行官", status: "在职"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "首席技术官", status: "在职"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "首席营销官", status: "休假"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "首席财务官", status: "在职"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "产品经理",
+    status: "未激活",
+  },
+  {email: "davis@acme.com", id: 6, name: "Davis Wilson", role: "首席设计师", status: "在职"},
+  {
+    email: "olivia@acme.com",
+    id: 7,
+    name: "Olivia Martinez",
+    role: "前端工程师",
+    status: "在职",
+  },
+  {
+    email: "james@acme.com",
+    id: 8,
+    name: "James Taylor",
+    role: "后端工程师",
+    status: "在职",
+  },
+  {
+    email: "sophia@acme.com",
+    id: 9,
+    name: "Sophia Anderson",
+    role: "测试工程师",
+    status: "休假",
+  },
+  {email: "liam@acme.com", id: 10, name: "Liam Thomas", role: "DevOps 工程师", status: "在职"},
+  {
+    email: "lucas@acme.com",
+    id: 11,
+    name: "Lucas Martinez",
+    role: "产品经理",
+    status: "在职",
+  },
+  {
+    email: "emma@acme.com",
+    id: 12,
+    name: "Emma Johnson",
+    role: "前端工程师",
+    status: "在职",
+  },
+  {email: "noah@acme.com", id: 13, name: "Noah Davis", role: "后端工程师", status: "在职"},
+  {email: "ava@acme.com", id: 14, name: "Ava Wilson", role: "首席设计师", status: "在职"},
+  {
+    email: "oliver@acme.com",
+    id: 15,
+    name: "Oliver Martinez",
+    role: "前端工程师",
+    status: "在职",
+  },
+  {
+    email: "isabella@acme.com",
+    id: 16,
+    name: "Isabella Johnson",
+    role: "后端工程师",
+    status: "在职",
+  },
+  {email: "mia@acme.com", id: 17, name: "Mia Davis", role: "首席设计师", status: "在职"},
+  {
+    email: "william@acme.com",
+    id: 18,
+    name: "William Wilson",
+    role: "前端工程师",
+    status: "在职",
+  },
+];
+
+const ITEMS_PER_PAGE = 6;
+
+const columns = [
+  {id: "name", name: "姓名"},
+  {id: "role", name: "角色"},
+  {id: "status", name: "状态"},
+  {id: "email", name: "邮箱"},
+];
+
+export function AsyncLoading() {
+  const [items, setItems] = useState<User[]>(() => allUsers.slice(0, ITEMS_PER_PAGE));
+  const [isLoading, setIsLoading] = useState(false);
+  const isLoadingRef = useRef(false);
+  const hasMore = items.length < allUsers.length;
+
+  const loadMore = useCallback(() => {
+    if (!hasMore || isLoadingRef.current) return;
+    isLoadingRef.current = true;
+    setIsLoading(true);
+    setTimeout(() => {
+      setItems((prev) => allUsers.slice(0, prev.length + ITEMS_PER_PAGE));
+      setIsLoading(false);
+      requestAnimationFrame(() => {
+        isLoadingRef.current = false;
+      });
+    }, 1500);
+  }, [hasMore]);
+
+  return (
+    <Table>
+      <Table.ScrollContainer className="h-[280px] overflow-y-auto">
+        <Table.Content aria-label="异步加载表格" className="min-w-[600px]">
+          <Table.Header className="sticky top-0 z-10 bg-surface-secondary">
+            {columns.map((col) => (
+              <Table.Column key={col.id} id={col.id} isRowHeader={col.id === "name"}>
+                {col.name}
+              </Table.Column>
+            ))}
+          </Table.Header>
+          <Table.Body>
+            <Table.Collection items={items}>
+              {(user) => (
+                <Table.Row>
+                  <Table.Cell>{user.name}</Table.Cell>
+                  <Table.Cell>{user.role}</Table.Cell>
+                  <Table.Cell>
+                    <Chip color={statusColorMap[user.status]} size="sm" variant="soft">
+                      {user.status}
+                    </Chip>
+                  </Table.Cell>
+                  <Table.Cell>{user.email}</Table.Cell>
+                </Table.Row>
+              )}
+            </Table.Collection>
+            {!!hasMore && (
+              <Table.LoadMore isLoading={isLoading} scrollOffset={0} onLoadMore={loadMore}>
+                <Table.LoadMoreContent>
+                  <Spinner size="md" />
+                </Table.LoadMoreContent>
+              </Table.LoadMore>
+            )}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 虚拟化
+
+Table 通过 [Virtualizer](https://react-aria.adobe.com/Virtualizer) 支持虚拟化，仅渲染视口内可见行，从而高效处理大数据集。
+
+```tsx
+"use client";
+
+import {Table, TableLayout, Virtualizer} from "@heroui/react";
+
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  email: string;
+}
+
+export function Virtualization() {
+  const roles = [
+    "软件工程师",
+    "高级工程师",
+    "资深工程师",
+    "产品经理",
+    "设计师",
+    "数据分析师",
+    "测试工程师",
+    "DevOps 工程师",
+    "营销经理",
+    "销售代表",
+  ];
+
+  const firstNames = [
+    "Emma",
+    "Liam",
+    "Olivia",
+    "Noah",
+    "Ava",
+    "James",
+    "Sophia",
+    "Oliver",
+    "Isabella",
+    "Lucas",
+    "Mia",
+    "Ethan",
+    "Charlotte",
+    "Mason",
+    "Amelia",
+    "Logan",
+    "Harper",
+    "Alexander",
+    "Ella",
+    "Benjamin",
+  ];
+
+  const lastNames = [
+    "Smith",
+    "Johnson",
+    "Williams",
+    "Brown",
+    "Jones",
+    "Garcia",
+    "Miller",
+    "Davis",
+    "Rodriguez",
+    "Martinez",
+    "Anderson",
+    "Taylor",
+    "Thomas",
+    "Jackson",
+    "White",
+    "Harris",
+    "Clark",
+    "Lewis",
+    "Robinson",
+    "Walker",
+  ];
+
+  function generateUsers(count: number): User[] {
+    const users: User[] = [];
+
+    for (let i = 0; i < count; i++) {
+      const firstName = firstNames[i % firstNames.length];
+      const lastName = lastNames[Math.floor(i / firstNames.length) % lastNames.length];
+      const name = `${firstName} ${lastName}`;
+
+      users.push({
+        email: `${firstName?.toLowerCase()}.${lastName?.toLowerCase()}@acme.com`,
+        id: i + 1,
+        name,
+        role: roles[i % roles.length] || "",
+      });
+    }
+
+    return users;
+  }
+
+  const virtualizedUsers = generateUsers(1000);
+
+  return (
+    <Virtualizer
+      layout={TableLayout}
+      layoutOptions={{
+        headingHeight: 42,
+        rowHeight: 42,
+      }}
+    >
+      <Table>
+        <Table.ScrollContainer>
+          <Table.Content
+            aria-label="1000 行虚拟化表格"
+            className="h-[300px] min-w-[700px] overflow-auto"
+          >
+            <Table.Header className="h-full w-full">
+              <Table.Column isRowHeader id="name" minWidth={160}>
+                姓名
+              </Table.Column>
+              <Table.Column id="role" minWidth={220}>
+                角色
+              </Table.Column>
+              <Table.Column id="email" minWidth={240}>
+                邮箱
+              </Table.Column>
+            </Table.Header>
+            <Table.Body items={virtualizedUsers}>
+              {(user) => (
+                <Table.Row>
+                  <Table.Cell>{user.name}</Table.Cell>
+                  <Table.Cell>{user.role}</Table.Cell>
+                  <Table.Cell>{user.email}</Table.Cell>
+                </Table.Row>
+              )}
+            </Table.Body>
+          </Table.Content>
+        </Table.ScrollContainer>
+      </Table>
+    </Virtualizer>
+  );
+}
+
+```
+
+### TanStack Table
+
+HeroUI 的 Table 可作为无头表格库之上的渲染层。
+本示例使用 [TanStack Table](https://tanstack.com/table) 处理列定义、排序与分页，而样式与无障碍由 HeroUI 负责。
+
+```tsx
+"use client";
+
+import type {SortDescriptor} from "@heroui/react";
+import type {SortingState} from "@tanstack/react-table";
+
+import {Chip, Pagination, Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {
+  createColumnHelper,
+  flexRender,
+  getCoreRowModel,
+  getPaginationRowModel,
+  getSortedRowModel,
+  useReactTable,
+} from "@tanstack/react-table";
+import {useMemo, useState} from "react";
+
+// --- Data -----------------------------------------------------------------
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  status: "在职" | "未激活" | "休假";
+  email: string;
+}
+
+const statusColorMap: Record<string, "success" | "danger" | "warning"> = {
+  休假: "warning",
+  在职: "success",
+  未激活: "danger",
+};
+
+const users: User[] = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "首席执行官", status: "在职"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "首席技术官", status: "在职"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "首席营销官", status: "休假"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "首席财务官", status: "在职"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "产品经理",
+    status: "未激活",
+  },
+  {email: "davis@acme.com", id: 6, name: "Davis Wilson", role: "首席设计师", status: "在职"},
+  {
+    email: "olivia@acme.com",
+    id: 7,
+    name: "Olivia Martinez",
+    role: "前端工程师",
+    status: "在职",
+  },
+  {
+    email: "james@acme.com",
+    id: 8,
+    name: "James Taylor",
+    role: "后端工程师",
+    status: "在职",
+  },
+];
+
+// --- TanStack Column Definitions ------------------------------------------
+const columnHelper = createColumnHelper<User>();
+
+const columns = [
+  columnHelper.accessor("name", {header: "姓名"}),
+  columnHelper.accessor("role", {header: "角色"}),
+  columnHelper.accessor("status", {
+    cell: (info) => (
+      <Chip color={statusColorMap[info.getValue()]} size="sm" variant="soft">
+        {info.getValue()}
+      </Chip>
+    ),
+    header: "状态",
+  }),
+  columnHelper.accessor("email", {header: "邮箱"}),
+];
+
+// --- Sorting Bridge -------------------------------------------------------
+// Convert TanStack SortingState → React Aria SortDescriptor
+function toSortDescriptor(sorting: SortingState): SortDescriptor | undefined {
+  const first = sorting[0];
+
+  if (!first) return undefined;
+
+  return {
+    column: first.id,
+    direction: first.desc ? "descending" : "ascending",
+  };
+}
+
+// Convert React Aria SortDescriptor → TanStack SortingState
+function toSortingState(descriptor: SortDescriptor): SortingState {
+  return [{desc: descriptor.direction === "descending", id: descriptor.column as string}];
+}
+
+// --- Sort Header ----------------------------------------------------------
+function SortableColumnHeader({
+  children,
+  sortDirection,
+}: {
+  children: React.ReactNode;
+  sortDirection?: "ascending" | "descending";
+}) {
+  return (
+    <span className="flex items-center justify-between">
+      {children}
+      {!!sortDirection && (
+        <Icon
+          icon="gravity-ui:chevron-up"
+          className={cn(
+            "size-3 transform transition-transform duration-100 ease-out",
+            sortDirection === "descending" ? "rotate-180" : "",
+          )}
+        />
+      )}
+    </span>
+  );
+}
+
+// --- Component ------------------------------------------------------------
+const PAGE_SIZE = 4;
+
+export function TanstackTable() {
+  const [sorting, setSorting] = useState<SortingState>([]);
+
+  // eslint-disable-next-line react-hooks/incompatible-library
+  const table = useReactTable({
+    columns,
+    data: users,
+    getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+    initialState: {pagination: {pageSize: PAGE_SIZE}},
+    onSortingChange: setSorting,
+    state: {sorting},
+  });
+
+  const sortDescriptor = useMemo(() => toSortDescriptor(sorting), [sorting]);
+
+  const {pageIndex} = table.getState().pagination;
+  const pageCount = table.getPageCount();
+  const pages = Array.from({length: pageCount}, (_, i) => i + 1);
+  const start = pageIndex * PAGE_SIZE + 1;
+  const end = Math.min((pageIndex + 1) * PAGE_SIZE, users.length);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="TanStack 表格示例"
+          className="min-w-[600px]"
+          sortDescriptor={sortDescriptor}
+          onSortChange={(d) => setSorting(toSortingState(d))}
+        >
+          <Table.Header>
+            {table.getHeaderGroups()[0]!.headers.map((header) => (
+              <Table.Column
+                key={header.id}
+                allowsSorting={header.column.getCanSort()}
+                id={header.id}
+                isRowHeader={header.id === "name"}
+              >
+                {({sortDirection}) => (
+                  <SortableColumnHeader sortDirection={sortDirection}>
+                    {flexRender(header.column.columnDef.header, header.getContext())}
+                  </SortableColumnHeader>
+                )}
+              </Table.Column>
+            ))}
+          </Table.Header>
+          <Table.Body>
+            {table.getRowModel().rows.map((row) => (
+              <Table.Row key={row.id} id={row.id}>
+                {row.getVisibleCells().map((cell) => (
+                  <Table.Cell key={cell.id}>
+                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  </Table.Cell>
+                ))}
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+      <Table.Footer>
+        <Pagination size="sm">
+          <Pagination.Summary>
+            {start}–{end} / 共 {users.length} 条
+          </Pagination.Summary>
+          <Pagination.Content>
+            <Pagination.Item>
+              <Pagination.Previous
+                isDisabled={!table.getCanPreviousPage()}
+                onPress={() => table.previousPage()}
+              >
+                <Pagination.PreviousIcon />
+                上一页
+              </Pagination.Previous>
+            </Pagination.Item>
+            {pages.map((p) => (
+              <Pagination.Item key={p}>
+                <Pagination.Link
+                  isActive={p === pageIndex + 1}
+                  onPress={() => table.setPageIndex(p - 1)}
+                >
+                  {p}
+                </Pagination.Link>
+              </Pagination.Item>
+            ))}
+            <Pagination.Item>
+              <Pagination.Next
+                isDisabled={!table.getCanNextPage()}
+                onPress={() => table.nextPage()}
+              >
+                下一页
+                <Pagination.NextIcon />
+              </Pagination.Next>
+            </Pagination.Item>
+          </Pagination.Content>
+        </Pagination>
+      </Table.Footer>
+    </Table>
+  );
+}
+
+```
+
+## Related Components
+
+- **Pagination**: Page navigation with composable page links and controls
+- **Checkbox**: Binary choice input control
+- **Chip**: Compact elements for tags and filters
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+你可以为 Table 的各个部分分别传入类名：
+
+```tsx
+import { Table } from '@heroui/react';
+
+function CustomTable() {
+  return (
+    <Table className="border border-purple-200">
+      <Table.ScrollContainer>
+        <Table.Content aria-label="Custom styled table">
+          <Table.Header className="bg-purple-50">
+            <Table.Column>Name</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row className="hover:bg-purple-50">
+              <Table.Cell>Kate Moore</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Table 组件类，可以使用 `@layer components` 指令。
+<br/>[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .table-root {
+    @apply relative grid w-full overflow-clip;
+  }
+
+  .table__header {
+    @apply bg-gray-100;
+  }
+
+  .table__column {
+    @apply px-4 py-2.5 text-left text-xs font-medium text-gray-600;
+  }
+
+  .table__row {
+    @apply bg-white border-b border-gray-200;
+  }
+
+  .table__cell {
+    @apply px-4 py-3 text-sm;
+  }
+
+  .table__footer {
+    @apply flex items-center px-4 py-2.5;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+Table 组件使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/table.css)）：
+
+#### 基础类
+
+- `.table-root` - 根容器（命名为 `table-root` 而非 `table`，因为 `table` 是 Tailwind CSS 内置的 `display: table` 工具类）
+- `.table__scroll-container` - 横向滚动包裹层与自定义滚动条
+- `.table__content` - `<table>` 元素
+- `.table__header` - 表头行（`<thead>`）
+- `.table__column` - 列表头单元格（`<th>`）
+- `.table__body` - 表体（`<tbody>`）
+- `.table__row` - 行（`<tr>`）
+- `.table__cell` - 数据单元格（`<td>`）
+- `.table__footer` - 表底容器（位于 table 外部）
+
+#### 进阶类
+
+- `.table__column-resizer` - 列宽拖拽手柄
+- `.table__resizable-container` - 启用列宽调整的包裹层
+- `.table__load-more` - 无限滚动的哨兵行
+- `.table__load-more-content` - 加载指示器的样式容器
+
+#### 变体类
+
+- `.table-root--primary` - 灰色背景容器与卡片式表体（默认）
+- `.table-root--secondary` - 无背景，独立圆角表头
+
+### 交互状态
+
+Table 同时支持 CSS 伪类与 data 属性，以提供更灵活的状态控制：
+
+- **悬停**：`:hover` 或 `[data-hovered="true"]`（行背景变化）
+- **已选中**：`[data-selected="true"]`（行高亮）
+- **聚焦**：`:focus-visible` 或 `[data-focus-visible="true"]`（行、列与单元格的内嵌焦点环）
+- **禁用**：`:disabled` 或 `[aria-disabled="true"]`（降低透明度）
+- **可排序**：`[data-allows-sorting="true"]`（列上的交互指针样式）
+- **拖动中**：`[data-dragging="true"]`（降低透明度）
+- **放置目标**：`[data-drop-target="true"]`（强调色背景）
+
+## API 参考
+
+### Table Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `variant` | `"primary" \| "secondary"` | `"primary"` | 视觉变体。Primary 为灰色背景容器；Secondary 为扁平透明行。 |
+| `className` | `string` | - | 根容器的额外 CSS 类。 |
+| `children` | `React.ReactNode` | - | 表格内容（ScrollContainer、Footer 等）。 |
+
+### Table.ScrollContainer Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类。 |
+| `children` | `React.ReactNode` | - | `Table.Content` 元素。 |
+
+### Table.Content Props
+
+继承自 [React Aria Table](https://react-spectrum.adobe.com/react-aria/Table.html)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `aria-label` | `string` | - | 表格的无障碍标签。 |
+| `selectionMode` | `"none" \| "single" \| "multiple"` | `"none"` | 选择行为。 |
+| `selectedKeys` | `Selection` | - | 受控的已选中 key。 |
+| `onSelectionChange` | `(keys: Selection) => void` | - | 选择变化时的事件处理函数。 |
+| `sortDescriptor` | `SortDescriptor` | - | 当前排序状态。 |
+| `onSortChange` | `(descriptor: SortDescriptor) => void` | - | 排序变化时的事件处理函数。 |
+| `className` | `string` | - | 额外的 CSS 类。 |
+
+### Table.Header Props
+
+继承自 [React Aria TableHeader](https://react-spectrum.adobe.com/react-aria/Table.html#tableheader)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `columns` | `T[]` | - | 渲染函数模式下的动态列数据。 |
+| `children` | `React.ReactNode \| (column: T) => React.ReactNode` | - | 静态列或渲染函数。 |
+
+### Table.Column Props
+
+继承自 [React Aria Column](https://react-spectrum.adobe.com/react-aria/Table.html#column)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `id` | `string` | - | 列标识符。 |
+| `allowsSorting` | `boolean` | `false` | 列是否可排序。 |
+| `isRowHeader` | `boolean` | `false` | 该列是否作为行表头。 |
+| `defaultWidth` | `string \| number` | - | 可调整列的默认宽度。 |
+| `minWidth` | `number` | - | 可调整列的最小宽度。 |
+| `children` | `React.ReactNode \| (values: ColumnRenderProps) => React.ReactNode` | - | 列内容或带排序方向的渲染函数。 |
+
+### Table.Body Props
+
+继承自 [React Aria TableBody](https://react-spectrum.adobe.com/react-aria/Table.html#tablebody)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `items` | `T[]` | - | 渲染函数模式下的动态行数据。 |
+| `renderEmptyState` | `() => React.ReactNode` | - | 表格为空时展示的内容。 |
+| `children` | `React.ReactNode \| (item: T) => React.ReactNode` | - | 静态行或渲染函数。 |
+
+### Table.Row Props
+
+继承自 [React Aria Row](https://react-spectrum.adobe.com/react-aria/Table.html#row)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `id` | `string \| number` | - | 行标识符。 |
+| `className` | `string` | - | 额外的 CSS 类。 |
+| `children` | `React.ReactNode` | - | 行单元格。 |
+
+### Table.Cell Props
+
+继承自 [React Aria Cell](https://react-spectrum.adobe.com/react-aria/Table.html#cell)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类。 |
+| `children` | `React.ReactNode` | - | 单元格内容。 |
+
+### Table.Footer Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类。 |
+| `children` | `React.ReactNode` | - | 表底内容（例如分页）。 |
+
+### Table.ColumnResizer Props
+
+继承自 [React Aria ColumnResizer](https://react-spectrum.adobe.com/react-aria/Table.html#columnresizer)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类。 |
+
+### Table.ResizableContainer Props
+
+继承自 [React Aria ResizableTableContainer](https://react-spectrum.adobe.com/react-aria/Table.html#resizabletablecontainer)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类。 |
+| `children` | `React.ReactNode` | - | `Table.Content` 元素。 |
+
+### Table.LoadMore Props
+
+继承自 [React Aria TableLoadMoreItem](https://react-spectrum.adobe.com/react-aria/Table.html)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `isLoading` | `boolean` | `false` | 数据是否正在加载。 |
+| `onLoadMore` | `() => void` | - | 哨兵行可见时的事件处理函数。 |
+| `children` | `React.ReactNode` | - | 加载指示器内容。 |
+
+### Table.LoadMoreContent Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类。 |
+| `children` | `React.ReactNode` | - | 加载指示器内容（例如 Spinner）。 |
+
+### Table.Collection Props
+
+由 React Aria `Collection` 重新导出。用于在行内与静态单元格并存时渲染动态单元格（例如复选框）。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `items` | `T[]` | - | 集合条目。 |
+| `children` | `(item: T) => React.ReactNode` | - | 每个条目的渲染函数。 |
+
+### TableLayout
+
+| Name | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `rowHeight` | `number \| undefined` | 48 | 行的固定高度（px）。 |
+| `estimatedRowHeight` | `number \| undefined` | — | 行高可变时的估算高度。 |
+| `headingHeight` | `number \| undefined` | 48 | 分区表头的固定高度（px）。 |
+| `estimatedHeadingHeight` | `number \| undefined` | — | 表头高度可变时的估算高度。 |
+| `loaderHeight` | `number \| undefined` | 48 | 加载器元素的固定高度（px）。该加载器用于在根级或嵌套行/分区中渲染「加载更多」等加载行。 |
+| `dropIndicatorThickness` | `number \| undefined` | 2 | 放置指示器的线条粗细。 |
+| `gap` | `number \| undefined` | 0 | 条目之间的间距。 |
+| `padding` | `number \| undefined` | 0 | 列表的内边距。 |
+</page>

@@ -1,0 +1,156 @@
+<page url="/cn/docs/react/components/spinner">
+# Spinner 加载指示器
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/spinner
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(feedback)/spinner.mdx
+> 用于展示等待或处理中状态的加载指示组件。
+
+
+## 引入
+
+```tsx
+import { Spinner } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Spinner} from "@heroui/react";
+
+export function SpinnerBasic() {
+  return (
+    <div className="flex items-center gap-4">
+      <Spinner />
+    </div>
+  );
+}
+
+```
+
+### 颜色
+
+```tsx
+import {Spinner} from "@heroui/react";
+
+const COLOR_LABELS = {
+  accent: "强调",
+  current: "当前",
+  danger: "危险",
+  success: "成功",
+  warning: "警告",
+} as const;
+
+const colors = ["current", "accent", "success", "warning", "danger"] as const;
+
+export function SpinnerColors() {
+  return (
+    <div className="flex items-center gap-8">
+      {colors.map((color) => (
+        <div key={color} className="flex flex-col items-center gap-2">
+          <Spinner color={color} />
+          <span className="text-xs text-muted">{COLOR_LABELS[color]}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 尺寸
+
+```tsx
+import {Spinner} from "@heroui/react";
+
+const SIZE_LABELS = {
+  lg: "大",
+  md: "中",
+  sm: "小",
+  xl: "特大",
+} as const;
+
+const sizes = ["sm", "md", "lg", "xl"] as const;
+
+export function SpinnerSizes() {
+  return (
+    <div className="flex items-center gap-8">
+      {sizes.map((size) => (
+        <div key={size} className="flex flex-col items-center gap-2">
+          <Spinner size={size} />
+          <span className="text-xs text-muted">{SIZE_LABELS[size]}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+```
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import {Spinner} from '@heroui/react';
+
+function CustomSpinner() {
+  return (
+    <Spinner className="text-blue-500" />
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Spinner 的组件类名，可使用 `@layer components` 指令。
+<br />[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .spinner {
+    @apply animate-spin;
+  }
+
+  .spinner--accent {
+    color: var(--accent);
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于定制。
+
+### CSS 类
+
+Spinner 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/spinner.css)）：
+
+#### 基础类与尺寸类
+
+* `.spinner` - 基础样式与默认尺寸
+* `.spinner--sm` - 小尺寸变体
+* `.spinner--md` - 中等尺寸变体（默认）
+* `.spinner--lg` - 大尺寸变体
+* `.spinner--xl` - 特大尺寸变体
+
+#### 颜色类
+
+* `.spinner--current` - 继承当前文本颜色
+* `.spinner--accent` - 强调色变体
+* `.spinner--danger` - 危险色变体
+* `.spinner--success` - 成功色变体
+* `.spinner--warning` - 警告色变体
+
+## API 参考
+
+### Spinner Props
+
+| Prop        | 类型                                                            | 默认值         | 描述            |
+| ----------- | ------------------------------------------------------------- | ----------- | ------------- |
+| `size`      | `"sm" \| "md" \| "lg" \| "xl"`                                | `"md"`      | Spinner 的尺寸   |
+| `color`     | `"current" \| "accent" \| "success" \| "warning" \| "danger"` | `"current"` | Spinner 的颜色变体 |
+| `className` | `string`                                                      | -           | 额外的 CSS 类名    |
+
+</page>

@@ -1,0 +1,552 @@
+1:"$Sreact.fragment"
+2:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsPage"]
+3:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsTitle"]
+4:I[302559,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ViewOptions"]
+5:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsDescription"]
+6:I[483689,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ComponentLinks"]
+7:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsBody"]
+8:I[494157,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Heading"]
+9:I[192506,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"FumadocsCustomCodeblock"]
+4a:I[144324,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Pre"]
+4b:I[3108,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
+4d:I[244247,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationBasic"]
+71:I[741021,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationSizes"]
+73:I[84709,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationWithEllipsis"]
+75:I[449143,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationSimplePrevNext"]
+77:I[378064,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationWithSummary"]
+79:I[410746,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationCustomIcons"]
+7b:I[401299,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationControlled"]
+7d:I[753943,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationDisabled"]
+7e:"$Sreact.suspense"
+7f:I[605435,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"RelatedComponents"]
+90:I[942449,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LocaleLink"]
+91:I[897367,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
+a:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#import","title":"Import"},{"depth":3,"url":"#usage","title":"Usage"},{"depth":3,"url":"#anatomy","title":"Anatomy"},{"depth":3,"url":"#sizes","title":"Sizes"},{"depth":3,"url":"#with-ellipsis","title":"With Ellipsis"},{"depth":3,"url":"#simple-previous--next","title":"Simple (Previous / Next)"},{"depth":3,"url":"#with-summary","title":"With Summary"},{"depth":3,"url":"#custom-icons","title":"Custom Icons"},{"depth":3,"url":"#controlled","title":"Controlled"},{"depth":3,"url":"#disabled","title":"Disabled"},{"depth":2,"url":"#styling","title":"Styling"},{"depth":3,"url":"#passing-tailwind-css-classes","title":"Passing Tailwind CSS classes"},{"depth":3,"url":"#customizing-the-component-classes","title":"Customizing the component classes"},{"depth":3,"url":"#css-classes","title":"CSS Classes"},{"depth":4,"url":"#base--layout-classes","title":"Base & Layout Classes"},{"depth":4,"url":"#size-classes","title":"Size Classes"},{"depth":3,"url":"#interactive-states","title":"Interactive States"},{"depth":2,"url":"#api-reference","title":"API Reference"},{"depth":3,"url":"#pagination-props","title":"Pagination Props"},{"depth":3,"url":"#paginationsummary-props","title":"Pagination.Summary Props"},{"depth":3,"url":"#paginationcontent-props","title":"Pagination.Content Props"},{"depth":3,"url":"#paginationitem-props","title":"Pagination.Item Props"},{"depth":3,"url":"#paginationlink-props","title":"Pagination.Link Props"},{"depth":3,"url":"#paginationprevious--paginationnext-props","title":"Pagination.Previous / Pagination.Next Props"},{"depth":3,"url":"#paginationpreviousicon--paginationnexticon-props","title":"Pagination.PreviousIcon / Pagination.NextIcon Props"},{"depth":3,"url":"#paginationellipsis-props","title":"Pagination.Ellipsis Props"},{"depth":2,"url":"#accessibility","title":"Accessibility"}],"children":[["$","section",null,{"className":"flex flex-col gap-2","children":[["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-2","children":[["$","$L3",null,{"className":"flex items-center gap-2","children":["Pagination",false]}],["$","div",null,{"className":"flex items-center gap-2","children":["$","$L4",null,{"markdownUrl":"/en/docs/react/components/pagination.mdx"}]}]]}],["$","$L5",null,{"className":"text-md mt-2 mb-4","children":"Page navigation with composable page links, previous/next buttons, and ellipsis indicators"}],["$","$L6",null,{"links":{"source":"pagination/pagination.tsx","styles":"pagination.css","storybook":"Components/Navigation/Pagination"}}]]}],["$","$L7",null,{"className":"prose-sm","children":[["$","$L8",null,{"as":"h2","id":"import","children":"Import"}],"\n",["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$a","children":"$Lb"}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46"]}]]}],["$L47","$L48"],"$L49"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Og7Y5QFIHVQNML2MH2z_8"}
+b:["$","$L4a",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Pagination } "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]}]}]
+c:["$","$L8",null,{"as":"h3","id":"usage","children":"Usage"}]
+4c:T44f,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+export function PaginationBasic() {
+  const [page, setPage] = useState(1);
+  const totalPages = 3;
+
+  return (
+    <Pagination className="justify-center">
+      <Pagination.Content>
+        <Pagination.Item>
+          <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+            <Pagination.PreviousIcon />
+            <span>Previous</span>
+          </Pagination.Previous>
+        </Pagination.Item>
+        {Array.from({length: totalPages}, (_, i) => i + 1).map((p) => (
+          <Pagination.Item key={p}>
+            <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+              {p}
+            </Pagination.Link>
+          </Pagination.Item>
+        ))}
+        <Pagination.Item>
+          <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+            <span>Next</span>
+            <Pagination.NextIcon />
+          </Pagination.Next>
+        </Pagination.Item>
+      </Pagination.Content>
+    </Pagination>
+  );
+}
+d:["$","$L4b",null,{"align":"center","code":"$4c","isBgSolid":false,"name":"pagination-basic","children":["$","$L4d",null,{}]}]
+e:["$","$L8",null,{"as":"h3","id":"anatomy","children":"Anatomy"}]
+f:["$","p",null,{"children":"Import the Pagination component and access all parts using dot notation."}]
+4e:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>10:["$","$L9",null,{"className":"mdx-code-block docs-code-block-line-numbers shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$4e","children":["$","$L4a",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],"$L4f","$L50","$L51","$L52"]}],"\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68","\n","$L69","\n","$L6a","\n","$L6b","\n","$L6c","\n","$L6d","\n","$L6e","\n","$L6f"]}]}]}]
+11:["$","$L8",null,{"as":"h3","id":"sizes","children":"Sizes"}]
+70:T605,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+function SizePagination({size}: {size: "sm" | "md" | "lg"}) {
+  const [page, setPage] = useState(1);
+  const totalPages = 3;
+
+  return (
+    <div className="flex flex-col gap-2">
+      <span className="text-xs font-medium text-muted capitalize">{size}</span>
+      <Pagination className="justify-center" size={size}>
+        <Pagination.Content>
+          <Pagination.Item>
+            <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+              <Pagination.PreviousIcon />
+              <span>Previous</span>
+            </Pagination.Previous>
+          </Pagination.Item>
+          {Array.from({length: totalPages}, (_, i) => i + 1).map((p) => (
+            <Pagination.Item key={p}>
+              <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+                {p}
+              </Pagination.Link>
+            </Pagination.Item>
+          ))}
+          <Pagination.Item>
+            <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+              <span>Next</span>
+              <Pagination.NextIcon />
+            </Pagination.Next>
+          </Pagination.Item>
+        </Pagination.Content>
+      </Pagination>
+    </div>
+  );
+}
+
+export function PaginationSizes() {
+  return (
+    <div className="flex flex-col gap-6">
+      {(["sm", "md", "lg"] as const).map((size) => (
+        <SizePagination key={size} size={size} />
+      ))}
+    </div>
+  );
+}
+12:["$","$L4b",null,{"align":"center","code":"$70","isBgSolid":false,"name":"pagination-sizes","children":["$","$L71",null,{}]}]
+13:["$","$L8",null,{"as":"h3","id":"with-ellipsis","children":"With Ellipsis"}]
+72:T73b,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+export function PaginationWithEllipsis() {
+  const [page, setPage] = useState(1);
+  const totalPages = 12;
+
+  const getPageNumbers = () => {
+    const pages: (number | "ellipsis")[] = [];
+
+    pages.push(1);
+
+    if (page > 3) {
+      pages.push("ellipsis");
+    }
+
+    const start = Math.max(2, page - 1);
+    const end = Math.min(totalPages - 1, page + 1);
+
+    for (let i = start; i <= end; i++) {
+      pages.push(i);
+    }
+
+    if (page < totalPages - 2) {
+      pages.push("ellipsis");
+    }
+
+    pages.push(totalPages);
+
+    return pages;
+  };
+
+  return (
+    <div className="w-full max-w-2xs overflow-x-auto sm:max-w-full">
+      <Pagination className="justify-center">
+        <Pagination.Content>
+          <Pagination.Item>
+            <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+              <Pagination.PreviousIcon />
+              <span>Previous</span>
+            </Pagination.Previous>
+          </Pagination.Item>
+          {getPageNumbers().map((p, i) =>
+            p === "ellipsis" ? (
+              <Pagination.Item key={`ellipsis-${i}`}>
+                <Pagination.Ellipsis />
+              </Pagination.Item>
+            ) : (
+              <Pagination.Item key={p}>
+                <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+                  {p}
+                </Pagination.Link>
+              </Pagination.Item>
+            ),
+          )}
+          <Pagination.Item>
+            <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+              <span>Next</span>
+              <Pagination.NextIcon />
+            </Pagination.Next>
+          </Pagination.Item>
+        </Pagination.Content>
+      </Pagination>
+    </div>
+  );
+}
+14:["$","$L4b",null,{"align":"center","code":"$72","isBgSolid":false,"name":"pagination-with-ellipsis","children":["$","$L73",null,{}]}]
+15:["$","$L8",null,{"as":"h3","id":"simple-previous--next","children":"Simple (Previous / Next)"}]
+74:T44d,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+export function PaginationSimplePrevNext() {
+  const [page, setPage] = useState(1);
+  const totalPages = 10;
+  const itemsPerPage = 5;
+  const totalItems = 50;
+
+  const startItem = (page - 1) * itemsPerPage + 1;
+  const endItem = Math.min(page * itemsPerPage, totalItems);
+
+  return (
+    <Pagination className="w-full">
+      <Pagination.Summary>
+        {startItem} to {endItem} of {totalItems} invoices
+      </Pagination.Summary>
+      <Pagination.Content>
+        <Pagination.Item>
+          <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+            <Pagination.PreviousIcon />
+            <span>Prev</span>
+          </Pagination.Previous>
+        </Pagination.Item>
+        <Pagination.Item>
+          <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+            <span>Next</span>
+            <Pagination.NextIcon />
+          </Pagination.Next>
+        </Pagination.Item>
+      </Pagination.Content>
+    </Pagination>
+  );
+}
+16:["$","$L4b",null,{"align":"center","code":"$74","isBgSolid":false,"name":"pagination-simple-prev-next","children":["$","$L75",null,{}]}]
+17:["$","$L8",null,{"as":"h3","id":"with-summary","children":"With Summary"}]
+76:T7c3,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+export function PaginationWithSummary() {
+  const [page, setPage] = useState(1);
+  const totalPages = 12;
+  const itemsPerPage = 10;
+  const totalItems = 120;
+
+  const getPageNumbers = () => {
+    const pages: (number | "ellipsis")[] = [];
+
+    pages.push(1);
+
+    if (page > 3) {
+      pages.push("ellipsis");
+    }
+
+    const start = Math.max(2, page - 1);
+    const end = Math.min(totalPages - 1, page + 1);
+
+    for (let i = start; i <= end; i++) {
+      pages.push(i);
+    }
+
+    if (page < totalPages - 2) {
+      pages.push("ellipsis");
+    }
+
+    pages.push(totalPages);
+
+    return pages;
+  };
+
+  const startItem = (page - 1) * itemsPerPage + 1;
+  const endItem = Math.min(page * itemsPerPage, totalItems);
+
+  return (
+    <Pagination className="w-full">
+      <Pagination.Summary>
+        Showing {startItem}-{endItem} of {totalItems} results
+      </Pagination.Summary>
+      <Pagination.Content>
+        <Pagination.Item>
+          <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+            <Pagination.PreviousIcon />
+            <span>Previous</span>
+          </Pagination.Previous>
+        </Pagination.Item>
+        {getPageNumbers().map((p, i) =>
+          p === "ellipsis" ? (
+            <Pagination.Item key={`ellipsis-${i}`}>
+              <Pagination.Ellipsis />
+            </Pagination.Item>
+          ) : (
+            <Pagination.Item key={p}>
+              <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+                {p}
+              </Pagination.Link>
+            </Pagination.Item>
+          ),
+        )}
+        <Pagination.Item>
+          <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+            <span>Next</span>
+            <Pagination.NextIcon />
+          </Pagination.Next>
+        </Pagination.Item>
+      </Pagination.Content>
+    </Pagination>
+  );
+}
+18:["$","$L4b",null,{"align":"center","code":"$76","isBgSolid":false,"name":"pagination-with-summary","children":["$","$L77",null,{}]}]
+19:["$","$L8",null,{"as":"h3","id":"custom-icons","children":"Custom Icons"}]
+1a:["$","p",null,{"children":["You can replace the default chevron icons by passing custom children to ",["$","code",null,{"children":"PreviousIcon"}]," and ",["$","code",null,{"children":"NextIcon"}],"."]}]
+78:T528,"use client";
+
+import {Pagination} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useState} from "react";
+
+export function PaginationCustomIcons() {
+  const [page, setPage] = useState(1);
+  const totalPages = 3;
+
+  return (
+    <Pagination className="justify-center">
+      <Pagination.Content>
+        <Pagination.Item>
+          <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+            <Pagination.PreviousIcon>
+              <Icon icon="gravity-ui:arrow-left" />
+            </Pagination.PreviousIcon>
+            <span>Back</span>
+          </Pagination.Previous>
+        </Pagination.Item>
+        {Array.from({length: totalPages}, (_, i) => i + 1).map((p) => (
+          <Pagination.Item key={p}>
+            <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+              {p}
+            </Pagination.Link>
+          </Pagination.Item>
+        ))}
+        <Pagination.Item>
+          <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+            <span>Forward</span>
+            <Pagination.NextIcon>
+              <Icon icon="gravity-ui:arrow-right" />
+            </Pagination.NextIcon>
+          </Pagination.Next>
+        </Pagination.Item>
+      </Pagination.Content>
+    </Pagination>
+  );
+}
+1b:["$","$L4b",null,{"align":"center","code":"$78","isBgSolid":false,"name":"pagination-custom-icons","children":["$","$L79",null,{}]}]
+1c:["$","$L8",null,{"as":"h3","id":"controlled","children":"Controlled"}]
+7a:T844,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+export function PaginationControlled() {
+  const [page, setPage] = useState(1);
+  const totalPages = 12;
+  const itemsPerPage = 10;
+  const totalItems = 120;
+
+  const getPageNumbers = () => {
+    const pages: (number | "ellipsis")[] = [];
+
+    if (totalPages <= 7) {
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      pages.push(1);
+
+      if (page > 3) {
+        pages.push("ellipsis");
+      }
+
+      const start = Math.max(2, page - 1);
+      const end = Math.min(totalPages - 1, page + 1);
+
+      for (let i = start; i <= end; i++) {
+        pages.push(i);
+      }
+
+      if (page < totalPages - 2) {
+        pages.push("ellipsis");
+      }
+
+      pages.push(totalPages);
+    }
+
+    return pages;
+  };
+
+  const startItem = (page - 1) * itemsPerPage + 1;
+  const endItem = Math.min(page * itemsPerPage, totalItems);
+
+  return (
+    <Pagination>
+      <Pagination.Summary>
+        Showing {startItem}-{endItem} of {totalItems} results
+      </Pagination.Summary>
+      <Pagination.Content>
+        <Pagination.Item>
+          <Pagination.Previous isDisabled={page === 1} onPress={() => setPage((p) => p - 1)}>
+            <Pagination.PreviousIcon />
+            <span>Previous</span>
+          </Pagination.Previous>
+        </Pagination.Item>
+        {getPageNumbers().map((p, i) =>
+          p === "ellipsis" ? (
+            <Pagination.Item key={`ellipsis-${i}`}>
+              <Pagination.Ellipsis />
+            </Pagination.Item>
+          ) : (
+            <Pagination.Item key={p}>
+              <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+                {p}
+              </Pagination.Link>
+            </Pagination.Item>
+          ),
+        )}
+        <Pagination.Item>
+          <Pagination.Next isDisabled={page === totalPages} onPress={() => setPage((p) => p + 1)}>
+            <span>Next</span>
+            <Pagination.NextIcon />
+          </Pagination.Next>
+        </Pagination.Item>
+      </Pagination.Content>
+    </Pagination>
+  );
+}
+1d:["$","$L4b",null,{"align":"center","code":"$7a","isBgSolid":false,"name":"pagination-controlled","children":["$","$L7b",null,{}]}]
+1e:["$","$L8",null,{"as":"h3","id":"disabled","children":"Disabled"}]
+7c:T42f,"use client";
+
+import {Pagination} from "@heroui/react";
+import {useState} from "react";
+
+export function PaginationDisabled() {
+  const [page, setPage] = useState(1);
+  const totalPages = 3;
+
+  return (
+    <Pagination className="justify-center">
+      <Pagination.Content>
+        <Pagination.Item>
+          <Pagination.Previous isDisabled onPress={() => setPage((p) => p - 1)}>
+            <Pagination.PreviousIcon />
+            <span>Previous</span>
+          </Pagination.Previous>
+        </Pagination.Item>
+        {Array.from({length: totalPages}, (_, i) => i + 1).map((p) => (
+          <Pagination.Item key={p}>
+            <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+              {p}
+            </Pagination.Link>
+          </Pagination.Item>
+        ))}
+        <Pagination.Item>
+          <Pagination.Next isDisabled onPress={() => setPage((p) => p + 1)}>
+            <span>Next</span>
+            <Pagination.NextIcon />
+          </Pagination.Next>
+        </Pagination.Item>
+      </Pagination.Content>
+    </Pagination>
+  );
+}
+1f:["$","$L4b",null,{"align":"center","code":"$7c","isBgSolid":false,"name":"pagination-disabled","children":["$","$L7d",null,{}]}]
+20:["$","$7e",null,{"fallback":null,"children":["$","$L7f",null,{"component":"pagination"}]}]
+21:["$","$L8",null,{"as":"h2","id":"styling","children":"Styling"}]
+22:["$","$L8",null,{"as":"h3","id":"passing-tailwind-css-classes","children":"Passing Tailwind CSS classes"}]
+23:["$","p",null,{"children":"You can customize individual Pagination parts:"}]
+80:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>24:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$80","children":["$","$L4a",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Pagination } "}],"$L81","$L82","$L83"]}],"\n","$L84","\n","$L85","\n","$L86","\n","$L87","\n","$L88","\n","$L89","\n","$L8a","\n","$L8b","\n","$L8c","\n","$L8d","\n","$L8e","\n","$L8f"]}]}]}]
+25:["$","$L8",null,{"as":"h3","id":"customizing-the-component-classes","children":"Customizing the component classes"}]
+26:["$","p",null,{"children":["To customize the Pagination component classes, you can use the ",["$","code",null,{"children":"@layer components"}]," directive.\n",["$","br",null,{}],["$","$L90",null,{"href":"https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes","children":"Learn more"}],"."]}]
+27:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L4a",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"@layer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" components {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .pagination"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" gap-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"8;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .pagination__link"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" rounded-md"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .pagination__summary"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-xs"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" font-semibold"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]]}]}]}]
+28:["$","p",null,{"children":["HeroUI follows the ",["$","$L90",null,{"href":"https://getbem.com/","children":"BEM"}]," methodology to ensure component variants and states are reusable and easy to customize."]}]
+29:["$","$L8",null,{"as":"h3","id":"css-classes","children":"CSS Classes"}]
+2a:["$","p",null,{"children":["The Pagination component uses these CSS classes (",["$","$L90",null,{"href":"https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/pagination.css","children":"View source styles"}],"):"]}]
+2b:["$","$L8",null,{"as":"h4","id":"base--layout-classes","children":"Base & Layout Classes"}]
+2c:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination"}]," - Root navigation container with flex layout"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination__summary"}]," - Left-side info text container"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination__content"}]," - Container for pagination items"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination__item"}]," - Individual item wrapper"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination__link"}]," - Page number button (ghost button style)"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination__link--nav"}]," - Navigation button modifier (Previous/Next)"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination__ellipsis"}]," - Ellipsis indicator"]}],"\n"]}]
+2d:["$","$L8",null,{"as":"h4","id":"size-classes","children":"Size Classes"}]
+2e:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination--sm"}]," - Small size variant"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination--md"}]," - Medium size variant (default)"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".pagination--lg"}]," - Large size variant"]}],"\n"]}]
+2f:["$","$L8",null,{"as":"h3","id":"interactive-states","children":"Interactive States"}]
+30:["$","p",null,{"children":"The component supports both CSS pseudo-classes and data attributes for flexibility:"}]
+31:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Active page"}],": ",["$","code",null,{"children":"[data-active=\"true\"]"}]," or ",["$","code",null,{"children":"[aria-current=\"page\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Hover"}],": ",["$","code",null,{"children":":hover"}]," or ",["$","code",null,{"children":"[data-hovered=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Focus"}],": ",["$","code",null,{"children":":focus-visible"}]," or ",["$","code",null,{"children":"[data-focus-visible=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Disabled"}],": ",["$","code",null,{"children":":disabled"}]," or ",["$","code",null,{"children":"[aria-disabled=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Pressed"}],": ",["$","code",null,{"children":":active"}]," or ",["$","code",null,{"children":"[data-pressed=\"true\"]"}]]}],"\n"]}]
+32:["$","$L8",null,{"as":"h2","id":"api-reference","children":"API Reference"}]
+33:["$","$L8",null,{"as":"h3","id":"pagination-props","children":"Pagination Props"}]
+34:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"size"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"sm\" | \"md\" | \"lg\""}]}],["$","td",null,{"children":["$","code",null,{"children":"\"md\""}]}],["$","td",null,{"children":"Size of the pagination items"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Pagination parts (Summary, Content)"}]]}]]}]]}]}]
+35:["$","$L8",null,{"as":"h3","id":"paginationsummary-props","children":"Pagination.Summary Props"}]
+36:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Summary content (e.g., \"Showing 1-10 of 120\")"}]]}]]}]]}]}]
+37:["$","$L8",null,{"as":"h3","id":"paginationcontent-props","children":"Pagination.Content Props"}]
+38:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Pagination items"}]]}]]}]]}]}]
+39:["$","$L8",null,{"as":"h3","id":"paginationitem-props","children":"Pagination.Item Props"}]
+3a:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Item content (Link, Previous, Next, or Ellipsis)"}]]}]]}]]}]}]
+3b:["$","$L8",null,{"as":"h3","id":"paginationlink-props","children":"Pagination.Link Props"}]
+3c:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isActive"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether this is the current page"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether the link is disabled"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onPress"}]}],["$","td",null,{"children":["$","code",null,{"children":"(e: PressEvent) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Press handler (from React Aria)"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Page number content"}]]}]]}]]}]}]
+3d:["$","$L8",null,{"as":"h3","id":"paginationprevious--paginationnext-props","children":"Pagination.Previous / Pagination.Next Props"}]
+3e:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether the button is disabled"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onPress"}]}],["$","td",null,{"children":["$","code",null,{"children":"(e: PressEvent) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Press handler (from React Aria)"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Button content (compose with PreviousIcon/NextIcon)"}]]}]]}]]}]}]
+3f:["$","$L8",null,{"as":"h3","id":"paginationpreviousicon--paginationnexticon-props","children":"Pagination.PreviousIcon / Pagination.NextIcon Props"}]
+40:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"Default chevron SVG"}],["$","td",null,{"children":"Custom icon to replace the default chevron"}]]}]]}]]}]}]
+41:["$","$L8",null,{"as":"h3","id":"paginationellipsis-props","children":"Pagination.Ellipsis Props"}]
+42:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}]}]]}]}]
+43:["$","$L8",null,{"as":"h2","id":"accessibility","children":"Accessibility"}]
+44:["$","p",null,{"children":["The Pagination component is built on ",["$","$L90",null,{"href":"https://react-spectrum.adobe.com/react-aria/Button.html","children":"React Aria's Button"}]," primitive for all interactive elements, providing:"]}]
+45:["$","ul",null,{"children":["\n",["$","li",null,{"children":["Semantic ",["$","code",null,{"children":"<nav>"}]," element with ",["$","code",null,{"children":"aria-label=\"pagination\""}]," and ",["$","code",null,{"children":"role=\"navigation\""}]]}],"\n",["$","li",null,{"children":["Active page indicated via ",["$","code",null,{"children":"aria-current=\"page\""}]," on the current link"]}],"\n",["$","li",null,{"children":"Keyboard navigation via Tab key through all interactive elements"}],"\n",["$","li",null,{"children":"Press events handled across mouse, touch, and keyboard interactions via React Aria"}],"\n",["$","li",null,{"children":["Focus ring on keyboard navigation via ",["$","code",null,{"children":":focus-visible"}]]}],"\n",["$","li",null,{"children":["Ellipsis marked with ",["$","code",null,{"children":"aria-hidden=\"true\""}]," to avoid screen reader confusion"]}],"\n",["$","li",null,{"children":["Disabled states properly communicated to assistive technology via ",["$","code",null,{"children":"isDisabled"}]]}],"\n"]}]
+46:["$","blockquote",null,{"children":["\n",["$","p",null,{"children":[["$","strong",null,{"children":"Note:"}]," Pagination buttons use ",["$","code",null,{"children":"onPress"}]," instead of ",["$","code",null,{"children":"onClick"}],". The ",["$","code",null,{"children":"onPress"}]," handler from React Aria normalizes press behavior across pointer types and provides accessibility improvements out of the box."]}],"\n"]}]
+47:["$","script","script-0",{"src":"/_next/static/chunks/0fpc6ujy7.75j.js","async":true}]
+48:["$","script","script-1",{"src":"/_next/static/chunks/0z-r2uz5n7mxn.js","async":true}]
+49:["$","$L91",null,{"children":["$","$7e",null,{"name":"Next.MetadataOutlet","children":"$@92"}]}]
+4f:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Pagination } "}]
+50:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+51:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+52:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+53:["$","span",null,{"className":"line"}]
+54:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" () "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+55:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+56:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Summary"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Showing 1-10 of 100 results</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Summary"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+57:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+58:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+59:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Previous"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.PreviousIcon"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+5b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Previous</"}],["$","span",null,{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Previous"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Link"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" isActive"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">1</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Link"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+60:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+61:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+62:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Ellipsis"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+63:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+64:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+65:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Link"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">10</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Link"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+66:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+67:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+68:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Next"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+69:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Next</"}],["$","span",null,{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+6a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.NextIcon"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+6b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Next"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+6c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+6d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+6e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+6f:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":");"}]}]
+81:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+82:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+83:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+84:["$","span",null,{"className":"line"}]
+85:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"function"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" CustomPagination"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"() {"}]]}]
+86:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"  return"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+87:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"gap-8\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+88:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Content"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"gap-2\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+89:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Link"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"rounded-md\""}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" isActive"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">1</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Link"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Pagination"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8e:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  );"}]}]
+8f:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]
+92:null

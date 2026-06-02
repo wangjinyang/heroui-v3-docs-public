@@ -1,0 +1,777 @@
+1:"$Sreact.fragment"
+2:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsPage"]
+3:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsTitle"]
+4:I[302559,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ViewOptions"]
+5:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsDescription"]
+6:I[483689,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ComponentLinks"]
+7:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsBody"]
+8:I[494157,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Heading"]
+9:I[192506,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"FumadocsCustomCodeblock"]
+50:I[144324,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Pre"]
+51:I[3108,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
+52:I[467360,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Basic"]
+6a:I[827114,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"YearPicker"]
+6b:I[811507,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DefaultValue"]
+6d:I[746918,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Controlled"]
+6f:I[151710,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"MinMaxDates"]
+71:I[42672,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"UnavailableDates"]
+73:I[82340,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AllowsNonContiguousRanges"]
+74:I[871818,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Disabled"]
+76:I[66148,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ReadOnly"]
+78:I[95179,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Invalid"]
+7a:I[700670,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"FocusedValue"]
+7c:I[937550,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"WithIndicators"]
+7e:I[69382,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"MultipleMonths"]
+7f:I[942449,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LocaleLink"]
+81:I[949732,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"InternationalCalendar"]
+83:I[876849,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"BookingCalendar"]
+84:"$Sreact.suspense"
+85:I[605435,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"RelatedComponents"]
+a5:I[897367,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
+a:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#引入","title":"引入"},{"depth":3,"url":"#用法","title":"用法"},{"depth":3,"url":"#组件结构","title":"组件结构"},{"depth":3,"url":"#年份选择","title":"年份选择"},{"depth":3,"url":"#默认值","title":"默认值"},{"depth":3,"url":"#受控","title":"受控"},{"depth":3,"url":"#最小与最大日期","title":"最小与最大日期"},{"depth":3,"url":"#不可用日期","title":"不可用日期"},{"depth":3,"url":"#允许非连续范围","title":"允许非连续范围"},{"depth":3,"url":"#禁用","title":"禁用"},{"depth":3,"url":"#只读","title":"只读"},{"depth":3,"url":"#无效","title":"无效"},{"depth":3,"url":"#焦点日期","title":"焦点日期"},{"depth":3,"url":"#单元格指示器","title":"单元格指示器"},{"depth":3,"url":"#多个月份","title":"多个月份"},{"depth":3,"url":"#国际化历法","title":"国际化历法"},{"depth":3,"url":"#实际场景示例","title":"实际场景示例"},{"depth":2,"url":"#样式","title":"样式"},{"depth":3,"url":"#传入-tailwind-css-类","title":"传入 Tailwind CSS 类"},{"depth":3,"url":"#自定义组件类","title":"自定义组件类"},{"depth":3,"url":"#css-类","title":"CSS 类"},{"depth":3,"url":"#交互状态","title":"交互状态"},{"depth":2,"url":"#api-参考","title":"API 参考"},{"depth":3,"url":"#rangecalendar-props","title":"RangeCalendar Props"},{"depth":3,"url":"#组合部件","title":"组合部件"},{"depth":3,"url":"#rangecalendarcell-render-props","title":"RangeCalendar.Cell Render Props"},{"depth":3,"url":"#related-packages","title":"Related packages"}],"children":[["$","section",null,{"className":"flex flex-col gap-2","children":[["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-2","children":[["$","$L3",null,{"className":"flex items-center gap-2","children":["RangeCalendar 范围日历",false]}],["$","div",null,{"className":"flex items-center gap-2","children":["$","$L4",null,{"markdownUrl":"/cn/docs/react/components/range-calendar.mdx"}]}]]}],["$","$L5",null,{"className":"text-md mt-2 mb-4","children":"基于 React Aria RangeCalendar 的可组合日期范围选择器，包含月份网格、导航与年份选择支持。"}],["$","$L6",null,{"links":{"rac":"RangeCalendar","source":"range-calendar/range-calendar.tsx","styles":"range-calendar.css","storybook":"Components/Date and Time/RangeCalendar"}}]]}],["$","$L7",null,{"className":"prose-sm","children":[["$","$L8",null,{"as":"h2","id":"引入","children":"引入"}],"\n",["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$a","children":"$Lb"}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c"]}]]}],["$L4d","$L4e"],"$L4f"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Og7Y5QFIHVQNML2MH2z_8"}
+b:["$","$L50",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { RangeCalendar } "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]}]}]
+c:["$","$L8",null,{"as":"h3","id":"用法","children":"用法"}]
+d:["$","$L51",null,{"align":"center","code":"\"use client\";\n\nimport {RangeCalendar} from \"@heroui/react\";\n\nexport function Basic() {\n  return (\n    <RangeCalendar aria-label=\"行程日期\" firstDayOfWeek=\"mon\">\n      <RangeCalendar.Header>\n        <RangeCalendar.Heading />\n        <RangeCalendar.NavButton slot=\"previous\" />\n        <RangeCalendar.NavButton slot=\"next\" />\n      </RangeCalendar.Header>\n      <RangeCalendar.Grid>\n        <RangeCalendar.GridHeader>\n          {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}\n        </RangeCalendar.GridHeader>\n        <RangeCalendar.GridBody>\n          {(date) => <RangeCalendar.Cell date={date} />}\n        </RangeCalendar.GridBody>\n      </RangeCalendar.Grid>\n    </RangeCalendar>\n  );\n}\n","isBgSolid":false,"name":"range-calendar-basic","children":["$","$L52",null,{}]}]
+e:["$","$L8",null,{"as":"h3","id":"组件结构","children":"组件结构"}]
+53:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>f:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$53","children":["$","$L50",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {RangeCalendar} "}],"$L54","$L55","$L56"]}],"\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68"]}]}]}]
+10:["$","$L8",null,{"as":"h3","id":"年份选择","children":"年份选择"}]
+11:["$","p",null,{"children":[["$","code",null,{"children":"RangeCalendar.YearPickerTrigger"}],"、",["$","code",null,{"children":"RangeCalendar.YearPickerGrid"}]," 及其 body/cell 子组件提供一体化的年份导航模式。"]}]
+69:T442,"use client";
+
+import {RangeCalendar} from "@heroui/react";
+
+export function YearPicker() {
+  return (
+    <RangeCalendar aria-label="行程日期">
+      <RangeCalendar.Header>
+        <RangeCalendar.YearPickerTrigger>
+          <RangeCalendar.YearPickerTriggerHeading />
+          <RangeCalendar.YearPickerTriggerIndicator />
+        </RangeCalendar.YearPickerTrigger>
+        <RangeCalendar.NavButton slot="previous" />
+        <RangeCalendar.NavButton slot="next" />
+      </RangeCalendar.Header>
+      <RangeCalendar.Grid>
+        <RangeCalendar.GridHeader>
+          {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+        </RangeCalendar.GridHeader>
+        <RangeCalendar.GridBody>
+          {(date) => <RangeCalendar.Cell date={date} />}
+        </RangeCalendar.GridBody>
+      </RangeCalendar.Grid>
+      <RangeCalendar.YearPickerGrid>
+        <RangeCalendar.YearPickerGridBody>
+          {({year}) => <RangeCalendar.YearPickerCell year={year} />}
+        </RangeCalendar.YearPickerGridBody>
+      </RangeCalendar.YearPickerGrid>
+    </RangeCalendar>
+  );
+}
+12:["$","$L51",null,{"align":"center","code":"$69","isBgSolid":false,"name":"range-calendar-year-picker","children":["$","$L6a",null,{}]}]
+13:["$","$L8",null,{"as":"h3","id":"默认值","children":"默认值"}]
+14:["$","$L51",null,{"align":"center","code":"\"use client\";\n\nimport {RangeCalendar} from \"@heroui/react\";\nimport {parseDate} from \"@internationalized/date\";\n\nexport function DefaultValue() {\n  return (\n    <RangeCalendar\n      aria-label=\"行程日期\"\n      defaultValue={{end: parseDate(\"2025-02-12\"), start: parseDate(\"2025-02-03\")}}\n      firstDayOfWeek=\"mon\"\n    >\n      <RangeCalendar.Header>\n        <RangeCalendar.Heading />\n        <RangeCalendar.NavButton slot=\"previous\" />\n        <RangeCalendar.NavButton slot=\"next\" />\n      </RangeCalendar.Header>\n      <RangeCalendar.Grid>\n        <RangeCalendar.GridHeader>\n          {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}\n        </RangeCalendar.GridHeader>\n        <RangeCalendar.GridBody>\n          {(date) => <RangeCalendar.Cell date={date} />}\n        </RangeCalendar.GridBody>\n      </RangeCalendar.Grid>\n    </RangeCalendar>\n  );\n}\n","isBgSolid":false,"name":"range-calendar-default-value","children":["$","$L6b",null,{}]}]
+15:["$","$L8",null,{"as":"h3","id":"受控","children":"受控"}]
+6c:Tc61,"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Button, ButtonGroup, Description, RangeCalendar} from "@heroui/react";
+import {
+  getLocalTimeZone,
+  parseDate,
+  startOfMonth,
+  startOfWeek,
+  today,
+} from "@internationalized/date";
+import {useState} from "react";
+import {useLocale} from "react-aria-components";
+
+type DateRange = {
+  start: DateValue;
+  end: DateValue;
+};
+
+export function Controlled() {
+  const [value, setValue] = useState<DateRange | null>(null);
+  const [focusedDate, setFocusedDate] = useState<DateValue>(parseDate("2025-12-25"));
+  const {locale} = useLocale();
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <ButtonGroup variant="tertiary">
+        <Button
+          onPress={() => {
+            const start = today(getLocalTimeZone());
+
+            setFocusedDate(start);
+          }}
+        >
+          本周
+        </Button>
+        <Button
+          onPress={() => {
+            const nextWeekStart = startOfWeek(today(getLocalTimeZone()).add({weeks: 1}), locale);
+
+            setFocusedDate(nextWeekStart);
+          }}
+        >
+          下周
+        </Button>
+        <Button
+          onPress={() => {
+            const nextMonthStart = startOfMonth(today(getLocalTimeZone()).add({months: 1}));
+
+            setFocusedDate(nextMonthStart);
+          }}
+        >
+          下月
+        </Button>
+      </ButtonGroup>
+
+      <RangeCalendar
+        aria-label="行程日期"
+        firstDayOfWeek="mon"
+        focusedValue={focusedDate}
+        value={value}
+        onChange={setValue}
+        onFocusChange={setFocusedDate}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+
+      <Description className="text-center">
+        已选区间： {value ? `${value.start.toString()} -> ${value.end.toString()}` : "（无）"}
+      </Description>
+
+      <div className="flex gap-2">
+        <Button
+          size="sm"
+          variant="secondary"
+          onPress={() => {
+            const start = today(getLocalTimeZone());
+
+            setValue({end: start.add({days: 6}), start});
+            setFocusedDate(start);
+          }}
+        >
+          设为 1 周
+        </Button>
+        <Button
+          size="sm"
+          variant="secondary"
+          onPress={() => {
+            const start = parseDate("2025-12-20");
+
+            setValue({end: parseDate("2025-12-31"), start});
+            setFocusedDate(start);
+          }}
+        >
+          设为节假日
+        </Button>
+        <Button size="sm" variant="tertiary" onPress={() => setValue(null)}>
+          清空
+        </Button>
+      </div>
+    </div>
+  );
+}
+16:["$","$L51",null,{"align":"center","code":"$6c","isBgSolid":false,"name":"range-calendar-controlled","children":["$","$L6d",null,{}]}]
+17:["$","$L8",null,{"as":"h3","id":"最小与最大日期","children":"最小与最大日期"}]
+6e:T47e,"use client";
+
+import {Description, RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+
+export function MinMaxDates() {
+  const now = today(getLocalTimeZone());
+  const minDate = now;
+  const maxDate = now.add({months: 3});
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar aria-label="行程日期" maxValue={maxDate} minValue={minDate}>
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      <Description className="text-center">
+        请在今天与 {maxDate.toString()} 之间选择日期。
+      </Description>
+    </div>
+  );
+}
+18:["$","$L51",null,{"align":"center","code":"$6e","isBgSolid":false,"name":"range-calendar-min-max-dates","children":["$","$L6f",null,{}]}]
+19:["$","$L8",null,{"as":"h3","id":"不可用日期","children":"不可用日期"}]
+1a:["$","p",null,{"children":["使用 ",["$","code",null,{"children":"isDateUnavailable"}]," 禁用周末、节假日或已被预订的日期等。"]}]
+70:T5ec,"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Description, RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+
+export function UnavailableDates() {
+  const now = today(getLocalTimeZone());
+  const blockedRanges = [
+    [now.add({days: 2}), now.add({days: 5})],
+    [now.add({days: 12}), now.add({days: 13})],
+  ] as const;
+
+  const isDateUnavailable = (date: DateValue) => {
+    return blockedRanges.some(([start, end]) => date.compare(start) >= 0 && date.compare(end) <= 0);
+  };
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar
+        aria-label="行程日期"
+        defaultValue={{end: now.add({days: 9}), start: now.add({days: 6})}}
+        firstDayOfWeek="mon"
+        isDateUnavailable={isDateUnavailable}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      <Description className="text-center">部分日期不可选</Description>
+    </div>
+  );
+}
+1b:["$","$L51",null,{"align":"center","code":"$70","isBgSolid":false,"name":"range-calendar-unavailable-dates","children":["$","$L71",null,{}]}]
+1c:["$","$L8",null,{"as":"h3","id":"允许非连续范围","children":"允许非连续范围"}]
+1d:["$","p",null,{"children":["启用 ",["$","code",null,{"children":"allowsNonContiguousRanges"}],"，允许选择跨越不可用日期的范围。"]}]
+72:T62f,"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Description, RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+
+export function AllowsNonContiguousRanges() {
+  const now = today(getLocalTimeZone());
+  const blockedRanges = [
+    [now.add({days: 2}), now.add({days: 5})],
+    [now.add({days: 12}), now.add({days: 13})],
+  ] as const;
+
+  const isDateUnavailable = (date: DateValue) => {
+    return blockedRanges.some(([start, end]) => date.compare(start) >= 0 && date.compare(end) <= 0);
+  };
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar
+        allowsNonContiguousRanges
+        aria-label="行程日期"
+        defaultValue={{end: now.add({days: 9}), start: now.add({days: 1})}}
+        firstDayOfWeek="mon"
+        isDateUnavailable={isDateUnavailable}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      <Description className="text-center">允许跨不可选日期选择非连续区间</Description>
+    </div>
+  );
+}
+1e:["$","$L51",null,{"align":"center","code":"$72","isBgSolid":false,"name":"range-calendar-allows-non-contiguous-ranges","children":["$","$L73",null,{}]}]
+1f:["$","$L8",null,{"as":"h3","id":"禁用","children":"禁用"}]
+20:["$","$L51",null,{"align":"center","code":"\"use client\";\n\nimport {Description, RangeCalendar} from \"@heroui/react\";\n\nexport function Disabled() {\n  return (\n    <div className=\"flex flex-col items-center gap-4\">\n      <RangeCalendar isDisabled aria-label=\"行程日期\">\n        <RangeCalendar.Header>\n          <RangeCalendar.Heading />\n          <RangeCalendar.NavButton slot=\"previous\" />\n          <RangeCalendar.NavButton slot=\"next\" />\n        </RangeCalendar.Header>\n        <RangeCalendar.Grid>\n          <RangeCalendar.GridHeader>\n            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}\n          </RangeCalendar.GridHeader>\n          <RangeCalendar.GridBody>\n            {(date) => <RangeCalendar.Cell date={date} />}\n          </RangeCalendar.GridBody>\n        </RangeCalendar.Grid>\n      </RangeCalendar>\n      <Description className=\"text-center\">区间日历已禁用</Description>\n    </div>\n  );\n}\n","isBgSolid":false,"name":"range-calendar-disabled","children":["$","$L74",null,{}]}]
+21:["$","$L8",null,{"as":"h3","id":"只读","children":"只读"}]
+75:T461,"use client";
+
+import {Description, RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+
+export function ReadOnly() {
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar
+        isReadOnly
+        aria-label="行程日期"
+        defaultValue={{
+          end: today(getLocalTimeZone()).add({days: 4}),
+          start: today(getLocalTimeZone()),
+        }}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      <Description className="text-center">区间日历为只读</Description>
+    </div>
+  );
+}
+22:["$","$L51",null,{"align":"center","code":"$75","isBgSolid":false,"name":"range-calendar-read-only","children":["$","$L76",null,{}]}]
+23:["$","$L8",null,{"as":"h3","id":"无效","children":"无效"}]
+77:T625,"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Description, RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+import {useState} from "react";
+
+type DateRange = {
+  start: DateValue;
+  end: DateValue;
+};
+
+export function Invalid() {
+  const now = today(getLocalTimeZone());
+  const [value, setValue] = useState<DateRange>({
+    end: now.add({days: 14}),
+    start: now.add({days: 6}),
+  });
+  const isInvalid = value.end.compare(value.start) > 7;
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar
+        aria-label="行程日期"
+        firstDayOfWeek="mon"
+        isInvalid={isInvalid}
+        value={value}
+        onChange={setValue}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      {isInvalid ? (
+        <p className="text-sm text-danger">最长入住时间为 1 周</p>
+      ) : (
+        <Description className="text-center">请选择最多 7 天的入住区间</Description>
+      )}
+    </div>
+  );
+}
+24:["$","$L51",null,{"align":"center","code":"$77","isBgSolid":false,"name":"range-calendar-invalid","children":["$","$L78",null,{}]}]
+25:["$","$L8",null,{"as":"h3","id":"焦点日期","children":"焦点日期"}]
+79:T762,"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Button, Description, RangeCalendar} from "@heroui/react";
+import {parseDate} from "@internationalized/date";
+import {useState} from "react";
+
+export function FocusedValue() {
+  const [focusedDate, setFocusedDate] = useState<DateValue>(parseDate("2025-06-15"));
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar
+        aria-label="行程日期"
+        firstDayOfWeek="mon"
+        focusedValue={focusedDate}
+        onFocusChange={setFocusedDate}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      <Description className="text-center">聚焦： {focusedDate.toString()}</Description>
+      <div className="flex flex-wrap justify-center gap-2">
+        <Button
+          size="sm"
+          variant="secondary"
+          onPress={() => setFocusedDate(parseDate("2025-01-01"))}
+        >
+          跳转到一月
+        </Button>
+        <Button
+          size="sm"
+          variant="secondary"
+          onPress={() => setFocusedDate(parseDate("2025-06-15"))}
+        >
+          跳转到六月
+        </Button>
+        <Button
+          size="sm"
+          variant="secondary"
+          onPress={() => setFocusedDate(parseDate("2025-12-25"))}
+        >
+          跳转到圣诞节
+        </Button>
+      </div>
+    </div>
+  );
+}
+26:["$","$L51",null,{"align":"center","code":"$79","isBgSolid":false,"name":"range-calendar-focused-value","children":["$","$L7a",null,{}]}]
+27:["$","$L8",null,{"as":"h3","id":"单元格指示器","children":"单元格指示器"}]
+28:["$","p",null,{"children":["你可以自定义 ",["$","code",null,{"children":"RangeCalendar.Cell"}]," 的子节点，并使用 ",["$","code",null,{"children":"RangeCalendar.CellIndicator"}]," 展示活动等元数据。"]}]
+7b:T499,"use client";
+
+import {RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, isToday} from "@internationalized/date";
+
+const datesWithEvents = [3, 7, 12, 15, 21, 28];
+
+export function WithIndicators() {
+  return (
+    <RangeCalendar aria-label="行程日期">
+      <RangeCalendar.Header>
+        <RangeCalendar.Heading />
+        <RangeCalendar.NavButton slot="previous" />
+        <RangeCalendar.NavButton slot="next" />
+      </RangeCalendar.Header>
+      <RangeCalendar.Grid>
+        <RangeCalendar.GridHeader>
+          {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+        </RangeCalendar.GridHeader>
+        <RangeCalendar.GridBody>
+          {(date) => (
+            <RangeCalendar.Cell date={date}>
+              {({formattedDate}) => (
+                <>
+                  {formattedDate}
+                  {(isToday(date, getLocalTimeZone()) || datesWithEvents.includes(date.day)) && (
+                    <RangeCalendar.CellIndicator />
+                  )}
+                </>
+              )}
+            </RangeCalendar.Cell>
+          )}
+        </RangeCalendar.GridBody>
+      </RangeCalendar.Grid>
+    </RangeCalendar>
+  );
+}
+29:["$","$L51",null,{"align":"center","code":"$7b","isBgSolid":false,"name":"range-calendar-with-indicators","children":["$","$L7c",null,{}]}]
+2a:["$","$L8",null,{"as":"h3","id":"多个月份","children":"多个月份"}]
+2b:["$","p",null,{"children":["使用 ",["$","code",null,{"children":"visibleDuration"}]," 与 ",["$","code",null,{"children":"offset"}]," 渲染多个月份网格，适用于预订与规划场景。"]}]
+7d:T910,"use client";
+
+import {RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone} from "@internationalized/date";
+import React from "react";
+import {RangeCalendarStateContext, useLocale} from "react-aria-components";
+
+function RangeCalendarMonthHeading({offset = 0}: {offset?: number}) {
+  const state = React.useContext(RangeCalendarStateContext)!;
+  const {locale} = useLocale();
+
+  const startDate = state.visibleRange.start;
+  const monthDate = startDate.add({months: offset});
+  const dateObj = monthDate.toDate(getLocalTimeZone());
+  const monthYear = new Intl.DateTimeFormat(locale, {month: "long", year: "numeric"}).format(
+    dateObj,
+  );
+
+  return <span className="text-sm font-medium">{monthYear}</span>;
+}
+
+export function MultipleMonths() {
+  return (
+    <RangeCalendar
+      aria-label="行程日期"
+      className="@container-normal w-auto overflow-x-auto"
+      visibleDuration={{months: 2}}
+    >
+      <RangeCalendar.Heading className="sr-only" />
+      <div className="flex w-max gap-8">
+        <div className="w-64">
+          <RangeCalendar.Header>
+            <RangeCalendar.NavButton slot="previous" />
+            <RangeCalendarMonthHeading offset={0} />
+            <div className="size-6" />
+          </RangeCalendar.Header>
+          <RangeCalendar.Grid>
+            <RangeCalendar.GridHeader>
+              {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+            </RangeCalendar.GridHeader>
+            <RangeCalendar.GridBody>
+              {(date) => <RangeCalendar.Cell date={date} />}
+            </RangeCalendar.GridBody>
+          </RangeCalendar.Grid>
+        </div>
+        <div className="w-64">
+          <RangeCalendar.Header>
+            <div className="size-6" />
+            <RangeCalendarMonthHeading offset={1} />
+            <RangeCalendar.NavButton slot="next" />
+          </RangeCalendar.Header>
+          <RangeCalendar.Grid offset={{months: 1}}>
+            <RangeCalendar.GridHeader>
+              {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+            </RangeCalendar.GridHeader>
+            <RangeCalendar.GridBody>
+              {(date) => <RangeCalendar.Cell date={date} />}
+            </RangeCalendar.GridBody>
+          </RangeCalendar.Grid>
+        </div>
+      </div>
+    </RangeCalendar>
+  );
+}
+2c:["$","$L51",null,{"align":"center","code":"$7d","isBgSolid":false,"name":"range-calendar-multiple-months","children":["$","$L7e",null,{}]}]
+2d:["$","$L8",null,{"as":"h3","id":"国际化历法","children":"国际化历法"}]
+2e:["$","p",null,{"children":["默认情况下，RangeCalendar 按用户语言环境的历法显示日期。你可以使用 ",["$","code",null,{"children":"I18nProvider"}]," 包裹 RangeCalendar，并通过 ",["$","$L7f",null,{"href":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/calendar#adding_a_calendar_in_the_locale_string","children":"Unicode 历法语言扩展"}]," 覆盖。"]}]
+2f:["$","p",null,{"children":"下方示例展示印度历法系统："}]
+80:T4f1,"use client";
+
+import {RangeCalendar} from "@heroui/react";
+import {I18nProvider} from "react-aria-components";
+
+export function InternationalCalendar() {
+  return (
+    <I18nProvider locale="hi-IN-u-ca-indian">
+      <RangeCalendar aria-label="行程日期">
+        <RangeCalendar.Header>
+          <RangeCalendar.YearPickerTrigger>
+            <RangeCalendar.YearPickerTriggerHeading />
+            <RangeCalendar.YearPickerTriggerIndicator />
+          </RangeCalendar.YearPickerTrigger>
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => <RangeCalendar.Cell date={date} />}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+        <RangeCalendar.YearPickerGrid>
+          <RangeCalendar.YearPickerGridBody>
+            {({year}) => <RangeCalendar.YearPickerCell year={year} />}
+          </RangeCalendar.YearPickerGridBody>
+        </RangeCalendar.YearPickerGrid>
+      </RangeCalendar>
+    </I18nProvider>
+  );
+}
+30:["$","$L51",null,{"align":"center","code":"$80","isBgSolid":false,"name":"range-calendar-international-calendar","children":["$","$L81",null,{}]}]
+31:["$","p",null,{"children":[["$","strong",null,{"children":"说明："}]," ",["$","code",null,{"children":"onChange"}]," 事件始终返回与 ",["$","code",null,{"children":"value"}]," 或 ",["$","code",null,{"children":"defaultValue"}]," 相同历法系统中的日期（若未提供值则为公历），与界面展示的本地化格式无关。"]}]
+32:["$","$L8",null,{"as":"h3","id":"实际场景示例","children":"实际场景示例"}]
+82:Ta2e,"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Button, RangeCalendar} from "@heroui/react";
+import {getLocalTimeZone, isWeekend, today} from "@internationalized/date";
+import {useState} from "react";
+import {useLocale} from "react-aria-components";
+
+type DateRange = {
+  start: DateValue;
+  end: DateValue;
+};
+
+export function BookingCalendar() {
+  const [selectedRange, setSelectedRange] = useState<DateRange | null>(null);
+  const {locale} = useLocale();
+  const blockedDates = [5, 6, 12, 13, 14, 20];
+
+  const isDateUnavailable = (date: DateValue) => {
+    return isWeekend(date, locale) || blockedDates.includes(date.day);
+  };
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <RangeCalendar
+        aria-label="预订区间"
+        isDateUnavailable={isDateUnavailable}
+        minValue={today(getLocalTimeZone())}
+        value={selectedRange}
+        onChange={setSelectedRange}
+      >
+        <RangeCalendar.Header>
+          <RangeCalendar.Heading />
+          <RangeCalendar.NavButton slot="previous" />
+          <RangeCalendar.NavButton slot="next" />
+        </RangeCalendar.Header>
+        <RangeCalendar.Grid>
+          <RangeCalendar.GridHeader>
+            {(day) => <RangeCalendar.HeaderCell>{day}</RangeCalendar.HeaderCell>}
+          </RangeCalendar.GridHeader>
+          <RangeCalendar.GridBody>
+            {(date) => (
+              <RangeCalendar.Cell date={date}>
+                {({formattedDate, isUnavailable}) => (
+                  <>
+                    {formattedDate}
+                    {!isUnavailable &&
+                      !isWeekend(date, locale) &&
+                      blockedDates.includes(date.day) && <RangeCalendar.CellIndicator />}
+                  </>
+                )}
+              </RangeCalendar.Cell>
+            )}
+          </RangeCalendar.GridBody>
+        </RangeCalendar.Grid>
+      </RangeCalendar>
+      <div className="flex flex-col gap-2 text-center">
+        <div className="flex items-center justify-center gap-4 text-xs text-muted">
+          <span className="flex items-center gap-1">
+            <span className="size-2 rounded-full bg-muted" /> 不可订日期
+          </span>
+          <span className="flex items-center gap-1">
+            <span className="size-2 rounded-full bg-default" /> 周末/不可用
+          </span>
+        </div>
+        {selectedRange ? (
+          <Button size="sm" variant="primary">
+            预订 {selectedRange.start.toString()} → {selectedRange.end.toString()}
+          </Button>
+        ) : null}
+      </div>
+    </div>
+  );
+}
+33:["$","$L51",null,{"align":"center","code":"$82","isBgSolid":false,"name":"range-calendar-booking-calendar","children":["$","$L83",null,{}]}]
+34:["$","$84",null,{"fallback":null,"children":["$","$L85",null,{"component":"range-calendar"}]}]
+35:["$","$L8",null,{"as":"h2","id":"样式","children":"样式"}]
+36:["$","$L8",null,{"as":"h3","id":"传入-tailwind-css-类","children":"传入 Tailwind CSS 类"}]
+86:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>37:["$","$L9",null,{"className":"mdx-code-block docs-code-block-line-numbers shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$86","children":["$","$L50",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],"$L87","$L88","$L89","$L8a"]}],"\n","$L8b","\n","$L8c","\n","$L8d","\n","$L8e","\n","$L8f","\n","$L90","\n","$L91","\n","$L92","\n","$L93","\n","$L94","\n","$L95","\n","$L96","\n","$L97","\n","$L98","\n","$L99","\n","$L9a","\n","$L9b","\n","$L9c","\n","$L9d","\n","$L9e"]}]}]}]
+38:["$","$L8",null,{"as":"h3","id":"自定义组件类","children":"自定义组件类"}]
+39:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L50",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"@layer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" components {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .range-calendar"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" w-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"80 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"rounded-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"2"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"xl"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" border"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" border-border"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" bg-surface"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" p-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"3 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"shadow-sm"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .range-calendar__heading"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-sm"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" font-semibold"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .range-calendar__cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"["}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"data-selected"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"true\""}],"$L9f","$La0","$La1"]}],"\n","$La2","\n","$La3","\n","$La4"]}]}]}]
+3a:["$","$L8",null,{"as":"h3","id":"css-类","children":"CSS 类"}]
+3b:["$","p",null,{"children":["RangeCalendar 在 ",["$","code",null,{"children":"packages/styles/components/range-calendar.css"}]," 与 ",["$","code",null,{"children":"packages/styles/components/calendar-year-picker.css"}]," 中使用以下类："]}]
+3c:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar"}]," - 根容器。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__header"}]," - 含导航按钮与标题的头部行。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__heading"}]," - 当前月份标签。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__nav-button"}]," - 上一月/下一月导航控件。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__grid"}]," - 主体日期网格。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__grid-header"}]," - 星期标题行外层。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__grid-body"}]," - 日期行外层。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__header-cell"}]," - 星期标题单元格。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__cell"}]," - 可交互日期单元格外层。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__cell-button"}]," - 单元格内的可交互日期按钮。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".range-calendar__cell-indicator"}]," - 日期单元格内的圆点指示器。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".calendar-year-picker__trigger"}]," - 年份选择器切换按钮。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".calendar-year-picker__trigger-heading"}]," - 年份选择触发器内的标题文案。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".calendar-year-picker__trigger-indicator"}]," - 年份选择触发器内的指示图标。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".calendar-year-picker__year-grid"}]," - 可选年份的覆盖网格。"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".calendar-year-picker__year-cell"}]," - 单个年份选项。"]}],"\n"]}]
+3d:["$","$L8",null,{"as":"h3","id":"交互状态","children":"交互状态"}]
+3e:["$","p",null,{"children":"RangeCalendar 同时支持伪类与 React Aria 的 data 属性："}]
+3f:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"已选中"}],"：",["$","code",null,{"children":"[data-selected=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"范围起点"}],"：",["$","code",null,{"children":"[data-selection-start=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"范围终点"}],"：",["$","code",null,{"children":"[data-selection-end=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"范围内"}],"：",["$","code",null,{"children":"[data-selection-in-range=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"今天"}],"：",["$","code",null,{"children":"[data-today=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"不可用"}],"：",["$","code",null,{"children":"[data-unavailable=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"跨月"}],"：",["$","code",null,{"children":"[data-outside-month=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"悬停"}],"：",["$","code",null,{"children":":hover"}]," 或 ",["$","code",null,{"children":"[data-hovered=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"按下"}],"：",["$","code",null,{"children":":active"}]," 或 ",["$","code",null,{"children":"[data-pressed=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"焦点可见"}],"：",["$","code",null,{"children":":focus-visible"}]," 或 ",["$","code",null,{"children":"[data-focus-visible=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"禁用"}],"：",["$","code",null,{"children":":disabled"}]," 或 ",["$","code",null,{"children":"[data-disabled=\"true\"]"}]]}],"\n"]}]
+40:["$","$L8",null,{"as":"h2","id":"api-参考","children":"API 参考"}]
+41:["$","$L8",null,{"as":"h3","id":"rangecalendar-props","children":"RangeCalendar Props"}]
+42:["$","p",null,{"children":["RangeCalendar 继承 React Aria ",["$","$L7f",null,{"href":"https://react-spectrum.adobe.com/react-aria/RangeCalendar.html","children":"RangeCalendar"}]," 的全部 props。"]}]
+43:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"value"}]}],["$","td",null,{"children":["$","code",null,{"children":"RangeValue<DateValue> | null"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"受控的选中范围。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultValue"}]}],["$","td",null,{"children":["$","code",null,{"children":"RangeValue<DateValue> | null"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"初始选中范围（非受控）。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(value: RangeValue<DateValue>) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"选中变化时调用。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"focusedValue"}]}],["$","td",null,{"children":["$","code",null,{"children":"DateValue"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"受控的焦点日期。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onFocusChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(value: DateValue) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"焦点移动到其它日期时调用。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"minValue"}]}],["$","td",null,{"children":["$","code",null,{"children":"DateValue"}]}],["$","td",null,{"children":["历法感知的 ",["$","code",null,{"children":"1900-01-01"}]]}],["$","td",null,{"children":"可选的最早日期。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"maxValue"}]}],["$","td",null,{"children":["$","code",null,{"children":"DateValue"}]}],["$","td",null,{"children":["历法感知的 ",["$","code",null,{"children":"2099-12-31"}]]}],["$","td",null,{"children":"可选的最晚日期。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDateUnavailable"}]}],["$","td",null,{"children":["$","code",null,{"children":"(date: DateValue) => boolean"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"将日期标记为不可用。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"allowsNonContiguousRanges"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"允许范围跨越不可用日期。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"禁用交互与选择。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isReadOnly"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"内容只读，不可更改选中。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isInvalid"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"标记为无效以配合校验样式。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"visibleDuration"}]}],["$","td",null,{"children":["$","code",null,{"children":"{months?: number}"}]}],["$","td",null,{"children":["$","code",null,{"children":"{months: 1}"}]}],["$","td",null,{"children":"可见月份数量。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultYearPickerOpen"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"内置年份选择器的初始展开状态。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isYearPickerOpen"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"受控的年份选择器展开状态。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onYearPickerOpenChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(isOpen: boolean) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"年份选择器展开状态变化时调用。"}]]}]]}]]}]}]
+44:["$","$L8",null,{"as":"h3","id":"组合部件","children":"组合部件"}]
+45:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"组件"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.Header"}]}],["$","td",null,{"children":"导航与标题的头部容器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.Heading"}]}],["$","td",null,{"children":"当前月/年标题。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.NavButton"}]}],["$","td",null,{"children":["上一页/下一页导航（",["$","code",null,{"children":"slot=\"previous\""}]," 或 ",["$","code",null,{"children":"slot=\"next\""}],"）。"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.Grid"}]}],["$","td",null,{"children":["单个月的日期网格（多月份布局支持 ",["$","code",null,{"children":"offset"}],"）。"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.GridHeader"}]}],["$","td",null,{"children":"星期标题容器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.GridBody"}]}],["$","td",null,{"children":"日期单元格主体容器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.HeaderCell"}]}],["$","td",null,{"children":"星期标签单元格。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.Cell"}]}],["$","td",null,{"children":"单个日期单元格。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.CellIndicator"}]}],["$","td",null,{"children":"用于自定义元数据的可选指示元素。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.YearPickerTrigger"}]}],["$","td",null,{"children":"切换年份选择模式的触发器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.YearPickerTriggerHeading"}]}],["$","td",null,{"children":"年份选择触发器内的本地化标题内容。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.YearPickerTriggerIndicator"}]}],["$","td",null,{"children":"年份选择触发器内的切换图标。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.YearPickerGrid"}]}],["$","td",null,{"children":"年份选择覆盖网格容器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.YearPickerGridBody"}]}],["$","td",null,{"children":"年份网格单元格的 body 渲染器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"RangeCalendar.YearPickerCell"}]}],["$","td",null,{"children":"单个年份选项单元格。"}]]}]]}]]}]}]
+46:["$","$L8",null,{"as":"h3","id":"rangecalendarcell-render-props","children":"RangeCalendar.Cell Render Props"}]
+47:["$","p",null,{"children":["当 ",["$","code",null,{"children":"RangeCalendar.Cell"}]," 的 ",["$","code",null,{"children":"children"}]," 为函数时，可使用 React Aria 的渲染参数："]}]
+48:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"formattedDate"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"单元格日期的本地化文案。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isSelected"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"该日期是否已选中。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isSelectionStart"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否为选中范围的起点。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isSelectionEnd"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否为选中范围的终点。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isUnavailable"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"该日期是否不可用。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"单元格是否禁用。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isOutsideMonth"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否属于相邻月份。"}]]}]]}]]}]}]
+49:["$","p",null,{"children":"支持的历法系统及其标识符完整列表见："}]
+4a:["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","$L7f",null,{"href":"https://react-aria.adobe.com/internationalized/date/Calendar#implementations","children":"React Aria Calendar Implementations"}]}],"\n",["$","li",null,{"children":["$","$L7f",null,{"href":"https://react-aria.adobe.com/Calendar#international-calendars","children":"React Aria International Calendars"}]}],"\n"]}]
+4b:["$","$L8",null,{"as":"h3","id":"related-packages","children":"Related packages"}]
+4c:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","$L7f",null,{"href":"https://react-aria.adobe.com/internationalized/date/","children":["$","code",null,{"children":"@internationalized/date"}]}]," — 各日期组件共用的日期类型（",["$","code",null,{"children":"CalendarDate"}],"、",["$","code",null,{"children":"CalendarDateTime"}],"、",["$","code",null,{"children":"ZonedDateTime"}],"）与工具函数"]}],"\n",["$","li",null,{"children":[["$","$L7f",null,{"href":"https://react-aria.adobe.com/I18nProvider","children":["$","code",null,{"children":"I18nProvider"}]}]," — 为子树覆盖语言环境"]}],"\n",["$","li",null,{"children":[["$","$L7f",null,{"href":"https://react-aria.adobe.com/useLocale","children":["$","code",null,{"children":"useLocale"}]}]," — 读取当前语言环境与书写方向"]}],"\n"]}]
+4d:["$","script","script-0",{"src":"/_next/static/chunks/0fpc6ujy7.75j.js","async":true}]
+4e:["$","script","script-1",{"src":"/_next/static/chunks/0z-r2uz5n7mxn.js","async":true}]
+4f:["$","$La5",null,{"children":["$","$84",null,{"name":"Next.MetadataOutlet","children":"$@a6"}]}]
+54:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+55:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+56:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+57:["$","span",null,{"className":"line"}]
+58:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" () "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+59:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" aria-label"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Trip dates\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Heading"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+5c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.NavButton"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" slot"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"previous\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+5d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.NavButton"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" slot"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"next\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+5e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Grid"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+60:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridHeader"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+61:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        {("}],["$","span",null,{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"day"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.HeaderCell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{day}</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.HeaderCell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">}"}]]}]
+62:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridHeader"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+63:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridBody"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+64:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        {("}],["$","span",null,{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"date"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Cell"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" date"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{date} />}"}]]}]
+65:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridBody"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+66:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Grid"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+67:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+68:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":")"}]}]
+87:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {RangeCalendar} "}]
+88:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+89:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+8a:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+8b:["$","span",null,{"className":"line"}]
+8c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"function"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" CustomRangeCalendar"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"() {"}]]}]
+8d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"  return"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+8e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" aria-label"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Trip dates\""}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"w-80 rounded-2xl border border-border bg-surface p-3 shadow-sm\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Header"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"pb-3\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+90:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Heading"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-default\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+91:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.NavButton"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" slot"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"previous\""}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-default\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+92:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.NavButton"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" slot"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"next\""}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-default\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+93:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+94:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Grid"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+95:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridHeader"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+96:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          {("}],["$","span",null,{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"day"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.HeaderCell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{day}</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.HeaderCell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">}"}]]}]
+97:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridHeader"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+98:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridBody"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+99:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          {("}],["$","span",null,{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"date"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Cell"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" date"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{date} />}"}]]}]
+9a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.GridBody"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+9b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar.Grid"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+9c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"RangeCalendar"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+9d:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  );"}]}]
+9e:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]
+9f:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"] "}]
+a0:["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":".range-calendar__cell-button"}]
+a1:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]
+a2:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" bg-accent"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-accent-foreground"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]
+a3:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}]
+a4:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]
+a6:null

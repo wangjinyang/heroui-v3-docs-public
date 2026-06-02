@@ -1,0 +1,637 @@
+<page url="/cn/docs/react/components/card">
+# Card 卡片
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/card
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(layout)/card.mdx
+> 用于分组相关内容与操作的灵活容器组件。
+
+
+***
+
+## 引入
+
+```tsx
+import { Card } from "@heroui/react";
+
+```
+
+### 用法
+
+```tsx
+import {CircleDollar} from "@gravity-ui/icons";
+import {Card, Link} from "@heroui/react";
+
+export function Default() {
+  return (
+    <Card className="w-[400px]">
+      <CircleDollar aria-label="美元图标" className="text-primary size-6" role="img" />
+      <Card.Header>
+        <Card.Title>成为 Acme 创作者！</Card.Title>
+        <Card.Description>
+          前往 Acme 创作者中心立即注册，开始从粉丝与支持者处获得积分奖励。
+        </Card.Description>
+      </Card.Header>
+      <Card.Footer>
+        <Link
+          aria-label="前往 Acme 创作者中心（在新标签页打开）"
+          href="https://heroui.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          创作者中心
+          <Link.Icon aria-hidden="true" />
+        </Link>
+      </Card.Footer>
+    </Card>
+  );
+}
+
+```
+
+### 组件结构
+
+导入 Card 组件后，可通过点语法访问所有子部分。
+
+```tsx
+import { Card } from "@heroui/react";
+
+export default () => (
+  <Card>
+    <Card.Header>
+      <Card.Title />
+      <Card.Description />
+    </Card.Header>
+    <Card.Content />
+    <Card.Footer />
+  </Card>
+);
+
+```
+
+### 变体
+
+卡片提供语义化变体，用于表达层级强弱而非固定视觉样式，主题可按需诠释：
+
+```tsx
+import {Card} from "@heroui/react";
+
+export function Variants() {
+  return (
+    <div className="flex flex-col gap-4">
+      <Card className="w-[320px]" variant="transparent">
+        <Card.Header>
+          <Card.Title>透明</Card.Title>
+          <Card.Description>背景透明，视觉层级较低（transparent）</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>适合次要内容或嵌套在其它容器中的卡片</p>
+        </Card.Content>
+      </Card>
+
+      <Card className="w-[320px]" variant="default">
+        <Card.Header>
+          <Card.Title>默认</Card.Title>
+          <Card.Description>标准外观（bg-surface）</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>大多数场景的默认卡片变体</p>
+        </Card.Content>
+      </Card>
+
+      <Card className="w-[320px]" variant="secondary">
+        <Card.Header>
+          <Card.Title>次要</Card.Title>
+          <Card.Description>中等强调（bg-surface-secondary）</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>用于需要适度吸引注意力的内容</p>
+        </Card.Content>
+      </Card>
+
+      <Card className="w-[320px]" variant="tertiary">
+        <Card.Header>
+          <Card.Title>第三</Card.Title>
+          <Card.Description>更高强调（bg-surface-tertiary）</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>适合主要内容或需要突出的展示位</p>
+        </Card.Content>
+      </Card>
+    </div>
+  );
+}
+
+```
+
+- **`transparent`** — 层次最低，透明背景（适合嵌套卡片）
+- **`default`** — 常规卡片，适用于大多数场景（surface-secondary）
+- **`secondary`** — 中等突出，吸引适度注意（surface-tertiary）
+- **`tertiary`** — 更高突出，用于重要内容（surface-tertiary）
+
+### 横向布局
+
+```tsx
+import {Button, Card, CloseButton} from "@heroui/react";
+
+export function Horizontal() {
+  return (
+    <Card className="w-full items-stretch md:flex-row">
+      <div className="relative h-[140px] w-full shrink-0 overflow-hidden rounded-2xl sm:h-[120px] sm:w-[120px]">
+        <img
+          alt="樱桃"
+          className="pointer-events-none absolute inset-0 h-full w-full scale-125 object-cover select-none"
+          loading="lazy"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/cherries.jpeg"
+        />
+      </div>
+      <div className="flex flex-1 flex-col gap-3">
+        <Card.Header className="gap-1">
+          <Card.Title className="pr-8">成为 ACME 创作者！</Card.Title>
+          <Card.Description>
+            这是一段占位说明文字，用于展示横向卡片布局、配图与右上角关闭按钮的排版效果。
+          </Card.Description>
+          <CloseButton aria-label="关闭横幅" className="absolute top-3 right-3" />
+        </Card.Header>
+        <Card.Footer className="mt-auto flex w-full flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-col">
+            <span className="text-sm font-medium text-foreground">仅剩 10 个名额</span>
+            <span className="text-xs text-muted">报名截止：10 月 10 日</span>
+          </div>
+          <Button className="w-full sm:w-auto">立即申请</Button>
+        </Card.Footer>
+      </div>
+    </Card>
+  );
+}
+
+```
+
+### 带头像
+
+```tsx
+import {Avatar, Card} from "@heroui/react";
+
+export function WithAvatar() {
+  return (
+    <div className="flex flex-wrap gap-4">
+      <Card className="w-[200px] gap-2">
+        <img
+          alt="独立创客社区"
+          className="pointer-events-none aspect-square w-14 rounded-2xl object-cover select-none"
+          loading="lazy"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/demo1.jpg"
+        />
+        <Card.Header>
+          <Card.Title>Indie Hackers</Card.Title>
+          <Card.Description>148 位成员</Card.Description>
+        </Card.Header>
+        <Card.Footer className="flex gap-2">
+          <Avatar aria-label="玛莎的头像" className="size-5">
+            <Avatar.Image
+              alt="玛莎的头像"
+              src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg"
+            />
+            <Avatar.Fallback className="text-xs">IH</Avatar.Fallback>
+          </Avatar>
+          <span className="text-xs">创建者：玛莎</span>
+        </Card.Footer>
+      </Card>
+
+      <Card className="w-[200px] gap-2">
+        <img
+          alt="AI 开发者社区"
+          className="pointer-events-none aspect-square w-14 rounded-2xl object-cover select-none"
+          loading="lazy"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/demo2.jpg"
+        />
+        <Card.Header>
+          <Card.Title>AI Builders</Card.Title>
+          <Card.Description>362 位成员</Card.Description>
+        </Card.Header>
+        <Card.Footer className="flex gap-2">
+          <Avatar aria-label="约翰的头像" className="size-5">
+            <Avatar.Image
+              alt="约翰的头像"
+              src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg"
+            />
+            <Avatar.Fallback className="text-xs">B</Avatar.Fallback>
+          </Avatar>
+          <span className="text-xs">创建者：约翰</span>
+        </Card.Footer>
+      </Card>
+    </div>
+  );
+}
+
+```
+
+### 带图片
+
+```tsx
+import {CircleDollar} from "@gravity-ui/icons";
+import {Avatar, Button, Card, CloseButton, Link} from "@heroui/react";
+
+export function WithImages() {
+  return (
+    <div className="flex w-full items-center justify-center">
+      <div className="grid w-full max-w-2xl grid-cols-12 gap-4 p-4">
+        {/* 第 1 行：大图商品卡 */}
+        <Card className="col-span-12 flex h-auto min-h-[152px] flex-col sm:flex-row">
+          <div className="relative h-[140px] w-full shrink-0 overflow-hidden rounded-2xl sm:h-[120px] sm:w-[120px]">
+            <img
+              alt="樱桃"
+              className="pointer-events-none absolute inset-0 h-full w-full scale-125 object-cover select-none"
+              loading="lazy"
+              src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/cherries.jpeg"
+            />
+          </div>
+          <div className="flex flex-1 flex-col gap-3">
+            <Card.Header className="gap-1">
+              <Card.Title className="pr-8">成为 ACME 创作者！</Card.Title>
+              <Card.Description>
+                这是一段占位说明文字，用于展示横向卡片布局、配图与右上角关闭按钮的排版效果。
+              </Card.Description>
+              <CloseButton aria-label="关闭横幅" className="absolute top-3 right-3" />
+            </Card.Header>
+            <Card.Footer className="mt-auto flex w-full flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-foreground">仅剩 10 个名额</span>
+                <span className="text-xs text-muted">报名截止：10 月 10 日</span>
+              </div>
+              <Button className="w-full sm:w-auto">立即申请</Button>
+            </Card.Footer>
+          </div>
+        </Card>
+
+        {/* 第 2 行 */}
+        <div className="col-span-12 grid grid-cols-12 gap-4">
+          {/* 左栏 */}
+          <div className="col-span-12 grid grid-cols-12 gap-4 lg:col-span-6">
+            {/* 上方卡片 */}
+            <Card className="col-span-12">
+              <div className="absolute top-3 right-3 z-10">
+                <CloseButton aria-label="关闭通知" />
+              </div>
+              <Card.Header className="gap-3">
+                <CircleDollar
+                  aria-label="美元图标"
+                  className="text-primary size-8 shrink-0"
+                  role="img"
+                />
+                <div className="flex flex-col gap-1">
+                  <span className="text-xs font-medium text-muted uppercase">支付</span>
+                  <Card.Title className="pr-8 text-sm sm:text-base">
+                    现已支持加密货币提现
+                  </Card.Title>
+                  <Card.Description className="text-xs sm:text-sm">
+                    在设置中添加钱包即可提现
+                  </Card.Description>
+                </div>
+              </Card.Header>
+              <Card.Footer>
+                <Link aria-label="前往设置" href="#" rel="noopener noreferrer">
+                  前往设置
+                  <Link.Icon aria-hidden="true" />
+                </Link>
+              </Card.Footer>
+            </Card>
+            {/* 下方小卡 */}
+            <div className="col-span-12 grid grid-cols-12 gap-4">
+              {/* 左卡 */}
+              <Card className="col-span-12 gap-2 sm:col-span-6">
+                <Card.Header>
+                  <Avatar className="size-[56px] rounded-xl">
+                    <Avatar.Image
+                      alt="演示图片 1"
+                      src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/demo1.jpg"
+                    />
+                    <Avatar.Fallback>JK</Avatar.Fallback>
+                  </Avatar>
+                </Card.Header>
+                <Card.Content className="mt-1">
+                  <p className="text-sm leading-4 font-medium">Indie Hackers</p>
+                  <p className="text-xs text-muted">148 位成员</p>
+                </Card.Content>
+                <Card.Footer className="flex items-center gap-2">
+                  <Avatar className="size-4">
+                    <Avatar.Image
+                      alt="约翰"
+                      src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg"
+                    />
+                    <Avatar.Fallback>JK</Avatar.Fallback>
+                  </Avatar>
+                  <p className="text-xs text-muted">创建者：约翰</p>
+                </Card.Footer>
+              </Card>
+              {/* 右卡 */}
+              <Card className="col-span-12 gap-2 sm:col-span-6">
+                <Card.Header>
+                  <Avatar className="size-[56px] rounded-xl">
+                    <Avatar.Image
+                      alt="演示图片 2"
+                      src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/demo2.jpg"
+                    />
+                    <Avatar.Fallback>AB</Avatar.Fallback>
+                  </Avatar>
+                </Card.Header>
+                <Card.Content className="mt-1">
+                  <p className="text-sm leading-4 font-medium">AI Builders</p>
+                  <p className="text-xs text-muted">362 位成员</p>
+                </Card.Content>
+                <Card.Footer className="flex items-center gap-2">
+                  <Avatar className="size-4">
+                    <Avatar.Image
+                      alt="玛莎"
+                      src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg"
+                    />
+                    <Avatar.Fallback>M</Avatar.Fallback>
+                  </Avatar>
+                  <p className="text-xs text-muted">创建者：玛莎</p>
+                </Card.Footer>
+              </Card>
+            </div>
+          </div>
+          {/* 右栏 */}
+          <Card className="col-span-12 min-h-[200px] overflow-hidden rounded-3xl lg:col-span-6">
+            {/* 背景图 */}
+            <img
+              alt="NEO 家用机器人"
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover"
+              src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/neo2.jpeg"
+            />
+
+            {/* 标题区 */}
+            <Card.Header className="z-10 text-white">
+              <Card.Title className="text-xs font-semibold tracking-wide text-black/70">
+                NEO
+              </Card.Title>
+              <Card.Description className="text-sm leading-5 font-medium text-black/50">
+                家用机器人
+              </Card.Description>
+            </Card.Header>
+
+            {/* 底部 */}
+            <Card.Footer className="z-10 mt-auto flex items-center justify-between">
+              <div>
+                <div className="text-sm font-medium text-black">即将推出</div>
+                <div className="text-xs text-black/60">接收上架通知</div>
+              </div>
+              <Button className="bg-white text-black" size="sm" variant="tertiary">
+                通知我
+              </Button>
+            </Card.Footer>
+          </Card>
+        </div>
+
+        {/* 第 3 行 */}
+        <div className="col-span-12 grid grid-cols-12 gap-4">
+          {/* 左：大图卡 */}
+          <Card className="relative col-span-12 h-[250px] sm:h-[300px] md:col-span-8 md:h-[350px]">
+            <img
+              alt="NEO 家用机器人"
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover"
+              src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/neo1.jpeg"
+            />
+
+            <Card.Footer className="z-10 mt-auto flex items-end justify-between">
+              <div>
+                <div className="text-base font-medium text-black sm:text-lg">NEO</div>
+                <div className="text-xs font-medium text-black/50 sm:text-sm">$499/月</div>
+              </div>
+              <Button className="bg-white text-black" size="sm" variant="tertiary">
+                立即购买
+              </Button>
+            </Card.Footer>
+          </Card>
+
+          {/* 右：堆叠小卡 */}
+          <div className="col-span-12 flex flex-col gap-2 md:col-span-4 md:justify-between md:gap-0 md:py-2">
+            {/* 1 */}
+            <Card className="flex flex-row gap-3 p-1" variant="transparent">
+              <img
+                alt="未来感机器人"
+                className="aspect-square h-16 w-16 shrink-0 rounded-xl object-cover select-none sm:h-20 sm:w-20"
+                loading="lazy"
+                src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/robot1.jpeg"
+              />
+              <div className="flex flex-1 flex-col justify-center gap-1">
+                <Card.Title className="text-sm">连接未来</Card.Title>
+                <Card.Description className="text-xs">今天 18:30</Card.Description>
+              </div>
+            </Card>
+            {/* 2 */}
+            <Card className="flex flex-row gap-3 p-1" variant="transparent">
+              <img
+                alt="牛油果"
+                className="aspect-square h-16 w-16 shrink-0 rounded-xl object-cover select-none sm:h-20 sm:w-20"
+                loading="lazy"
+                src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/avocado.jpeg"
+              />
+              <div className="flex flex-1 flex-col justify-center gap-1">
+                <Card.Title className="text-sm">牛油果黑客松</Card.Title>
+                <Card.Description className="text-xs">周三 16:30</Card.Description>
+              </div>
+            </Card>
+            {/* 3 */}
+            <Card className="flex flex-row gap-3 p-1" variant="transparent">
+              <img
+                alt="Sound Electro 活动"
+                className="aspect-square h-16 w-16 shrink-0 rounded-xl object-cover select-none sm:h-20 sm:w-20"
+                loading="lazy"
+                src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/oranges.jpeg"
+              />
+              <div className="flex flex-1 flex-col justify-center gap-1">
+                <Card.Title className="text-sm">Sound Electro｜超越艺术</Card.Title>
+                <Card.Description className="text-xs">周五 20:00</Card.Description>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 带表单
+
+```tsx
+"use client";
+
+import {Button, Card, Form, Input, Label, Link, TextField} from "@heroui/react";
+
+export function WithForm() {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data: Record<string, string> = {};
+
+    // Convert FormData to plain object
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    alert("表单提交成功！");
+  };
+
+  return (
+    <Card className="w-full max-w-md">
+      <Card.Header>
+        <Card.Title>登录</Card.Title>
+        <Card.Description>输入账号信息以访问您的账户</Card.Description>
+      </Card.Header>
+      <Form onSubmit={onSubmit}>
+        <Card.Content>
+          <div className="flex flex-col gap-4">
+            <TextField name="email" type="email">
+              <Label>邮箱</Label>
+              <Input placeholder="email@example.com" variant="secondary" />
+            </TextField>
+            <TextField name="password" type="password">
+              <Label>密码</Label>
+              <Input placeholder="••••••••" variant="secondary" />
+            </TextField>
+          </div>
+        </Card.Content>
+        <Card.Footer className="mt-4 flex flex-col gap-2">
+          <Button className="w-full" type="submit">
+            登录
+          </Button>
+          <Link className="text-center text-sm" href="#">
+            忘记密码？
+          </Link>
+        </Card.Footer>
+      </Form>
+    </Card>
+  );
+}
+
+```
+
+## 无障碍
+
+```tsx
+import { Card } from '@heroui/react';
+import { cardVariants } from '@heroui/styles';
+
+// 语义化标记
+<Card role="article" aria-labelledby="card-title">
+  <Card.Header>
+    <Card.Title id="card-title">Article Title</Card.Title>
+  </Card.Header>
+</Card>
+
+// 可交互卡片
+<a className={cardVariants().base()} href="/details" aria-label="View product details">
+  <Card.Title>Product Name</Card.Title>
+</a>
+
+```
+
+## Related Components
+
+- **Surface**: Base container surface
+- **Avatar**: Display user profile images
+- **Form**: Form validation and submission handling
+
+## 样式
+
+### 组件定制
+
+```tsx
+<Card className="border-2 border-blue-500 bg-gradient-to-r from-blue-50 to-purple-50">
+  <Card.Header>
+    <Card.Title className="text-blue-900">Custom Styled Card</Card.Title>
+    <Card.Description className="text-blue-700">Custom colors applied</Card.Description>
+  </Card.Header>
+  <Card.Content>
+    <p className="text-blue-800">Content with custom styling</p>
+  </Card.Content>
+</Card>
+
+```
+
+### CSS 变量覆盖
+
+```css
+/* 覆盖特定变体 */
+.card--secondary {
+  @apply bg-gradient-to-br from-blue-50 to-purple-50;
+}
+
+/* 自定义元素样式 */
+.card__title {
+  @apply text-xl font-bold;
+}
+
+```
+
+## CSS 类
+
+Card 使用 [BEM](https://getbem.com/) 命名以便样式可预期（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/card.css)）：
+
+#### 基础类
+
+- `.card` — 基础容器，含内边距与边框
+- `.card__header` — 头部区域容器
+- `.card__title` — 标题的基础字号与字重
+- `.card__description` — 弱化说明文字
+- `.card__content` — 弹性主内容区
+- `.card__footer` — 底部行布局
+
+#### 变体类
+
+- `.card--transparent` — 层次最低，透明背景（对应 `transparent` 变体）
+- `.card--default` — 常规外观，surface-secondary（默认）
+- `.card--secondary` — 中等突出，surface-tertiary（对应 `secondary` 变体）
+- `.card--tertiary` — 更高突出，surface-tertiary（对应 `tertiary` 变体）
+
+## API 参考
+
+### Card
+
+| Prop        | 类型                                                      | 默认值      | 描述                                       |
+| ----------- | --------------------------------------------------------- | ----------- | ------------------------------------------ |
+| `variant`   | `"transparent" \| "default" \| "secondary" \| "tertiary"` | `"default"` | 表示层次强弱的语义变体                     |
+| `className` | `string`                                                  | -           | 附加的 CSS 类                              |
+| `children`  | `React.ReactNode`                                         | -           | 卡片内容                                   |
+
+### Card.Header
+
+| Prop        | 类型              | 默认值 | 描述                    |
+| ----------- | ----------------- | ------ | ----------------------- |
+| `className` | `string`          | -      | 附加的 CSS 类           |
+| `children`  | `React.ReactNode` | -      | 头部内容                |
+
+### Card.Title
+
+| Prop        | 类型              | 默认值 | 描述                                 |
+| ----------- | ----------------- | ------ | ------------------------------------ |
+| `className` | `string`          | -      | 附加的 CSS 类                        |
+| `children`  | `React.ReactNode` | -      | 标题内容（渲染为 `h3`）              |
+
+### Card.Description
+
+| Prop        | 类型              | 默认值 | 描述                                |
+| ----------- | ----------------- | ------ | ----------------------------------- |
+| `className` | `string`          | -      | 附加的 CSS 类                       |
+| `children`  | `React.ReactNode` | -      | 说明内容（渲染为 `p`）              |
+
+### Card.Content
+
+| Prop        | 类型              | 默认值 | 描述                    |
+| ----------- | ----------------- | ------ | ----------------------- |
+| `className` | `string`          | -      | 附加的 CSS 类           |
+| `children`  | `React.ReactNode` | -      | 主内容                  |
+
+### Card.Footer
+
+| Prop        | 类型              | 默认值 | 描述                    |
+| ----------- | ----------------- | ------ | ----------------------- |
+| `className` | `string`          | -      | 附加的 CSS 类           |
+| `children`  | `React.ReactNode` | -      | 底部内容                |
+</page>

@@ -1,0 +1,391 @@
+<page url="/cn/docs/react/components/color-area">
+# ColorArea 颜色区域
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/color-area
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-area.mdx
+> 二维颜色选择器，用户可在渐变区域内选取颜色。
+
+
+## 引入
+
+```tsx
+import { ColorArea } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {ColorArea} from "@heroui/react";
+
+export function ColorAreaBasic() {
+  return (
+    <ColorArea defaultValue="rgb(116, 52, 255)">
+      <ColorArea.Thumb />
+    </ColorArea>
+  );
+}
+
+```
+
+### 组件结构
+
+```tsx
+import { ColorArea } from '@heroui/react';
+
+export default () => (
+  <ColorArea>
+    <ColorArea.Thumb />
+  </ColorArea>
+);
+
+```
+
+### 显示点阵
+
+```tsx
+import {ColorArea} from "@heroui/react";
+
+export function ColorAreaWithDots() {
+  return (
+    <ColorArea showDots defaultValue="hsl(200, 100%, 50%)">
+      <ColorArea.Thumb />
+    </ColorArea>
+  );
+}
+
+```
+
+### 受控
+
+```tsx
+"use client";
+
+import type {Color} from "@heroui/react";
+
+import {ColorArea, ColorSwatch, parseColor} from "@heroui/react";
+import {useState} from "react";
+
+export function ColorAreaControlled() {
+  const [color, setColor] = useState<Color>(parseColor("#9B80FF"));
+
+  return (
+    <div className="flex flex-col gap-4">
+      <ColorArea colorSpace="rgb" value={color} xChannel="red" yChannel="green" onChange={setColor}>
+        <ColorArea.Thumb />
+      </ColorArea>
+      <div className="flex w-[300px] items-center gap-3">
+        <ColorSwatch color={color} size="md" />
+        <p className="text-sm text-muted">
+          Current color:{" "}
+          <span className="font-medium">{color ? color.toString("hex") : "(empty)"}</span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 颜色空间与通道
+
+使用 `colorSpace` 设置颜色空间（RGB、HSL、HSB），并通过 `xChannel` / `yChannel` prop 自定义横纵轴展示的颜色通道。
+
+```tsx
+"use client";
+
+import type {ColorSpace, Key} from "@heroui/react";
+
+import {ColorArea, Label, ListBox, Select, parseColor} from "@heroui/react";
+import {useState} from "react";
+
+type ColorChannel = "hue" | "saturation" | "brightness" | "lightness" | "red" | "green" | "blue";
+
+interface ChannelOption {
+  id: ColorChannel;
+  name: string;
+}
+
+const colorSpaces: Array<{id: ColorSpace; name: string}> = [
+  {id: "rgb", name: "RGB"},
+  {id: "hsl", name: "HSL"},
+  {id: "hsb", name: "HSB"},
+];
+
+const channelsBySpace: Record<ColorSpace, ChannelOption[]> = {
+  hsb: [
+    {id: "hue", name: "Hue"},
+    {id: "saturation", name: "Saturation"},
+    {id: "brightness", name: "Brightness"},
+  ],
+  hsl: [
+    {id: "hue", name: "Hue"},
+    {id: "saturation", name: "Saturation"},
+    {id: "lightness", name: "Lightness"},
+  ],
+  rgb: [
+    {id: "red", name: "Red"},
+    {id: "green", name: "Green"},
+    {id: "blue", name: "Blue"},
+  ],
+};
+
+export function ColorAreaSpaceAndChannels() {
+  const [colorSpace, setColorSpace] = useState<ColorSpace>("hsb");
+  const [color, setColor] = useState(() => parseColor("hsb(219, 58%, 93%)"));
+
+  const channels = channelsBySpace[colorSpace];
+  const defaultX = colorSpace === "rgb" ? "blue" : "saturation";
+  const defaultY =
+    colorSpace === "rgb" ? "green" : colorSpace === "hsl" ? "lightness" : "brightness";
+
+  const [xChannel, setXChannel] = useState<ColorChannel>(defaultX);
+  const [yChannel, setYChannel] = useState<ColorChannel>(defaultY);
+
+  const handleColorSpaceChange = (newSpace: Key | null) => {
+    if (!newSpace) return;
+    const space = newSpace as ColorSpace;
+
+    setColorSpace(space);
+    // Reset channels to appropriate defaults for the new color space
+    if (space === "rgb") {
+      setXChannel("blue");
+      setYChannel("green");
+    } else if (space === "hsl") {
+      setXChannel("saturation");
+      setYChannel("lightness");
+    } else {
+      setXChannel("saturation");
+      setYChannel("brightness");
+    }
+  };
+
+  // Filter out the other channel from options (can't have same channel on both axes)
+  const xChannelOptions = channels.filter((c) => c.id !== yChannel);
+  const yChannelOptions = channels.filter((c) => c.id !== xChannel);
+
+  return (
+    <div className="flex flex-col items-center gap-6">
+      {/* Controls */}
+      <div className="flex gap-4">
+        {/* Color Space Select */}
+        <Select className="w-32" value={colorSpace} onChange={handleColorSpaceChange}>
+          <Label>Color Space</Label>
+          <Select.Trigger>
+            <Select.Value />
+            <Select.Indicator />
+          </Select.Trigger>
+          <Select.Popover>
+            <ListBox>
+              {colorSpaces.map((space) => (
+                <ListBox.Item key={space.id} id={space.id} textValue={space.name}>
+                  {space.name}
+                  <ListBox.ItemIndicator />
+                </ListBox.Item>
+              ))}
+            </ListBox>
+          </Select.Popover>
+        </Select>
+
+        {/* X Channel Select */}
+        <Select
+          className="w-36"
+          value={xChannel}
+          onChange={(value) => value && setXChannel(value as ColorChannel)}
+        >
+          <Label>X Axis</Label>
+          <Select.Trigger>
+            <Select.Value />
+            <Select.Indicator />
+          </Select.Trigger>
+          <Select.Popover>
+            <ListBox>
+              {xChannelOptions.map((channel) => (
+                <ListBox.Item key={channel.id} id={channel.id} textValue={channel.name}>
+                  {channel.name}
+                  <ListBox.ItemIndicator />
+                </ListBox.Item>
+              ))}
+            </ListBox>
+          </Select.Popover>
+        </Select>
+
+        {/* Y Channel Select */}
+        <Select
+          className="w-36"
+          value={yChannel}
+          onChange={(value) => value && setYChannel(value as ColorChannel)}
+        >
+          <Label>Y Axis</Label>
+          <Select.Trigger>
+            <Select.Value />
+            <Select.Indicator />
+          </Select.Trigger>
+          <Select.Popover>
+            <ListBox>
+              {yChannelOptions.map((channel) => (
+                <ListBox.Item key={channel.id} id={channel.id} textValue={channel.name}>
+                  {channel.name}
+                  <ListBox.ItemIndicator />
+                </ListBox.Item>
+              ))}
+            </ListBox>
+          </Select.Popover>
+        </Select>
+      </div>
+      {/* Color Area */}
+      <ColorArea
+        colorSpace={colorSpace}
+        value={color}
+        xChannel={xChannel}
+        yChannel={yChannel}
+        onChange={setColor}
+      >
+        <ColorArea.Thumb />
+      </ColorArea>
+
+      {/* Color Value Display */}
+      <div className="flex items-center gap-3">
+        <div
+          className="size-8 rounded-md border border-default"
+          style={{backgroundColor: color.toString("css")}}
+        />
+        <code className="rounded bg-default/50 px-2 py-1 text-sm">
+          {color.toString(colorSpace)}
+        </code>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 禁用
+
+```tsx
+import {ColorArea} from "@heroui/react";
+
+export function ColorAreaDisabled() {
+  return (
+    <ColorArea isDisabled defaultValue="hsl(200, 100%, 50%)">
+      <ColorArea.Thumb />
+    </ColorArea>
+  );
+}
+
+```
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {ColorArea} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <ColorArea
+      defaultValue="rgb(116, 52, 255)"
+      render={(props) => <div {...props} data-custom="slider" />}
+    >
+      <ColorArea.Thumb render={(props) => <div {...props} data-custom="thumb" />} />
+    </ColorArea>
+  );
+}
+
+```
+
+## Related Components
+
+* **ColorSwatch**: Visual preview of a color value
+* **ColorSwatchPicker**: Color swatch selection from a list of colors
+* **ColorField**: Input for entering color values with hex format
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { ColorArea } from '@heroui/react';
+
+function CustomColorArea() {
+  return (
+    <ColorArea className="max-w-72 rounded-3xl">
+      <ColorArea.Thumb />
+    </ColorArea>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 ColorArea 组件类，可使用 `@layer components` 指令。
+<br />[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .color-area {
+    @apply rounded-3xl;
+  }
+
+  .color-area__thumb {
+    @apply size-5 border-4;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+ColorArea 组件使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/color-area.css)）：
+
+#### 基础类
+
+* `.color-area` - 基础样式，含渐变背景与内阴影
+* `.color-area--show-dots` - 叠加点阵网格，便于精确取色
+
+#### 元素类
+
+* `.color-area__thumb` - 可拖动的 thumb 指示器
+
+### 交互状态
+
+该组件同时支持 CSS 伪类与 data 属性：
+
+* **禁用**：`[data-disabled="true"]`
+* **聚焦**：`[data-focus-visible="true"]`
+* **拖拽**：`[data-dragging="true"]`（仅 thumb）
+
+## API 参考
+
+### ColorArea Props
+
+继承自 [React Aria ColorArea](https://react-spectrum.adobe.com/react-aria/ColorArea.html)。
+
+| Prop           | 类型                                                                           | 默认值            | 描述                    |
+| -------------- | ---------------------------------------------------------------------------- | -------------- | --------------------- |
+| `value`        | `string \| Color`                                                            | -              | 当前颜色值（受控）。            |
+| `defaultValue` | `string \| Color`                                                            | -              | 默认颜色值（非受控）。           |
+| `onChange`     | `(color: Color) => void`                                                     | -              | 拖拽过程中颜色变化时调用的事件处理函数。  |
+| `onChangeEnd`  | `(color: Color) => void`                                                     | -              | 用户结束拖拽时调用的事件处理函数。     |
+| `xChannel`     | `ColorChannel`                                                               | `"saturation"` | 水平轴对应的颜色通道。           |
+| `yChannel`     | `ColorChannel`                                                               | `"brightness"` | 垂直轴对应的颜色通道。           |
+| `colorSpace`   | `ColorSpace`                                                                 | -              | 通道所在的颜色空间。            |
+| `isDisabled`   | `boolean`                                                                    | `false`        | 是否禁用 ColorArea。       |
+| `showDots`     | `boolean`                                                                    | `false`        | 是否显示点阵网格叠加层。          |
+| `className`    | `string`                                                                     | -              | 额外的 Tailwind CSS 类。   |
+| `render`       | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, ColorAreaRenderProps>` | -              | 使用自定义渲染函数覆盖默认 DOM 元素。 |
+
+### ColorArea.Thumb Props
+
+| Prop        | 类型                                                                            | 默认值 | 描述                    |
+| ----------- | ----------------------------------------------------------------------------- | --- | --------------------- |
+| `className` | `string`                                                                      | -   | 额外的 Tailwind CSS 类。   |
+| `style`     | `CSSProperties \| ((renderProps) => CSSProperties)`                           | -   | 行内样式或渲染函数。            |
+| `render`    | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, ColorThumbRenderProps>` | -   | 使用自定义渲染函数覆盖默认 DOM 元素。 |
+
+</page>

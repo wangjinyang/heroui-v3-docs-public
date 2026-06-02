@@ -1,0 +1,741 @@
+<page url="/cn/docs/react/components/radio-group">
+# RadioGroup 单选框组
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/radio-group
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/radio-group.mdx
+> 用于从列表中选择单个选项的单选组。
+
+
+## 引入
+
+```tsx
+import { RadioGroup, Radio } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <RadioGroup defaultValue="premium" name="plan">
+      <Label>选择套餐</Label>
+      <Description>选择最适合你的套餐</Description>
+      <Radio value="basic">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>基础版</Label>
+          <Description>每月包含 100 条消息</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="premium">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>高级版</Label>
+          <Description>每月包含 200 条消息</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="business">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>商业版</Label>
+          <Description>无限消息</Description>
+        </Radio.Content>
+      </Radio>
+    </RadioGroup>
+  );
+}
+
+```
+
+### 组件结构
+
+导入 RadioGroup 组件后，可通过点号访问各个子部分。
+
+```tsx
+import {RadioGroup, Radio, Label, Description, FieldError} from '@heroui/react';
+
+export default () => (
+  <RadioGroup>
+    <Label />
+    <Description />
+    <Radio value="option1">
+      <Radio.Control>
+        <Radio.Indicator>
+          <span>✓</span> {/* Custom indicator (optional) */}
+        </Radio.Indicator>
+      </Radio.Control>
+      <Radio.Content>
+        <Label />
+        <Description />
+      </Radio.Content>
+    </Radio>
+    <FieldError />
+  </RadioGroup>
+)
+
+```
+
+### 自定义指示器
+
+```tsx
+"use client";
+
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+
+export function CustomIndicator() {
+  return (
+    <RadioGroup defaultValue="premium" name="plan-custom-indicator">
+      <Label>选择套餐</Label>
+      <Description>选择最适合你的套餐</Description>
+      <Radio value="basic">
+        <Radio.Control>
+          <Radio.Indicator>
+            {({isSelected}) =>
+              isSelected ? <span className="text-xs leading-none text-background">✓</span> : null
+            }
+          </Radio.Indicator>
+        </Radio.Control>
+        <Radio.Content>
+          <Label>基础版</Label>
+          <Description>每月包含 100 条消息</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="premium">
+        <Radio.Control>
+          <Radio.Indicator>
+            {({isSelected}) =>
+              isSelected ? <span className="text-xs leading-none text-background">✓</span> : null
+            }
+          </Radio.Indicator>
+        </Radio.Control>
+        <Radio.Content>
+          <Label>高级版</Label>
+          <Description>每月包含 200 条消息</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="business">
+        <Radio.Control>
+          <Radio.Indicator>
+            {({isSelected}) =>
+              isSelected ? <span className="text-xs leading-none text-background">✓</span> : null
+            }
+          </Radio.Indicator>
+        </Radio.Control>
+        <Radio.Content>
+          <Label>商业版</Label>
+          <Description>无限消息</Description>
+        </Radio.Content>
+      </Radio>
+    </RadioGroup>
+  );
+}
+
+```
+
+### 水平排列
+
+```tsx
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+
+export function Horizontal() {
+  return (
+    <div className="flex flex-col gap-4">
+      <Label>订阅套餐</Label>
+      <RadioGroup defaultValue="pro" name="plan-orientation" orientation="horizontal">
+        <Radio value="starter">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>入门版</Label>
+            <Description>适合副项目</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="pro">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>专业版</Label>
+            <Description>高级报表</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="teams">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>团队版</Label>
+            <Description>最多 10 名队友</Description>
+          </Radio.Content>
+        </Radio>
+      </RadioGroup>
+    </div>
+  );
+}
+
+```
+
+### 受控
+
+```tsx
+"use client";
+
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+import React from "react";
+
+export function Controlled() {
+  const [value, setValue] = React.useState("pro");
+
+  return (
+    <div className="flex flex-col gap-4">
+      <RadioGroup name="plan-controlled" value={value} onChange={setValue}>
+        <Label>订阅套餐</Label>
+        <Radio value="starter">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>入门版</Label>
+            <Description>适合副项目和小型团队</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="pro">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>专业版</Label>
+            <Description>高级报表与分析</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="teams">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>团队版</Label>
+            <Description>最多可与 10 名队友共享访问权限</Description>
+          </Radio.Content>
+        </Radio>
+      </RadioGroup>
+      <p className="text-sm text-muted">
+        已选套餐： <span className="font-medium">{value}</span>
+      </p>
+    </div>
+  );
+}
+
+```
+
+### 非受控
+
+当你只需要响应更新时，可组合使用 `defaultValue` 与 `onChange`。
+
+```tsx
+"use client";
+
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+import React from "react";
+
+export function Uncontrolled() {
+  const [selection, setSelection] = React.useState("pro");
+
+  return (
+    <div className="flex flex-col gap-4">
+      <RadioGroup
+        defaultValue="pro"
+        name="plan-uncontrolled"
+        onChange={(nextValue) => setSelection(nextValue)}
+      >
+        <Label>订阅套餐</Label>
+        <Radio value="starter">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>入门版</Label>
+            <Description>适合副项目和小型团队</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="pro">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>专业版</Label>
+            <Description>高级报表与分析</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="teams">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>团队版</Label>
+            <Description>最多可与 10 名队友共享访问权限</Description>
+          </Radio.Content>
+        </Radio>
+      </RadioGroup>
+      <p className="text-sm text-muted">
+        上次选择的套餐： <span className="font-medium">{selection}</span>
+      </p>
+    </div>
+  );
+}
+
+```
+
+### 校验
+
+```tsx
+"use client";
+
+import {Button, Description, FieldError, Form, Label, Radio, RadioGroup} from "@heroui/react";
+import React from "react";
+
+export function Validation() {
+  const [message, setMessage] = React.useState<string | null>(null);
+
+  return (
+    <Form
+      className="flex flex-col gap-4"
+      onSubmit={(e) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.currentTarget);
+        const value = formData.get("plan-validation");
+
+        setMessage(`你选择的套餐是： ${value}`);
+      }}
+    >
+      <RadioGroup isRequired name="plan-validation">
+        <Label>订阅套餐</Label>
+        <Radio value="starter">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>入门版</Label>
+            <Description>适合副项目和小型团队</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="pro">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>专业版</Label>
+            <Description>高级报表与分析</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="teams">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>团队版</Label>
+            <Description>最多可与 10 名队友共享访问权限</Description>
+          </Radio.Content>
+        </Radio>
+        <FieldError>请先选择订阅套餐再继续。</FieldError>
+      </RadioGroup>
+      <Button className="mt-2 w-fit" type="submit">
+        Submit
+      </Button>
+      {!!message && <p className="text-sm text-muted">{message}</p>}
+    </Form>
+  );
+}
+
+```
+
+### 禁用
+
+```tsx
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <RadioGroup isDisabled defaultValue="pro" name="plan-disabled">
+      <Label>订阅套餐</Label>
+      <Description>我们正在发布更新，暂时无法更改套餐。</Description>
+      <Radio value="starter">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>入门版</Label>
+          <Description>适合副项目和小型团队</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="pro">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>专业版</Label>
+          <Description>高级报表与分析</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="teams">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>团队版</Label>
+          <Description>最多可与 10 名队友共享访问权限</Description>
+        </Radio.Content>
+      </Radio>
+    </RadioGroup>
+  );
+}
+
+```
+
+### 变体
+
+RadioGroup 支持两种视觉变体：
+
+* **`primary`**（默认）— 带默认背景的标准样式，适用于大多数场景
+* **`secondary`** — 低强调变体，适合用在 Surface 组件内
+
+```tsx
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+
+export function Variants() {
+  return (
+    <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-2">
+        <p className="text-sm font-medium text-muted">主要变体</p>
+        <RadioGroup defaultValue="option1" name="primary-plan" variant="primary">
+          <Radio value="option1">
+            <Radio.Control>
+              <Radio.Indicator />
+            </Radio.Control>
+            <Radio.Content>
+              <Label>选项 1</Label>
+              <Description>默认背景的标准样式</Description>
+            </Radio.Content>
+          </Radio>
+          <Radio value="option2">
+            <Radio.Control>
+              <Radio.Indicator />
+            </Radio.Control>
+            <Radio.Content>
+              <Label>选项 2</Label>
+              <Description>另一种主要样式选项</Description>
+            </Radio.Content>
+          </Radio>
+        </RadioGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm font-medium text-muted">次要变体</p>
+        <RadioGroup defaultValue="option1" name="secondary-plan" variant="secondary">
+          <Radio value="option1">
+            <Radio.Control>
+              <Radio.Indicator />
+            </Radio.Control>
+            <Radio.Content>
+              <Label>选项 1</Label>
+              <Description>用于表面上的低强调变体</Description>
+            </Radio.Content>
+          </Radio>
+          <Radio value="option2">
+            <Radio.Control>
+              <Radio.Indicator />
+            </Radio.Control>
+            <Radio.Content>
+              <Label>选项 2</Label>
+              <Description>另一种次要样式选项</Description>
+            </Radio.Content>
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 在 Surface 内
+
+在 [Surface](/docs/components/surface) 内使用时，请使用 `variant="secondary"`，以应用适合表面背景的低强调变体。
+
+```tsx
+import {Description, Label, Radio, RadioGroup, Surface} from "@heroui/react";
+
+export function OnSurface() {
+  return (
+    <Surface className="w-full rounded-3xl p-6">
+      <RadioGroup defaultValue="premium" name="plan" variant="secondary">
+        <Label>选择套餐</Label>
+        <Description>选择最适合你的套餐</Description>
+        <Radio value="basic">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>基础版</Label>
+            <Description>每月包含 100 条消息</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="premium">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>高级版</Label>
+            <Description>每月包含 200 条消息</Description>
+          </Radio.Content>
+        </Radio>
+        <Radio value="business">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Radio.Content>
+            <Label>商业版</Label>
+            <Description>无限消息</Description>
+          </Radio.Content>
+        </Radio>
+      </RadioGroup>
+    </Surface>
+  );
+}
+
+```
+
+### 配送与支付
+
+
+
+
+
+## Related Components
+
+* **Fieldset**: Group related form controls with legends
+* **Surface**: Base container surface
+* **Description**: Helper text for form fields
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {Description, Label, Radio, RadioGroup} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <RadioGroup
+      defaultValue="premium"
+      name="plan"
+      render={(props) => <div {...props} data-custom="foo" />}
+    >
+      <Label>选择套餐</Label>
+      <Description>选择最适合你的套餐</Description>
+      <Radio value="basic">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>基础版</Label>
+          <Description>每月包含 100 条消息</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="premium">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>高级版</Label>
+          <Description>每月包含 200 条消息</Description>
+        </Radio.Content>
+      </Radio>
+      <Radio value="business">
+        <Radio.Control>
+          <Radio.Indicator />
+        </Radio.Control>
+        <Radio.Content>
+          <Label>商业版</Label>
+          <Description>无限消息</Description>
+        </Radio.Content>
+      </Radio>
+    </RadioGroup>
+  );
+}
+
+```
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { RadioGroup, Radio } from '@heroui/react';
+
+export default () => (
+  <RadioGroup defaultValue="premium" name="plan">
+    <Radio
+      className="border-border group cursor-pointer rounded-xl border-2 p-4 hover:border-blue-300 data-[selected=true]:border-blue-500 data-[selected=true]:bg-blue-500/10"
+      value="basic"
+    >
+      <Radio.Indicator className="border-border border-2 group-hover:border-blue-400 group-data-[selected=true]:border-blue-500 group-data-[selected=true]:bg-blue-500" />
+      Basic Plan
+    </Radio>
+    <Radio
+      className="border-border group cursor-pointer rounded-xl border-2 p-4 hover:border-purple-300 data-[selected=true]:border-purple-500 data-[selected=true]:bg-purple-500/10"
+      value="premium"
+    >
+      <Radio.Indicator className="border-border border-2 group-hover:border-purple-400 group-data-[selected=true]:border-purple-500 group-data-[selected=true]:bg-purple-500" />
+      Premium Plan
+    </Radio>
+    <Radio
+      className="border-border group cursor-pointer rounded-xl border-2 p-4 hover:border-emerald-300 data-[selected=true]:border-emerald-500 data-[selected=true]:bg-emerald-500/10"
+      value="business"
+    >
+      <Radio.Indicator className="border-border border-2 group-hover:border-emerald-400 group-data-[selected=true]:border-emerald-500 group-data-[selected=true]:bg-emerald-500" />
+      Business Plan
+    </Radio>
+  </RadioGroup>
+);
+
+```
+
+### 自定义组件类
+
+要自定义 RadioGroup 的组件类，可使用 `@layer components` 指令。
+<br />[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .radio-group {
+    @apply gap-2;
+  }
+
+  .radio {
+    @apply gap-4 rounded-lg border border-border p-3 hover:bg-surface-hovered;
+  }
+
+  .radio__control {
+    @apply border-2 border-primary;
+  }
+
+  .radio__indicator {
+    @apply bg-primary;
+  }
+
+  .radio__content {
+    @apply gap-1;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，以确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+RadioGroup 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/radio-group.css)）：
+
+#### 基础类
+
+* `.radio-group` - 单选组基础容器
+* `.radio` - 单个单选项
+* `.radio__control` - 单选控件（圆形按钮）
+* `.radio__indicator` - 单选指示器（内部圆点）
+* `.radio__content` - 单选内容包裹层
+
+#### 修饰类
+
+* `.radio--disabled` - 禁用状态
+
+### 交互状态
+
+单选项同时支持 CSS 伪类与 data 属性，便于灵活定制：
+
+* **Selected**：`[aria-checked="true"]` 或 `[data-selected="true"]`（显示指示器）
+* **Hover**：`:hover` 或 `[data-hovered="true"]`（边框颜色变化）
+* **Focus**：`:focus-visible` 或 `[data-focus-visible="true"]`（显示焦点环）
+* **Pressed**：`:active` 或 `[data-pressed="true"]`（缩放变换）
+* **Disabled**：`:disabled` 或 `[aria-disabled="true"]`（降低透明度并禁用指针事件）
+* **Invalid**：`[data-invalid="true"]` 或 `[aria-invalid="true"]`（错误边框颜色）
+
+## API 参考
+
+### RadioGroup Props
+
+| Prop           | 类型                                                                            | 默认值          | 描述                                                                |
+| -------------- | ----------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------- |
+| `value`        | `string`                                                                      | -            | 当前值（受控）                                                           |
+| `defaultValue` | `string`                                                                      | -            | 默认值（非受控）                                                          |
+| `onChange`     | `(value: string) => void`                                                     | -            | 值变化时触发的事件处理函数                                                     |
+| `isDisabled`   | `boolean`                                                                     | `false`      | 是否禁用整个单选组                                                         |
+| `isRequired`   | `boolean`                                                                     | `false`      | 是否必填                                                              |
+| `isReadOnly`   | `boolean`                                                                     | `false`      | 是否只读                                                              |
+| `isInvalid`    | `boolean`                                                                     | `false`      | 是否处于无效状态                                                          |
+| `variant`      | `"primary" \| "secondary"`                                                    | `"primary"`  | 组件的视觉变体。`primary` 为默认带阴影样式。`secondary` 为低强调、无阴影变体，适合用在 surface 上。 |
+| `name`         | `string`                                                                      | -            | 单选组的名称，用于提交 HTML 表单                                               |
+| `orientation`  | `'horizontal' \| 'vertical'`                                                  | `'vertical'` | 单选组的排列方向                                                          |
+| `children`     | `React.ReactNode \| (values: RadioGroupRenderProps) => React.ReactNode`       | -            | 单选组内容或渲染 prop                                                     |
+| `render`       | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, RadioGroupRenderProps>` | -            | 使用自定义渲染函数覆盖默认 DOM 元素。                                             |
+
+### Radio Props
+
+| Prop         | 类型                                                                       | 默认值     | 描述                    |
+| ------------ | ------------------------------------------------------------------------ | ------- | --------------------- |
+| `value`      | `string`                                                                 | -       | 单选项的值                 |
+| `isDisabled` | `boolean`                                                                | `false` | 是否禁用该单选项              |
+| `name`       | `string`                                                                 | -       | 单选项名称，用于提交 HTML 表单    |
+| `children`   | `React.ReactNode \| (values: RadioRenderProps) => React.ReactNode`       | -       | 单选内容或渲染 prop          |
+| `render`     | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, RadioRenderProps>` | -       | 使用自定义渲染函数覆盖默认 DOM 元素。 |
+
+### Radio.Control Props
+
+继承 `React.HTMLAttributes<HTMLSpanElement>`。
+
+| Prop       | 类型                | 默认值 | 描述                                |
+| ---------- | ----------------- | --- | --------------------------------- |
+| `children` | `React.ReactNode` | -   | 控件包裹层内要渲染的内容（通常为 Radio.Indicator） |
+
+### Radio.Indicator Props
+
+继承 `React.HTMLAttributes<HTMLSpanElement>`。
+
+| Prop       | 类型                                                                 | 默认值 | 描述                     |
+| ---------- | ------------------------------------------------------------------ | --- | ---------------------- |
+| `children` | `React.ReactNode \| (values: RadioRenderProps) => React.ReactNode` | -   | 可选内容或接收当前单选状态的渲染 prop。 |
+
+### Radio.Content Props
+
+继承 `React.HTMLAttributes<HTMLDivElement>`。
+
+| Prop       | 类型                | 默认值 | 描述                                    |
+| ---------- | ----------------- | --- | ------------------------------------- |
+| `children` | `React.ReactNode` | -   | 内容包裹层内要渲染的内容（通常为 Label 与 Description） |
+
+### RadioRenderProps
+
+使用渲染 prop 模式时，会提供以下值：
+
+| Prop             | 类型        | 描述        |
+| ---------------- | --------- | --------- |
+| `isSelected`     | `boolean` | 单选项是否已选中  |
+| `isHovered`      | `boolean` | 是否悬停      |
+| `isPressed`      | `boolean` | 是否按下      |
+| `isFocused`      | `boolean` | 是否聚焦      |
+| `isFocusVisible` | `boolean` | 是否为键盘可见焦点 |
+| `isDisabled`     | `boolean` | 是否禁用      |
+| `isReadOnly`     | `boolean` | 是否只读      |
+| `isInvalid`      | `boolean` | 是否无效      |
+
+</page>

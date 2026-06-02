@@ -1,0 +1,336 @@
+<page url="/cn/docs/react/components/fieldset">
+# Fieldset 字段集
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/fieldset
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/fieldset.mdx
+> 使用 legend、description 与操作区对相关表单控件进行分组。
+
+
+***
+
+## 引入
+
+```tsx
+import { Fieldset } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+"use client";
+
+import {FloppyDisk} from "@gravity-ui/icons";
+import {
+  Button,
+  Description,
+  FieldError,
+  FieldGroup,
+  Fieldset,
+  Form,
+  Input,
+  Label,
+  TextArea,
+  TextField,
+} from "@heroui/react";
+
+export function Basic() {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data: Record<string, string> = {};
+
+    // Convert FormData to plain object
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    alert("表单提交成功！");
+  };
+
+  return (
+    <Form className="w-full max-w-96" onSubmit={onSubmit}>
+      <Fieldset>
+        <Fieldset.Legend>个人资料设置</Fieldset.Legend>
+        <Description>更新你的个人资料信息。</Description>
+        <FieldGroup>
+          <TextField
+            isRequired
+            name="name"
+            validate={(value) => {
+              if (value.length < 3) {
+                return "姓名至少需要 3 个字符";
+              }
+
+              return null;
+            }}
+          >
+            <Label>姓名</Label>
+            <Input placeholder="John Doe" />
+            <FieldError />
+          </TextField>
+          <TextField isRequired name="email" type="email">
+            <Label>邮箱</Label>
+            <Input placeholder="john@example.com" />
+            <FieldError />
+          </TextField>
+          <TextField
+            isRequired
+            name="bio"
+            validate={(value) => {
+              if (value.length < 10) {
+                return "简介至少需要 10 个字符";
+              }
+
+              return null;
+            }}
+          >
+            <Label>简介</Label>
+            <TextArea placeholder="介绍一下你自己…" />
+            <Description>至少 10 个字符</Description>
+            <FieldError />
+          </TextField>
+        </FieldGroup>
+        <Fieldset.Actions>
+          <Button type="submit">
+            <FloppyDisk />
+            保存更改
+          </Button>
+          <Button type="reset" variant="secondary">
+            取消
+          </Button>
+        </Fieldset.Actions>
+      </Fieldset>
+    </Form>
+  );
+}
+
+```
+
+### 在 Surface 内
+
+在 [Surface](/docs/components/surface) 组件内部使用时，请在表单控件（Input、TextArea 等）上使用 `variant="secondary"`，以应用适合 surface 背景的弱强调变体。
+
+```tsx
+"use client";
+
+import {FloppyDisk} from "@gravity-ui/icons";
+import {
+  Button,
+  Description,
+  FieldError,
+  Fieldset,
+  Form,
+  Input,
+  Label,
+  Surface,
+  TextArea,
+  TextField,
+} from "@heroui/react";
+import React from "react";
+
+export function OnSurface() {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data: Record<string, string> = {};
+
+    // Convert FormData to plain object
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    alert("表单提交成功！");
+  };
+
+  return (
+    <div className="flex items-center justify-center rounded-3xl bg-surface p-6">
+      <Surface className="w-full min-w-[380px]">
+        <Form onSubmit={onSubmit}>
+          <Fieldset className="w-full">
+            <Fieldset.Legend>个人资料设置</Fieldset.Legend>
+            <Description>更新你的个人资料信息。</Description>
+            <Fieldset.Group>
+              <TextField
+                isRequired
+                name="name"
+                validate={(value) => {
+                  if (value.length < 3) {
+                    return "姓名至少需要 3 个字符";
+                  }
+
+                  return null;
+                }}
+              >
+                <Label>姓名</Label>
+                <Input placeholder="John Doe" variant="secondary" />
+                <FieldError />
+              </TextField>
+              <TextField isRequired name="email" type="email">
+                <Label>邮箱</Label>
+                <Input placeholder="john@example.com" variant="secondary" />
+                <FieldError />
+              </TextField>
+              <TextField
+                isRequired
+                name="bio"
+                validate={(value) => {
+                  if (value.length < 10) {
+                    return "简介至少需要 10 个字符";
+                  }
+
+                  return null;
+                }}
+              >
+                <Label>简介</Label>
+                <TextArea placeholder="介绍一下你自己…" variant="secondary" />
+                <Description>至少 10 个字符</Description>
+                <FieldError />
+              </TextField>
+            </Fieldset.Group>
+            <Fieldset.Actions>
+              <Button type="submit">
+                <FloppyDisk />
+                保存更改
+              </Button>
+              <Button type="reset" variant="tertiary">
+                取消
+              </Button>
+            </Fieldset.Actions>
+          </Fieldset>
+        </Form>
+      </Surface>
+    </div>
+  );
+}
+
+```
+
+### 组件结构
+
+引入 Fieldset 后，可通过点语法访问各个部分。
+
+```tsx
+import { Fieldset } from '@heroui/react';
+
+export default () => (
+  <Fieldset>
+    <Fieldset.Legend />
+    <Fieldset.Group>
+      {/* form fields go here */}
+    </Fieldset.Group>
+    <Fieldset.Actions>
+      {/* action buttons go here */}
+    </Fieldset.Actions>
+  </Fieldset>
+)
+
+```
+
+## Related Components
+
+- **TextField**: Composition-friendly fields with labels and validation
+- **Label**: Accessible label for form controls
+- **CheckboxGroup**: Group of checkboxes with shared state
+
+<RelatedShowcases component="Fieldset" />
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { Fieldset, TextField, Label, Input } from '@heroui/react';
+
+function CustomFieldset() {
+  return (
+    <Fieldset className="rounded-xl border border-border bg-surface p-6 shadow-sm">
+      <Fieldset.Legend className="text-lg font-semibold">Team members</Fieldset.Legend>
+      <Fieldset.Group className="grid gap-4 md:grid-cols-2">
+        <TextField>
+          <Label>First name</Label>
+          <Input className="rounded-full border-border/60" placeholder="Jane" />
+        </TextField>
+        <TextField>
+          <Label>Last name</Label>
+          <Input className="rounded-full border-border/60" placeholder="Doe" />
+        </TextField>
+      </Fieldset.Group>
+      <Fieldset.Actions className="justify-end gap-3">
+        {/* Action buttons */}
+      </Fieldset.Actions>
+    </Fieldset>
+  );
+}
+
+```
+
+### 自定义组件类
+
+使用 `@layer components` 指令，针对 Fieldset 的 [BEM](https://getbem.com/) 风格类名进行定制。
+
+```css
+@layer components {
+  .fieldset {
+    @apply gap-5 rounded-xl border border-border/60 bg-surface p-6 shadow-field;
+  }
+
+  .fieldset__legend {
+    @apply text-lg font-semibold;
+  }
+
+  .fieldset__field_group {
+    @apply gap-3 md:grid md:grid-cols-2;
+  }
+
+  .fieldset__actions {
+    @apply flex justify-end gap-2 pt-2;
+  }
+}
+
+```
+
+### CSS 类
+
+Fieldset 复合组件暴露以下 CSS 选择器：
+
+- `.fieldset` – 根容器
+- `.fieldset__legend` – Legend 元素
+- `.fieldset__field_group` – 分组字段的包裹层
+- `.fieldset__actions` – 字段下方的操作栏
+
+## API 参考
+
+### Fieldset Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 应用到根元素上的 Tailwind CSS 类。 |
+| `children` | `React.ReactNode` | - | Fieldset 内容（legend、分组、description、操作区等）。 |
+| `nativeProps` | `React.HTMLAttributes<HTMLFieldSetElement>` | 支持原生 fieldset 的属性与事件。 |
+
+### Fieldset.Legend Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | legend 元素的 Tailwind 类。 |
+| `children` | `React.ReactNode` | - | Legend 内容，通常为纯文本。 |
+| `nativeProps` | `React.HTMLAttributes<HTMLLegendElement>` |  - | 原生 legend 属性。 |
+
+### Fieldset.Group Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 分组字段的布局与间距类。 |
+| `children` | `React.ReactNode` | - | 在 fieldset 内分组的表单控件。 |
+| `nativeProps` | `React.HTMLAttributes<HTMLDivElement>` | - | 原生 div 属性。 |
+
+### Fieldset.Actions Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 用于对齐操作按钮或辅助文本的 Tailwind 类。 |
+| `children` | `React.ReactNode` | - | 操作按钮或辅助文本。 |
+| `nativeProps` | `React.HTMLAttributes<HTMLDivElement>` | - | 原生 div 属性。 |
+</page>

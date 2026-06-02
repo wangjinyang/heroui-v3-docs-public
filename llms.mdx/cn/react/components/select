@@ -1,0 +1,1383 @@
+<page url="/cn/docs/react/components/select">
+# Select 选择器
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/select
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(pickers)/select.mdx
+> Select 展示可折叠的选项列表，并允许用户从中选择一项。
+
+
+## 引入
+
+```tsx
+import { Select } from "@heroui/react";
+
+```
+
+### 用法
+
+```tsx
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function Default() {
+  return (
+    <Select className="w-[256px]" placeholder="请选择">
+      <Label>州</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="florida" textValue="佛罗里达">
+            佛罗里达
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="delaware" textValue="特拉华">
+            特拉华
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="california" textValue="加利福尼亚">
+            加利福尼亚
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="texas" textValue="德克萨斯">
+            德克萨斯
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="new-york" textValue="纽约">
+            纽约
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="washington" textValue="华盛顿">
+            华盛顿
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 组件结构
+
+引入 Select 组件，并通过点语法访问各部分。
+
+```tsx
+import {Select, Label, Description, Header, ListBox, Separator} from "@heroui/react";
+
+export default () => (
+  <Select>
+    <Label />
+    <Select.Trigger>
+      <Select.Value />
+      <Select.Indicator />
+    </Select.Trigger>
+    <Description />
+    <Select.Popover>
+      <ListBox>
+        <ListBox.Item>
+          <Label />
+          <Description />
+          <ListBox.ItemIndicator />
+        </ListBox.Item>
+        <ListBox.Section>
+          <Header />
+          <ListBox.Item>
+            <Label />
+          </ListBox.Item>
+        </ListBox.Section>
+      </ListBox>
+    </Select.Popover>
+  </Select>
+);
+
+```
+
+### 带描述
+
+```tsx
+import {Description, Label, ListBox, Select} from "@heroui/react";
+
+export function WithDescription() {
+  return (
+    <Select className="w-[256px]" placeholder="请选择">
+      <Label>州</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="florida" textValue="佛罗里达">
+            佛罗里达
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="delaware" textValue="特拉华">
+            特拉华
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="california" textValue="加利福尼亚">
+            加利福尼亚
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="texas" textValue="德克萨斯">
+            德克萨斯
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="new-york" textValue="纽约">
+            纽约
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="washington" textValue="华盛顿">
+            华盛顿
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+      <Description>请选择居住州</Description>
+    </Select>
+  );
+}
+
+```
+
+### 多选
+
+```tsx
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function MultipleSelect() {
+  return (
+    <Select className="w-[256px]" placeholder="请选择国家" selectionMode="multiple">
+      <Label>拟访问国家</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox selectionMode="multiple">
+          <ListBox.Item id="argentina" textValue="阿根廷">
+            阿根廷
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="venezuela" textValue="委内瑞拉">
+            委内瑞拉
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="japan" textValue="日本">
+            日本
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="france" textValue="法国">
+            法国
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="italy" textValue="意大利">
+            意大利
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="spain" textValue="西班牙">
+            西班牙
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="thailand" textValue="泰国">
+            泰国
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="new-zealand" textValue="新西兰">
+            新西兰
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="iceland" textValue="冰岛">
+            冰岛
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 分区
+
+```tsx
+import {Header, Label, ListBox, Select, Separator} from "@heroui/react";
+
+export function WithSections() {
+  return (
+    <Select className="w-[256px]" placeholder="请选择国家">
+      <Label>国家</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Section>
+            <Header>北美洲</Header>
+            <ListBox.Item id="usa" textValue="美国">
+              美国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="canada" textValue="加拿大">
+              加拿大
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="mexico" textValue="墨西哥">
+              墨西哥
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox.Section>
+          <Separator />
+          <ListBox.Section>
+            <Header>欧洲</Header>
+            <ListBox.Item id="uk" textValue="英国">
+              英国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="france" textValue="法国">
+              法国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="germany" textValue="德国">
+              德国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="spain" textValue="西班牙">
+              西班牙
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="italy" textValue="意大利">
+              意大利
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox.Section>
+          <Separator />
+          <ListBox.Section>
+            <Header>亚洲</Header>
+            <ListBox.Item id="japan" textValue="日本">
+              日本
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="china" textValue="中国">
+              中国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="india" textValue="印度">
+              印度
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="south-korea" textValue="韩国">
+              韩国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox.Section>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 含禁用项
+
+```tsx
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function WithDisabledOptions() {
+  return (
+    <Select className="w-[256px]" disabledKeys={["cat", "kangaroo"]} placeholder="请选择动物">
+      <Label>动物</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="dog" textValue="狗">
+            狗
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="cat" textValue="猫">
+            猫
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="bird" textValue="鸟">
+            鸟
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="kangaroo" textValue="袋鼠">
+            袋鼠
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="elephant" textValue="大象">
+            大象
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="tiger" textValue="老虎">
+            老虎
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 自定义指示器
+
+```tsx
+import {ChevronsExpandVertical} from "@gravity-ui/icons";
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function CustomIndicator() {
+  return (
+    <Select className="w-[256px]" placeholder="请选择">
+      <Label>州</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator className="size-3">
+          <ChevronsExpandVertical />
+        </Select.Indicator>
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="florida" textValue="佛罗里达">
+            佛罗里达
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="delaware" textValue="特拉华">
+            特拉华
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="california" textValue="加利福尼亚">
+            加利福尼亚
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="texas" textValue="德克萨斯">
+            德克萨斯
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="new-york" textValue="纽约">
+            纽约
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="washington" textValue="华盛顿">
+            华盛顿
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 必填
+
+```tsx
+"use client";
+
+import {Button, FieldError, Form, Label, ListBox, Select} from "@heroui/react";
+
+export function Required() {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data: Record<string, string> = {};
+
+    // Convert FormData to plain object
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    alert("表单提交成功！");
+  };
+
+  return (
+    <Form className="flex w-[256px] flex-col gap-4" onSubmit={onSubmit}>
+      <Select isRequired className="w-full" name="state" placeholder="请选择">
+        <Label>州</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="florida" textValue="佛罗里达">
+              佛罗里达
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="delaware" textValue="特拉华">
+              特拉华
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="california" textValue="加利福尼亚">
+              加利福尼亚
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="texas" textValue="德克萨斯">
+              德克萨斯
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="new-york" textValue="纽约">
+              纽约
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="washington" textValue="华盛顿">
+              华盛顿
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+        <FieldError />
+      </Select>
+      <Select isRequired className="w-full" name="country" placeholder="请选择国家">
+        <Label>国家</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="usa" textValue="美国">
+              美国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="canada" textValue="加拿大">
+              加拿大
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="mexico" textValue="墨西哥">
+              墨西哥
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="uk" textValue="英国">
+              英国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="france" textValue="法国">
+              法国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="germany" textValue="德国">
+              德国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+        <FieldError />
+      </Select>
+      <Button type="submit">提交</Button>
+    </Form>
+  );
+}
+
+```
+
+### 全宽
+
+```tsx
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function FullWidth() {
+  return (
+    <div className="w-[400px] space-y-4">
+      <Select fullWidth placeholder="请选择">
+        <Label>喜爱的动物</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="cat" textValue="猫">
+              猫
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="dog" textValue="狗">
+              狗
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="bird" textValue="鸟">
+              鸟
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+    </div>
+  );
+}
+
+```
+
+### 变体
+
+Select 组件支持两种视觉变体：
+
+* **`primary`**（默认）— 带阴影的标准样式，适用于大多数场景
+* **`secondary`** — 低强调、无阴影，适合在 Surface 等表面背景上使用
+
+```tsx
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function Variants() {
+  return (
+    <div className="flex flex-col gap-4">
+      <Select className="w-[256px]" placeholder="请选择" variant="primary">
+        <Label>主要变体</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="option1" textValue="选项 1">
+              Option 1
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="option2" textValue="选项 2">
+              Option 2
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+      <Select className="w-[256px]" placeholder="请选择" variant="secondary">
+        <Label>次要变体</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="option1" textValue="选项 1">
+              Option 1
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="option2" textValue="选项 2">
+              Option 2
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+    </div>
+  );
+}
+
+```
+
+### 在 Surface 内
+
+在 [Surface](/docs/components/surface) 内使用时，请使用 `variant="secondary"`，以应用适合表面背景的低强调变体。
+
+```tsx
+"use client";
+
+import {Button, FieldError, Form, Label, ListBox, Select, Surface} from "@heroui/react";
+
+export function OnSurface() {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data: Record<string, string> = {};
+
+    // Convert FormData to plain object
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    alert("表单提交成功！");
+  };
+
+  return (
+    <Surface className="w-[320px] rounded-3xl p-6">
+      <Form className="flex w-full flex-col gap-4" onSubmit={onSubmit}>
+        <Select isRequired className="w-full" name="state" placeholder="请选择" variant="secondary">
+          <Label>州</Label>
+          <Select.Trigger>
+            <Select.Value />
+            <Select.Indicator />
+          </Select.Trigger>
+          <Select.Popover>
+            <ListBox>
+              <ListBox.Item id="florida" textValue="佛罗里达">
+                佛罗里达
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="delaware" textValue="特拉华">
+                特拉华
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="california" textValue="加利福尼亚">
+                加利福尼亚
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="texas" textValue="德克萨斯">
+                德克萨斯
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="new-york" textValue="纽约">
+                纽约
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="washington" textValue="华盛顿">
+                华盛顿
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+            </ListBox>
+          </Select.Popover>
+          <FieldError />
+        </Select>
+        <Select
+          isRequired
+          className="w-full"
+          name="country"
+          placeholder="请选择国家"
+          variant="secondary"
+        >
+          <Label>国家</Label>
+          <Select.Trigger>
+            <Select.Value />
+            <Select.Indicator />
+          </Select.Trigger>
+          <Select.Popover>
+            <ListBox>
+              <ListBox.Item id="usa" textValue="美国">
+                美国
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="canada" textValue="加拿大">
+                加拿大
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="mexico" textValue="墨西哥">
+                墨西哥
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="uk" textValue="英国">
+                英国
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="france" textValue="法国">
+                法国
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="germany" textValue="德国">
+                德国
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+            </ListBox>
+          </Select.Popover>
+          <FieldError />
+        </Select>
+        <Button type="submit">提交</Button>
+      </Form>
+    </Surface>
+  );
+}
+
+```
+
+### 自定义展示值
+
+```tsx
+"use client";
+
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Description,
+  Label,
+  ListBox,
+  Select,
+} from "@heroui/react";
+
+export function CustomValue() {
+  const users = [
+    {
+      avatarUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg",
+      email: "bob@heroui.com",
+      fallback: "B",
+      id: "1",
+      name: "Bob",
+    },
+    {
+      avatarUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/green.jpg",
+      email: "fred@heroui.com",
+      fallback: "F",
+      id: "2",
+      name: "Fred",
+    },
+    {
+      avatarUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/purple.jpg",
+      email: "martha@heroui.com",
+      fallback: "M",
+      id: "3",
+      name: "Martha",
+    },
+    {
+      avatarUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg",
+      email: "john@heroui.com",
+      fallback: "J",
+      id: "4",
+      name: "John",
+    },
+    {
+      avatarUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/orange.jpg",
+      email: "jane@heroui.com",
+      fallback: "J",
+      id: "5",
+      name: "Jane",
+    },
+  ];
+
+  return (
+    <Select className="w-[256px]" placeholder="请选择用户">
+      <Label>用户</Label>
+      <Select.Trigger>
+        <Select.Value>
+          {({defaultChildren, isPlaceholder, state}) => {
+            if (isPlaceholder || state.selectedItems.length === 0) {
+              return defaultChildren;
+            }
+
+            const selectedItems = state.selectedItems;
+
+            if (selectedItems.length > 1) {
+              return `${selectedItems.length} 位用户已选`;
+            }
+
+            const selectedItem = users.find((user) => user.id === selectedItems[0]?.key);
+
+            if (!selectedItem) {
+              return defaultChildren;
+            }
+
+            return (
+              <div className="flex items-center gap-2">
+                <Avatar className="size-4" size="sm">
+                  <AvatarImage src={selectedItem.avatarUrl} />
+                  <AvatarFallback>{selectedItem.fallback}</AvatarFallback>
+                </Avatar>
+                <span>{selectedItem.name}</span>
+              </div>
+            );
+          }}
+        </Select.Value>
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          {users.map((user) => (
+            <ListBox.Item key={user.id} id={user.id} textValue={user.name}>
+              <Avatar size="sm">
+                <AvatarImage src={user.avatarUrl} />
+                <AvatarFallback>{user.fallback}</AvatarFallback>
+              </Avatar>
+              <div className="flex flex-col">
+                <Label>{user.name}</Label>
+                <Description>{user.email}</Description>
+              </div>
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          ))}
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 受控
+
+```tsx
+"use client";
+
+import type {Key} from "@heroui/react";
+
+import {Label, ListBox, Select} from "@heroui/react";
+import {useState} from "react";
+
+export function Controlled() {
+  const states = [
+    {
+      id: "california",
+      name: "加利福尼亚",
+    },
+    {
+      id: "texas",
+      name: "德克萨斯",
+    },
+    {
+      id: "florida",
+      name: "佛罗里达",
+    },
+    {
+      id: "new-york",
+      name: "纽约",
+    },
+    {
+      id: "illinois",
+      name: "伊利诺伊",
+    },
+    {
+      id: "pennsylvania",
+      name: "宾夕法尼亚",
+    },
+  ];
+
+  const [state, setState] = useState<Key | null>("california");
+
+  const selectedState = states.find((s) => s.id === state);
+
+  return (
+    <div className="space-y-2">
+      <Select
+        className="w-[256px]"
+        placeholder="请选择州"
+        value={state}
+        onChange={(value) => setState(value)}
+      >
+        <Label>州（受控）</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            {states.map((state) => (
+              <ListBox.Item key={state.id} id={state.id} textValue={state.name}>
+                {state.name}
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+            ))}
+          </ListBox>
+        </Select.Popover>
+      </Select>
+      <p className="text-sm text-muted">已选：{selectedState?.name || "无"}</p>
+    </div>
+  );
+}
+
+```
+
+### 受控多选
+
+```tsx
+"use client";
+
+import type {Key} from "@heroui/react";
+
+import {Label, ListBox, Select} from "@heroui/react";
+import React from "react";
+
+export function ControlledMultiple() {
+  const [selected, setSelected] = React.useState<Key[]>(["california", "texas"]);
+
+  return (
+    <div className="space-y-4">
+      <Select
+        className="w-[256px]"
+        placeholder="请选择州"
+        selectionMode="multiple"
+        value={selected}
+        onChange={(keys) => setSelected(keys as Key[])}
+      >
+        <Label>州（受控多选）</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox selectionMode="multiple">
+            <ListBox.Item id="california" textValue="加利福尼亚">
+              加利福尼亚
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="texas" textValue="德克萨斯">
+              德克萨斯
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="florida" textValue="佛罗里达">
+              佛罗里达
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="new-york" textValue="纽约">
+              纽约
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="illinois" textValue="伊利诺伊">
+              伊利诺伊
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="pennsylvania" textValue="宾夕法尼亚">
+              宾夕法尼亚
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+      <p className="text-sm text-muted">已选：{selected.length > 0 ? selected.join(", ") : "无"}</p>
+    </div>
+  );
+}
+
+```
+
+### 受控展开状态
+
+```tsx
+"use client";
+
+import {Button, Label, ListBox, Select} from "@heroui/react";
+import {useState} from "react";
+
+export function ControlledOpenState() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="space-y-4">
+      <Select className="w-[256px]" isOpen={isOpen} placeholder="请选择" onOpenChange={setIsOpen}>
+        <Label>州</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="florida" textValue="佛罗里达">
+              佛罗里达
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="delaware" textValue="特拉华">
+              特拉华
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="california" textValue="加利福尼亚">
+              加利福尼亚
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="texas" textValue="德克萨斯">
+              德克萨斯
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="new-york" textValue="纽约">
+              纽约
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="washington" textValue="华盛顿">
+              华盛顿
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+      <Button onPress={() => setIsOpen(!isOpen)}>{isOpen ? "关闭" : "打开"}选择框</Button>
+      <p className="text-sm text-muted">选择框{isOpen ? "已打开" : "已关闭"}</p>
+    </div>
+  );
+}
+
+```
+
+### 异步加载
+
+```tsx
+"use client";
+
+import {Label, ListBox, Select, Spinner} from "@heroui/react";
+import {useAsyncList} from "@react-stately/data";
+import {Collection, ListBoxLoadMoreItem} from "react-aria-components";
+
+interface Pokemon {
+  name: string;
+}
+
+export function AsynchronousLoading() {
+  const list = useAsyncList<Pokemon>({
+    async load({cursor, signal}) {
+      const res = await fetch(cursor || `https://pokeapi.co/api/v2/pokemon`, {signal});
+      const json = await res.json();
+
+      return {
+        cursor: json.next,
+        items: json.results,
+      };
+    },
+  });
+
+  return (
+    <Select className="w-[256px]" placeholder="请选择宝可梦">
+      <Label>选择宝可梦</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <Collection items={list.items}>
+            {(item: Pokemon) => (
+              <ListBox.Item id={item.name} textValue={item.name}>
+                {item.name}
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+            )}
+          </Collection>
+          <ListBoxLoadMoreItem
+            isLoading={list.loadingState === "loadingMore"}
+            onLoadMore={list.loadMore}
+          >
+            <div className="flex items-center justify-center gap-2 py-2">
+              <Spinner size="sm" />
+              <span className="text-sm text-muted">加载更多…</span>
+            </div>
+          </ListBoxLoadMoreItem>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 禁用
+
+```tsx
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <div className="flex flex-col gap-4">
+      <Select isDisabled className="w-[256px]" defaultValue="california" placeholder="请选择">
+        <Label>州</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="florida" textValue="佛罗里达">
+              佛罗里达
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="delaware" textValue="特拉华">
+              特拉华
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="california" textValue="加利福尼亚">
+              加利福尼亚
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="texas" textValue="德克萨斯">
+              德克萨斯
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="new-york" textValue="纽约">
+              纽约
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="washington" textValue="华盛顿">
+              华盛顿
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+      <Select
+        isDisabled
+        className="w-[256px]"
+        defaultValue={["argentina", "japan", "france"]}
+        placeholder="请选择国家"
+        selectionMode="multiple"
+      >
+        <Label>拟访问国家</Label>
+        <Select.Trigger>
+          <Select.Value />
+          <Select.Indicator />
+        </Select.Trigger>
+        <Select.Popover>
+          <ListBox>
+            <ListBox.Item id="argentina" textValue="阿根廷">
+              阿根廷
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="venezuela" textValue="委内瑞拉">
+              委内瑞拉
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="japan" textValue="日本">
+              日本
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="france" textValue="法国">
+              法国
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="italy" textValue="意大利">
+              意大利
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+            <ListBox.Item id="spain" textValue="西班牙">
+              西班牙
+              <ListBox.ItemIndicator />
+            </ListBox.Item>
+          </ListBox>
+        </Select.Popover>
+      </Select>
+    </div>
+  );
+}
+
+```
+
+## Related Components
+
+* **Listbox**: Scrollable list of selectable items
+* **Popover**: Displays content in context with a trigger
+* **Label**: Accessible label for form controls
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {Label, ListBox, Select} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <Select
+      className="w-[256px]"
+      placeholder="请选择"
+      render={(props) => <div {...props} data-custom="foo" />}
+    >
+      <Label>州</Label>
+      <Select.Trigger>
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="florida" textValue="佛罗里达">
+            佛罗里达
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="delaware" textValue="特拉华">
+            特拉华
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="california" textValue="加利福尼亚">
+            加利福尼亚
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="texas" textValue="德克萨斯">
+            德克萨斯
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="new-york" textValue="纽约">
+            纽约
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="washington" textValue="华盛顿">
+            华盛顿
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import {Select} from "@heroui/react";
+
+function CustomSelect() {
+  return (
+    <Select className="w-full">
+      <Label>State</Label>
+      <Select.Trigger className="rounded-lg border bg-surface p-2">
+        <Select.Value />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="1" textValue="Item 1" className="hover:bg-surface-secondary">
+            Item 1
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Select 组件类，可以使用 `@layer components` 指令。
+
+<br />
+
+[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .select {
+    @apply flex flex-col gap-1;
+  }
+
+  .select__trigger {
+    @apply rounded-lg border border-border bg-surface p-2;
+  }
+
+  .select__value {
+    @apply text-current;
+  }
+
+  .select__indicator {
+    @apply text-muted;
+  }
+
+  .select__popover {
+    @apply rounded-lg border border-border bg-surface p-2;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+Select 组件使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/select.css)）：
+
+#### 基础类
+
+* `.select` - Select 根容器
+* `.select__trigger` - 打开下拉的触发按钮
+* `.select__value` - 当前显示的值或占位符
+* `.select__indicator` - 下拉指示图标
+* `.select__popover` - 弹出层容器
+
+#### 变体类
+
+* `.select--primary` - Primary 变体，带阴影（默认）
+* `.select--secondary` - Secondary 变体，无阴影，适合在 Surface 上使用
+
+#### 状态类
+
+* `.select[data-invalid="true"]` - 无效状态
+* `.select__trigger[data-focus-visible="true"]` - 触发器聚焦状态
+* `.select__trigger[data-disabled="true"]` - 触发器禁用状态
+* `.select__value[data-placeholder="true"]` - 占位符状态
+* `.select__indicator[data-open="true"]` - 展开时的指示器状态
+
+### 交互状态
+
+该组件同时支持 CSS 伪类与 data 属性，以提供更灵活的状态控制：
+
+* **悬停**：触发器上的 `:hover` 或 `[data-hovered="true"]`
+* **聚焦**：触发器上的 `:focus-visible` 或 `[data-focus-visible="true"]`
+* **禁用**：Select 上的 `:disabled` 或 `[data-disabled="true"]`
+* **展开**：指示器上的 `[data-open="true"]`
+
+## API 参考
+
+### Select Props
+
+| Prop            | 类型                                                                        | 默认值                | 描述                                                              |
+| --------------- | ------------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------- |
+| `placeholder`   | `string`                                                                  | `'Select an item'` | Select 为空时显示的占位符文本。                                             |
+| `selectionMode` | `"single" \| "multiple"`                                                  | `"single"`         | 启用单选或多选。                                                        |
+| `isOpen`        | `boolean`                                                                 | -                  | 设置菜单是否打开（受控）。                                                   |
+| `defaultOpen`   | `boolean`                                                                 | -                  | 设置菜单默认是否打开（非受控）。                                                |
+| `onOpenChange`  | `(isOpen: boolean) => void`                                               | -                  | 展开状态变化时的事件处理函数。                                                 |
+| `disabledKeys`  | `Iterable<Key>`                                                           | -                  | 禁用条目的 key。                                                      |
+| `isDisabled`    | `boolean`                                                                 | -                  | Select 是否禁用。                                                    |
+| `value`         | `Key \| Key[] \| null`                                                    | -                  | 当前值（受控）。                                                        |
+| `defaultValue`  | `Key \| Key[] \| null`                                                    | -                  | 默认值（非受控）。                                                       |
+| `onChange`      | `(value: Key \| Key[] \| null) => void`                                   | -                  | 值变化时的事件处理函数。                                                    |
+| `isRequired`    | `boolean`                                                                 | -                  | 用户输入是否必填。                                                       |
+| `isInvalid`     | `boolean`                                                                 | -                  | Select 的值是否无效。                                                  |
+| `name`          | `string`                                                                  | -                  | 输入框名称，用于提交 HTML 表单。                                             |
+| `autoComplete`  | `string`                                                                  | -                  | 描述自动完成行为类型。                                                     |
+| `fullWidth`     | `boolean`                                                                 | `false`            | Select 是否占满容器宽度。                                                |
+| `variant`       | `"primary" \| "secondary"`                                                | `"primary"`        | 视觉变体。`primary` 为默认带阴影样式。`secondary` 为低强调、无阴影变体，适合在 Surface 上使用。 |
+| `className`     | `string`                                                                  | -                  | 额外的 CSS 类。                                                      |
+| `children`      | `ReactNode \| RenderFunction`                                             | -                  | Select 内容或渲染函数。                                                 |
+| `render`        | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, SelectRenderProps>` | -                  | 使用自定义渲染函数覆盖默认 DOM 元素。                                           |
+
+### Select.Trigger Props
+
+| Prop        | 类型                            | 默认值 | 描述          |
+| ----------- | ----------------------------- | --- | ----------- |
+| `className` | `string`                      | -   | 额外的 CSS 类。  |
+| `children`  | `ReactNode \| RenderFunction` | -   | 触发器内容或渲染函数。 |
+
+### Select.Value Props
+
+| Prop        | 类型                                                                             | 默认值 | 描述                    |
+| ----------- | ------------------------------------------------------------------------------ | --- | --------------------- |
+| `className` | `string`                                                                       | -   | 额外的 CSS 类。            |
+| `children`  | `ReactNode \| RenderFunction`                                                  | -   | 值区域内容或渲染函数。           |
+| `render`    | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, SelectValueRenderProps>` | -   | 使用自定义渲染函数覆盖默认 DOM 元素。 |
+
+### Select.Indicator Props
+
+| Prop        | 类型          | 默认值 | 描述         |
+| ----------- | ----------- | --- | ---------- |
+| `className` | `string`    | -   | 额外的 CSS 类。 |
+| `children`  | `ReactNode` | -   | 自定义指示器内容。  |
+
+### Select.Popover Props
+
+| Prop        | 类型                                                                                                                                                                                                                                                                                                                       | 默认值        | 描述           |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------ |
+| `placement` | `"bottom" \| "bottom left" \| "bottom right" \| "bottom start" \| "bottom end" \| "top" \| "top left" \| "top right" \| "top start" \| "top end" \| "left" \| "left top" \| "left bottom" \| "start" \| "start top" \| "start bottom" \| "right" \| "right top" \| "right bottom" \| "end" \| "end top" \| "end bottom"` | `"bottom"` | 弹出层相对触发器的位置。 |
+| `className` | `string`                                                                                                                                                                                                                                                                                                                 | -          | 额外的 CSS 类。   |
+| `children`  | `ReactNode`                                                                                                                                                                                                                                                                                                              | -          | 子内容。         |
+
+### RenderProps
+
+对 `Select.Value` 使用渲染函数时，会提供以下值：
+
+| Prop              | 类型            | 描述          |
+| ----------------- | ------------- | ----------- |
+| `defaultChildren` | `ReactNode`   | 默认渲染的值。     |
+| `isPlaceholder`   | `boolean`     | 是否为占位符状态。   |
+| `state`           | `SelectState` | Select 的状态。 |
+| `selectedItems`   | `Node[]`      | 当前已选中的条目。   |
+
+## 无障碍
+
+Select 组件实现 ARIA 列表框模式，并提供：
+
+* 完整的键盘导航支持
+* 选择变化时的屏幕阅读器播报
+* 合理的焦点管理
+* 禁用状态支持
+* 输入首字母快速定位（typeahead）
+* 与 HTML 表单的集成
+
+更多信息见 [React Aria Select 文档](https://react-spectrum.adobe.com/react-aria/Select.html)。
+
+</page>

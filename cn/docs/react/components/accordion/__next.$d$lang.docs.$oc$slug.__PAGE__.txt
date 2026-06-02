@@ -1,0 +1,937 @@
+1:"$Sreact.fragment"
+2:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsPage"]
+3:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsTitle"]
+4:I[302559,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ViewOptions"]
+5:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsDescription"]
+6:I[483689,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ComponentLinks"]
+7:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsBody"]
+8:I[494157,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Heading"]
+9:I[192506,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"FumadocsCustomCodeblock"]
+46:I[144324,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Pre"]
+47:I[3108,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
+49:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionRoot"]
+4a:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionItem"]
+4b:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionHeading"]
+4c:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionTrigger"]
+4d:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionIndicator"]
+4e:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionPanel"]
+4f:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionBody"]
+72:I[406991,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Controlled"]
+74:I[606677,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomIndicator"]
+86:I[697375,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomRenderFunction"]
+87:"$Sreact.suspense"
+88:I[605435,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"RelatedComponents"]
+89:I[457915,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CodeBlock"]
+8d:I[942449,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LocaleLink"]
+8e:I[897367,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
+:HL["https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png","image"]
+:HL["https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png","image"]
+:HL["https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png","image"]
+a:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#引入","title":"引入"},{"depth":3,"url":"#用法","title":"用法"},{"depth":3,"url":"#组件结构","title":"组件结构"},{"depth":3,"url":"#surface","title":"Surface"},{"depth":3,"url":"#多项同时展开","title":"多项同时展开"},{"depth":3,"url":"#受控","title":"受控"},{"depth":3,"url":"#自定义指示器","title":"自定义指示器"},{"depth":3,"url":"#禁用状态","title":"禁用状态"},{"depth":3,"url":"#faq-布局","title":"FAQ 布局"},{"depth":3,"url":"#自定义样式","title":"自定义样式"},{"depth":3,"url":"#无分隔线","title":"无分隔线"},{"depth":3,"url":"#自定义渲染函数","title":"自定义渲染函数"},{"depth":2,"url":"#样式","title":"样式"},{"depth":3,"url":"#传入-tailwind-css-类","title":"传入 Tailwind CSS 类"},{"depth":3,"url":"#自定义组件类","title":"自定义组件类"},{"depth":3,"url":"#css-类","title":"CSS 类"},{"depth":4,"url":"#基础类","title":"基础类"},{"depth":4,"url":"#变体类","title":"变体类"},{"depth":4,"url":"#状态类","title":"状态类"},{"depth":3,"url":"#交互状态","title":"交互状态"},{"depth":2,"url":"#api-参考","title":"API 参考"},{"depth":3,"url":"#accordion-props","title":"Accordion Props"},{"depth":3,"url":"#accordionitem-props","title":"Accordion.Item Props"},{"depth":3,"url":"#accordiontrigger-props","title":"Accordion.Trigger Props"},{"depth":3,"url":"#accordionpanel-props","title":"Accordion.Panel Props"},{"depth":3,"url":"#accordionindicator-props","title":"Accordion.Indicator Props"},{"depth":3,"url":"#accordionbody-props","title":"Accordion.Body Props"}],"children":[["$","section",null,{"className":"flex flex-col gap-2","children":[["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-2","children":[["$","$L3",null,{"className":"flex items-center gap-2","children":["Accordion 手风琴",false]}],["$","div",null,{"className":"flex items-center gap-2","children":["$","$L4",null,{"markdownUrl":"/cn/docs/react/components/accordion.mdx"}]}]]}],["$","$L5",null,{"className":"text-md mt-2 mb-4","children":"用于在紧凑空间中组织信息的可折叠内容面板。"}],["$","$L6",null,{"links":{"rac":"Disclosure","source":"accordion/accordion.tsx","styles":"accordion.css","storybook":"Components/Navigation/Accordion","figma":true}}]]}],["$","$L7",null,{"className":"prose-sm","children":[["$","$L8",null,{"as":"h2","id":"引入","children":"引入"}],"\n",["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$a","children":"$Lb"}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42"]}]]}],["$L43","$L44"],"$L45"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Og7Y5QFIHVQNML2MH2z_8"}
+b:["$","$L46",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion } "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]}]}]
+c:["$","$L8",null,{"as":"h3","id":"用法","children":"用法"}]
+48:T804,import {
+  ArrowsRotateLeft,
+  Box,
+  ChevronDown,
+  CreditCard,
+  PlanetEarth,
+  Receipt,
+  ShoppingBag,
+} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content: "浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。",
+    icon: <ShoppingBag />,
+    title: "如何下单？",
+  },
+  {
+    content: "可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。",
+    icon: <Receipt />,
+    title: "可以修改或取消订单吗？",
+  },
+  {
+    content: "我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。",
+    icon: <CreditCard />,
+    title: "支持哪些支付方式？",
+  },
+  {
+    content: "运费因收货地址与订单体积而异。订单满 50 美元可享受免运费。",
+    icon: <Box />,
+    title: "运费如何计算？",
+  },
+  {
+    content: "是的，我们可向多数国家/地区发货。请查看运费说明与政策了解更多信息。",
+    icon: <PlanetEarth />,
+    title: "是否提供国际配送？",
+  },
+  {
+    content: "若对购买不满意，可在购买后 30 天内申请退款。请联系客服团队协助处理。",
+    icon: <ArrowsRotateLeft />,
+    title: "如何申请退款？",
+  },
+];
+
+export function Basic() {
+  return (
+    <Accordion className="w-full max-w-md">
+      {items.map((item, index) => (
+        <Accordion.Item key={index}>
+          <Accordion.Heading>
+            <Accordion.Trigger>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+d:["$","$L47",null,{"align":"center","code":"$48","isBgSolid":false,"minHeight":"400px","name":"accordion-basic","children":["$","$L49",null,{"className":"w-full max-w-md","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M5.174 3h5.652a1.5 1.5 0 0 1 1.49 1.328l.808 7A1.5 1.5 0 0 1 11.634 13H4.366a1.5 1.5 0 0 1-1.49-1.672l.808-7A1.5 1.5 0 0 1 5.174 3m-2.98 1.156A3 3 0 0 1 5.174 1.5h5.652a3 3 0 0 1 2.98 2.656l.808 7a3 3 0 0 1-2.98 3.344H4.366a3 3 0 0 1-2.98-3.344zM5 5.25a.75.75 0 0 1 1.5 0v.25a1.5 1.5 0 1 0 3 0v-.25a.75.75 0 0 1 1.5 0v.25a3 3 0 0 1-6 0z","clipRule":"evenodd"}]}]}],"如何下单？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。"}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M6.3 2 3.9.5 2 2v13.5l1.5-.776L4.9 14l2.4 1.5L9.7 14l2.4 1.5L14 14V.5l-1.5.776L11.1 2 8.7.5zm2.4.269L7.095 3.272l-.795.497-.795-.497-1.504-.94-.501.395v10.308l.71-.367.76-.393.725.453L7.3 13.731l1.605-1.003.795-.497.795.497 1.504.94.501-.395V2.965l-.71.367-.76.393-.725-.453zM5 6.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 6.5m.75 2.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"可以修改或取消订单吗？","$L50"]}]}],"$L51"]}],"$L52","$L53","$L54","$L55"]}]}]
+e:["$","$L8",null,{"as":"h3","id":"组件结构","children":"组件结构"}]
+f:["$","p",null,{"children":"引入 Accordion 组件并通过点语法访问所有子部分。"}]
+56:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>10:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$56","children":["$","$L46",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion } "}],"$L57","$L58","$L59"]}],"\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68"]}]}]}]
+11:["$","$L8",null,{"as":"h3","id":"surface","children":"Surface"}]
+69:T818,import {
+  ArrowsRotateLeft,
+  Box,
+  ChevronDown,
+  CreditCard,
+  PlanetEarth,
+  Receipt,
+  ShoppingBag,
+} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content: "浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。",
+    icon: <ShoppingBag />,
+    title: "如何下单？",
+  },
+  {
+    content: "可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。",
+    icon: <Receipt />,
+    title: "可以修改或取消订单吗？",
+  },
+  {
+    content: "我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。",
+    icon: <CreditCard />,
+    title: "支持哪些支付方式？",
+  },
+  {
+    content: "运费因收货地址与订单体积而异。订单满 50 美元可享受免运费。",
+    icon: <Box />,
+    title: "运费如何计算？",
+  },
+  {
+    content: "是的，我们可向多数国家/地区发货。请查看运费说明与政策了解更多信息。",
+    icon: <PlanetEarth />,
+    title: "是否提供国际配送？",
+  },
+  {
+    content: "若对购买不满意，可在购买后 30 天内申请退款。请联系客服团队协助处理。",
+    icon: <ArrowsRotateLeft />,
+    title: "如何申请退款？",
+  },
+];
+
+export function Surface() {
+  return (
+    <Accordion className="w-full max-w-md" variant="surface">
+      {items.map((item, index) => (
+        <Accordion.Item key={index}>
+          <Accordion.Heading>
+            <Accordion.Trigger>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+12:["$","$L47",null,{"align":"center","code":"$69","isBgSolid":false,"minHeight":"400px","name":"accordion-surface","children":["$","$L49",null,{"className":"w-full max-w-md","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M5.174 3h5.652a1.5 1.5 0 0 1 1.49 1.328l.808 7A1.5 1.5 0 0 1 11.634 13H4.366a1.5 1.5 0 0 1-1.49-1.672l.808-7A1.5 1.5 0 0 1 5.174 3m-2.98 1.156A3 3 0 0 1 5.174 1.5h5.652a3 3 0 0 1 2.98 2.656l.808 7a3 3 0 0 1-2.98 3.344H4.366a3 3 0 0 1-2.98-3.344zM5 5.25a.75.75 0 0 1 1.5 0v.25a1.5 1.5 0 1 0 3 0v-.25a.75.75 0 0 1 1.5 0v.25a3 3 0 0 1-6 0z","clipRule":"evenodd"}]}]}],"如何下单？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。"}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M6.3 2 3.9.5 2 2v13.5l1.5-.776L4.9 14l2.4 1.5L9.7 14l2.4 1.5L14 14V.5l-1.5.776L11.1 2 8.7.5zm2.4.269L7.095 3.272l-.795.497-.795-.497-1.504-.94-.501.395v10.308l.71-.367.76-.393.725.453L7.3 13.731l1.605-1.003.795-.497.795.497 1.504.94.501-.395V2.965l-.71.367-.76.393-.725-.453zM5 6.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 6.5m.75 2.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"可以修改或取消订单吗？","$L6a"]}]}],"$L6b"]}],"$L6c","$L6d","$L6e","$L6f"]}]}]
+13:["$","$L8",null,{"as":"h3","id":"多项同时展开","children":"多项同时展开"}]
+70:T812,import {Accordion} from "@heroui/react";
+
+export function Multiple() {
+  return (
+    <Accordion allowsMultipleExpanded className="w-full max-w-md">
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            快速开始
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            了解 HeroUI 的基础知识，以及如何将其集成到你的 React
+            项目中。本节涵盖安装、配置和你的第一个组件。
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            核心概念
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            理解 HeroUI 背后的核心概念，包括复合组件模式、使用 Tailwind CSS
+            进行样式设计，以及无障碍特性。
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            高级用法
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            探索高级特性，例如自定义变体、主题定制，以及与 React 生态中其他库的集成。
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            最佳实践
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            遵循我们建议的最佳实践，使用 HeroUI 构建高性能、无障碍且易于维护的应用。
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+14:["$","$L47",null,{"align":"center","code":"$70","isBgSolid":false,"minHeight":"524px","name":"accordion-multiple","children":["$","$L49",null,{"allowsMultipleExpanded":true,"className":"w-full max-w-md","children":[["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["快速开始",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"了解 HeroUI 的基础知识，以及如何将其集成到你的 React 项目中。本节涵盖安装、配置和你的第一个组件。"}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["核心概念",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"理解 HeroUI 背后的核心概念，包括复合组件模式、使用 Tailwind CSS 进行样式设计，以及无障碍特性。"}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["高级用法",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"探索高级特性，例如自定义变体、主题定制，以及与 React 生态中其他库的集成。"}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["最佳实践",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"遵循我们建议的最佳实践，使用 HeroUI 构建高性能、无障碍且易于维护的应用。"}]}]]}]]}]}]
+15:["$","$L8",null,{"as":"h3","id":"受控","children":"受控"}]
+71:Ta16,"use client";
+
+import {ChevronDown, ChevronUp} from "@gravity-ui/icons";
+import {Accordion, Button, useDisclosureGroupNavigation} from "@heroui/react";
+import React from "react";
+
+const items = [
+  {
+    content:
+      "了解 HeroUI 的基础知识，以及如何将其集成到你的 React 项目中。本节涵盖安装、配置和你的第一个组件。",
+    id: "getting-started",
+    title: "快速开始",
+  },
+  {
+    content:
+      "理解 HeroUI 背后的核心概念，包括复合组件模式、使用 Tailwind CSS 进行样式设计，以及无障碍特性。",
+    id: "core-concepts",
+    title: "核心概念",
+  },
+  {
+    content: "探索高级特性，例如自定义变体、主题定制，以及与 React 生态中其他库的集成。",
+    id: "advanced-usage",
+    title: "高级用法",
+  },
+];
+
+export function Controlled() {
+  const [expandedKeys, setExpandedKeys] = React.useState(
+    new Set<string | number>(["getting-started"]),
+  );
+  const itemIds = items.map((item) => item.id);
+
+  const {isNextDisabled, isPrevDisabled, onNext, onPrevious} = useDisclosureGroupNavigation({
+    expandedKeys,
+    itemIds,
+    onExpandedChange: setExpandedKeys,
+  });
+
+  return (
+    <div className="w-full max-w-md">
+      <div className="mb-4 flex items-center justify-between">
+        <p className="text-sm text-muted">
+          已展开：<strong>{[...expandedKeys].join("、") || "无"}</strong>
+        </p>
+        <div className="flex gap-2">
+          <Button
+            aria-label="上一项"
+            isDisabled={isPrevDisabled}
+            size="sm"
+            variant="secondary"
+            onPress={onPrevious}
+          >
+            <ChevronUp className="size-4" />
+          </Button>
+          <Button
+            aria-label="下一项"
+            isDisabled={isNextDisabled}
+            size="sm"
+            variant="secondary"
+            onPress={onNext}
+          >
+            <ChevronDown className="size-4" />
+          </Button>
+        </div>
+      </div>
+      <Accordion expandedKeys={expandedKeys} onExpandedChange={setExpandedKeys}>
+        {items.map((item) => (
+          <Accordion.Item key={item.id} id={item.id}>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                {item.title}
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>{item.content}</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+        ))}
+      </Accordion>
+    </div>
+  );
+}
+16:["$","$L47",null,{"align":"center","code":"$71","isBgSolid":false,"minHeight":"400px","name":"accordion-controlled","children":["$","$L72",null,{}]}]
+17:["$","$L8",null,{"as":"h3","id":"自定义指示器","children":"自定义指示器"}]
+73:T7ef,"use client";
+
+import type {Key} from "@heroui/react";
+
+import {ChevronsDown, CircleChevronDown, Minus, Plus} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+import React from "react";
+
+export function CustomIndicator() {
+  const [expandedKeys, setExpandedKeys] = React.useState<Set<Key>>(new Set([""]));
+
+  return (
+    <Accordion
+      className="w-full max-w-md"
+      expandedKeys={expandedKeys}
+      variant="surface"
+      onExpandedChange={setExpandedKeys}
+    >
+      <Accordion.Item id="1">
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            使用加号/减号图标
+            <Accordion.Indicator>
+              {expandedKeys.has("1") ? <Minus /> : <Plus />}
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>折叠时显示加号图标，展开时切换为减号图标。</Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item id="2">
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            使用圆形箭头图标
+            <Accordion.Indicator>
+              <CircleChevronDown />
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>此项使用圆形内的箭头作为指示器，旋转动画会自动应用。</Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item id="3">
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            使用双箭头图标
+            <Accordion.Indicator>
+              <ChevronsDown />
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            此项使用双箭头图标。传入任意图标后，在条目展开时都会获得旋转动画。
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+18:["$","$L47",null,{"align":"center","code":"$73","isBgSolid":false,"minHeight":"320px","name":"accordion-custom-indicator","children":["$","$L74",null,{}]}]
+19:["$","$L8",null,{"as":"h3","id":"禁用状态","children":"禁用状态"}]
+75:Ta57,import {Accordion} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <div className="flex w-full flex-col items-center gap-8">
+      <div className="w-full max-w-md space-y-2">
+        <h3 className="text-sm font-medium text-muted">整个手风琴禁用</h3>
+        <Accordion isDisabled className="w-full max-w-md">
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                禁用项 1
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>手风琴禁用时无法查看此内容。</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                禁用项 2
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>手风琴禁用时无法查看此内容。</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      </div>
+
+      <div className="w-full max-w-md space-y-2">
+        <h3 className="text-sm font-medium text-muted">单独禁用条目</h3>
+        <Accordion className="w-full max-w-md">
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                可用项
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>此项可用，可正常展开与折叠。</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item isDisabled>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                禁用项
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>条目禁用时无法查看此内容。</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                另一可用项
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>此项同样可用，可正常切换。</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      </div>
+    </div>
+  );
+}
+1a:["$","$L47",null,{"align":"center","code":"$75","isBgSolid":false,"minHeight":"524px","name":"accordion-disabled","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-8","children":[["$","div",null,{"className":"w-full max-w-md space-y-2","children":[["$","h3",null,{"className":"text-sm font-medium text-muted","children":"整个手风琴禁用"}],["$","$L49",null,{"isDisabled":true,"className":"w-full max-w-md","children":[["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["禁用项 1",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"手风琴禁用时无法查看此内容。"}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["禁用项 2",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"手风琴禁用时无法查看此内容。"}]}]]}]]}]]}],["$","div",null,{"className":"w-full max-w-md space-y-2","children":[["$","h3",null,{"className":"text-sm font-medium text-muted","children":"单独禁用条目"}],["$","$L49",null,{"className":"w-full max-w-md","children":[["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["可用项",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"此项可用，可正常展开与折叠。"}]}]]}],["$","$L4a",null,{"isDisabled":true,"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["禁用项","$L76"]}]}],"$L77"]}],"$L78"]}]]}]]}]}]
+1b:["$","$L8",null,{"as":"h3","id":"faq-布局","children":"FAQ 布局"}]
+79:T9ac,import {ChevronDown} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+export function FAQ() {
+  const categories = [
+    {
+      items: [
+        {
+          content: "浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。",
+          title: "如何下单？",
+        },
+        {
+          content: "可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。",
+          title: "可以修改或取消订单吗？",
+        },
+      ],
+      title: "常规",
+    },
+    {
+      items: [
+        {
+          content: "你可以直接在官网购买许可证，选择适合的许可证类型后前往结账即可。",
+          title: "如何购买许可证？",
+        },
+        {
+          content: "标准版适用于个人或小项目；专业版包含商业使用授权与优先支持。",
+          title: "标准版与专业版有什么区别？",
+        },
+      ],
+      title: "许可",
+    },
+    {
+      items: [
+        {
+          content: "可通过网站上的联系表单联系支持团队，或直接发送邮件至 support@example.com。",
+          title: "如何获取支持？",
+        },
+      ],
+      title: "支持",
+    },
+  ];
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      <div className="flex flex-col gap-1">
+        <h2 className="text-2xl font-bold">常见问题</h2>
+        <p className="mb-4 text-lg font-medium text-muted">
+          关于许可与使用，你需要了解的内容都在这里。
+        </p>
+      </div>
+      {categories.map((category) => (
+        <div key={category.title}>
+          <p className="text-md mb-2 font-medium text-muted">{category.title}</p>
+          <Accordion className="w-full" variant="surface">
+            {category.items.map((item, index) => (
+              <Accordion.Item key={index}>
+                <Accordion.Heading>
+                  <Accordion.Trigger>
+                    {item.title}
+                    <Accordion.Indicator>
+                      <ChevronDown />
+                    </Accordion.Indicator>
+                  </Accordion.Trigger>
+                </Accordion.Heading>
+                <Accordion.Panel>
+                  <Accordion.Body>{item.content}</Accordion.Body>
+                </Accordion.Panel>
+              </Accordion.Item>
+            ))}
+          </Accordion>
+        </div>
+      ))}
+    </div>
+  );
+}
+1c:["$","$L47",null,{"align":"center","code":"$79","isBgSolid":false,"minHeight":"720px","name":"accordion-faq","children":["$","div",null,{"className":"flex w-full flex-col gap-6","children":[["$","div",null,{"className":"flex flex-col gap-1","children":[["$","h2",null,{"className":"text-2xl font-bold","children":"常见问题"}],["$","p",null,{"className":"mb-4 text-lg font-medium text-muted","children":"关于许可与使用，你需要了解的内容都在这里。"}]]}],[["$","div","常规",{"children":[["$","p",null,{"className":"text-md mb-2 font-medium text-muted","children":"常规"}],["$","$L49",null,{"className":"w-full","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["如何下单？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。"}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["可以修改或取消订单吗？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。"}]}]]}]]}]]}],["$","div","许可",{"children":[["$","p",null,{"className":"text-md mb-2 font-medium text-muted","children":"许可"}],"$L7a"]}],"$L7b"]]}]}]
+1d:["$","$L8",null,{"as":"h3","id":"自定义样式","children":"自定义样式"}]
+7c:Ta45,import {ChevronDown} from "@gravity-ui/icons";
+import {Accordion, cn} from "@heroui/react";
+
+const items = [
+  {
+    content: "通过实时通知及时了解账户动态。",
+    iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png",
+    subtitle: "接收账户活动更新",
+    title: "开启通知",
+  },
+  {
+    content: "安装我们的官方浏览器扩展，获得更顺畅的浏览体验。",
+    iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png",
+    subtitle: "将浏览器连接到你的账户",
+    title: "安装浏览器扩展",
+  },
+  {
+    content: "创建你的第一件数字藏品，开启数字收藏之旅。",
+    iconUrl:
+      "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png",
+    subtitle: "创建你的第一件收藏品",
+    title: "铸造收藏品",
+  },
+];
+
+export function CustomStyles() {
+  return (
+    <Accordion className="bg-surface-1/10 w-full max-w-md rounded-2xl" variant="surface">
+      {items.map((item, index) => (
+        <Accordion.Item
+          key={index}
+          className={cn(
+            "group/item",
+            "first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl", // First trigger we want to round the top
+            "last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl", // Last trigger we want to round the bottom
+          )}
+        >
+          <Accordion.Heading>
+            <Accordion.Trigger className="hover:bgsurface group flex items-center gap-2 transition-none">
+              {item.iconUrl ? (
+                <img
+                  alt={item.title}
+                  className="h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg"
+                  src={item.iconUrl}
+                />
+              ) : null}
+              <div className="flex flex-col gap-0">
+                <span className="leading-5 font-medium">{item.title}</span>
+                <span className="leading-6 font-normal text-muted/80">{item.subtitle}</span>
+              </div>
+              <Accordion.Indicator className="text-muted/50 [&>svg]:size-4">
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body className="text-muted/80">{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+1e:["$","$L47",null,{"align":"center","code":"$7c","isBgSolid":false,"minHeight":"420px","name":"accordion-custom-styles","children":["$","$L49",null,{"className":"bg-surface-1/10 w-full max-w-md rounded-2xl","variant":"surface","children":[["$","$L4a","0",{"className":"group/item first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl","children":[["$","$L4b",null,{"children":["$","$L4c",null,{"className":"hover:bgsurface group flex items-center gap-2 transition-none","children":[["$","img",null,{"alt":"开启通知","className":"h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg","src":"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png"}],["$","div",null,{"className":"flex flex-col gap-0","children":[["$","span",null,{"className":"leading-5 font-medium","children":"开启通知"}],"$L7d"]}],"$L7e"]}]}],"$L7f"]}],"$L80","$L81"]}]}]
+1f:["$","$L8",null,{"as":"h3","id":"无分隔线","children":"无分隔线"}]
+82:T5bd,import {ChevronDown, CreditCard, Receipt, ShoppingBag} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content: "浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。",
+    icon: <ShoppingBag />,
+    title: "如何下单？",
+  },
+  {
+    content: "可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。",
+    icon: <Receipt />,
+    title: "可以修改或取消订单吗？",
+  },
+  {
+    content: "我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。",
+    icon: <CreditCard />,
+    title: "支持哪些支付方式？",
+  },
+];
+
+export function WithoutSeparator() {
+  return (
+    <Accordion hideSeparator className="w-full max-w-md">
+      {items.map((item, index) => (
+        <Accordion.Item key={index}>
+          <Accordion.Heading>
+            <Accordion.Trigger>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+20:["$","$L47",null,{"align":"center","code":"$82","isBgSolid":false,"minHeight":"400px","name":"accordion-without-separator","children":["$","$L49",null,{"hideSeparator":true,"className":"w-full max-w-md","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M5.174 3h5.652a1.5 1.5 0 0 1 1.49 1.328l.808 7A1.5 1.5 0 0 1 11.634 13H4.366a1.5 1.5 0 0 1-1.49-1.672l.808-7A1.5 1.5 0 0 1 5.174 3m-2.98 1.156A3 3 0 0 1 5.174 1.5h5.652a3 3 0 0 1 2.98 2.656l.808 7a3 3 0 0 1-2.98 3.344H4.366a3 3 0 0 1-2.98-3.344zM5 5.25a.75.75 0 0 1 1.5 0v.25a1.5 1.5 0 1 0 3 0v-.25a.75.75 0 0 1 1.5 0v.25a3 3 0 0 1-6 0z","clipRule":"evenodd"}]}]}],"如何下单？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。"}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M6.3 2 3.9.5 2 2v13.5l1.5-.776L4.9 14l2.4 1.5L9.7 14l2.4 1.5L14 14V.5l-1.5.776L11.1 2 8.7.5zm2.4.269L7.095 3.272l-.795.497-.795-.497-1.504-.94-.501.395v10.308l.71-.367.76-.393.725.453L7.3 13.731l1.605-1.003.795-.497.795.497 1.504.94.501-.395V2.965l-.71.367-.76.393-.725-.453zM5 6.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 6.5m.75 2.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"可以修改或取消订单吗？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],"$L83"]}],"$L84"]}]}]
+21:["$","$L8",null,{"as":"h3","id":"自定义渲染函数","children":"自定义渲染函数"}]
+85:T964,"use client";
+
+import {
+  ArrowsRotateLeft,
+  Box,
+  ChevronDown,
+  CreditCard,
+  PlanetEarth,
+  Receipt,
+  ShoppingBag,
+} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content: "浏览我们的商品，将商品加入购物车并前往结账。完成购买需要提供收货与支付信息。",
+    icon: <ShoppingBag />,
+    title: "如何下单？",
+  },
+  {
+    content: "可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。",
+    icon: <Receipt />,
+    title: "可以修改或取消订单吗？",
+  },
+  {
+    content: "我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。",
+    icon: <CreditCard />,
+    title: "支持哪些支付方式？",
+  },
+  {
+    content: "运费因收货地址与订单体积而异。订单满 50 美元可享受免运费。",
+    icon: <Box />,
+    title: "运费如何计算？",
+  },
+  {
+    content: "是的，我们可向多数国家/地区发货。请查看运费说明与政策了解更多信息。",
+    icon: <PlanetEarth />,
+    title: "是否提供国际配送？",
+  },
+  {
+    content: "若对购买不满意，可在购买后 30 天内申请退款。请联系客服团队协助处理。",
+    icon: <ArrowsRotateLeft />,
+    title: "如何申请退款？",
+  },
+];
+
+export function CustomRenderFunction() {
+  return (
+    <Accordion
+      className="w-full max-w-md"
+      render={(props) => <div data-custom="accordion" {...props} />}
+    >
+      {items.map((item, index) => (
+        <Accordion.Item key={index} render={(props) => <div data-custom="item" {...props} />}>
+          <Accordion.Heading render={(props) => <div data-custom="heading" {...props} />}>
+            <Accordion.Trigger render={(props) => <button data-custom="trigger" {...props} />}>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel render={(props) => <div data-custom="panel" {...props} />}>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+22:["$","$L47",null,{"align":"center","code":"$85","isBgSolid":false,"minHeight":"400px","name":"accordion-custom-render-function","children":["$","$L86",null,{}]}]
+23:["$","$87",null,{"fallback":null,"children":["$","$L88",null,{"component":"accordion"}]}]
+24:["$","$L8",null,{"as":"h2","id":"样式","children":"样式"}]
+25:["$","$L8",null,{"as":"h3","id":"传入-tailwind-css-类","children":"传入 Tailwind CSS 类"}]
+8a:Td28,"use client";
+
+import { Accordion, cn } from "@heroui/react";
+import {Icon} from "@iconify/react";
+
+const items = [
+{
+  content:
+    "Stay informed about your account activity with real-time notifications. You'll receive instant alerts for important events like transactions, new messages, security updates, and system announcements. ",
+  iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png",
+  title: "Set Up Notifications",
+  subtitle: "Receive account activity updates",
+},
+{
+  content:
+    "Enhance your browsing experience by installing our official browser extension. The extension provides seamless integration with your account, allowing you to receive notifications directly in your browser, quickly access your dashboard, and interact with web3 applications securely. Compatible with Chrome, Firefox, Edge, and Brave browsers.",
+  iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png",
+  title: "Set up Browser Extension",
+  subtitle: "Connect you browser to your account",
+},
+{
+  content:
+    "Begin your journey into the world of digital collectibles by creating your first NFT. Our intuitive minting process guides you through uploading your artwork, setting metadata, choosing royalty percentages, and deploying to the blockchain. Whether you're an artist, creator, or collector, you'll find all the tools you need to bring your digital assets to life. Your collectibles are stored on IPFS for permanent decentralized storage.",
+  iconUrl:
+    "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png",
+  title: "Mint Collectible",
+  subtitle: "Create your first collectible",
+},
+];
+
+export function CustomStyles() {
+return (
+  <Accordion className="bg-surface-secondary w-full max-w-md rounded-2xl" variant="surface">
+    {items.map((item, index) => (
+      <Accordion.Item
+        key={index}
+        className={cn(
+          "group/item",
+          "first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl", // 第一个触发器：圆角顶部
+          "last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl", // 最后一个触发器：圆角底部
+        )}
+      >
+        <Accordion.Heading>
+          <Accordion.Trigger className="hover:bg-surface-tertiary group flex items-center gap-2">
+            {item.iconUrl ? (
+              <img
+                alt={item.title}
+                className="group-hover/item:scale-120 group-hover/item:-rotate-10 h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:drop-shadow-lg"
+                src={item.iconUrl}
+              />
+            ) : null}
+            <div className="flex flex-col gap-0">
+              <span className="font-medium leading-5">{item.title}</span>
+              <span className="text-muted/80 font-normal leading-6">{item.subtitle}</span>
+            </div>
+            <Accordion.Indicator className="text-muted/50 [&>svg]:size-4">
+              <Icon icon="gravity-ui:chevron-down" />
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body className="text-muted/80">{item.content}</Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+    ))}
+  </Accordion>
+);
+}26:["$","$L89",null,{"className":"","code":"$8a","collapsible":true,"isIsolated":true,"lang":"tsx","preview":"$L8b","showLineNumbers":true,"title":"","children":"$L8c"}]
+27:["$","$L8",null,{"as":"h3","id":"自定义组件类","children":"自定义组件类"}]
+28:["$","p",null,{"children":["若要自定义 Accordion 组件类，可使用 ",["$","code",null,{"children":"@layer components"}]," 指令。\n",["$","br",null,{}],["$","$L8d",null,{"href":"https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes","children":"了解更多"}],"。"]}]
+29:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L46",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"@layer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" components {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .accordion"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" rounded-xl"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" bg-gray-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"50;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .accordion__trigger"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" font-semibold"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-lg"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .accordion--outline"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" shadow-lg"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" border-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"2;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]]}]}]}]
+2a:["$","p",null,{"children":["HeroUI 遵循 ",["$","$L8d",null,{"href":"https://getbem.com/","children":"BEM"}]," 方法论，确保组件变体与状态可复用且易于自定义。"]}]
+2b:["$","$L8",null,{"as":"h3","id":"css-类","children":"CSS 类"}]
+2c:["$","p",null,{"children":["Accordion 组件使用以下 CSS 类（",["$","$L8d",null,{"href":"https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/accordion.css","children":"查看源码样式"}],"）："]}]
+2d:["$","$L8",null,{"as":"h4","id":"基础类","children":"基础类"}]
+2e:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion"}]," - Accordion 根容器"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__body"}]," - 正文容器"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__heading"}]," - 标题包裹层"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__indicator"}]," - 展开/收起指示图标"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__item"}]," - 单个 Accordion 项"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__panel"}]," - 可折叠面板容器"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__trigger"}]," - 可点击的触发按钮"]}],"\n"]}]
+2f:["$","$L8",null,{"as":"h4","id":"变体类","children":"变体类"}]
+30:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion--outline"}]," - 描边变体（边框与背景）"]}],"\n"]}]
+31:["$","$L8",null,{"as":"h4","id":"状态类","children":"状态类"}]
+32:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__trigger[aria-expanded=\"true\"]"}]," - 展开状态"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__panel[aria-hidden=\"false\"]"}]," - 面板可见状态"]}],"\n"]}]
+33:["$","$L8",null,{"as":"h3","id":"交互状态","children":"交互状态"}]
+34:["$","p",null,{"children":"该组件同时支持 CSS 伪类与 data 属性："}]
+35:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"悬停"}],"：触发器上 ",["$","code",null,{"children":":hover"}]," 或 ",["$","code",null,{"children":"[data-hovered=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"聚焦"}],"：触发器上 ",["$","code",null,{"children":":focus-visible"}]," 或 ",["$","code",null,{"children":"[data-focus-visible=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"禁用"}],"：触发器上 ",["$","code",null,{"children":":disabled"}]," 或 ",["$","code",null,{"children":"[aria-disabled=\"true\"]"}]]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"展开"}],"：触发器上 ",["$","code",null,{"children":"[aria-expanded=\"true\"]"}]]}],"\n"]}]
+36:["$","$L8",null,{"as":"h2","id":"api-参考","children":"API 参考"}]
+37:["$","$L8",null,{"as":"h3","id":"accordion-props","children":"Accordion Props"}]
+38:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"allowsMultipleExpanded"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否允许多项同时展开。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultExpandedKeys"}]}],["$","td",null,{"children":["$","code",null,{"children":"Iterable<Key>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"初始展开的 key。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"expandedKeys"}]}],["$","td",null,{"children":["$","code",null,{"children":"Iterable<Key>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"受控的展开 key。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onExpandedChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(keys: Set<Key>) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"展开 key 变化时调用的事件处理函数。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否禁用整个 Accordion。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"variant"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"default\" | \"surface\""}]}],["$","td",null,{"children":["$","code",null,{"children":"\"default\""}]}],["$","td",null,{"children":"Accordion 的视觉变体。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"hideSeparator"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否隐藏 Accordion 项之间的分隔线。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的 Tailwind CSS 类。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Accordion 项。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, AccordionRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"使用自定义渲染函数覆盖默认 DOM 元素。"}]]}]]}]]}]}]
+39:["$","$L8",null,{"as":"h3","id":"accordionitem-props","children":"Accordion.Item Props"}]
+3a:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"id"}]}],["$","td",null,{"children":["$","code",null,{"children":"Key"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"该项的唯一标识。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否禁用该项。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultExpanded"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"初始是否展开。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isExpanded"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"受控展开状态。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onExpandedChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(isExpanded: boolean) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"展开状态变化时调用的事件处理函数。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的 Tailwind CSS 类。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"项内容。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, AccordionItemRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"使用自定义渲染函数覆盖默认 DOM 元素。"}]]}]]}]]}]}]
+3b:["$","$L8",null,{"as":"h3","id":"accordiontrigger-props","children":"Accordion.Trigger Props"}]
+3c:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的 Tailwind CSS 类。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode | RenderFunction"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"触发器内容或渲染函数。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onPress"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的按下事件处理函数。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"是否禁用触发器。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, TriggerRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"使用自定义渲染函数覆盖默认 DOM 元素。"}]]}]]}]]}]}]
+3d:["$","$L8",null,{"as":"h3","id":"accordionpanel-props","children":"Accordion.Panel Props"}]
+3e:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的 Tailwind CSS 类。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"面板内容。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, AccordionPanelRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"使用自定义渲染函数覆盖默认 DOM 元素。"}]]}]]}]]}]}]
+3f:["$","$L8",null,{"as":"h3","id":"accordionindicator-props","children":"Accordion.Indicator Props"}]
+40:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的 Tailwind CSS 类。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"自定义指示图标。"}]]}]]}]]}]}]
+41:["$","$L8",null,{"as":"h3","id":"accordionbody-props","children":"Accordion.Body Props"}]
+42:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"额外的 Tailwind CSS 类。"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"正文内容。"}]]}]]}]]}]}]
+43:["$","script","script-0",{"src":"/_next/static/chunks/0fpc6ujy7.75j.js","async":true}]
+44:["$","script","script-1",{"src":"/_next/static/chunks/0z-r2uz5n7mxn.js","async":true}]
+45:["$","$L8e",null,{"children":["$","$87",null,{"name":"Next.MetadataOutlet","children":"$@8f"}]}]
+50:["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]
+51:["$","$L4e",null,{"children":["$","$L4f",null,{"children":"可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。"}]}]
+52:["$","$L4a","2",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M12.5 4h-9A1.5 1.5 0 0 0 2 5.5h12A1.5 1.5 0 0 0 12.5 4M2 10.5V7h12v3.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 10.5m1.5-8a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3zM4.25 9a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"支持哪些支付方式？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。"}]}]]}]
+53:["$","$L4a","3",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M13.5 10.421V5.475l-2 .714V8.25a.75.75 0 0 1-1.5 0V6.725l-2.25.804v6.088l4.777-1.792a1.5 1.5 0 0 0 .973-1.404m-2.254-5.734 1.6-.571a2 2 0 0 0-.175-.104L9.499 2.427a1.5 1.5 0 0 0-1.197-.063l-.941.353 3.724 1.862q.09.045.16.108M5.444 3.435l3.878 1.94-2.273.811-3.805-1.903q.108-.063.23-.109zm.806 4.029L2.5 5.589v5.057a1.5 1.5 0 0 0 .83 1.342l2.92 1.46zM1 5.579c0-.436.094-.856.266-1.236a.75.75 0 0 1 .2-.37c.342-.54.855-.968 1.48-1.203L7.777.96a3 3 0 0 1 2.394.125l3.172 1.586A3 3 0 0 1 15 5.354v5.067a3 3 0 0 1-1.947 2.809l-4.828 1.81a3 3 0 0 1-2.395-.125l-3.172-1.586A3 3 0 0 1 1 10.646z","clipRule":"evenodd"}]}]}],"运费如何计算？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"运费因收货地址与订单体积而异。订单满 50 美元可享受免运费。"}]}]]}]
+54:["$","$L4a","4",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 13.5c1.63 0 3.094-.709 4.101-1.835A2.5 2.5 0 0 1 10.25 9.25V9a.75.75 0 0 0-.75-.75 2.25 2.25 0 0 1 0-4.5.75.75 0 0 0 .75-.75v-.02a5.5 5.5 0 0 0-7.471 3.287A2.25 2.25 0 0 1 4.75 8.5c0 .414.336.75.75.75a2.25 2.25 0 0 1 1.265 4.11q.597.139 1.235.14m-3.491-1.25H5.5a.75.75 0 0 0 0-1.5A2.25 2.25 0 0 1 3.25 8.5a.75.75 0 0 0-.744-.75 5.49 5.49 0 0 0 2.003 4.5m8.241-2h.27A5.5 5.5 0 0 0 13.5 8c0-1.665-.74-3.158-1.91-4.166A2.25 2.25 0 0 1 9.5 5.25a.75.75 0 1 0 0 1.5A2.25 2.25 0 0 1 11.75 9v.25a1 1 0 0 0 1 1M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14","clipRule":"evenodd"}]}]}],"是否提供国际配送？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"是的，我们可向多数国家/地区发货。请查看运费说明与政策了解更多信息。"}]}]]}]
+55:["$","$L4a","5",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 1.5a6.5 6.5 0 0 1 6.445 5.649.75.75 0 1 1-1.488.194A5.001 5.001 0 0 0 4.43 4.5h1.32a.75.75 0 0 1 0 1.5h-3A.75.75 0 0 1 2 5.25v-3a.75.75 0 1 1 1.5 0v1.06A6.48 6.48 0 0 1 8 1.5m5.25 13a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75h-3a.75.75 0 1 0 0 1.5h1.32a5.001 5.001 0 0 1-8.528-2.843.75.75 0 1 0-1.487.194 6.501 6.501 0 0 0 10.945 3.84v1.059c0 .414.336.75.75.75","clipRule":"evenodd"}]}]}],"如何申请退款？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"若对购买不满意，可在购买后 30 天内申请退款。请联系客服团队协助处理。"}]}]]}]
+57:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+58:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+59:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+5a:["$","span",null,{"className":"line"}]
+5b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" () "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+5c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+60:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Indicator"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+61:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+62:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+63:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+64:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Body"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"/>"}]]}]
+65:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+66:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+67:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+68:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":")"}]}]
+6a:["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]
+6b:["$","$L4e",null,{"children":["$","$L4f",null,{"children":"可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。"}]}]
+6c:["$","$L4a","2",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M12.5 4h-9A1.5 1.5 0 0 0 2 5.5h12A1.5 1.5 0 0 0 12.5 4M2 10.5V7h12v3.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 10.5m1.5-8a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3zM4.25 9a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"支持哪些支付方式？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。"}]}]]}]
+6d:["$","$L4a","3",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M13.5 10.421V5.475l-2 .714V8.25a.75.75 0 0 1-1.5 0V6.725l-2.25.804v6.088l4.777-1.792a1.5 1.5 0 0 0 .973-1.404m-2.254-5.734 1.6-.571a2 2 0 0 0-.175-.104L9.499 2.427a1.5 1.5 0 0 0-1.197-.063l-.941.353 3.724 1.862q.09.045.16.108M5.444 3.435l3.878 1.94-2.273.811-3.805-1.903q.108-.063.23-.109zm.806 4.029L2.5 5.589v5.057a1.5 1.5 0 0 0 .83 1.342l2.92 1.46zM1 5.579c0-.436.094-.856.266-1.236a.75.75 0 0 1 .2-.37c.342-.54.855-.968 1.48-1.203L7.777.96a3 3 0 0 1 2.394.125l3.172 1.586A3 3 0 0 1 15 5.354v5.067a3 3 0 0 1-1.947 2.809l-4.828 1.81a3 3 0 0 1-2.395-.125l-3.172-1.586A3 3 0 0 1 1 10.646z","clipRule":"evenodd"}]}]}],"运费如何计算？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"运费因收货地址与订单体积而异。订单满 50 美元可享受免运费。"}]}]]}]
+6e:["$","$L4a","4",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 13.5c1.63 0 3.094-.709 4.101-1.835A2.5 2.5 0 0 1 10.25 9.25V9a.75.75 0 0 0-.75-.75 2.25 2.25 0 0 1 0-4.5.75.75 0 0 0 .75-.75v-.02a5.5 5.5 0 0 0-7.471 3.287A2.25 2.25 0 0 1 4.75 8.5c0 .414.336.75.75.75a2.25 2.25 0 0 1 1.265 4.11q.597.139 1.235.14m-3.491-1.25H5.5a.75.75 0 0 0 0-1.5A2.25 2.25 0 0 1 3.25 8.5a.75.75 0 0 0-.744-.75 5.49 5.49 0 0 0 2.003 4.5m8.241-2h.27A5.5 5.5 0 0 0 13.5 8c0-1.665-.74-3.158-1.91-4.166A2.25 2.25 0 0 1 9.5 5.25a.75.75 0 1 0 0 1.5A2.25 2.25 0 0 1 11.75 9v.25a1 1 0 0 0 1 1M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14","clipRule":"evenodd"}]}]}],"是否提供国际配送？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"是的，我们可向多数国家/地区发货。请查看运费说明与政策了解更多信息。"}]}]]}]
+6f:["$","$L4a","5",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 1.5a6.5 6.5 0 0 1 6.445 5.649.75.75 0 1 1-1.488.194A5.001 5.001 0 0 0 4.43 4.5h1.32a.75.75 0 0 1 0 1.5h-3A.75.75 0 0 1 2 5.25v-3a.75.75 0 1 1 1.5 0v1.06A6.48 6.48 0 0 1 8 1.5m5.25 13a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75h-3a.75.75 0 1 0 0 1.5h1.32a5.001 5.001 0 0 1-8.528-2.843.75.75 0 1 0-1.487.194 6.501 6.501 0 0 0 10.945 3.84v1.059c0 .414.336.75.75.75","clipRule":"evenodd"}]}]}],"如何申请退款？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"若对购买不满意，可在购买后 30 天内申请退款。请联系客服团队协助处理。"}]}]]}]
+76:["$","$L4d",null,{}]
+77:["$","$L4e",null,{"children":["$","$L4f",null,{"children":"条目禁用时无法查看此内容。"}]}]
+78:["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["另一可用项",["$","$L4d",null,{}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"此项同样可用，可正常切换。"}]}]]}]
+7a:["$","$L49",null,{"className":"w-full","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["如何购买许可证？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"你可以直接在官网购买许可证，选择适合的许可证类型后前往结账即可。"}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["标准版与专业版有什么区别？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"标准版适用于个人或小项目；专业版包含商业使用授权与优先支持。"}]}]]}]]}]
+7b:["$","div","支持",{"children":[["$","p",null,{"className":"text-md mb-2 font-medium text-muted","children":"支持"}],["$","$L49",null,{"className":"w-full","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["如何获取支持？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"可通过网站上的联系表单联系支持团队，或直接发送邮件至 support@example.com。"}]}]]}]]}]]}]
+7d:["$","span",null,{"className":"leading-6 font-normal text-muted/80","children":"接收账户活动更新"}]
+7e:["$","$L4d",null,{"className":"text-muted/50 [&>svg]:size-4","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]
+7f:["$","$L4e",null,{"children":["$","$L4f",null,{"className":"text-muted/80","children":"通过实时通知及时了解账户动态。"}]}]
+80:["$","$L4a","1",{"className":"group/item first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl","children":[["$","$L4b",null,{"children":["$","$L4c",null,{"className":"hover:bgsurface group flex items-center gap-2 transition-none","children":[["$","img",null,{"alt":"安装浏览器扩展","className":"h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg","src":"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png"}],["$","div",null,{"className":"flex flex-col gap-0","children":[["$","span",null,{"className":"leading-5 font-medium","children":"安装浏览器扩展"}],["$","span",null,{"className":"leading-6 font-normal text-muted/80","children":"将浏览器连接到你的账户"}]]}],["$","$L4d",null,{"className":"text-muted/50 [&>svg]:size-4","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"className":"text-muted/80","children":"安装我们的官方浏览器扩展，获得更顺畅的浏览体验。"}]}]]}]
+81:["$","$L4a","2",{"className":"group/item first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl","children":[["$","$L4b",null,{"children":["$","$L4c",null,{"className":"hover:bgsurface group flex items-center gap-2 transition-none","children":[["$","img",null,{"alt":"铸造收藏品","className":"h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg","src":"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png"}],["$","div",null,{"className":"flex flex-col gap-0","children":[["$","span",null,{"className":"leading-5 font-medium","children":"铸造收藏品"}],["$","span",null,{"className":"leading-6 font-normal text-muted/80","children":"创建你的第一件收藏品"}]]}],["$","$L4d",null,{"className":"text-muted/50 [&>svg]:size-4","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"className":"text-muted/80","children":"创建你的第一件数字藏品，开启数字收藏之旅。"}]}]]}]
+83:["$","$L4e",null,{"children":["$","$L4f",null,{"children":"可以，在订单发货前你可以修改或取消。订单一旦进入处理流程，将无法再更改。"}]}]
+84:["$","$L4a","2",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M12.5 4h-9A1.5 1.5 0 0 0 2 5.5h12A1.5 1.5 0 0 0 12.5 4M2 10.5V7h12v3.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 10.5m1.5-8a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3zM4.25 9a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"支持哪些支付方式？",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L4e",null,{"children":["$","$L4f",null,{"children":"我们接受主流信用卡，包括 Visa、Mastercard 和 American Express。"}]}]]}]
+8b:[["$","$L46","pre-0",{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","children":["$","code","code-0",{"children":[["$","span","span-0",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"use client\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-1",{"className":"line"}],"\n",["$","span","span-2",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion, cn } "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@heroui/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-3",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {Icon} "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@iconify/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-4",{"className":"line"}]]}]}]]
+8c:[["$","$L46","pre-0",{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","children":["$","code","code-0",{"children":[["$","span","span-0",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"use client\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-1",{"className":"line"}],"\n",["$","span","span-2",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion, cn } "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@heroui/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-3",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {Icon} "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@iconify/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-4",{"className":"line"}],"\n",["$","span","span-5",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"const"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" items"}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" ="}],["$","span","span-3",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ["}]]}],"\n",["$","span","span-6",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}]}],"\n",["$","span","span-7",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  content:"}]}],"\n",["$","span","span-8",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"Stay informed about your account activity with real-time notifications. You'll receive instant alerts for important events like transactions, new messages, security updates, and system announcements. \""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-9",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  iconUrl: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-10",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  title: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Set Up Notifications\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-11",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  subtitle: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Receive account activity updates\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-12",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"},"}]}],"\n",["$","span","span-13",{"className":"line","children":"$L90"}],"\n","$L91","\n","$L92","\n","$L93","\n","$L94","\n","$L95","\n","$L96","\n","$L97","\n","$L98","\n","$L99","\n","$L9a","\n","$L9b","\n","$L9c","\n","$L9d","\n","$L9e","\n","$L9f","\n","$La0","\n","$La1","\n","$La2","\n","$La3","\n","$La4","\n","$La5","\n","$La6","\n","$La7","\n","$La8","\n","$La9","\n","$Laa","\n","$Lab","\n","$Lac","\n","$Lad","\n","$Lae","\n","$Laf","\n","$Lb0","\n","$Lb1","\n","$Lb2","\n","$Lb3","\n","$Lb4","\n","$Lb5","\n","$Lb6","\n","$Lb7","\n","$Lb8","\n","$Lb9","\n","$Lba","\n","$Lbb","\n","$Lbc","\n","$Lbd","\n","$Lbe","\n","$Lbf","\n","$Lc0","\n","$Lc1","\n","$Lc2","\n","$Lc3","\n","$Lc4","\n","$Lc5","\n","$Lc6"]}]}]]
+8f:null
+90:["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}]
+91:["$","span","span-14",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  content:"}]}]
+92:["$","span","span-15",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"Enhance your browsing experience by installing our official browser extension. The extension provides seamless integration with your account, allowing you to receive notifications directly in your browser, quickly access your dashboard, and interact with web3 applications securely. Compatible with Chrome, Firefox, Edge, and Brave browsers.\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+93:["$","span","span-16",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  iconUrl: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+94:["$","span","span-17",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  title: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Set up Browser Extension\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+95:["$","span","span-18",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  subtitle: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Connect you browser to your account\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+96:["$","span","span-19",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"},"}]}]
+97:["$","span","span-20",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}]}]
+98:["$","span","span-21",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  content:"}]}]
+99:["$","span","span-22",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"Begin your journey into the world of digital collectibles by creating your first NFT. Our intuitive minting process guides you through uploading your artwork, setting metadata, choosing royalty percentages, and deploying to the blockchain. Whether you're an artist, creator, or collector, you'll find all the tools you need to bring your digital assets to life. Your collectibles are stored on IPFS for permanent decentralized storage.\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9a:["$","span","span-23",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  iconUrl:"}]}]
+9b:["$","span","span-24",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9c:["$","span","span-25",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  title: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Mint Collectible\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9d:["$","span","span-26",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  subtitle: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Create your first collectible\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9e:["$","span","span-27",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"},"}]}]
+9f:["$","span","span-28",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"];"}]}]
+a0:["$","span","span-29",{"className":"line"}]
+a1:["$","span","span-30",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" function"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" CustomStyles"}],["$","span","span-3",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"() {"}]]}]
+a2:["$","span","span-31",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"return"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+a3:["$","span","span-32",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"bg-surface-secondary w-full max-w-md rounded-2xl\""}],["$","span","span-5",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" variant"}],["$","span","span-6",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-7",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"surface\""}],["$","span","span-8",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+a4:["$","span","span-33",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    {items."}],["$","span","span-1",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"map"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"(("}],["$","span","span-3",{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"item"}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":", "}],["$","span","span-5",{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"index"}],["$","span","span-6",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") "}],["$","span","span-7",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span","span-8",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+a5:["$","span","span-34",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}]]}]
+a6:["$","span","span-35",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"        key"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{index}"}]]}]
+a7:["$","span","span-36",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"        className"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}],["$","span","span-3",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"cn"}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"("}]]}]
+a8:["$","span","span-37",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"          \"group/item\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+a9:["$","span","span-38",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"          \"first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":", "}],["$","span","span-2",{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"// 第一个触发器：圆角顶部"}]]}]
+aa:["$","span","span-39",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"          \"last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":", "}],["$","span","span-2",{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"// 最后一个触发器：圆角底部"}]]}]
+ab:["$","span","span-40",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        )}"}]}]
+ac:["$","span","span-41",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      >"}]}]
+ad:["$","span","span-42",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+ae:["$","span","span-43",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"hover:bg-surface-tertiary group flex items-center gap-2\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+af:["$","span","span-44",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            {item.iconUrl "}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"?"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+b0:["$","span","span-45",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"img"}]]}]
+b1:["$","span","span-46",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"                alt"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{item.title}"}]]}]
+b2:["$","span","span-47",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"                className"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"group-hover/item:scale-120 group-hover/item:-rotate-10 h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:drop-shadow-lg\""}]]}]
+b3:["$","span","span-48",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"                src"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{item.iconUrl}"}]]}]
+b4:["$","span","span-49",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              />"}]}]
+b5:["$","span","span-50",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            ) "}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":":"}],["$","span","span-2",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" null"}],["$","span","span-3",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]]}]
+b6:["$","span","span-51",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"div"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"flex flex-col gap-0\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b7:["$","span","span-52",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"font-medium leading-5\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{item.title}</"}],["$","span","span-6",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-7",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b8:["$","span","span-53",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-muted/80 font-normal leading-6\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{item.subtitle}</"}],["$","span","span-6",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-7",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b9:["$","span","span-54",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            </"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"div"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+ba:["$","span","span-55",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Indicator"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-muted/50 [&>svg]:size-4\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bb:["$","span","span-56",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Icon"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" icon"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"gravity-ui:chevron-down\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+bc:["$","span","span-57",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Indicator"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bd:["$","span","span-58",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+be:["$","span","span-59",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bf:["$","span","span-60",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c0:["$","span","span-61",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Body"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-muted/80\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{item.content}</"}],["$","span","span-6",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Body"}],["$","span","span-7",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c1:["$","span","span-62",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c2:["$","span","span-63",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c3:["$","span","span-64",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    ))}"}]}]
+c4:["$","span","span-65",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c5:["$","span","span-66",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":");"}]}]
+c6:["$","span","span-67",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]

@@ -1,0 +1,475 @@
+<page url="/cn/docs/react/components/avatar">
+# Avatar 头像
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/avatar
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(media)/avatar.mdx
+> 展示用户头像图片，并提供可定制的回退内容。
+
+
+## 引入
+
+```tsx
+import { Avatar } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Avatar} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <div className="flex items-center gap-4">
+      <Avatar>
+        <Avatar.Image alt="约翰·多伊" src="https://img.heroui.chat/image/avatar?w=400&h=400&u=3" />
+        <Avatar.Fallback>JD</Avatar.Fallback>
+      </Avatar>
+      <Avatar>
+        <Avatar.Image
+          alt="蓝色头像"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg"
+        />
+        <Avatar.Fallback>B</Avatar.Fallback>
+      </Avatar>
+      <Avatar>
+        <Avatar.Fallback>JR</Avatar.Fallback>
+      </Avatar>
+    </div>
+  );
+}
+
+```
+
+### 组件结构
+
+引入 Avatar 组件，并通过点语法访问各部分。
+
+```tsx
+import { Avatar } from '@heroui/react';
+
+export default () => (
+  <Avatar>
+    <Avatar.Image/>
+    <Avatar.Fallback/>
+  </Avatar>
+)
+
+```
+
+### 尺寸
+
+```tsx
+import {Avatar} from "@heroui/react";
+
+export function Sizes() {
+  return (
+    <div className="flex items-center gap-4">
+      <Avatar size="sm">
+        <Avatar.Image
+          alt="小尺寸头像"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg"
+        />
+        <Avatar.Fallback>SM</Avatar.Fallback>
+      </Avatar>
+      <Avatar size="md">
+        <Avatar.Image
+          alt="中尺寸头像"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/purple.jpg"
+        />
+        <Avatar.Fallback>MD</Avatar.Fallback>
+      </Avatar>
+      <Avatar size="lg">
+        <Avatar.Image
+          alt="大尺寸头像"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg"
+        />
+        <Avatar.Fallback>LG</Avatar.Fallback>
+      </Avatar>
+    </div>
+  );
+}
+
+```
+
+### 颜色
+
+```tsx
+import {Avatar} from "@heroui/react";
+
+export function Colors() {
+  return (
+    <div className="flex items-center gap-4">
+      <Avatar color="default">
+        <Avatar.Fallback>DF</Avatar.Fallback>
+      </Avatar>
+      <Avatar color="accent">
+        <Avatar.Fallback>AC</Avatar.Fallback>
+      </Avatar>
+      <Avatar color="success">
+        <Avatar.Fallback>SC</Avatar.Fallback>
+      </Avatar>
+      <Avatar color="warning">
+        <Avatar.Fallback>WR</Avatar.Fallback>
+      </Avatar>
+      <Avatar color="danger">
+        <Avatar.Fallback>DG</Avatar.Fallback>
+      </Avatar>
+    </div>
+  );
+}
+
+```
+
+### 变体
+
+```tsx
+import {Person} from "@gravity-ui/icons";
+import {Avatar, Separator} from "@heroui/react";
+
+const colors = ["accent", "default", "success", "warning", "danger"] as const;
+
+const COLOR_LABELS: Record<(typeof colors)[number], string> = {
+  accent: "强调",
+  danger: "危险",
+  default: "默认",
+  success: "成功",
+  warning: "警告",
+};
+
+const variants = [
+  {content: "AG", label: "字母", type: "letter"},
+  {content: "AG", label: "柔和字母", type: "letter-soft"},
+  {content: <Person />, label: "图标", type: "icon"},
+  {content: <Person />, label: "柔和图标", type: "icon-soft"},
+  {
+    content: [
+      "https://img.heroui.chat/image/avatar?w=400&h=400&u=3",
+      "https://img.heroui.chat/image/avatar?w=400&h=400&u=4",
+      "https://img.heroui.chat/image/avatar?w=400&h=400&u=5",
+      "https://img.heroui.chat/image/avatar?w=400&h=400&u=8",
+      "https://img.heroui.chat/image/avatar?w=400&h=400&u=16",
+    ],
+    label: "图片",
+    type: "img",
+  },
+] as const;
+
+export function Variants() {
+  return (
+    <div className="flex flex-col gap-4">
+      {/* 颜色列标题 */}
+      <div className="flex items-center gap-3">
+        <div className="w-24 shrink-0" />
+        {colors.map((color) => (
+          <div key={color} className="flex w-20 shrink-0 items-center justify-center">
+            <span className="text-xs text-muted">{COLOR_LABELS[color]}</span>
+          </div>
+        ))}
+      </div>
+
+      <Separator />
+
+      {/* 变体行 */}
+      {variants.map((variant) => (
+        <div key={variant.label} className="flex items-center gap-3">
+          <div className="w-24 shrink-0 text-sm text-muted">{variant.label}</div>
+          {colors.map((color, colorIndex) => (
+            <div key={color} className="flex w-20 shrink-0 items-center justify-center">
+              <Avatar color={color} variant={variant.type.includes("soft") ? "soft" : undefined}>
+                {variant.type === "img" ? (
+                  <>
+                    <Avatar.Image
+                      alt={`${COLOR_LABELS[color]} 头像`}
+                      src={Array.isArray(variant.content) ? variant.content[colorIndex] : ""}
+                    />
+                    <Avatar.Fallback>{COLOR_LABELS[color].charAt(0)}</Avatar.Fallback>
+                  </>
+                ) : (
+                  <Avatar.Fallback>{variant.content}</Avatar.Fallback>
+                )}
+              </Avatar>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 回退内容
+
+```tsx
+import {Person} from "@gravity-ui/icons";
+import {Avatar} from "@heroui/react";
+
+export function Fallback() {
+  return (
+    <div className="flex items-center gap-4">
+      {/* 文字回退 */}
+      <Avatar>
+        <Avatar.Fallback>JD</Avatar.Fallback>
+      </Avatar>
+
+      {/* 图标回退 */}
+      <Avatar>
+        <Avatar.Fallback>
+          <Person />
+        </Avatar.Fallback>
+      </Avatar>
+
+      {/* 延迟显示回退 */}
+      <Avatar>
+        <Avatar.Image alt="延迟加载头像" src="https://invalid-url-to-show-fallback.com/image.jpg" />
+        <Avatar.Fallback delayMs={600}>NA</Avatar.Fallback>
+      </Avatar>
+
+      {/* 自定义样式回退 */}
+      <Avatar>
+        <Avatar.Fallback className="border-none bg-gradient-to-br from-pink-500 to-purple-500 text-white">
+          GB
+        </Avatar.Fallback>
+      </Avatar>
+    </div>
+  );
+}
+
+```
+
+### 头像组
+
+```tsx
+import {Avatar} from "@heroui/react";
+
+const users = [
+  {
+    id: 1,
+    image: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg",
+    name: "张明",
+  },
+  {
+    id: 2,
+    image: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/green.jpg",
+    name: "李华",
+  },
+  {
+    id: 3,
+    image: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/purple.jpg",
+    name: "王芳",
+  },
+  {
+    id: 4,
+    image: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/orange.jpg",
+    name: "刘洋",
+  },
+  {
+    id: 5,
+    image: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg",
+    name: "陈静",
+  },
+];
+
+function initialsFromName(name: string) {
+  const parts = name.split(/\s+/).filter(Boolean);
+
+  if (parts.length >= 2) {
+    return parts.map((n) => n[0]).join("");
+  }
+
+  return name.slice(0, 2);
+}
+
+export function Group() {
+  return (
+    <div className="flex flex-col gap-6">
+      {/* 基础头像组 */}
+      <div className="flex -space-x-2">
+        {users.slice(0, 4).map((user) => (
+          <Avatar key={user.id} className="ring-2 ring-background">
+            <Avatar.Image alt={`${user.name} 的头像`} src={user.image} />
+            <Avatar.Fallback>{initialsFromName(user.name)}</Avatar.Fallback>
+          </Avatar>
+        ))}
+      </div>
+
+      {/* 带头像数量提示的组合 */}
+      <div className="flex -space-x-2">
+        {users.slice(0, 3).map((user) => (
+          <Avatar key={user.id} className="ring-2 ring-background">
+            <Avatar.Image alt={`${user.name} 的头像`} src={user.image} />
+            <Avatar.Fallback>{initialsFromName(user.name)}</Avatar.Fallback>
+          </Avatar>
+        ))}
+        <Avatar className="ring-2 ring-background">
+          <Avatar.Fallback className="text-xs">+{users.length - 3}</Avatar.Fallback>
+        </Avatar>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 自定义样式
+
+```tsx
+import {Avatar} from "@heroui/react";
+
+export function CustomStyles() {
+  return (
+    <div className="flex items-center gap-4">
+      {/* 使用 Tailwind 自定义尺寸 */}
+      <Avatar className="size-16">
+        <Avatar.Image
+          alt="超大头像"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg"
+        />
+        <Avatar.Fallback>XL</Avatar.Fallback>
+      </Avatar>
+
+      {/* 方形头像 */}
+      <Avatar className="rounded-lg">
+        <Avatar.Image
+          alt="方形头像"
+          src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/purple.jpg"
+        />
+        <Avatar.Fallback className="rounded-lg">SQ</Avatar.Fallback>
+      </Avatar>
+
+      {/* 渐变描边 */}
+      <Avatar className="bg-gradient-to-tr from-pink-500 to-yellow-500 p-0.5">
+        <div className="size-full rounded-full bg-background p-0.5">
+          <Avatar.Image
+            alt="渐变描边头像"
+            className="rounded-full"
+            src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg"
+          />
+          <Avatar.Fallback className="border-none">GB</Avatar.Fallback>
+        </div>
+      </Avatar>
+
+      {/* 在线状态指示 */}
+      <div className="relative">
+        <Avatar>
+          <Avatar.Image
+            alt="在线用户"
+            src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/orange.jpg"
+          />
+          <Avatar.Fallback>ON</Avatar.Fallback>
+        </Avatar>
+        <span className="absolute right-0 bottom-0 size-3 rounded-full bg-green-500 ring-2 ring-background" />
+      </div>
+    </div>
+  );
+}
+
+```
+
+## Related Components
+
+* **Separator**: Visual divider between content
+* **Badge**: Small indicator positioned relative to another element
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { Avatar } from '@heroui/react';
+
+function CustomAvatar() {
+  return (
+    <Avatar className="size-20">
+      <Avatar.Image src="..." alt="..." />
+      <Avatar.Fallback>XL</Avatar.Fallback>
+    </Avatar>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Avatar 组件类，可以使用 `@layer components` 指令。
+<br />[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .avatar {
+    @apply size-16 border-2 border-primary;
+  }
+
+  .avatar__fallback {
+    @apply bg-gradient-to-br from-purple-500 to-pink-500;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+Avatar 组件使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/avatar.css)）：
+
+#### 基础类
+
+* `.avatar` - 基础容器，默认尺寸（size-10）
+* `.avatar__image` - 图片元素，方形比例
+* `.avatar__fallback` - 回退容器，内容居中
+
+#### 尺寸修饰
+
+* `.avatar--sm` - 小尺寸（size-8）
+* `.avatar--md` - 中尺寸（默认，无额外样式）
+* `.avatar--lg` - 大尺寸（size-12）
+
+#### 变体修饰
+
+* `.avatar--soft` - Soft 变体，背景更浅
+
+#### 颜色修饰
+
+* `.avatar__fallback--default` - 默认文字颜色
+* `.avatar__fallback--accent` - 强调文字颜色
+* `.avatar__fallback--success` - 成功文字颜色
+* `.avatar__fallback--warning` - 警告文字颜色
+* `.avatar__fallback--danger` - 危险文字颜色
+
+## API 参考
+
+### Avatar Props
+
+| Prop        | 类型                                                            | 默认值         | 描述        |
+| ----------- | ------------------------------------------------------------- | ----------- | --------- |
+| `size`      | `'sm' \| 'md' \| 'lg'`                                        | `'md'`      | Avatar 尺寸 |
+| `color`     | `'default' \| 'accent' \| 'success' \| 'warning' \| 'danger'` | `'default'` | 回退区域的颜色主题 |
+| `variant`   | `'default' \| 'soft'`                                         | `'default'` | 视觉样式变体    |
+| `className` | `string`                                                      | -           | 额外的 CSS 类 |
+
+### Avatar.Image Props
+
+| Prop          | 类型                                                  | 默认值 | 描述              |
+| ------------- | --------------------------------------------------- | --- | --------------- |
+| `src`         | `string`                                            | -   | 图片地址            |
+| `srcSet`      | `string`                                            | -   | 响应式图片的 `srcset` |
+| `sizes`       | `string`                                            | -   | 响应式图片的 `sizes`  |
+| `alt`         | `string`                                            | -   | 图片替代文本          |
+| `onLoad`      | `(event: SyntheticEvent<HTMLImageElement>) => void` | -   | 图片加载成功时的事件处理函数  |
+| `onError`     | `(event: SyntheticEvent<HTMLImageElement>) => void` | -   | 图片加载失败时的事件处理函数  |
+| `crossOrigin` | `'anonymous' \| 'use-credentials'`                  | -   | 图片请求的 CORS 设置   |
+| `loading`     | `'eager' \| 'lazy'`                                 | -   | 原生懒加载属性         |
+| `className`   | `string`                                            | -   | 额外的 CSS 类       |
+
+### Avatar.Fallback Props
+
+| Prop        | 类型                                                            | 默认值 | 描述               |
+| ----------- | ------------------------------------------------------------- | --- | ---------------- |
+| `delayMs`   | `number`                                                      | -   | 显示回退内容前的延迟（减轻闪烁） |
+| `color`     | `'default' \| 'accent' \| 'success' \| 'warning' \| 'danger'` | -   | 覆盖父级的颜色          |
+| `className` | `string`                                                      | -   | 额外的 CSS 类        |
+
+</page>

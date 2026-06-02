@@ -1,0 +1,497 @@
+1:"$Sreact.fragment"
+2:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsPage"]
+3:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsTitle"]
+4:I[302559,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ViewOptions"]
+5:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsDescription"]
+6:I[483689,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ComponentLinks"]
+7:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsBody"]
+8:I[494157,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Heading"]
+9:I[192506,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"FumadocsCustomCodeblock"]
+38:I[144324,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Pre"]
+39:I[3108,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
+3b:I[411800,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CheckboxGroup"]
+3c:I[766847,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LabelRoot"]
+3d:I[907004,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DescriptionRoot"]
+3e:I[104630,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CheckboxRoot"]
+3f:I[104630,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CheckboxControl"]
+40:I[104630,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CheckboxIndicator"]
+41:I[104630,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CheckboxContent"]
+57:I[942449,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LocaleLink"]
+59:I[273580,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"SurfaceRoot"]
+5b:I[288621,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"WithCustomIndicator"]
+5d:I[487810,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Indeterminate"]
+5f:I[196694,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Controlled"]
+61:I[302635,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Validation"]
+67:I[119632,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomRenderFunction"]
+68:"$Sreact.suspense"
+69:I[605435,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"RelatedComponents"]
+7d:I[897367,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
+a:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#引入","title":"引入"},{"depth":3,"url":"#用法","title":"用法"},{"depth":3,"url":"#组件结构","title":"组件结构"},{"depth":3,"url":"#在-surface-内","title":"在 Surface 内"},{"depth":3,"url":"#自定义指示器","title":"自定义指示器"},{"depth":3,"url":"#不定状态","title":"不定状态"},{"depth":3,"url":"#受控","title":"受控"},{"depth":3,"url":"#校验","title":"校验"},{"depth":3,"url":"#禁用","title":"禁用"},{"depth":3,"url":"#特性与附加示例","title":"特性与附加示例"},{"depth":3,"url":"#自定义渲染函数","title":"自定义渲染函数"},{"depth":2,"url":"#样式","title":"样式"},{"depth":3,"url":"#传入-tailwind-css-类","title":"传入 Tailwind CSS 类"},{"depth":3,"url":"#自定义组件类","title":"自定义组件类"},{"depth":3,"url":"#css-类","title":"CSS 类"},{"depth":2,"url":"#api-参考","title":"API 参考"},{"depth":3,"url":"#checkboxgroup-props","title":"CheckboxGroup Props"},{"depth":3,"url":"#checkboxgrouprenderprops","title":"CheckboxGroupRenderProps"}],"children":[["$","section",null,{"className":"flex flex-col gap-2","children":[["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-2","children":[["$","$L3",null,{"className":"flex items-center gap-2","children":["CheckboxGroup 复选框组",false]}],["$","div",null,{"className":"flex items-center gap-2","children":["$","$L4",null,{"markdownUrl":"/cn/docs/react/components/checkbox-group.mdx"}]}]]}],["$","$L5",null,{"className":"text-md mt-2 mb-4","children":"用于管理多项复选框选择的 CheckboxGroup 组件。"}],["$","$L6",null,{"links":{"rac":"CheckboxGroup","source":"checkbox-group/checkbox-group.tsx","styles":"checkbox-group.css","storybook":"Components/Forms/CheckboxGroup"}}]]}],["$","$L7",null,{"className":"prose-sm","children":[["$","$L8",null,{"as":"h2","id":"引入","children":"引入"}],"\n",["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$a","children":"$Lb"}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34"]}]]}],["$L35","$L36"],"$L37"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Og7Y5QFIHVQNML2MH2z_8"}
+b:["$","$L38",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { CheckboxGroup, Checkbox, Label, Description } "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]}]}]
+c:["$","$L8",null,{"as":"h3","id":"用法","children":"用法"}]
+3a:T45a,import {Checkbox, CheckboxGroup, Description, Label} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <CheckboxGroup name="interests">
+      <Label>选择你的兴趣</Label>
+      <Description>可多选</Description>
+      <Checkbox value="coding">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>编程</Label>
+          <Description>热爱构建软件</Description>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="design">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>设计</Label>
+          <Description>喜欢打造精美界面</Description>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="writing">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>写作</Label>
+          <Description>热衷于内容创作</Description>
+        </Checkbox.Content>
+      </Checkbox>
+    </CheckboxGroup>
+  );
+}
+d:["$","$L39",null,{"align":"center","code":"$3a","isBgSolid":false,"name":"checkbox-group-basic","children":["$","$L3b",null,{"name":"interests","children":[["$","$L3c",null,{"children":"选择你的兴趣"}],["$","$L3d",null,{"children":"可多选"}],["$","$L3e",null,{"value":"coding","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"编程"}],["$","$L3d",null,{"children":"热爱构建软件"}]]}]]}],["$","$L3e",null,{"value":"design","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"设计"}],["$","$L3d",null,{"children":"喜欢打造精美界面"}]]}]]}],["$","$L3e",null,{"value":"writing","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"写作"}],["$","$L3d",null,{"children":"热衷于内容创作"}]]}]]}]]}]}]
+e:["$","$L8",null,{"as":"h3","id":"组件结构","children":"组件结构"}]
+f:["$","p",null,{"children":"导入 CheckboxGroup 组件，并通过点语法访问所有子部分。"}]
+42:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>10:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$42","children":["$","$L38",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {CheckboxGroup, Checkbox, Label, Description, FieldError} "}],"$L43","$L44","$L45"]}],"\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56"]}]}]}]
+11:["$","$L8",null,{"as":"h3","id":"在-surface-内","children":"在 Surface 内"}]
+12:["$","p",null,{"children":["置于 ",["$","$L57",null,{"href":"/docs/components/surface","children":"Surface"}]," 中时，使用 ",["$","code",null,{"children":"variant=\"secondary\""}],"，以应用适合表面背景的低强调变体。"]}]
+58:T4f9,import {Checkbox, CheckboxGroup, Description, Label, Surface} from "@heroui/react";
+
+export function OnSurface() {
+  return (
+    <Surface className="w-full rounded-3xl p-6">
+      <CheckboxGroup name="interests" variant="secondary">
+        <Label>选择你的兴趣</Label>
+        <Description>可多选</Description>
+        <Checkbox value="coding">
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Content>
+            <Label>编程</Label>
+            <Description>热爱构建软件</Description>
+          </Checkbox.Content>
+        </Checkbox>
+        <Checkbox value="design">
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Content>
+            <Label>设计</Label>
+            <Description>喜欢打造精美界面</Description>
+          </Checkbox.Content>
+        </Checkbox>
+        <Checkbox value="writing">
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Content>
+            <Label>写作</Label>
+            <Description>热衷于内容创作</Description>
+          </Checkbox.Content>
+        </Checkbox>
+      </CheckboxGroup>
+    </Surface>
+  );
+}
+13:["$","$L39",null,{"align":"center","code":"$58","isBgSolid":false,"name":"checkbox-group-on-surface","children":["$","$L59",null,{"className":"w-full rounded-3xl p-6","children":["$","$L3b",null,{"name":"interests","variant":"secondary","children":[["$","$L3c",null,{"children":"选择你的兴趣"}],["$","$L3d",null,{"children":"可多选"}],["$","$L3e",null,{"value":"coding","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"编程"}],["$","$L3d",null,{"children":"热爱构建软件"}]]}]]}],["$","$L3e",null,{"value":"design","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"设计"}],["$","$L3d",null,{"children":"喜欢打造精美界面"}]]}]]}],["$","$L3e",null,{"value":"writing","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"写作"}],["$","$L3d",null,{"children":"热衷于内容创作"}]]}]]}]]}]}]}]
+14:["$","$L8",null,{"as":"h3","id":"自定义指示器","children":"自定义指示器"}]
+5a:T711,"use client";
+
+import {Checkbox, CheckboxGroup, Description, Label} from "@heroui/react";
+
+export function WithCustomIndicator() {
+  return (
+    <CheckboxGroup name="features">
+      <Label>功能</Label>
+      <Description>选择你需要的功能</Description>
+      <Checkbox value="notifications">
+        <Checkbox.Control>
+          <Checkbox.Indicator>
+            {({isSelected}) =>
+              isSelected ? (
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeWidth={2}
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : null
+            }
+          </Checkbox.Indicator>
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>邮件通知</Label>
+          <Description>通过邮件接收更新</Description>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="newsletter">
+        <Checkbox.Control>
+          <Checkbox.Indicator>
+            {({isSelected}) =>
+              isSelected ? (
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeWidth={2}
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : null
+            }
+          </Checkbox.Indicator>
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>邮件通讯</Label>
+          <Description>每周接收邮件简报</Description>
+        </Checkbox.Content>
+      </Checkbox>
+    </CheckboxGroup>
+  );
+}
+15:["$","$L39",null,{"align":"center","code":"$5a","isBgSolid":false,"name":"checkbox-group-with-custom-indicator","children":["$","$L5b",null,{}]}]
+16:["$","$L8",null,{"as":"h3","id":"不定状态","children":"不定状态"}]
+5c:T6b1,"use client";
+
+import {Checkbox, CheckboxGroup, Label} from "@heroui/react";
+import {useState} from "react";
+
+export function Indeterminate() {
+  const [selected, setSelected] = useState(["coding"]);
+  const allOptions = ["coding", "design", "writing"];
+
+  return (
+    <div>
+      <Checkbox
+        isIndeterminate={selected.length > 0 && selected.length < allOptions.length}
+        isSelected={selected.length === allOptions.length}
+        name="select-all"
+        onChange={(isSelected: boolean) => {
+          setSelected(isSelected ? allOptions : []);
+        }}
+      >
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>全选</Label>
+        </Checkbox.Content>
+      </Checkbox>
+      <div className="ml-6 flex flex-col gap-2">
+        <CheckboxGroup value={selected} onChange={setSelected}>
+          <Checkbox value="coding">
+            <Checkbox.Control>
+              <Checkbox.Indicator />
+            </Checkbox.Control>
+            <Checkbox.Content>
+              <Label>编程</Label>
+            </Checkbox.Content>
+          </Checkbox>
+          <Checkbox value="design">
+            <Checkbox.Control>
+              <Checkbox.Indicator />
+            </Checkbox.Control>
+            <Checkbox.Content>
+              <Label>设计</Label>
+            </Checkbox.Content>
+          </Checkbox>
+          <Checkbox value="writing">
+            <Checkbox.Control>
+              <Checkbox.Indicator />
+            </Checkbox.Control>
+            <Checkbox.Content>
+              <Label>写作</Label>
+            </Checkbox.Content>
+          </Checkbox>
+        </CheckboxGroup>
+      </div>
+    </div>
+  );
+}
+17:["$","$L39",null,{"align":"center","code":"$5c","isBgSolid":false,"name":"checkbox-group-indeterminate","children":["$","$L5d",null,{}]}]
+18:["$","$L8",null,{"as":"h3","id":"受控","children":"受控"}]
+5e:T482,"use client";
+
+import {Checkbox, CheckboxGroup, Label} from "@heroui/react";
+import {useState} from "react";
+
+export function Controlled() {
+  const [selected, setSelected] = useState(["coding", "design"]);
+
+  return (
+    <CheckboxGroup className="min-w-[320px]" name="skills" value={selected} onChange={setSelected}>
+      <Label>你的技能</Label>
+      <Checkbox value="coding">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>编程</Label>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="design">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>设计</Label>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="writing">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>写作</Label>
+        </Checkbox.Content>
+      </Checkbox>
+      <Label className="my-4 text-sm text-muted">已选：{selected.join(", ") || "无"}</Label>
+    </CheckboxGroup>
+  );
+}
+19:["$","$L39",null,{"align":"center","code":"$5e","isBgSolid":false,"name":"checkbox-group-controlled","children":["$","$L5f",null,{}]}]
+1a:["$","$L8",null,{"as":"h3","id":"校验","children":"校验"}]
+60:T585,"use client";
+
+import {Button, Checkbox, CheckboxGroup, FieldError, Form, Label} from "@heroui/react";
+
+export function Validation() {
+  return (
+    <Form
+      className="flex flex-col gap-4 px-4"
+      onSubmit={(e) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.currentTarget);
+        const values = formData.getAll("preferences");
+
+        alert(`已选偏好：${values.join(", ")}`);
+      }}
+    >
+      <CheckboxGroup isRequired name="preferences">
+        <Label>偏好设置</Label>
+        <Checkbox value="email">
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Content>
+            <Label>邮件通知</Label>
+          </Checkbox.Content>
+        </Checkbox>
+        <Checkbox value="sms">
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Content>
+            <Label>短信通知</Label>
+          </Checkbox.Content>
+        </Checkbox>
+        <Checkbox value="push">
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Content>
+            <Label>推送通知</Label>
+          </Checkbox.Content>
+        </Checkbox>
+        <FieldError>请至少选择一种通知方式。</FieldError>
+      </CheckboxGroup>
+      <Button type="submit">提交</Button>
+    </Form>
+  );
+}
+1b:["$","$L39",null,{"align":"center","code":"$60","isBgSolid":false,"name":"checkbox-group-validation","children":["$","$L61",null,{}]}]
+1c:["$","$L8",null,{"as":"h3","id":"禁用","children":"禁用"}]
+1d:["$","$L39",null,{"align":"center","code":"import {Checkbox, CheckboxGroup, Description, Label} from \"@heroui/react\";\n\nexport function Disabled() {\n  return (\n    <CheckboxGroup isDisabled name=\"disabled-features\">\n      <Label>功能</Label>\n      <Description>功能选择暂时不可用</Description>\n      <Checkbox value=\"feature1\">\n        <Checkbox.Control>\n          <Checkbox.Indicator />\n        </Checkbox.Control>\n        <Checkbox.Content>\n          <Label>功能一</Label>\n          <Description>该功能即将推出</Description>\n        </Checkbox.Content>\n      </Checkbox>\n      <Checkbox value=\"feature2\">\n        <Checkbox.Control>\n          <Checkbox.Indicator />\n        </Checkbox.Control>\n        <Checkbox.Content>\n          <Label>功能二</Label>\n          <Description>该功能即将推出</Description>\n        </Checkbox.Content>\n      </Checkbox>\n    </CheckboxGroup>\n  );\n}\n","isBgSolid":false,"name":"checkbox-group-disabled","children":["$","$L3b",null,{"isDisabled":true,"name":"disabled-features","children":[["$","$L3c",null,{"children":"功能"}],["$","$L3d",null,{"children":"功能选择暂时不可用"}],["$","$L3e",null,{"value":"feature1","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"功能一"}],["$","$L3d",null,{"children":"该功能即将推出"}]]}]]}],["$","$L3e",null,{"value":"feature2","children":[["$","$L3f",null,{"children":["$","$L40",null,{}]}],["$","$L41",null,{"children":[["$","$L3c",null,{"children":"功能二"}],["$","$L3d",null,{"children":"该功能即将推出"}]]}]]}]]}]}]
+1e:["$","$L8",null,{"as":"h3","id":"特性与附加示例","children":"特性与附加示例"}]
+62:T80e,import {Bell, Comment, Envelope} from "@gravity-ui/icons";
+import {Checkbox, CheckboxGroup, Description, Label} from "@heroui/react";
+import clsx from "clsx";
+
+export function FeaturesAndAddOns() {
+  const addOns = [
+    {
+      description: "通过邮件接收更新",
+      icon: Envelope,
+      title: "邮件通知",
+      value: "email",
+    },
+    {
+      description: "即时短信通知",
+      icon: Comment,
+      title: "短信提醒",
+      value: "sms",
+    },
+    {
+      description: "浏览器与移动端推送提醒",
+      icon: Bell,
+      title: "推送通知",
+      value: "push",
+    },
+  ];
+
+  return (
+    <div className="flex w-full flex-col items-center gap-10 px-4 py-8">
+      <section className="flex w-full min-w-[320px] flex-col gap-4">
+        <CheckboxGroup name="notification-preferences">
+          <Label>通知偏好</Label>
+          <Description>选择接收更新的方式</Description>
+          <div className="flex flex-col gap-2">
+            {addOns.map((addon) => (
+              <Checkbox
+                key={addon.value}
+                value={addon.value}
+                variant="secondary"
+                className={clsx(
+                  "group relative flex-col gap-4 rounded-3xl bg-surface px-5 py-4 transition-all",
+                  "data-[selected=true]:bg-accent/10",
+                )}
+              >
+                <Checkbox.Control className="absolute top-3 right-4 size-5 rounded-full before:rounded-full">
+                  <Checkbox.Indicator />
+                </Checkbox.Control>
+                <Checkbox.Content className="flex flex-row items-start justify-start gap-4">
+                  <addon.icon className="size-5 text-accent" />
+                  <div className="flex flex-col gap-1">
+                    <Label>{addon.title}</Label>
+                    <Description>{addon.description}</Description>
+                  </div>
+                </Checkbox.Content>
+              </Checkbox>
+            ))}
+          </div>
+        </CheckboxGroup>
+      </section>
+    </div>
+  );
+}
+1f:["$","$L39",null,{"align":"center","code":"$62","isBgSolid":false,"name":"checkbox-group-features-and-addons","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-10 px-4 py-8","children":["$","section",null,{"className":"flex w-full min-w-[320px] flex-col gap-4","children":["$","$L3b",null,{"name":"notification-preferences","children":[["$","$L3c",null,{"children":"通知偏好"}],["$","$L3d",null,{"children":"选择接收更新的方式"}],["$","div",null,{"className":"flex flex-col gap-2","children":[["$","$L3e","email",{"value":"email","variant":"secondary","className":"group relative flex-col gap-4 rounded-3xl bg-surface px-5 py-4 transition-all data-[selected=true]:bg-accent/10","children":[["$","$L3f",null,{"className":"absolute top-3 right-4 size-5 rounded-full before:rounded-full","children":["$","$L40",null,{}]}],["$","$L41",null,{"className":"flex flex-row items-start justify-start gap-4","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","className":"size-5 text-accent","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M3.5 4h9c.25 0 .485.06.692.169L8.75 7.5a1.25 1.25 0 0 1-1.5 0L2.808 4.169C3.015 4.06 3.251 4 3.5 4M2.001 5.438 2 5.5v5A1.5 1.5 0 0 0 3.5 12h9a1.5 1.5 0 0 0 1.5-1.5v-5l-.001-.062L9.65 8.7a2.75 2.75 0 0 1-3.3 0zM.5 5.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3z","clipRule":"evenodd"}]}],["$","div",null,{"className":"flex flex-col gap-1","children":[["$","$L3c",null,{"children":"邮件通知"}],["$","$L3d",null,{"children":"通过邮件接收更新"}]]}]]}]]}],["$","$L3e","sms",{"value":"sms","variant":"secondary","className":"group relative flex-col gap-4 rounded-3xl bg-surface px-5 py-4 transition-all data-[selected=true]:bg-accent/10","children":["$L63","$L64"]}],"$L65"]}]]}]}]}]}]
+20:["$","$L8",null,{"as":"h3","id":"自定义渲染函数","children":"自定义渲染函数"}]
+66:T4b1,"use client";
+
+import {Checkbox, CheckboxGroup, Description, Label} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <CheckboxGroup name="interests" render={(props) => <div {...props} data-custom="foo" />}>
+      <Label>选择你的兴趣</Label>
+      <Description>可多选</Description>
+      <Checkbox value="coding">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>编程</Label>
+          <Description>热爱构建软件</Description>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="design">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>设计</Label>
+          <Description>喜欢打造精美界面</Description>
+        </Checkbox.Content>
+      </Checkbox>
+      <Checkbox value="writing">
+        <Checkbox.Control>
+          <Checkbox.Indicator />
+        </Checkbox.Control>
+        <Checkbox.Content>
+          <Label>写作</Label>
+          <Description>热衷于内容创作</Description>
+        </Checkbox.Content>
+      </Checkbox>
+    </CheckboxGroup>
+  );
+}
+21:["$","$L39",null,{"align":"center","code":"$66","isBgSolid":false,"name":"checkbox-group-custom-render-function","children":["$","$L67",null,{}]}]
+22:["$","$68",null,{"fallback":null,"children":["$","$L69",null,{"component":"checkboxgroup"}]}]
+23:["$","$L8",null,{"as":"h2","id":"样式","children":"样式"}]
+24:["$","$L8",null,{"as":"h3","id":"传入-tailwind-css-类","children":"传入 Tailwind CSS 类"}]
+25:["$","p",null,{"children":"你可以自定义 CheckboxGroup 组件："}]
+6a:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>26:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$6a","children":["$","$L38",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { CheckboxGroup, Checkbox, Label } "}],"$L6b","$L6c","$L6d"]}],"\n","$L6e","\n","$L6f","\n","$L70","\n","$L71","\n","$L72","\n","$L73","\n","$L74","\n","$L75","\n","$L76","\n","$L77","\n","$L78","\n","$L79","\n","$L7a","\n","$L7b","\n","$L7c"]}]}]}]
+27:["$","$L8",null,{"as":"h3","id":"自定义组件类","children":"自定义组件类"}]
+28:["$","p",null,{"children":["若要自定义 CheckboxGroup 组件类，可以使用 ",["$","code",null,{"children":"@layer components"}]," 指令。\n",["$","br",null,{}],["$","$L57",null,{"href":"https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes","children":"了解更多"}],"."]}]
+29:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L38",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"@layer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" components {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .checkbox-group"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" flex"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" flex-col"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" gap-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"2;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]]}]}]}]
+2a:["$","p",null,{"children":["HeroUI 遵循 ",["$","$L57",null,{"href":"https://getbem.com/","children":"BEM"}]," 方法论，确保组件变体与状态可复用且易于自定义。"]}]
+2b:["$","$L8",null,{"as":"h3","id":"css-类","children":"CSS 类"}]
+2c:["$","p",null,{"children":["CheckboxGroup 组件使用以下 CSS 类（",["$","$L57",null,{"href":"https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/checkbox-group.css","children":"查看源码样式"}],"）："]}]
+2d:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".checkbox-group"}]," - 复选框组合容器基础样式"]}],"\n"]}]
+2e:["$","$L8",null,{"as":"h2","id":"api-参考","children":"API 参考"}]
+2f:["$","$L8",null,{"as":"h3","id":"checkboxgroup-props","children":"CheckboxGroup Props"}]
+30:["$","p",null,{"children":["继承自 ",["$","$L57",null,{"href":"https://react-spectrum.adobe.com/react-aria/CheckboxGroup.html","children":"React Aria CheckboxGroup"}],"。"]}]
+31:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"默认值"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"value"}]}],["$","td",null,{"children":["$","code",null,{"children":"string[]"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"当前选中值（受控）"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultValue"}]}],["$","td",null,{"children":["$","code",null,{"children":"string[]"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"默认选中值（非受控）"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(value: string[]) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"选中值变化时调用的处理函数"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否禁用整个复选框组合"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isRequired"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否必填"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isReadOnly"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否只读"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isInvalid"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"是否处于无效状态"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"name"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"提交 HTML 表单时复选框组合的名称"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode | (values: CheckboxGroupRenderProps) => React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"复选框组合内容或渲染 prop"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, CheckboxGroupRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"通过自定义渲染函数覆盖默认的 DOM 元素。"}]]}]]}]]}]}]
+32:["$","$L8",null,{"as":"h3","id":"checkboxgrouprenderprops","children":"CheckboxGroupRenderProps"}]
+33:["$","p",null,{"children":"使用渲染 prop 模式时，会提供以下值："}]
+34:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"类型"}],["$","th",null,{"children":"描述"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"value"}]}],["$","td",null,{"children":["$","code",null,{"children":"string[]"}]}],["$","td",null,{"children":"当前选中值"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否禁用"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isReadOnly"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否只读"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isInvalid"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否处于无效状态"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isRequired"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"是否必填"}]]}]]}]]}]}]
+35:["$","script","script-0",{"src":"/_next/static/chunks/0fpc6ujy7.75j.js","async":true}]
+36:["$","script","script-1",{"src":"/_next/static/chunks/0z-r2uz5n7mxn.js","async":true}]
+37:["$","$L7d",null,{"children":["$","$68",null,{"name":"Next.MetadataOutlet","children":"$@7e"}]}]
+43:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+44:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+45:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+46:["$","span",null,{"className":"line"}]
+47:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" () "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+48:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"CheckboxGroup"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" name"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"interests\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+49:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Label"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+4a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Description"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" /> {"}],["$","span",null,{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"/* Optional */"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]]}]
+4b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" value"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"option1\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+4c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Control"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+4d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Indicator"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+4e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Control"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+4f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+50:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Label"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+51:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Description"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" /> {"}],["$","span",null,{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"/* Optional */"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]]}]
+52:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+53:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+54:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"FieldError"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" /> {"}],["$","span",null,{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"/* Optional */"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]]}]
+55:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"CheckboxGroup"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+56:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":");"}]}]
+63:["$","$L3f",null,{"className":"absolute top-3 right-4 size-5 rounded-full before:rounded-full","children":["$","$L40",null,{}]}]
+64:["$","$L41",null,{"className":"flex flex-row items-start justify-start gap-4","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","className":"size-5 text-accent","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"m4.843 10.944-.194 2.335a.204.204 0 0 0 .339.17l2.21-1.964.589.013L8 11.5c1.695 0 3.087-.44 4.02-1.177.89-.702 1.48-1.76 1.48-3.323s-.59-2.62-1.48-3.323C11.087 2.94 9.695 2.5 8 2.5s-3.087.44-4.02 1.177C3.09 4.38 2.5 5.437 2.5 7c0 1.648.656 2.742 1.648 3.448zm1.141 3.625 1.77-1.572Q7.875 13 8 13c3.866 0 7-2 7-6s-3.134-6-7-6-7 2-7 6c0 2.117.878 3.674 2.277 4.67l-.123 1.484a1.704 1.704 0 0 0 2.83 1.415","clipRule":"evenodd"}]}],["$","div",null,{"className":"flex flex-col gap-1","children":[["$","$L3c",null,{"children":"短信提醒"}],["$","$L3d",null,{"children":"即时短信通知"}]]}]]}]
+65:["$","$L3e","push",{"value":"push","variant":"secondary","className":"group relative flex-col gap-4 rounded-3xl bg-surface px-5 py-4 transition-all data-[selected=true]:bg-accent/10","children":[["$","$L3f",null,{"className":"absolute top-3 right-4 size-5 rounded-full before:rounded-full","children":["$","$L40",null,{}]}],["$","$L41",null,{"className":"flex flex-row items-start justify-start gap-4","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","className":"size-5 text-accent","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"m4.665 7.822.62-3.096a2.77 2.77 0 0 1 5.43 0l.62 3.096a4.8 4.8 0 0 0 1.305 2.44l.194.193a.567.567 0 0 1-.273.953l-.821.19a16.6 16.6 0 0 1-7.48 0l-.82-.19a.567.567 0 0 1-.274-.953l.194-.193a4.77 4.77 0 0 0 1.305-2.44m-1.47-.294.619-3.096a4.27 4.27 0 0 1 8.372 0l.62 3.096c.126.634.438 1.216.895 1.673l.194.194a2.066 2.066 0 0 1-.997 3.475l-.821.19q-1.053.24-2.12.358a2 2 0 0 1-3.913 0 18 18 0 0 1-2.12-.359l-.822-.19a2.067 2.067 0 0 1-.997-3.474L2.3 9.2c.457-.457.769-1.04.895-1.673","clipRule":"evenodd"}]}],["$","div",null,{"className":"flex flex-col gap-1","children":[["$","$L3c",null,{"children":"推送通知"}],["$","$L3d",null,{"children":"浏览器与移动端推送提醒"}]]}]]}]]}]
+6b:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+6c:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+6d:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+6e:["$","span",null,{"className":"line"}]
+6f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"function"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" CustomCheckboxGroup"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"() {"}]]}]
+70:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"  return"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+71:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"CheckboxGroup"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"gap-4\""}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" name"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"custom\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+72:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" value"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"option1\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+73:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Control"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"border-2 border-purple-500 data-[selected=true]:bg-purple-500\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+74:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Indicator"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-white\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+75:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Control"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+76:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+77:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Label"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Option 1</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Label"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+78:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+79:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Checkbox"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+7a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"CheckboxGroup"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+7b:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  );"}]}]
+7c:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]
+7e:null

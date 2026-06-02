@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.</title>
+        <link>http://localhost:3000/</link>
+        <description>Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.</description>
+        <lastBuildDate>Tue, 02 Jun 2026 02:29:15 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en-US</language>
+        <image>
+            <title>HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.</title>
+            <url>http://localhost:3000/images/twitter-card.jpg</url>
+            <link>http://localhost:3000/</link>
+        </image>
+        <copyright>2026 HeroUI Inc. All rights reserved.</copyright>
+        <item>
+            <title><![CDATA[Quick Navigation]]></title>
+            <link>http://localhost:3000/en/docs/react/components</link>
+            <guid isPermaLink="false">/en/docs/react/components</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Browse Hero UI 3 React components and jump directly to the building block you need.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[All Components]]></title>
+            <link>http://localhost:3000/en/docs/native/components</link>
+            <guid isPermaLink="false">/en/docs/native/components</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Explore the full list of components available in HeroUI Native. More are on the way.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ButtonGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/button-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/button-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Group related buttons together with consistent styling and spacing]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Button]]></title>
+            <link>http://localhost:3000/en/docs/react/components/button</link>
+            <guid isPermaLink="false">/en/docs/react/components/button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A clickable button component with multiple variants and states]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CloseButton]]></title>
+            <link>http://localhost:3000/en/docs/react/components/close-button</link>
+            <guid isPermaLink="false">/en/docs/react/components/close-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Button component for closing dialogs, modals, or dismissing content]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ToggleButtonGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/toggle-button-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/toggle-button-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Groups multiple ToggleButtons into a unified control, allowing users to select one or multiple options.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ToggleButton]]></title>
+            <link>http://localhost:3000/en/docs/react/components/toggle-button</link>
+            <guid isPermaLink="false">/en/docs/react/components/toggle-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[An interactive toggle control for on/off or selected/unselected states]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dropdown]]></title>
+            <link>http://localhost:3000/en/docs/react/components/dropdown</link>
+            <guid isPermaLink="false">/en/docs/react/components/dropdown</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A dropdown displays a list of actions or options that a user can choose]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ListBox]]></title>
+            <link>http://localhost:3000/en/docs/react/components/list-box</link>
+            <guid isPermaLink="false">/en/docs/react/components/list-box</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A listbox displays a list of options and allows a user to select one or more of them]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TagGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/tag-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/tag-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A focusable list of tags with support for keyboard navigation, selection, and removal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorArea]]></title>
+            <link>http://localhost:3000/en/docs/react/components/color-area</link>
+            <guid isPermaLink="false">/en/docs/react/components/color-area</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A 2D color picker that allows users to select colors from a gradient area]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorField]]></title>
+            <link>http://localhost:3000/en/docs/react/components/color-field</link>
+            <guid isPermaLink="false">/en/docs/react/components/color-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Color input field with labels, descriptions, and validation built on React Aria ColorField]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorPicker]]></title>
+            <link>http://localhost:3000/en/docs/react/components/color-picker</link>
+            <guid isPermaLink="false">/en/docs/react/components/color-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A composable color picker that synchronizes color value between multiple color components]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorSlider]]></title>
+            <link>http://localhost:3000/en/docs/react/components/color-slider</link>
+            <guid isPermaLink="false">/en/docs/react/components/color-slider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A color slider allows users to adjust an individual channel of a color value]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorSwatchPicker]]></title>
+            <link>http://localhost:3000/en/docs/react/components/color-swatch-picker</link>
+            <guid isPermaLink="false">/en/docs/react/components/color-swatch-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A list of color swatches that allows users to select a color from a predefined palette.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorSwatch]]></title>
+            <link>http://localhost:3000/en/docs/react/components/color-swatch</link>
+            <guid isPermaLink="false">/en/docs/react/components/color-swatch</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A visual preview of a color value with accessibility support]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Badge]]></title>
+            <link>http://localhost:3000/en/docs/react/components/badge</link>
+            <guid isPermaLink="false">/en/docs/react/components/badge</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a small indicator positioned relative to another element, commonly used for notification counts, status dots, and labels]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chip]]></title>
+            <link>http://localhost:3000/en/docs/react/components/chip</link>
+            <guid isPermaLink="false">/en/docs/react/components/chip</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Small informational badges for displaying labels, statuses, and categories]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Table]]></title>
+            <link>http://localhost:3000/en/docs/react/components/table</link>
+            <guid isPermaLink="false">/en/docs/react/components/table</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Tables display structured data in rows and columns with support for sorting, selection, column resizing, and infinite scrolling.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Calendar]]></title>
+            <link>http://localhost:3000/en/docs/react/components/calendar</link>
+            <guid isPermaLink="false">/en/docs/react/components/calendar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Composable date picker with month grid, navigation, and year picker support built on React Aria Calendar]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DateField]]></title>
+            <link>http://localhost:3000/en/docs/react/components/date-field</link>
+            <guid isPermaLink="false">/en/docs/react/components/date-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Date input field with labels, descriptions, and validation built on React Aria DateField]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DatePicker]]></title>
+            <link>http://localhost:3000/en/docs/react/components/date-picker</link>
+            <guid isPermaLink="false">/en/docs/react/components/date-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Composable date picker built on React Aria DatePicker with DateField and Calendar composition]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DateRangePicker]]></title>
+            <link>http://localhost:3000/en/docs/react/components/date-range-picker</link>
+            <guid isPermaLink="false">/en/docs/react/components/date-range-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Composable date range picker built on React Aria DateRangePicker with DateField and RangeCalendar composition]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RangeCalendar]]></title>
+            <link>http://localhost:3000/en/docs/react/components/range-calendar</link>
+            <guid isPermaLink="false">/en/docs/react/components/range-calendar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Composable date range picker with month grid, navigation, and year picker support built on React Aria RangeCalendar]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TimeField]]></title>
+            <link>http://localhost:3000/en/docs/react/components/time-field</link>
+            <guid isPermaLink="false">/en/docs/react/components/time-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Time input field with labels, descriptions, and validation built on React Aria TimeField]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Alert]]></title>
+            <link>http://localhost:3000/en/docs/react/components/alert</link>
+            <guid isPermaLink="false">/en/docs/react/components/alert</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Display important messages and notifications to users with status indicators]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Meter]]></title>
+            <link>http://localhost:3000/en/docs/react/components/meter</link>
+            <guid isPermaLink="false">/en/docs/react/components/meter</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A meter represents a quantity within a known range, or a fractional value.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ProgressBar]]></title>
+            <link>http://localhost:3000/en/docs/react/components/progress-bar</link>
+            <guid isPermaLink="false">/en/docs/react/components/progress-bar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A progress bar shows either determinate or indeterminate progress of an operation over time.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ProgressCircle]]></title>
+            <link>http://localhost:3000/en/docs/react/components/progress-circle</link>
+            <guid isPermaLink="false">/en/docs/react/components/progress-circle</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A circular progress indicator that shows determinate or indeterminate progress.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Skeleton]]></title>
+            <link>http://localhost:3000/en/docs/react/components/skeleton</link>
+            <guid isPermaLink="false">/en/docs/react/components/skeleton</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Skeleton is a placeholder to show a loading state and the expected shape of a component.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spinner]]></title>
+            <link>http://localhost:3000/en/docs/react/components/spinner</link>
+            <guid isPermaLink="false">/en/docs/react/components/spinner</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A loading indicator component to show pending states]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CheckboxGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/checkbox-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/checkbox-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A checkbox group component for managing multiple checkbox selections]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Checkbox]]></title>
+            <link>http://localhost:3000/en/docs/react/components/checkbox</link>
+            <guid isPermaLink="false">/en/docs/react/components/checkbox</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Description]]></title>
+            <link>http://localhost:3000/en/docs/react/components/description</link>
+            <guid isPermaLink="false">/en/docs/react/components/description</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Provides supplementary text for form fields and other components]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ErrorMessage]]></title>
+            <link>http://localhost:3000/en/docs/react/components/error-message</link>
+            <guid isPermaLink="false">/en/docs/react/components/error-message</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A low-level error message component for displaying errors]]></description>
+        </item>
+        <item>
+            <title><![CDATA[FieldError]]></title>
+            <link>http://localhost:3000/en/docs/react/components/field-error</link>
+            <guid isPermaLink="false">/en/docs/react/components/field-error</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays validation error messages for form fields]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fieldset]]></title>
+            <link>http://localhost:3000/en/docs/react/components/fieldset</link>
+            <guid isPermaLink="false">/en/docs/react/components/fieldset</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Group related form controls with legends, descriptions, and actions]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Form]]></title>
+            <link>http://localhost:3000/en/docs/react/components/form</link>
+            <guid isPermaLink="false">/en/docs/react/components/form</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Wrapper component for form validation and submission handling]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/input-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/input-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Group related input controls with prefix and suffix elements for enhanced form fields]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputOTP]]></title>
+            <link>http://localhost:3000/en/docs/react/components/input-otp</link>
+            <guid isPermaLink="false">/en/docs/react/components/input-otp</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A one-time password input component for verification codes and secure authentication]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Input]]></title>
+            <link>http://localhost:3000/en/docs/react/components/input</link>
+            <guid isPermaLink="false">/en/docs/react/components/input</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Primitive single-line text input component that accepts standard HTML attributes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Label]]></title>
+            <link>http://localhost:3000/en/docs/react/components/label</link>
+            <guid isPermaLink="false">/en/docs/react/components/label</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Renders an accessible label associated with form controls]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NumberField]]></title>
+            <link>http://localhost:3000/en/docs/react/components/number-field</link>
+            <guid isPermaLink="false">/en/docs/react/components/number-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Number input fields with increment/decrement buttons, validation, and internationalized formatting]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RadioGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/radio-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/radio-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Radio group for selecting a single option from a list]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SearchField]]></title>
+            <link>http://localhost:3000/en/docs/react/components/search-field</link>
+            <guid isPermaLink="false">/en/docs/react/components/search-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Search input field with clear button and search icon]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextArea]]></title>
+            <link>http://localhost:3000/en/docs/react/components/text-area</link>
+            <guid isPermaLink="false">/en/docs/react/components/text-area</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Primitive multiline text input component that accepts standard HTML attributes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextField]]></title>
+            <link>http://localhost:3000/en/docs/react/components/text-field</link>
+            <guid isPermaLink="false">/en/docs/react/components/text-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Composition-friendly text fields with labels, descriptions, and inline validation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Card]]></title>
+            <link>http://localhost:3000/en/docs/react/components/card</link>
+            <guid isPermaLink="false">/en/docs/react/components/card</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Flexible container component for grouping related content and actions]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Separator]]></title>
+            <link>http://localhost:3000/en/docs/react/components/separator</link>
+            <guid isPermaLink="false">/en/docs/react/components/separator</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Visually divide content sections]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Surface]]></title>
+            <link>http://localhost:3000/en/docs/react/components/surface</link>
+            <guid isPermaLink="false">/en/docs/react/components/surface</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Container component that provides surface-level styling and context for child components]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Toolbar]]></title>
+            <link>http://localhost:3000/en/docs/react/components/toolbar</link>
+            <guid isPermaLink="false">/en/docs/react/components/toolbar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A container for interactive controls with arrow key navigation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Avatar]]></title>
+            <link>http://localhost:3000/en/docs/react/components/avatar</link>
+            <guid isPermaLink="false">/en/docs/react/components/avatar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Display user profile images with customizable fallback content]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Accordion]]></title>
+            <link>http://localhost:3000/en/docs/react/components/accordion</link>
+            <guid isPermaLink="false">/en/docs/react/components/accordion</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A collapsible content panel for organizing information in a compact space]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Breadcrumbs]]></title>
+            <link>http://localhost:3000/en/docs/react/components/breadcrumbs</link>
+            <guid isPermaLink="false">/en/docs/react/components/breadcrumbs</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Navigation breadcrumbs showing the current page's location within a hierarchy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DisclosureGroup]]></title>
+            <link>http://localhost:3000/en/docs/react/components/disclosure-group</link>
+            <guid isPermaLink="false">/en/docs/react/components/disclosure-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Container that manages multiple Disclosure items with coordinated expanded states]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Disclosure]]></title>
+            <link>http://localhost:3000/en/docs/react/components/disclosure</link>
+            <guid isPermaLink="false">/en/docs/react/components/disclosure</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A disclosure is a collapsible section with a header containing a heading and a trigger button, and a panel that wraps the content.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Link]]></title>
+            <link>http://localhost:3000/en/docs/react/components/link</link>
+            <guid isPermaLink="false">/en/docs/react/components/link</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A styled anchor component for navigation with built-in icon support]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pagination]]></title>
+            <link>http://localhost:3000/en/docs/react/components/pagination</link>
+            <guid isPermaLink="false">/en/docs/react/components/pagination</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Page navigation with composable page links, previous/next buttons, and ellipsis indicators]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tabs]]></title>
+            <link>http://localhost:3000/en/docs/react/components/tabs</link>
+            <guid isPermaLink="false">/en/docs/react/components/tabs</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Tabs organize content into multiple sections and allow users to navigate between them.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AlertDialog]]></title>
+            <link>http://localhost:3000/en/docs/react/components/alert-dialog</link>
+            <guid isPermaLink="false">/en/docs/react/components/alert-dialog</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Modal dialog for critical confirmations requiring user attention and explicit action]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Drawer]]></title>
+            <link>http://localhost:3000/en/docs/react/components/drawer</link>
+            <guid isPermaLink="false">/en/docs/react/components/drawer</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Slide-out panel for supplementary content and actions]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Modal]]></title>
+            <link>http://localhost:3000/en/docs/react/components/modal</link>
+            <guid isPermaLink="false">/en/docs/react/components/modal</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Dialog overlay for focused user interactions and important content]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Popover]]></title>
+            <link>http://localhost:3000/en/docs/react/components/popover</link>
+            <guid isPermaLink="false">/en/docs/react/components/popover</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays rich content in a portal triggered by a button or any custom element]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Toast]]></title>
+            <link>http://localhost:3000/en/docs/react/components/toast</link>
+            <guid isPermaLink="false">/en/docs/react/components/toast</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Display temporary notifications and messages to users with automatic dismissal and customizable placement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tooltip]]></title>
+            <link>http://localhost:3000/en/docs/react/components/tooltip</link>
+            <guid isPermaLink="false">/en/docs/react/components/tooltip</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays informative text when users hover over or focus on an element]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Autocomplete]]></title>
+            <link>http://localhost:3000/en/docs/react/components/autocomplete</link>
+            <guid isPermaLink="false">/en/docs/react/components/autocomplete</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[An autocomplete combines a select with filtering, allowing users to search and select from a list of options]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ComboBox]]></title>
+            <link>http://localhost:3000/en/docs/react/components/combo-box</link>
+            <guid isPermaLink="false">/en/docs/react/components/combo-box</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A combo box combines a text input with a listbox, allowing users to filter a list of options to items matching a query]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Select]]></title>
+            <link>http://localhost:3000/en/docs/react/components/select</link>
+            <guid isPermaLink="false">/en/docs/react/components/select</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A select displays a collapsible list of options and allows a user to select one of them]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kbd]]></title>
+            <link>http://localhost:3000/en/docs/react/components/kbd</link>
+            <guid isPermaLink="false">/en/docs/react/components/kbd</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Display keyboard shortcuts and key combinations]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Typography]]></title>
+            <link>http://localhost:3000/en/docs/react/components/typography</link>
+            <guid isPermaLink="false">/en/docs/react/components/typography</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A semantic typography primitive for headings, body copy, and inline code built on React Aria Components Text.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ScrollShadow]]></title>
+            <link>http://localhost:3000/en/docs/react/components/scroll-shadow</link>
+            <guid isPermaLink="false">/en/docs/react/components/scroll-shadow</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Apply visual shadows to indicate scrollable content overflow with automatic detection of scroll position.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Button]]></title>
+            <link>http://localhost:3000/en/docs/native/components/button</link>
+            <guid isPermaLink="false">/en/docs/native/components/button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Interactive component that triggers an action when pressed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CloseButton]]></title>
+            <link>http://localhost:3000/en/docs/native/components/close-button</link>
+            <guid isPermaLink="false">/en/docs/native/components/close-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Button component for closing dialogs, modals, or dismissing content.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LinkButton]]></title>
+            <link>http://localhost:3000/en/docs/native/components/link-button</link>
+            <guid isPermaLink="false">/en/docs/native/components/link-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A ghost-variant button with no highlight feedback, designed for inline link-style interactions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Menu]]></title>
+            <link>http://localhost:3000/en/docs/native/components/menu</link>
+            <guid isPermaLink="false">/en/docs/native/components/menu</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A floating context menu with positioning, selection groups, and multiple presentation modes.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TagGroup]]></title>
+            <link>http://localhost:3000/en/docs/native/components/tag-group</link>
+            <guid isPermaLink="false">/en/docs/native/components/tag-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A compound component for displaying and managing selectable tags with optional removal.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Slider]]></title>
+            <link>http://localhost:3000/en/docs/native/components/slider</link>
+            <guid isPermaLink="false">/en/docs/native/components/slider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A draggable input for selecting a value or range within a bounded interval.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Switch]]></title>
+            <link>http://localhost:3000/en/docs/native/components/switch</link>
+            <guid isPermaLink="false">/en/docs/native/components/switch</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A toggle control that allows users to switch between on and off states.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chip]]></title>
+            <link>http://localhost:3000/en/docs/native/components/chip</link>
+            <guid isPermaLink="false">/en/docs/native/components/chip</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a compact element in a capsule shape.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Alert]]></title>
+            <link>http://localhost:3000/en/docs/native/components/alert</link>
+            <guid isPermaLink="false">/en/docs/native/components/alert</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays important messages and notifications to users with status indicators.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SkeletonGroup]]></title>
+            <link>http://localhost:3000/en/docs/native/components/skeleton-group</link>
+            <guid isPermaLink="false">/en/docs/native/components/skeleton-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Coordinates multiple skeleton loading placeholders with centralized animation control.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Skeleton]]></title>
+            <link>http://localhost:3000/en/docs/native/components/skeleton</link>
+            <guid isPermaLink="false">/en/docs/native/components/skeleton</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a loading placeholder with shimmer or pulse animation effects.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spinner]]></title>
+            <link>http://localhost:3000/en/docs/native/components/spinner</link>
+            <guid isPermaLink="false">/en/docs/native/components/spinner</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays an animated loading indicator.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Checkbox]]></title>
+            <link>http://localhost:3000/en/docs/native/components/checkbox</link>
+            <guid isPermaLink="false">/en/docs/native/components/checkbox</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A selectable control that allows users to toggle between checked and unchecked states.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ControlField]]></title>
+            <link>http://localhost:3000/en/docs/native/components/control-field</link>
+            <guid isPermaLink="false">/en/docs/native/components/control-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A field component that combines a label, description (or other content), and a control component (Switch or Checkbox) into a single pressable area.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Description]]></title>
+            <link>http://localhost:3000/en/docs/native/components/description</link>
+            <guid isPermaLink="false">/en/docs/native/components/description</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Text component for providing accessible descriptions and helper text for form fields and other UI elements.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[FieldError]]></title>
+            <link>http://localhost:3000/en/docs/native/components/field-error</link>
+            <guid isPermaLink="false">/en/docs/native/components/field-error</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays validation error message content with smooth animations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputGroup]]></title>
+            <link>http://localhost:3000/en/docs/native/components/input-group</link>
+            <guid isPermaLink="false">/en/docs/native/components/input-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A compound layout component that groups an input with optional prefix and suffix decorators.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputOTP]]></title>
+            <link>http://localhost:3000/en/docs/native/components/input-otp</link>
+            <guid isPermaLink="false">/en/docs/native/components/input-otp</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Input component for entering one-time passwords (OTP) with individual character slots, animations, and validation support.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Input]]></title>
+            <link>http://localhost:3000/en/docs/native/components/input</link>
+            <guid isPermaLink="false">/en/docs/native/components/input</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A text input component with styled border and background for collecting user input.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Label]]></title>
+            <link>http://localhost:3000/en/docs/native/components/label</link>
+            <guid isPermaLink="false">/en/docs/native/components/label</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Text component for labeling form fields and other UI elements with support for required indicators and validation states.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RadioGroup]]></title>
+            <link>http://localhost:3000/en/docs/native/components/radio-group</link>
+            <guid isPermaLink="false">/en/docs/native/components/radio-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A set of radio buttons where only one option can be selected at a time.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SearchField]]></title>
+            <link>http://localhost:3000/en/docs/native/components/search-field</link>
+            <guid isPermaLink="false">/en/docs/native/components/search-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A compound search input for filtering and querying content.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Select]]></title>
+            <link>http://localhost:3000/en/docs/native/components/select</link>
+            <guid isPermaLink="false">/en/docs/native/components/select</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a list of options for the user to pick from — triggered by a button.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextArea]]></title>
+            <link>http://localhost:3000/en/docs/native/components/text-area</link>
+            <guid isPermaLink="false">/en/docs/native/components/text-area</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A multiline text input component with styled border and background for collecting longer user input.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextField]]></title>
+            <link>http://localhost:3000/en/docs/native/components/text-field</link>
+            <guid isPermaLink="false">/en/docs/native/components/text-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A text input component with label, description, and error handling for collecting user input.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Card]]></title>
+            <link>http://localhost:3000/en/docs/native/components/card</link>
+            <guid isPermaLink="false">/en/docs/native/components/card</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a card container with flexible layout sections for structured content.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Separator]]></title>
+            <link>http://localhost:3000/en/docs/native/components/separator</link>
+            <guid isPermaLink="false">/en/docs/native/components/separator</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A simple line to separate content visually.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Surface]]></title>
+            <link>http://localhost:3000/en/docs/native/components/surface</link>
+            <guid isPermaLink="false">/en/docs/native/components/surface</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Container component that provides elevation and background styling.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Avatar]]></title>
+            <link>http://localhost:3000/en/docs/native/components/avatar</link>
+            <guid isPermaLink="false">/en/docs/native/components/avatar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a user avatar with support for images, text initials, or fallback icons.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Accordion]]></title>
+            <link>http://localhost:3000/en/docs/native/components/accordion</link>
+            <guid isPermaLink="false">/en/docs/native/components/accordion</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A collapsible content panel for organizing information in a compact space]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ListGroup]]></title>
+            <link>http://localhost:3000/en/docs/native/components/list-group</link>
+            <guid isPermaLink="false">/en/docs/native/components/list-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A Surface-based container that groups related list items with consistent layout and spacing.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tabs]]></title>
+            <link>http://localhost:3000/en/docs/native/components/tabs</link>
+            <guid isPermaLink="false">/en/docs/native/components/tabs</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Organize content into tabbed views with animated transitions and indicators.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[BottomSheet]]></title>
+            <link>http://localhost:3000/en/docs/native/components/bottom-sheet</link>
+            <guid isPermaLink="false">/en/docs/native/components/bottom-sheet</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a bottom sheet that slides up from the bottom with animated transitions and swipe-to-dismiss gestures.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dialog]]></title>
+            <link>http://localhost:3000/en/docs/native/components/dialog</link>
+            <guid isPermaLink="false">/en/docs/native/components/dialog</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a modal overlay with animated transitions and gesture-based dismissal.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Popover]]></title>
+            <link>http://localhost:3000/en/docs/native/components/popover</link>
+            <guid isPermaLink="false">/en/docs/native/components/popover</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays a floating content panel anchored to a trigger element with placement and alignment options.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Toast]]></title>
+            <link>http://localhost:3000/en/docs/native/components/toast</link>
+            <guid isPermaLink="false">/en/docs/native/components/toast</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Displays temporary notification messages that appear at the top or bottom of the screen.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Typography]]></title>
+            <link>http://localhost:3000/en/docs/native/components/text</link>
+            <guid isPermaLink="false">/en/docs/native/components/text</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Primitive typography component for rendering styled text with semantic type variants.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PressableFeedback]]></title>
+            <link>http://localhost:3000/en/docs/native/components/pressable-feedback</link>
+            <guid isPermaLink="false">/en/docs/native/components/pressable-feedback</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Container component that provides visual feedback for press interactions with automatic scale animation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ScrollShadow]]></title>
+            <link>http://localhost:3000/en/docs/native/components/scroll-shadow</link>
+            <guid isPermaLink="false">/en/docs/native/components/scroll-shadow</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Adds dynamic gradient shadows to scrollable content based on scroll position and overflow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Slider]]></title>
+            <link>http://localhost:3000/en/docs/react/components/slider</link>
+            <guid isPermaLink="false">/en/docs/react/components/slider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A slider allows a user to select one or more values within a range]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Switch]]></title>
+            <link>http://localhost:3000/en/docs/react/components/switch</link>
+            <guid isPermaLink="false">/en/docs/react/components/switch</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[A toggle switch component for boolean states]]></description>
+        </item>
+        <item>
+            <title><![CDATA[快速导航]]></title>
+            <link>http://localhost:3000/cn/docs/react/components</link>
+            <guid isPermaLink="false">/cn/docs/react/components</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[浏览 Hero UI 3 的 React 组件，并快速跳转到你需要的组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[所有组件]]></title>
+            <link>http://localhost:3000/cn/docs/native/components</link>
+            <guid isPermaLink="false">/cn/docs/native/components</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[浏览 HeroUI Native 提供的全部组件；更多组件将陆续推出。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ButtonGroup 按钮组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/button-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/button-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[将相关按钮组合在一起，并提供一致的样式与间距。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Button 按钮]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/button</link>
+            <guid isPermaLink="false">/cn/docs/react/components/button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[可点击的按钮组件，支持多种变体与状态。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CloseButton 关闭按钮]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/close-button</link>
+            <guid isPermaLink="false">/cn/docs/react/components/close-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于关闭对话框、模态框或收起内容的按钮组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ToggleButtonGroup 切换按钮组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/toggle-button-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/toggle-button-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[将多个 ToggleButton 组合为统一控件，允许用户选择单个或多个选项。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ToggleButton 切换按钮]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/toggle-button</link>
+            <guid isPermaLink="false">/cn/docs/react/components/toggle-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于在开启/关闭或已选中/未选中状态之间切换的交互式切换控件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dropdown 下拉菜单]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/dropdown</link>
+            <guid isPermaLink="false">/cn/docs/react/components/dropdown</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[下拉菜单展示一组可供用户选择的操作或选项。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ListBox 列表框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/list-box</link>
+            <guid isPermaLink="false">/cn/docs/react/components/list-box</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[列表框展示一组选项，并允许用户选择一个或多个。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TagGroup 标签组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/tag-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/tag-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[可聚焦的标签列表，支持键盘导航、选择与移除。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorArea 颜色区域]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/color-area</link>
+            <guid isPermaLink="false">/cn/docs/react/components/color-area</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[二维颜色选择器，用户可在渐变区域内选取颜色。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorField 颜色输入框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/color-field</link>
+            <guid isPermaLink="false">/cn/docs/react/components/color-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 React Aria ColorField 的颜色输入字段，包含标签、说明与校验能力。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorPicker 颜色选择器]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/color-picker</link>
+            <guid isPermaLink="false">/cn/docs/react/components/color-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[可组合的 ColorPicker，在多个颜色组件之间同步颜色值。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorSlider 颜色滑块]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/color-slider</link>
+            <guid isPermaLink="false">/cn/docs/react/components/color-slider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[ColorSlider 允许用户调整颜色值的单个通道。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorSwatchPicker 颜色色块选择器]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/color-swatch-picker</link>
+            <guid isPermaLink="false">/cn/docs/react/components/color-swatch-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[允许用户从预置调色板中选择颜色的 swatch 列表。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ColorSwatch 颜色色块]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/color-swatch</link>
+            <guid isPermaLink="false">/cn/docs/react/components/color-swatch</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[颜色值的视觉预览，并提供无障碍支持。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Badge 徽标]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/badge</link>
+            <guid isPermaLink="false">/cn/docs/react/components/badge</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[展示相对其他元素定位的小型指示器，常用于未读数、状态点与标签等场景。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chip 标签]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/chip</link>
+            <guid isPermaLink="false">/cn/docs/react/components/chip</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于展示标签、状态与分类等信息的小型徽标。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Table 表格]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/table</link>
+            <guid isPermaLink="false">/cn/docs/react/components/table</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[表格以行和列展示结构化数据，支持排序、选择、列宽调整与无限滚动。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Calendar 日历]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/calendar</link>
+            <guid isPermaLink="false">/cn/docs/react/components/calendar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 React Aria Calendar 的可组合日期选择器，包含月份网格、导航与年份选择器支持。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DateField 日期字段]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/date-field</link>
+            <guid isPermaLink="false">/cn/docs/react/components/date-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 React Aria DateField 的日期输入字段，包含标签、说明与校验。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DatePicker 日期选择器]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/date-picker</link>
+            <guid isPermaLink="false">/cn/docs/react/components/date-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[可组合的日期选择器，基于 React Aria DatePicker，通过 DateField 与 Calendar 组合实现。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DateRangePicker 日期范围选择器]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/date-range-picker</link>
+            <guid isPermaLink="false">/cn/docs/react/components/date-range-picker</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 React Aria DateRangePicker 的可组合日期范围选择器，由 DateField 与 RangeCalendar 组合而成。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RangeCalendar 范围日历]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/range-calendar</link>
+            <guid isPermaLink="false">/cn/docs/react/components/range-calendar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 React Aria RangeCalendar 的可组合日期范围选择器，包含月份网格、导航与年份选择支持。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TimeField 时间字段]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/time-field</link>
+            <guid isPermaLink="false">/cn/docs/react/components/time-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 React Aria TimeField 的时间输入字段，包含标签、说明与校验。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Alert 警告]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/alert</link>
+            <guid isPermaLink="false">/cn/docs/react/components/alert</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[向用户展示重要消息与通知，并提供状态指示。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Meter 计量条]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/meter</link>
+            <guid isPermaLink="false">/cn/docs/react/components/meter</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Meter 表示已知范围内的数量，或一个比例值。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ProgressBar 进度条]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/progress-bar</link>
+            <guid isPermaLink="false">/cn/docs/react/components/progress-bar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[进度条用于展示某项操作随时间变化的确定或不确定进度。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ProgressCircle 环形进度条]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/progress-circle</link>
+            <guid isPermaLink="false">/cn/docs/react/components/progress-circle</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[环形进度指示器，用于展示确定或不确定的进度。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Skeleton 骨架屏]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/skeleton</link>
+            <guid isPermaLink="false">/cn/docs/react/components/skeleton</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Skeleton 用于展示加载状态，并预览组件的预期形状。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spinner 加载指示器]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/spinner</link>
+            <guid isPermaLink="false">/cn/docs/react/components/spinner</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于展示等待或处理中状态的加载指示组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CheckboxGroup 复选框组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/checkbox-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/checkbox-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于管理多项复选框选择的 CheckboxGroup 组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Checkbox 复选框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/checkbox</link>
+            <guid isPermaLink="false">/cn/docs/react/components/checkbox</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[复选框允许用户从多个独立选项中选择多项，或将单个独立选项标记为已选。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Description 描述]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/description</link>
+            <guid isPermaLink="false">/cn/docs/react/components/description</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[为表单字段及其他组件提供补充说明文字。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ErrorMessage 错误信息]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/error-message</link>
+            <guid isPermaLink="false">/cn/docs/react/components/error-message</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于展示错误信息的底层组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[FieldError 字段错误]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/field-error</link>
+            <guid isPermaLink="false">/cn/docs/react/components/field-error</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于展示表单字段的校验错误信息。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fieldset 字段集]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/fieldset</link>
+            <guid isPermaLink="false">/cn/docs/react/components/fieldset</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[使用 legend、description 与操作区对相关表单控件进行分组。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Form 表单]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/form</link>
+            <guid isPermaLink="false">/cn/docs/react/components/form</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于表单校验与提交处理的包装组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputGroup 输入框组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/input-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/input-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[将相关输入控件与前后缀元素组合，以增强表单字段。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputOTP 一次性密码输入框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/input-otp</link>
+            <guid isPermaLink="false">/cn/docs/react/components/input-otp</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于验证码与安全认证等场景的一次性密码输入组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Input 输入框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/input</link>
+            <guid isPermaLink="false">/cn/docs/react/components/input</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[单行文本输入原语，可接受标准 HTML 属性。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Label 标签]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/label</link>
+            <guid isPermaLink="false">/cn/docs/react/components/label</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[渲染与表单控件关联的无障碍标签。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NumberField 数字输入框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/number-field</link>
+            <guid isPermaLink="false">/cn/docs/react/components/number-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[数字输入字段，包含增减按钮、校验与国际化格式化能力。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RadioGroup 单选框组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/radio-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/radio-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于从列表中选择单个选项的单选组。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SearchField 搜索框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/search-field</link>
+            <guid isPermaLink="false">/cn/docs/react/components/search-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[搜索输入字段，包含清除按钮与搜索图标。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextArea 多行文本框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/text-area</link>
+            <guid isPermaLink="false">/cn/docs/react/components/text-area</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[原语级多行文本输入组件，可接受标准 HTML 属性。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextField 文本输入框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/text-field</link>
+            <guid isPermaLink="false">/cn/docs/react/components/text-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[便于组合的文本字段，包含标签、说明与内联校验。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Card 卡片]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/card</link>
+            <guid isPermaLink="false">/cn/docs/react/components/card</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于分组相关内容与操作的灵活容器组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Separator 分隔符]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/separator</link>
+            <guid isPermaLink="false">/cn/docs/react/components/separator</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[在内容区块之间进行视觉分隔。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Surface 表面]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/surface</link>
+            <guid isPermaLink="false">/cn/docs/react/components/surface</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[提供表面级样式与子组件上下文的容器组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Toolbar 工具栏]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/toolbar</link>
+            <guid isPermaLink="false">/cn/docs/react/components/toolbar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于承载可交互控件的容器，并支持方向键导航。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Avatar 头像]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/avatar</link>
+            <guid isPermaLink="false">/cn/docs/react/components/avatar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[展示用户头像图片，并提供可定制的回退内容。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Accordion 手风琴]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/accordion</link>
+            <guid isPermaLink="false">/cn/docs/react/components/accordion</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于在紧凑空间中组织信息的可折叠内容面板。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Breadcrumbs 面包屑]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/breadcrumbs</link>
+            <guid isPermaLink="false">/cn/docs/react/components/breadcrumbs</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[面包屑导航，用于展示当前页面在层级结构中的位置。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DisclosureGroup 折叠面板组]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/disclosure-group</link>
+            <guid isPermaLink="false">/cn/docs/react/components/disclosure-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[管理多个 Disclosure 的容器，用于协调展开状态。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Disclosure 折叠面板]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/disclosure</link>
+            <guid isPermaLink="false">/cn/docs/react/components/disclosure</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Disclosure 是一种可折叠区域：头部包含标题与触发按钮，面板包裹正文内容。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Link 链接]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/link</link>
+            <guid isPermaLink="false">/cn/docs/react/components/link</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于导航的样式化锚点组件，内置图标支持。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pagination 分页]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/pagination</link>
+            <guid isPermaLink="false">/cn/docs/react/components/pagination</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[分页导航：可组合的页码链接、上一页/下一页按钮与省略号指示器。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tabs 标签页]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/tabs</link>
+            <guid isPermaLink="false">/cn/docs/react/components/tabs</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Tabs 将内容组织为多个区块，并允许用户在它们之间导航。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AlertDialog 警告对话框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/alert-dialog</link>
+            <guid isPermaLink="false">/cn/docs/react/components/alert-dialog</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于关键确认的模态对话框，需要用户关注并执行明确操作。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Drawer 抽屉]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/drawer</link>
+            <guid isPermaLink="false">/cn/docs/react/components/drawer</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于补充内容与操作的侧滑面板。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Modal 模态框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/modal</link>
+            <guid isPermaLink="false">/cn/docs/react/components/modal</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于聚焦用户交互与重要内容的对话框遮罩层。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Popover 弹出框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/popover</link>
+            <guid isPermaLink="false">/cn/docs/react/components/popover</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[在由按钮或任意自定义元素触发后，于 portal 中展示丰富内容。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Toast 轻提示]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/toast</link>
+            <guid isPermaLink="false">/cn/docs/react/components/toast</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[向用户展示临时通知与消息，支持自动消失与可定制的放置位置。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tooltip 工具提示]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/tooltip</link>
+            <guid isPermaLink="false">/cn/docs/react/components/tooltip</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[当用户悬停或聚焦某个元素时，展示提示性文本。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Autocomplete 自动完成]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/autocomplete</link>
+            <guid isPermaLink="false">/cn/docs/react/components/autocomplete</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[自动完成将选择与过滤结合，让用户可以搜索并从选项列表中选择。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ComboBox 组合框]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/combo-box</link>
+            <guid isPermaLink="false">/cn/docs/react/components/combo-box</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[将文本输入与 ListBox 结合，用户可通过输入查询把选项列表过滤为匹配项。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Select 选择器]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/select</link>
+            <guid isPermaLink="false">/cn/docs/react/components/select</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Select 展示可折叠的选项列表，并允许用户从中选择一项。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kbd 键盘按键]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/kbd</link>
+            <guid isPermaLink="false">/cn/docs/react/components/kbd</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于展示键盘快捷键与组合键。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Typography 排版]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/typography</link>
+            <guid isPermaLink="false">/cn/docs/react/components/typography</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[面向标题、正文与行内代码的语义化排版原语，基于 React Aria Components 的 Text 构建。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ScrollShadow 滚动阴影]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/scroll-shadow</link>
+            <guid isPermaLink="false">/cn/docs/react/components/scroll-shadow</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[通过阴影提示可滚动溢出内容，并根据滚动位置自动检测显示或隐藏。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Button 按钮]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/button</link>
+            <guid isPermaLink="false">/cn/docs/native/components/button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[按下时触发操作的交互组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CloseButton 关闭按钮]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/close-button</link>
+            <guid isPermaLink="false">/cn/docs/native/components/close-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于关闭对话框、模态框或收起内容的按钮组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LinkButton 链接按钮]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/link-button</link>
+            <guid isPermaLink="false">/cn/docs/native/components/link-button</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[幽灵样式按钮，无高亮按压反馈，适合行内链接式交互。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Menu 菜单]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/menu</link>
+            <guid isPermaLink="false">/cn/docs/native/components/menu</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[浮动上下文菜单，支持定位、选择分组与多种呈现方式。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TagGroup 标签组]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/tag-group</link>
+            <guid isPermaLink="false">/cn/docs/native/components/tag-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于展示与管理可选标签的复合组件，支持可选移除。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Slider 滑块]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/slider</link>
+            <guid isPermaLink="false">/cn/docs/native/components/slider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[在有限区间内通过拖拽选择单个值或区间的输入控件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Switch 开关]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/switch</link>
+            <guid isPermaLink="false">/cn/docs/native/components/switch</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[在开与关两种状态之间切换的拨动控件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chip 标签]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/chip</link>
+            <guid isPermaLink="false">/cn/docs/native/components/chip</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[以胶囊形态展示的小型元素。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Alert 警告]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/alert</link>
+            <guid isPermaLink="false">/cn/docs/native/components/alert</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[向用户展示重要消息与通知，并带有状态指示。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SkeletonGroup 骨架屏组]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/skeleton-group</link>
+            <guid isPermaLink="false">/cn/docs/native/components/skeleton-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[协调多个骨架屏占位，并提供统一的动画与加载态控制。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Skeleton 骨架屏]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/skeleton</link>
+            <guid isPermaLink="false">/cn/docs/native/components/skeleton</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[展示加载占位，支持微光（shimmer）或脉冲（pulse）等动画效果。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spinner 加载指示器]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/spinner</link>
+            <guid isPermaLink="false">/cn/docs/native/components/spinner</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[展示旋转加载动画。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Checkbox 复选框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/checkbox</link>
+            <guid isPermaLink="false">/cn/docs/native/components/checkbox</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[可在选中与未选中之间切换的可选控件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ControlField 控件字段]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/control-field</link>
+            <guid isPermaLink="false">/cn/docs/native/components/control-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[将标签、说明（或其他内容）与控件（Switch 或 Checkbox）组合为单一可按压区域的字段组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Description 描述]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/description</link>
+            <guid isPermaLink="false">/cn/docs/native/components/description</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于为表单字段等提供无障碍说明与辅助文案的文本组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[FieldError 字段错误]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/field-error</link>
+            <guid isPermaLink="false">/cn/docs/native/components/field-error</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[展示校验错误信息，并带有平滑动画。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputGroup 输入框组]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/input-group</link>
+            <guid isPermaLink="false">/cn/docs/native/components/input-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[复合布局组件，将输入框与可选的前后缀装饰组合在一起。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[InputOTP 一次性密码输入框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/input-otp</link>
+            <guid isPermaLink="false">/cn/docs/native/components/input-otp</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于输入一次性验证码（OTP）的输入组件，支持分格、动画与校验。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Input 输入框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/input</link>
+            <guid isPermaLink="false">/cn/docs/native/components/input</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[单行文本输入，带样式边框与背景，用于收集用户输入。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Label 标签]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/label</link>
+            <guid isPermaLink="false">/cn/docs/native/components/label</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于标注表单字段等 UI 的文本组件，支持必填标记与校验状态。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RadioGroup 单选框组]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/radio-group</link>
+            <guid isPermaLink="false">/cn/docs/native/components/radio-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[单选按钮组，同一时间只能选中一个选项。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SearchField 搜索框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/search-field</link>
+            <guid isPermaLink="false">/cn/docs/native/components/search-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于筛选与查询的复合搜索输入框。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Select 选择器]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/select</link>
+            <guid isPermaLink="false">/cn/docs/native/components/select</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[通过按钮触发，展示可选列表供用户选择。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextArea 多行文本框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/text-area</link>
+            <guid isPermaLink="false">/cn/docs/native/components/text-area</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[多行文本输入，带样式边框与背景，用于收集较长内容。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TextField 文本输入框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/text-field</link>
+            <guid isPermaLink="false">/cn/docs/native/components/text-field</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[带标签、说明与错误处理的文本输入，用于收集用户输入。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Card 卡片]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/card</link>
+            <guid isPermaLink="false">/cn/docs/native/components/card</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[卡片容器，提供灵活分区以结构化展示内容。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Separator 分隔符]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/separator</link>
+            <guid isPermaLink="false">/cn/docs/native/components/separator</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于在视觉上分隔内容的简单线条。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Surface 表面]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/surface</link>
+            <guid isPermaLink="false">/cn/docs/native/components/surface</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[提供层级与背景样式的容器组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Avatar 头像]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/avatar</link>
+            <guid isPermaLink="false">/cn/docs/native/components/avatar</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[展示用户头像，支持图片、文字首字母或回退图标。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Accordion 手风琴]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/accordion</link>
+            <guid isPermaLink="false">/cn/docs/native/components/accordion</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[可折叠内容面板，在紧凑空间内组织信息]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ListGroup 列表组]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/list-group</link>
+            <guid isPermaLink="false">/cn/docs/native/components/list-group</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[基于 Surface 的容器，用于分组展示列表项并保持一致的布局与间距。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tabs 标签页]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/tabs</link>
+            <guid isPermaLink="false">/cn/docs/native/components/tabs</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[使用选项卡视图组织内容，支持动画过渡与指示器。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[BottomSheet 底部弹层]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/bottom-sheet</link>
+            <guid isPermaLink="false">/cn/docs/native/components/bottom-sheet</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[自底部滑入的底部表单，带动画与下滑关闭手势。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dialog 对话框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/dialog</link>
+            <guid isPermaLink="false">/cn/docs/native/components/dialog</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[模态浮层，带动画过渡并支持手势关闭。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Popover 弹出框]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/popover</link>
+            <guid isPermaLink="false">/cn/docs/native/components/popover</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[锚定在触发器上的浮动内容面板，支持方位与对齐选项。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Toast 轻提示]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/toast</link>
+            <guid isPermaLink="false">/cn/docs/native/components/toast</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[在屏幕顶部或底部展示的临时通知消息。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Typography 文本]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/text</link>
+            <guid isPermaLink="false">/cn/docs/native/components/text</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于渲染带语义类型变体的样式化文本的排版基元组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PressableFeedback 按压反馈]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/pressable-feedback</link>
+            <guid isPermaLink="false">/cn/docs/native/components/pressable-feedback</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[为按压交互提供视觉反馈的容器组件，内置缩放动画。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ScrollShadow 滚动阴影]]></title>
+            <link>http://localhost:3000/cn/docs/native/components/scroll-shadow</link>
+            <guid isPermaLink="false">/cn/docs/native/components/scroll-shadow</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[根据滚动位置与溢出情况，为可滚动内容添加动态渐变边缘阴影。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Slider 滑块]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/slider</link>
+            <guid isPermaLink="false">/cn/docs/react/components/slider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Slider 允许用户在范围内选择一个或多个值。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Switch 开关]]></title>
+            <link>http://localhost:3000/cn/docs/react/components/switch</link>
+            <guid isPermaLink="false">/cn/docs/react/components/switch</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用于布尔状态的开关组件。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[介绍]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[开源 React Native UI 组件库，用于构建美观且易于访问的移动界面。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Beta 10]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/beta-10</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/beta-10</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Bottom Sheet 组件、PressableFeedback 重构、动画 API 的 State 扩展、use-theme-color 多色选取与问题修复]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Beta 11]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/beta-11</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/beta-11</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Bottom Sheet 关闭协同增强、Dialog 侧滑关闭修复、TextField 改进，以及面向高级场景的 PortalHost 导出]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Beta 12]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/beta-12</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/beta-12</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[InputOTP、Label、Description 组件，Popover 关闭修复，受控状态改进，圆角修复，以及变体样式属性支持]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Beta 13]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/beta-13</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/beta-13</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[TextArea 组件、Button outline 变体、Tabs 改进、表单原语拆分、弹层动画重构、样式类名导出与关键问题修复]]></description>
+        </item>
+        <item>
+            <title><![CDATA[所有版本]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases</link>
+            <guid isPermaLink="false">/cn/docs/native/releases</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[HeroUI Native 的全部更新与变更，包括新功能、问题修复与破坏性变更。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RC 1]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/rc-1</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/rc-1</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Alert 组件、独立 Radio 组件、Select TriggerIndicator、HeroUINativeProviderRaw、disableFullWindowOverlay、styles 属性扩展、主题 surface 重构]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RC 2]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/rc-2</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/rc-2</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[SearchField、ListGroup、Slider 组件，Select 多选模式，Button 反馈 API 重构，放宽对等依赖约束]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RC 3]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/rc-3</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/rc-3</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[TagGroup、Menu、InputGroup 组件，Bottom Sheet Android 返回键修复，Expo 55 兼容]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RC 4]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/rc-4</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/rc-4</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[SubMenu 组件、Slider Output 组合重构、PressableFeedback 水波纹修复、Bottom Sheet 返回键处理修复]]></description>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.0]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/v1-0-0</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/v1-0-0</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[LinkButton 组件、子菜单冲突处理、可选的 @gorhom/bottom-sheet 对等依赖、ThemeColorValue 品牌类型]]></description>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.1]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/v1-0-1</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/v1-0-1</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Toast 竞态修复、使用 disabled 修饰符的禁用态样式、背景层样式变量 backdrop]]></description>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.2]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/v1-0-2</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/v1-0-2</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[PressableFeedback 与 Surface 的 asChild 插槽模式、Portal 无障碍 modal 属性、Button Android 变体修复、Input 与 Select 样式微调]]></description>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.3]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/v1-0-3</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/v1-0-3</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[全新 Text 排版组件、ScrollShadow 反向列表支持、Tabs RTL 指示器修复、Avatar alt 属性可选化、Select 指示器统一、表单字段样式微调]]></description>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.4]]></title>
+            <link>http://localhost:3000/cn/docs/native/releases/v1-0-4</link>
+            <guid isPermaLink="false">/cn/docs/native/releases/v1-0-4</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[Typography 组件替代 Text、调整后的柔和前景色主题令牌与可选鲜亮配色、iOS 原生模态偏移说明、示例应用升级至 Expo 56 / React Native 0.85]]></description>
+        </item>
+        <item>
+            <title><![CDATA[动画]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/animation</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/animation</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[为 HeroUI Native 组件添加流畅动画与过渡]]></description>
+        </item>
+        <item>
+            <title><![CDATA[颜色]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/colors</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/colors</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[HeroUI Native 的调色板与主题系统]]></description>
+        </item>
+        <item>
+            <title><![CDATA[组合]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/composition</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/composition</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[用组件组合模式搭建灵活 UI]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Portal]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/portal</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/portal</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[HeroUI documentation page]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Provider]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/provider</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/provider</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[配置 HeroUI Native 的文本、动画与 Toast 等全局能力]]></description>
+        </item>
+        <item>
+            <title><![CDATA[样式]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/styling</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/styling</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[使用 Tailwind 或 StyleSheet API 为 HeroUI Native 组件编写样式]]></description>
+        </item>
+        <item>
+            <title><![CDATA[主题]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/theming</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/theming</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[使用 CSS 变量与全局样式定制 HeroUI Native 设计系统]]></description>
+        </item>
+        <item>
+            <title><![CDATA[设计原则]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/design-principles</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/design-principles</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[指导 HeroUI Native 设计与开发的核心理念]]></description>
+        </item>
+        <item>
+            <title><![CDATA[快速开始]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/quick-start</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/quick-start</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[几分钟内上手 HeroUI Native]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Agent Skills]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/agent-skills</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/agent-skills</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[让 AI 助手使用 HeroUI Native 组件构建移动端界面]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AGENTS.md]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/agents-md</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/agents-md</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[将 HeroUI Native 文档下载到项目中，供 AI 编程助手引用]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LLMs.txt]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/llms-txt</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/llms-txt</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[让 Claude、Cursor、Windsurf 等 AI 助手理解 HeroUI Native 文档]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MCP 服务器]]></title>
+            <link>http://localhost:3000/cn/docs/native/getting-started/mcp-server</link>
+            <guid isPermaLink="false">/cn/docs/native/getting-started/mcp-server</guid>
+            <pubDate>Tue, 02 Jun 2026 02:29:15 GMT</pubDate>
+            <description><![CDATA[在 AI 助手中直接访问 HeroUI Native 文档]]></description>
+        </item>
+    </channel>
+</rss>

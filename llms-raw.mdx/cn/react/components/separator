@@ -1,0 +1,280 @@
+<page url="/cn/docs/react/components/separator">
+# Separator 分隔符
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/separator
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(layout)/separator.mdx
+> 在内容区块之间进行视觉分隔。
+
+
+***
+
+## 引入
+
+```tsx
+import { Separator } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Separator} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <div className="max-w-md">
+      <div className="space-y-1">
+        <h4 className="text-medium font-medium">HeroUI v3 组件</h4>
+        <p className="text-small text-default-400">美观、快速、现代的 React UI 库。</p>
+      </div>
+      <Separator className="my-4" />
+      <div className="text-small flex h-5 items-center space-x-4">
+        <div>博客</div>
+        <Separator orientation="vertical" />
+        <div>文档</div>
+        <Separator orientation="vertical" />
+        <div>源码</div>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 垂直方向
+
+```tsx
+import {Separator} from "@heroui/react";
+
+export function Vertical() {
+  return (
+    <div className="text-small flex h-5 items-center space-x-4">
+      <div>博客</div>
+      <Separator orientation="vertical" />
+      <div>文档</div>
+      <Separator orientation="vertical" />
+      <div>源码</div>
+    </div>
+  );
+}
+
+```
+
+### 带内容
+
+```tsx
+import {Separator} from "@heroui/react";
+
+const items = [
+  {
+    iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png",
+    subtitle: "接收账户活动更新",
+    title: "设置通知",
+  },
+  {
+    iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png",
+    subtitle: "将浏览器连接到你的账户",
+    title: "设置浏览器扩展",
+  },
+  {
+    iconUrl:
+      "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png",
+    subtitle: "创建你的第一件收藏品",
+    title: "铸造收藏品",
+  },
+];
+
+export function WithContent() {
+  return (
+    <div className="max-w-md space-y-4">
+      {items.map((item, index) => (
+        <div key={index}>
+          <div className="flex items-center gap-3">
+            <img alt={item.title} className="size-12" src={item.iconUrl} />
+            <div className="flex-1 space-y-0">
+              <h4 className="text-small font-medium">{item.title}</h4>
+              <p className="text-sm text-muted">{item.subtitle}</p>
+            </div>
+          </div>
+          {index < items.length - 1 && <Separator className="my-4" />}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 变体
+
+```tsx
+import {Separator} from "@heroui/react";
+
+export function Variants() {
+  return (
+    <div className="flex max-w-md flex-col items-center gap-3">
+      <div>默认变体</div>
+      <Separator variant="default" />
+      <div>次要变体</div>
+      <Separator variant="secondary" />
+      <div>第三变体</div>
+      <Separator variant="tertiary" />
+    </div>
+  );
+}
+
+```
+
+### 与 Surface 组合
+
+Separator 会适配不同的 surface 背景，以获得更好的可见性。
+
+```tsx
+import {Separator, Surface} from "@heroui/react";
+
+export function WithSurface() {
+  return (
+    <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-2">
+        <Surface className="flex min-w-[320px] flex-col gap-3 rounded-3xl p-6" variant="default">
+          <h3 className="text-base font-semibold text-foreground">默认表面</h3>
+          <Separator />
+          <p className="text-sm text-muted">表面内容</p>
+        </Surface>
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <Surface className="flex min-w-[320px] flex-col gap-3 rounded-3xl p-6" variant="secondary">
+          <h3 className="text-base font-semibold text-foreground">次要表面</h3>
+          <Separator variant="secondary" />
+          <p className="text-sm text-muted">表面内容</p>
+        </Surface>
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <Surface className="flex min-w-[320px] flex-col gap-3 rounded-3xl p-6" variant="tertiary">
+          <h3 className="text-base font-semibold text-foreground">第三表面</h3>
+          <Separator variant="tertiary" />
+          <p className="text-sm text-muted">表面内容</p>
+        </Surface>
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <Surface
+          className="flex min-w-[320px] flex-col gap-3 rounded-3xl border p-6"
+          variant="transparent"
+        >
+          <h3 className="text-base font-semibold text-foreground">透明表面</h3>
+          <Separator />
+          <p className="text-sm text-muted">表面内容</p>
+        </Surface>
+      </div>
+    </div>
+  );
+}
+
+```
+
+## Related Components
+
+- **Card**: Content container with header, body, and footer
+- **Chip**: Compact elements for tags and filters
+- **Avatar**: Display user profile images
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {Separator} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <div className="max-w-md">
+      <div className="space-y-1">
+        <h4 className="text-medium font-medium">HeroUI v3 组件</h4>
+        <p className="text-small text-default-400">美观、快速、现代的 React UI 库。</p>
+      </div>
+      <Separator className="my-4" render={(props) => <div {...props} data-custom="foo" />} />
+      <div className="text-small flex h-5 items-center space-x-4">
+        <div>博客</div>
+        <Separator
+          orientation="vertical"
+          render={(props) => <div {...props} data-custom="foo" />}
+        />
+        <div>文档</div>
+        <Separator
+          orientation="vertical"
+          render={(props) => <div {...props} data-custom="foo" />}
+        />
+        <div>源码</div>
+      </div>
+    </div>
+  );
+}
+
+```
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import {Separator} from '@heroui/react';
+
+function CustomSeparator() {
+  return (
+    <Separator className="my-8 bg-linear-to-r from-transparent via-default-500 to-transparent" />
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Separator 的组件类名，可使用 `@layer components` 指令。
+<br/>[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .separator {
+    @apply bg-accent h-[2px];
+  }
+
+  .separator--vertical {
+    @apply bg-accent w-[2px];
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于定制。
+
+### CSS 类
+
+Separator 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/separator.css)）：
+
+#### 基础类与方向类
+
+- `.separator` - 基础 Separator 样式，默认水平方向
+- `.separator--horizontal` - 水平方向（全宽，高度 1px）
+- `.separator--vertical` - 垂直方向（全高，宽度 1px）
+
+#### 变体类
+
+- `.separator--default` - 默认变体，标准对比度
+- `.separator--secondary` - 次要变体，中等对比度
+- `.separator--tertiary` - 第三级变体，较弱对比度
+
+## API 参考
+
+### Separator Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `orientation` | `'horizontal' \| 'vertical'` | `'horizontal'` | Separator 的方向 |
+| `variant` | `'default' \| 'secondary' \| 'tertiary'` | `'default'` | Separator 的视觉变体 |
+| `className` | `string` | - | 额外的 CSS 类名 |
+| `render` | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, undefined>` | - | 通过自定义渲染函数覆盖默认的 DOM 元素。 |
+</page>

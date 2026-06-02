@@ -1,0 +1,210 @@
+<page url="/cn/docs/react/components/typography">
+# Typography 排版
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/typography
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(typography)/typography.mdx
+> 面向标题、正文与行内代码的语义化排版原语，基于 React Aria Components 的 Text 构建。
+
+
+## 引入
+
+```tsx
+import {Typography} from "@heroui/react";
+
+```
+
+## 用法
+
+```tsx
+import {Typography} from "@heroui/react";
+
+const scale = [
+  {
+    label: "h1",
+    meta: "36px / 600 / 1.11 / tight",
+    sample: "打造更出色的界面",
+    type: "h1" as const,
+  },
+  {
+    label: "h2",
+    meta: "30px / 600 / 1.17 / tight",
+    sample: "为智能时代而生",
+    type: "h2" as const,
+  },
+  {
+    label: "h3",
+    meta: "24px / 600 / 1.25 / tight",
+    sample: "按您的条件定价",
+    type: "h3" as const,
+  },
+  {
+    label: "h4",
+    meta: "20px / 600 / 1.33 / tight",
+    sample: "申请创业计划",
+    type: "h4" as const,
+  },
+  {
+    label: "h5",
+    meta: "18px / 600 / 1.39 / tight",
+    sample: "卡片标题",
+    type: "h5" as const,
+  },
+  {
+    label: "h6",
+    meta: "16px / 600 / 1.50 / tight",
+    sample: "较小的功能标题",
+    type: "h6" as const,
+  },
+  {
+    label: "body",
+    meta: "16px / 400 / 1.75",
+    sample: "用于文档、营销文案与描述的主要正文。",
+    type: "body" as const,
+  },
+  {
+    label: "body-sm",
+    meta: "14px / 400 / 1.50",
+    sample: "次要正文、表格单元格、导航与侧边栏项。",
+    type: "body-sm" as const,
+  },
+  {
+    label: "body-xs",
+    meta: "12px / 400 / 1.25",
+    sample: "说明文字、徽章、辅助文本与细则。",
+    type: "body-xs" as const,
+  },
+  {
+    label: "code",
+    meta: "14px / mono",
+    sample: "pnpm add @heroui/react",
+    type: "code" as const,
+  },
+] as const;
+
+export const TypographyScale = () => {
+  return (
+    <div className="flex w-full flex-col divide-y divide-border">
+      {scale.map((row) => (
+        <div key={row.label} className="grid grid-cols-[160px_1fr] items-center gap-8 py-5">
+          <div className="flex shrink-0 flex-col gap-0.5">
+            <span className="text-sm font-semibold text-foreground">{row.label}</span>
+            <span className="text-xs whitespace-nowrap text-muted">{row.meta}</span>
+          </div>
+          <Typography type={row.type}>{row.sample}</Typography>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+```
+
+默认情况下，`Typography` 会将视觉上的 `type` 映射到对应的语义化元素。
+
+## 子组件
+
+```tsx
+import {Typography} from "@heroui/react";
+
+export const Primitives = () => {
+  return (
+    <div className="flex max-w-xl flex-col gap-4">
+      <Typography.Heading level={1}>仪表盘</Typography.Heading>
+      <Typography.Paragraph>
+        便捷原语是 Typography 的薄封装，可在不学习第二套样式系统的情况下选择显式组合。
+      </Typography.Paragraph>
+      <Typography.Paragraph color="muted" size="sm">
+        Paragraph 支持 base、sm 和 xs 尺寸。
+      </Typography.Paragraph>
+      <Typography.Code>Typography.Code</Typography.Code>
+    </div>
+  );
+};
+
+```
+
+* `Typography.Heading` 将 `level={1..6}` 映射为 `type="h1"` 至 `type="h6"`。
+* `Typography.Paragraph` 将 `size="base" | "sm" | "xs"` 映射为正文样式。
+* `Typography.Code` 映射为行内代码样式。
+* `Typography.Prose` 为以常规 HTML 子节点传入的富文本内容提供排版样式。
+
+## Prose
+
+```tsx
+import {Typography} from "@heroui/react";
+
+export const Prose = () => {
+  return (
+    <Typography.Prose className="flex max-w-xl flex-col gap-3">
+      <h1>正文标题</h1>
+      <p>Prose 适用于标记已是语义化、由 HeroUI 应用默认排版节奏的写作型内容。</p>
+      <h2>章节标题</h2>
+      <p>
+        行内代码如 <code>render</code> 与 Typography 原语获得相同的代码样式处理。
+      </p>
+    </Typography.Prose>
+  );
+};
+
+```
+
+## Render Prop
+
+```tsx
+"use client";
+
+import {Typography} from "@heroui/react";
+
+export const RenderProps = () => {
+  return (
+    <div className="flex max-w-xl flex-col gap-4">
+      <Typography render={({children, ...domProps}) => <h2 {...domProps}>{children}</h2>} type="h1">
+        H1 视觉样式，h2 语义元素
+      </Typography>
+      <Typography render={({children, ...domProps}) => <span {...domProps}>{children}</span>}>
+        render prop 可更换底层元素，同时保留 HeroUI 的 props 与样式。
+      </Typography>
+    </div>
+  );
+};
+
+```
+
+需要自定义实际渲染的元素时，可使用 React Aria Components 风格的 `render` prop。
+
+## CSS 类名
+
+### 基础类
+
+* `.typography` - 排版基础原语
+* `.typography-prose` - 富文本文章体容器
+
+### 类型类
+
+* `.typography--h1` 至 `.typography--h6`
+* `.typography--body`、`.typography--body-sm`、`.typography--body-xs`
+* `.typography--code`
+
+### 修饰类
+
+* `.typography--align-start`、`.typography--align-center`、`.typography--align-end`、`.typography--align-justify`
+* `.typography--color-default`、`.typography--color-muted`
+* `.typography--truncate`
+* `.typography--weight-normal`、`.typography--weight-medium`、`.typography--weight-semibold`、`.typography--weight-bold`
+
+## API 参考
+
+### Typography 属性
+
+| 属性         | 类型                                                                                           | 默认值         | 说明                      |
+| ---------- | -------------------------------------------------------------------------------------------- | ----------- | ----------------------- |
+| `type`     | `'h1' \| 'h2' \| 'h3' \| 'h4' \| 'h5' \| 'h6' \| 'body' \| 'body-sm' \| 'body-xs' \| 'code'` | `'body'`    | 语义化排版样式。                |
+| `align`    | `'start' \| 'center' \| 'end' \| 'justify'`                                                  | `'start'`   | 文本对齐。                   |
+| `color`    | `'default' \| 'muted'`                                                                       | `'default'` | 文本颜色。                   |
+| `weight`   | `'normal' \| 'medium' \| 'semibold' \| 'bold'`                                               | -           | 字重覆盖。                   |
+| `truncate` | `boolean`                                                                                    | -           | 将文本截断为单行并显示省略号。         |
+| `render`   | `DOMRenderFunction`                                                                          | -           | 来自 React Aria 的自定义渲染函数。 |
+| `children` | `ReactNode`                                                                                  | -           | 文本内容。                   |
+
+</page>

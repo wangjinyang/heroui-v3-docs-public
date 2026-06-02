@@ -1,0 +1,981 @@
+1:"$Sreact.fragment"
+2:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsPage"]
+3:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsTitle"]
+4:I[302559,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ViewOptions"]
+5:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsDescription"]
+6:I[483689,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"ComponentLinks"]
+7:I[353266,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsBody"]
+8:I[494157,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Heading"]
+9:I[192506,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"FumadocsCustomCodeblock"]
+46:I[144324,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Pre"]
+47:I[3108,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
+49:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionRoot"]
+4a:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionItem"]
+4b:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionHeading"]
+4c:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionTrigger"]
+4d:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionIndicator"]
+6f:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionPanel"]
+70:I[633271,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"AccordionBody"]
+72:I[345013,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"Controlled"]
+74:I[250184,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomIndicator"]
+8b:I[383719,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomRenderFunction"]
+8c:"$Sreact.suspense"
+8d:I[605435,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"RelatedComponents"]
+8e:I[457915,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"CodeBlock"]
+92:I[942449,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js","/_next/static/chunks/0aw0k8rum~ss-.js","/_next/static/chunks/04ia8otbul2w9.js","/_next/static/chunks/033h1w54eedv7.js","/_next/static/chunks/159gmix3k~hib.js","/_next/static/chunks/0j82w1dy7v~yr.js","/_next/static/chunks/0z8sb9540w-ac.js","/_next/static/chunks/0g7yee3y3dvo8.js","/_next/static/chunks/0gdenpo8.gwl4.js","/_next/static/chunks/03jjeeu219qjd.js","/_next/static/chunks/063xksbjf_hi0.js","/_next/static/chunks/0ntlk2xyxwoee.js","/_next/static/chunks/06pxd1ptgs50k.js","/_next/static/chunks/0.rhjvoaa5rja.js","/_next/static/chunks/0l3e2ob8hxlmc.js","/_next/static/chunks/058a_57qegyig.js","/_next/static/chunks/0vjau8erp5b9h.js","/_next/static/chunks/0~n.we7l4v~t2.js","/_next/static/chunks/0s78uslia0q-q.js","/_next/static/chunks/0utta9f2-7gk9.js","/_next/static/chunks/0~9vk4q0ofi8a.js","/_next/static/chunks/0mngcfhq-hqa-.js","/_next/static/chunks/151.xr6.fqwx5.js","/_next/static/chunks/0x~_tmj7tnmmx.js","/_next/static/chunks/0~1dbx6vn.837.js","/_next/static/chunks/0eeaopyw1id1q.js","/_next/static/chunks/0hffhpsx_x.s-.js","/_next/static/chunks/03r4ff1prlgx4.js","/_next/static/chunks/0xrm9x5uly_dk.js","/_next/static/chunks/0dcujmdk6t.zu.js","/_next/static/chunks/0hjcacl3~bgeb.js","/_next/static/chunks/0sdun2pm7sc1h.js","/_next/static/chunks/0fpc6ujy7.75j.js","/_next/static/chunks/0z-r2uz5n7mxn.js"],"LocaleLink"]
+93:I[897367,["/_next/static/chunks/0x.73w57rn4ou.js","/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
+:HL["https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png","image"]
+:HL["https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png","image"]
+:HL["https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png","image"]
+a:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#import","title":"Import"},{"depth":3,"url":"#usage","title":"Usage"},{"depth":3,"url":"#anatomy","title":"Anatomy"},{"depth":3,"url":"#surface","title":"Surface"},{"depth":3,"url":"#multiple-expanded","title":"Multiple Expanded"},{"depth":3,"url":"#controlled","title":"Controlled"},{"depth":3,"url":"#custom-indicator","title":"Custom Indicator"},{"depth":3,"url":"#disabled-state","title":"Disabled State"},{"depth":3,"url":"#faq-layout","title":"FAQ Layout"},{"depth":3,"url":"#custom-styles","title":"Custom Styles"},{"depth":3,"url":"#without-separator","title":"Without Separator"},{"depth":3,"url":"#custom-render-function","title":"Custom Render Function"},{"depth":2,"url":"#styling","title":"Styling"},{"depth":3,"url":"#passing-tailwind-css-classes","title":"Passing Tailwind CSS classes"},{"depth":3,"url":"#customizing-the-component-classes","title":"Customizing the component classes"},{"depth":3,"url":"#css-classes","title":"CSS Classes"},{"depth":4,"url":"#base-classes","title":"Base Classes"},{"depth":4,"url":"#variant-classes","title":"Variant Classes"},{"depth":4,"url":"#state-classes","title":"State Classes"},{"depth":3,"url":"#interactive-states","title":"Interactive States"},{"depth":2,"url":"#api-reference","title":"API Reference"},{"depth":3,"url":"#accordion-props","title":"Accordion Props"},{"depth":3,"url":"#accordionitem-props","title":"Accordion.Item Props"},{"depth":3,"url":"#accordiontrigger-props","title":"Accordion.Trigger Props"},{"depth":3,"url":"#accordionpanel-props","title":"Accordion.Panel Props"},{"depth":3,"url":"#accordionindicator-props","title":"Accordion.Indicator Props"},{"depth":3,"url":"#accordionbody-props","title":"Accordion.Body Props"}],"children":[["$","section",null,{"className":"flex flex-col gap-2","children":[["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-2","children":[["$","$L3",null,{"className":"flex items-center gap-2","children":["Accordion",false]}],["$","div",null,{"className":"flex items-center gap-2","children":["$","$L4",null,{"markdownUrl":"/en/docs/react/components/accordion.mdx"}]}]]}],["$","$L5",null,{"className":"text-md mt-2 mb-4","children":"A collapsible content panel for organizing information in a compact space"}],["$","$L6",null,{"links":{"rac":"Disclosure","source":"accordion/accordion.tsx","styles":"accordion.css","storybook":"Components/Navigation/Accordion","figma":true}}]]}],["$","$L7",null,{"className":"prose-sm","children":[["$","$L8",null,{"as":"h2","id":"import","children":"Import"}],"\n",["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$a","children":"$Lb"}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42"]}]]}],["$L43","$L44"],"$L45"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Og7Y5QFIHVQNML2MH2z_8"}
+b:["$","$L46",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion } "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]}]}]
+c:["$","$L8",null,{"as":"h3","id":"usage","children":"Usage"}]
+48:T8c1,import {
+  ArrowsRotateLeft,
+  Box,
+  ChevronDown,
+  CreditCard,
+  PlanetEarth,
+  Receipt,
+  ShoppingBag,
+} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content:
+      "Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase.",
+    icon: <ShoppingBag />,
+    title: "How do I place an order?",
+  },
+  {
+    content:
+      "Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.",
+    icon: <Receipt />,
+    title: "Can I modify or cancel my order?",
+  },
+  {
+    content: "We accept all major credit cards, including Visa, Mastercard, and American Express.",
+    icon: <CreditCard />,
+    title: "What payment methods do you accept?",
+  },
+  {
+    content:
+      "Shipping costs vary based on your location and the size of your order. We offer free shipping for orders over $50.",
+    icon: <Box />,
+    title: "How much does shipping cost?",
+  },
+  {
+    content:
+      "Yes, we ship to most countries. Please check our shipping rates and policies for more information.",
+    icon: <PlanetEarth />,
+    title: "Do you ship internationally?",
+  },
+  {
+    content:
+      "If you're not satisfied with your purchase, you can request a refund within 30 days of purchase. Please contact our customer support team for assistance.",
+    icon: <ArrowsRotateLeft />,
+    title: "How do I request a refund?",
+  },
+];
+
+export function Basic() {
+  return (
+    <Accordion className="w-full max-w-md">
+      {items.map((item, index) => (
+        <Accordion.Item key={index}>
+          <Accordion.Heading>
+            <Accordion.Trigger>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+d:["$","$L47",null,{"align":"center","code":"$48","isBgSolid":false,"minHeight":"400px","name":"accordion-basic","children":["$","$L49",null,{"className":"w-full max-w-md","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M5.174 3h5.652a1.5 1.5 0 0 1 1.49 1.328l.808 7A1.5 1.5 0 0 1 11.634 13H4.366a1.5 1.5 0 0 1-1.49-1.672l.808-7A1.5 1.5 0 0 1 5.174 3m-2.98 1.156A3 3 0 0 1 5.174 1.5h5.652a3 3 0 0 1 2.98 2.656l.808 7a3 3 0 0 1-2.98 3.344H4.366a3 3 0 0 1-2.98-3.344zM5 5.25a.75.75 0 0 1 1.5 0v.25a1.5 1.5 0 1 0 3 0v-.25a.75.75 0 0 1 1.5 0v.25a3 3 0 0 1-6 0z","clipRule":"evenodd"}]}]}],"How do I place an order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],"$L4e"]}],"$L4f","$L50","$L51","$L52","$L53"]}]}]
+e:["$","$L8",null,{"as":"h3","id":"anatomy","children":"Anatomy"}]
+f:["$","p",null,{"children":"Import the Accordion component and access all parts using dot notation."}]
+54:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>10:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$54","children":["$","$L46",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion } "}],"$L55","$L56","$L57"]}],"\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66"]}]}]}]
+11:["$","$L8",null,{"as":"h3","id":"surface","children":"Surface"}]
+67:T8d5,import {
+  ArrowsRotateLeft,
+  Box,
+  ChevronDown,
+  CreditCard,
+  PlanetEarth,
+  Receipt,
+  ShoppingBag,
+} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content:
+      "Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase.",
+    icon: <ShoppingBag />,
+    title: "How do I place an order?",
+  },
+  {
+    content:
+      "Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.",
+    icon: <Receipt />,
+    title: "Can I modify or cancel my order?",
+  },
+  {
+    content: "We accept all major credit cards, including Visa, Mastercard, and American Express.",
+    icon: <CreditCard />,
+    title: "What payment methods do you accept?",
+  },
+  {
+    content:
+      "Shipping costs vary based on your location and the size of your order. We offer free shipping for orders over $50.",
+    icon: <Box />,
+    title: "How much does shipping cost?",
+  },
+  {
+    content:
+      "Yes, we ship to most countries. Please check our shipping rates and policies for more information.",
+    icon: <PlanetEarth />,
+    title: "Do you ship internationally?",
+  },
+  {
+    content:
+      "If you're not satisfied with your purchase, you can request a refund within 30 days of purchase. Please contact our customer support team for assistance.",
+    icon: <ArrowsRotateLeft />,
+    title: "How do I request a refund?",
+  },
+];
+
+export function Surface() {
+  return (
+    <Accordion className="w-full max-w-md" variant="surface">
+      {items.map((item, index) => (
+        <Accordion.Item key={index}>
+          <Accordion.Heading>
+            <Accordion.Trigger>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+12:["$","$L47",null,{"align":"center","code":"$67","isBgSolid":false,"minHeight":"400px","name":"accordion-surface","children":["$","$L49",null,{"className":"w-full max-w-md","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M5.174 3h5.652a1.5 1.5 0 0 1 1.49 1.328l.808 7A1.5 1.5 0 0 1 11.634 13H4.366a1.5 1.5 0 0 1-1.49-1.672l.808-7A1.5 1.5 0 0 1 5.174 3m-2.98 1.156A3 3 0 0 1 5.174 1.5h5.652a3 3 0 0 1 2.98 2.656l.808 7a3 3 0 0 1-2.98 3.344H4.366a3 3 0 0 1-2.98-3.344zM5 5.25a.75.75 0 0 1 1.5 0v.25a1.5 1.5 0 1 0 3 0v-.25a.75.75 0 0 1 1.5 0v.25a3 3 0 0 1-6 0z","clipRule":"evenodd"}]}]}],"How do I place an order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],"$L68"]}],"$L69","$L6a","$L6b","$L6c","$L6d"]}]}]
+13:["$","$L8",null,{"as":"h3","id":"multiple-expanded","children":"Multiple Expanded"}]
+6e:T877,import {Accordion} from "@heroui/react";
+
+export function Multiple() {
+  return (
+    <Accordion allowsMultipleExpanded className="w-full max-w-md">
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Getting Started
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            Learn the basics of HeroUI and how to integrate it into your React project. This section
+            covers installation, setup, and your first component.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Core Concepts
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            Understand the fundamental concepts behind HeroUI, including the compound component
+            pattern, styling with Tailwind CSS, and accessibility features.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Advanced Usage
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            Explore advanced features like custom variants, theme customization, and integration
+            with other libraries in your React ecosystem.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Best Practices
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            Follow our recommended best practices for building performant, accessible, and
+            maintainable applications with HeroUI components.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+14:["$","$L47",null,{"align":"center","code":"$6e","isBgSolid":false,"minHeight":"524px","name":"accordion-multiple","children":["$","$L49",null,{"allowsMultipleExpanded":true,"className":"w-full max-w-md","children":[["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Getting Started",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Learn the basics of HeroUI and how to integrate it into your React project. This section covers installation, setup, and your first component."}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Core Concepts",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Understand the fundamental concepts behind HeroUI, including the compound component pattern, styling with Tailwind CSS, and accessibility features."}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Advanced Usage",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Explore advanced features like custom variants, theme customization, and integration with other libraries in your React ecosystem."}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Best Practices",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Follow our recommended best practices for building performant, accessible, and maintainable applications with HeroUI components."}]}]]}]]}]}]
+15:["$","$L8",null,{"as":"h3","id":"controlled","children":"Controlled"}]
+71:Ta51,"use client";
+
+import {ChevronDown, ChevronUp} from "@gravity-ui/icons";
+import {Accordion, Button, useDisclosureGroupNavigation} from "@heroui/react";
+import React from "react";
+
+const items = [
+  {
+    content:
+      "Learn the basics of HeroUI and how to integrate it into your React project. This section covers installation, setup, and your first component.",
+    id: "getting-started",
+    title: "Getting Started",
+  },
+  {
+    content:
+      "Understand the fundamental concepts behind HeroUI, including the compound component pattern, styling with Tailwind CSS, and accessibility features.",
+    id: "core-concepts",
+    title: "Core Concepts",
+  },
+  {
+    content:
+      "Explore advanced features like custom variants, theme customization, and integration with other libraries in your React ecosystem.",
+    id: "advanced-usage",
+    title: "Advanced Usage",
+  },
+];
+
+export function Controlled() {
+  const [expandedKeys, setExpandedKeys] = React.useState(
+    new Set<string | number>(["getting-started"]),
+  );
+  const itemIds = items.map((item) => item.id);
+
+  const {isNextDisabled, isPrevDisabled, onNext, onPrevious} = useDisclosureGroupNavigation({
+    expandedKeys,
+    itemIds,
+    onExpandedChange: setExpandedKeys,
+  });
+
+  return (
+    <div className="w-full max-w-md">
+      <div className="mb-4 flex items-center justify-between">
+        <p className="text-sm text-muted">
+          Expanded: <strong>{[...expandedKeys].join(", ") || "none"}</strong>
+        </p>
+        <div className="flex gap-2">
+          <Button
+            aria-label="Previous item"
+            isDisabled={isPrevDisabled}
+            size="sm"
+            variant="secondary"
+            onPress={onPrevious}
+          >
+            <ChevronUp className="size-4" />
+          </Button>
+          <Button
+            aria-label="Next item"
+            isDisabled={isNextDisabled}
+            size="sm"
+            variant="secondary"
+            onPress={onNext}
+          >
+            <ChevronDown className="size-4" />
+          </Button>
+        </div>
+      </div>
+      <Accordion expandedKeys={expandedKeys} onExpandedChange={setExpandedKeys}>
+        {items.map((item) => (
+          <Accordion.Item key={item.id} id={item.id}>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                {item.title}
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>{item.content}</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+        ))}
+      </Accordion>
+    </div>
+  );
+}
+16:["$","$L47",null,{"align":"center","code":"$71","isBgSolid":false,"minHeight":"400px","name":"accordion-controlled","children":["$","$L72",null,{}]}]
+17:["$","$L8",null,{"as":"h3","id":"custom-indicator","children":"Custom Indicator"}]
+73:T881,"use client";
+
+import type {Key} from "@heroui/react";
+
+import {ChevronsDown, CircleChevronDown, Minus, Plus} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+import React from "react";
+
+export function CustomIndicator() {
+  const [expandedKeys, setExpandedKeys] = React.useState<Set<Key>>(new Set([""]));
+
+  return (
+    <Accordion
+      className="w-full max-w-md"
+      expandedKeys={expandedKeys}
+      variant="surface"
+      onExpandedChange={setExpandedKeys}
+    >
+      <Accordion.Item id="1">
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Using Plus/Minus Icon
+            <Accordion.Indicator>
+              {expandedKeys.has("1") ? <Minus /> : <Plus />}
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            This accordion uses a plus icon that transforms when expanded. The icon automatically
+            rotates 45 degrees to form an X.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item id="2">
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Using Caret Icon
+            <Accordion.Indicator>
+              <CircleChevronDown />
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            This item uses a caret icon for the indicator. The rotation animation is applied
+            automatically.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+
+      <Accordion.Item id="3">
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            Using Arrow Icon
+            <Accordion.Indicator>
+              <ChevronsDown />
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body>
+            This item uses an arrow icon. Any icon you pass will receive the rotation animation when
+            the item expands.
+          </Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+18:["$","$L47",null,{"align":"center","code":"$73","isBgSolid":false,"minHeight":"320px","name":"accordion-custom-indicator","children":["$","$L74",null,{}]}]
+19:["$","$L8",null,{"as":"h3","id":"disabled-state","children":"Disabled State"}]
+75:Tb1c,import {Accordion} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <div className="flex w-full flex-col items-center gap-8">
+      <div className="w-full max-w-md space-y-2">
+        <h3 className="text-sm font-medium text-muted">Entire accordion disabled</h3>
+        <Accordion isDisabled className="w-full max-w-md">
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                Disabled Item 1
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>
+                This content cannot be accessed when the accordion is disabled.
+              </Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                Disabled Item 2
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>
+                This content cannot be accessed when the accordion is disabled.
+              </Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      </div>
+
+      <div className="w-full max-w-md space-y-2">
+        <h3 className="text-sm font-medium text-muted">Individual items disabled</h3>
+        <Accordion className="w-full max-w-md">
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                Active Item
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>This item is active and can be toggled normally.</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item isDisabled>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                Disabled Item
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>
+                This content cannot be accessed when the item is disabled.
+              </Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item>
+            <Accordion.Heading>
+              <Accordion.Trigger>
+                Another Active Item
+                <Accordion.Indicator />
+              </Accordion.Trigger>
+            </Accordion.Heading>
+            <Accordion.Panel>
+              <Accordion.Body>This item is also active and can be toggled.</Accordion.Body>
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      </div>
+    </div>
+  );
+}
+1a:["$","$L47",null,{"align":"center","code":"$75","isBgSolid":false,"minHeight":"524px","name":"accordion-disabled","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-8","children":[["$","div",null,{"className":"w-full max-w-md space-y-2","children":[["$","h3",null,{"className":"text-sm font-medium text-muted","children":"Entire accordion disabled"}],["$","$L49",null,{"isDisabled":true,"className":"w-full max-w-md","children":[["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Disabled Item 1","$L76"]}]}],"$L77"]}],"$L78"]}]]}],"$L79"]}]}]
+1b:["$","$L8",null,{"as":"h3","id":"faq-layout","children":"FAQ Layout"}]
+7a:Ta92,import {ChevronDown} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+export function FAQ() {
+  const categories = [
+    {
+      items: [
+        {
+          content:
+            "Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase.",
+          title: "How do I place an order?",
+        },
+        {
+          content:
+            "Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.",
+          title: "Can I modify or cancel my order?",
+        },
+      ],
+      title: "General",
+    },
+    {
+      items: [
+        {
+          content:
+            "You can purchase a license directly from our website. Select the license type that fits your needs and proceed to checkout.",
+          title: "How do I purchase a license?",
+        },
+        {
+          content:
+            "A standard license is for personal use or small projects, while a pro license includes commercial use rights and priority support.",
+          title: "What is the difference between a standard and a pro license?",
+        },
+      ],
+      title: "Licensing",
+    },
+    {
+      items: [
+        {
+          content:
+            "You can reach our support team through the contact form on our website, or email us directly at support@example.com.",
+          title: "How do I get support?",
+        },
+      ],
+      title: "Support",
+    },
+  ];
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      <div className="flex flex-col gap-1">
+        <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
+        <p className="mb-4 text-lg font-medium text-muted">
+          Everything you need to know about licensing and usage.
+        </p>
+      </div>
+      {categories.map((category) => (
+        <div key={category.title}>
+          <p className="text-md mb-2 font-medium text-muted">{category.title}</p>
+          <Accordion className="w-full" variant="surface">
+            {category.items.map((item, index) => (
+              <Accordion.Item key={index}>
+                <Accordion.Heading>
+                  <Accordion.Trigger>
+                    {item.title}
+                    <Accordion.Indicator>
+                      <ChevronDown />
+                    </Accordion.Indicator>
+                  </Accordion.Trigger>
+                </Accordion.Heading>
+                <Accordion.Panel>
+                  <Accordion.Body>{item.content}</Accordion.Body>
+                </Accordion.Panel>
+              </Accordion.Item>
+            ))}
+          </Accordion>
+        </div>
+      ))}
+    </div>
+  );
+}
+1c:["$","$L47",null,{"align":"center","code":"$7a","isBgSolid":false,"minHeight":"720px","name":"accordion-faq","children":["$","div",null,{"className":"flex w-full flex-col gap-6","children":[["$","div",null,{"className":"flex flex-col gap-1","children":[["$","h2",null,{"className":"text-2xl font-bold","children":"Frequently Asked Questions"}],["$","p",null,{"className":"mb-4 text-lg font-medium text-muted","children":"Everything you need to know about licensing and usage."}]]}],[["$","div","General",{"children":[["$","p",null,{"className":"text-md mb-2 font-medium text-muted","children":"General"}],["$","$L49",null,{"className":"w-full","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":"$L7b"}],"$L7c"]}],"$L7d"]}]]}],"$L7e","$L7f"]]}]}]
+1d:["$","$L8",null,{"as":"h3","id":"custom-styles","children":"Custom Styles"}]
+80:Ta97,import {ChevronDown} from "@gravity-ui/icons";
+import {Accordion, cn} from "@heroui/react";
+
+const items = [
+  {
+    content: "Stay informed about your account activity with real-time notifications. ",
+    iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png",
+    subtitle: "Receive account activity updates",
+    title: "Set Up Notifications",
+  },
+  {
+    content: "Enhance your browsing experience by installing our official browser extension",
+    iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png",
+    subtitle: "Connect you browser to your account",
+    title: "Set up Browser Extension",
+  },
+  {
+    content:
+      "Begin your journey into the world of digital collectibles by creating your first NFT. ",
+    iconUrl:
+      "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png",
+    subtitle: "Create your first collectible",
+    title: "Mint Collectible",
+  },
+];
+
+export function CustomStyles() {
+  return (
+    <Accordion className="bg-surface-1/10 w-full max-w-md rounded-2xl" variant="surface">
+      {items.map((item, index) => (
+        <Accordion.Item
+          key={index}
+          className={cn(
+            "group/item",
+            "first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl", // First trigger we want to round the top
+            "last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl", // Last trigger we want to round the bottom
+          )}
+        >
+          <Accordion.Heading>
+            <Accordion.Trigger className="hover:bgsurface group flex items-center gap-2 transition-none">
+              {item.iconUrl ? (
+                <img
+                  alt={item.title}
+                  className="h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg"
+                  src={item.iconUrl}
+                />
+              ) : null}
+              <div className="flex flex-col gap-0">
+                <span className="leading-5 font-medium">{item.title}</span>
+                <span className="leading-6 font-normal text-muted/80">{item.subtitle}</span>
+              </div>
+              <Accordion.Indicator className="text-muted/50 [&>svg]:size-4">
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body className="text-muted/80">{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+1e:["$","$L47",null,{"align":"center","code":"$80","isBgSolid":false,"minHeight":"420px","name":"accordion-custom-styles","children":["$","$L49",null,{"className":"bg-surface-1/10 w-full max-w-md rounded-2xl","variant":"surface","children":[["$","$L4a","0",{"className":"group/item first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl","children":[["$","$L4b",null,{"children":["$","$L4c",null,{"className":"hover:bgsurface group flex items-center gap-2 transition-none","children":[["$","img",null,{"alt":"Set Up Notifications","className":"h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg","src":"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png"}],"$L81","$L82"]}]}],"$L83"]}],"$L84","$L85"]}]}]
+1f:["$","$L8",null,{"as":"h3","id":"without-separator","children":"Without Separator"}]
+86:T60b,import {ChevronDown, CreditCard, Receipt, ShoppingBag} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content:
+      "Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase.",
+    icon: <ShoppingBag />,
+    title: "How do I place an order?",
+  },
+  {
+    content:
+      "Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.",
+    icon: <Receipt />,
+    title: "Can I modify or cancel my order?",
+  },
+  {
+    content: "We accept all major credit cards, including Visa, Mastercard, and American Express.",
+    icon: <CreditCard />,
+    title: "What payment methods do you accept?",
+  },
+];
+
+export function WithoutSeparator() {
+  return (
+    <Accordion hideSeparator className="w-full max-w-md">
+      {items.map((item, index) => (
+        <Accordion.Item key={index}>
+          <Accordion.Heading>
+            <Accordion.Trigger>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+20:["$","$L47",null,{"align":"center","code":"$86","isBgSolid":false,"minHeight":"400px","name":"accordion-without-separator","children":["$","$L49",null,{"hideSeparator":true,"className":"w-full max-w-md","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M5.174 3h5.652a1.5 1.5 0 0 1 1.49 1.328l.808 7A1.5 1.5 0 0 1 11.634 13H4.366a1.5 1.5 0 0 1-1.49-1.672l.808-7A1.5 1.5 0 0 1 5.174 3m-2.98 1.156A3 3 0 0 1 5.174 1.5h5.652a3 3 0 0 1 2.98 2.656l.808 7a3 3 0 0 1-2.98 3.344H4.366a3 3 0 0 1-2.98-3.344zM5 5.25a.75.75 0 0 1 1.5 0v.25a1.5 1.5 0 1 0 3 0v-.25a.75.75 0 0 1 1.5 0v.25a3 3 0 0 1-6 0z","clipRule":"evenodd"}]}]}],"How do I place an order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase."}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M6.3 2 3.9.5 2 2v13.5l1.5-.776L4.9 14l2.4 1.5L9.7 14l2.4 1.5L14 14V.5l-1.5.776L11.1 2 8.7.5zm2.4.269L7.095 3.272l-.795.497-.795-.497-1.504-.94-.501.395v10.308l.71-.367.76-.393.725.453L7.3 13.731l1.605-1.003.795-.497.795.497 1.504.94.501-.395V2.965l-.71.367-.76.393-.725-.453zM5 6.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 6.5m.75 2.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"Can I modify or cancel my order?","$L87"]}]}],"$L88"]}],"$L89"]}]}]
+21:["$","$L8",null,{"as":"h3","id":"custom-render-function","children":"Custom Render Function"}]
+8a:Ta21,"use client";
+
+import {
+  ArrowsRotateLeft,
+  Box,
+  ChevronDown,
+  CreditCard,
+  PlanetEarth,
+  Receipt,
+  ShoppingBag,
+} from "@gravity-ui/icons";
+import {Accordion} from "@heroui/react";
+
+const items = [
+  {
+    content:
+      "Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase.",
+    icon: <ShoppingBag />,
+    title: "How do I place an order?",
+  },
+  {
+    content:
+      "Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.",
+    icon: <Receipt />,
+    title: "Can I modify or cancel my order?",
+  },
+  {
+    content: "We accept all major credit cards, including Visa, Mastercard, and American Express.",
+    icon: <CreditCard />,
+    title: "What payment methods do you accept?",
+  },
+  {
+    content:
+      "Shipping costs vary based on your location and the size of your order. We offer free shipping for orders over $50.",
+    icon: <Box />,
+    title: "How much does shipping cost?",
+  },
+  {
+    content:
+      "Yes, we ship to most countries. Please check our shipping rates and policies for more information.",
+    icon: <PlanetEarth />,
+    title: "Do you ship internationally?",
+  },
+  {
+    content:
+      "If you're not satisfied with your purchase, you can request a refund within 30 days of purchase. Please contact our customer support team for assistance.",
+    icon: <ArrowsRotateLeft />,
+    title: "How do I request a refund?",
+  },
+];
+
+export function CustomRenderFunction() {
+  return (
+    <Accordion
+      className="w-full max-w-md"
+      render={(props) => <div data-custom="accordion" {...props} />}
+    >
+      {items.map((item, index) => (
+        <Accordion.Item key={index} render={(props) => <div data-custom="item" {...props} />}>
+          <Accordion.Heading render={(props) => <div data-custom="heading" {...props} />}>
+            <Accordion.Trigger render={(props) => <button data-custom="trigger" {...props} />}>
+              {item.icon ? (
+                <span className="mr-3 size-4 shrink-0 text-muted">{item.icon}</span>
+              ) : null}
+              {item.title}
+              <Accordion.Indicator>
+                <ChevronDown />
+              </Accordion.Indicator>
+            </Accordion.Trigger>
+          </Accordion.Heading>
+          <Accordion.Panel render={(props) => <div data-custom="panel" {...props} />}>
+            <Accordion.Body>{item.content}</Accordion.Body>
+          </Accordion.Panel>
+        </Accordion.Item>
+      ))}
+    </Accordion>
+  );
+}
+22:["$","$L47",null,{"align":"center","code":"$8a","isBgSolid":false,"minHeight":"400px","name":"accordion-custom-render-function","children":["$","$L8b",null,{}]}]
+23:["$","$8c",null,{"fallback":null,"children":["$","$L8d",null,{"component":"accordion"}]}]
+24:["$","$L8",null,{"as":"h2","id":"styling","children":"Styling"}]
+25:["$","$L8",null,{"as":"h3","id":"passing-tailwind-css-classes","children":"Passing Tailwind CSS classes"}]
+8f:Td31,"use client";
+
+import { Accordion, cn } from "@heroui/react";
+import {Icon} from "@iconify/react";
+
+const items = [
+{
+  content:
+    "Stay informed about your account activity with real-time notifications. You'll receive instant alerts for important events like transactions, new messages, security updates, and system announcements. ",
+  iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png",
+  title: "Set Up Notifications",
+  subtitle: "Receive account activity updates",
+},
+{
+  content:
+    "Enhance your browsing experience by installing our official browser extension. The extension provides seamless integration with your account, allowing you to receive notifications directly in your browser, quickly access your dashboard, and interact with web3 applications securely. Compatible with Chrome, Firefox, Edge, and Brave browsers.",
+  iconUrl: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png",
+  title: "Set up Browser Extension",
+  subtitle: "Connect you browser to your account",
+},
+{
+  content:
+    "Begin your journey into the world of digital collectibles by creating your first NFT. Our intuitive minting process guides you through uploading your artwork, setting metadata, choosing royalty percentages, and deploying to the blockchain. Whether you're an artist, creator, or collector, you'll find all the tools you need to bring your digital assets to life. Your collectibles are stored on IPFS for permanent decentralized storage.",
+  iconUrl:
+    "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png",
+  title: "Mint Collectible",
+  subtitle: "Create your first collectible",
+},
+];
+
+export function CustomStyles() {
+return (
+  <Accordion className="bg-surface-secondary w-full max-w-md rounded-2xl" variant="surface">
+    {items.map((item, index) => (
+      <Accordion.Item
+        key={index}
+        className={cn(
+          "group/item",
+          "first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl", // First trigger we want to round the top
+          "last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl", // Last trigger we want to round the bottom
+        )}
+      >
+        <Accordion.Heading>
+          <Accordion.Trigger className="hover:bg-surface-tertiary group flex items-center gap-2">
+            {item.iconUrl ? (
+              <img
+                alt={item.title}
+                className="group-hover/item:scale-120 group-hover/item:-rotate-10 h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:drop-shadow-lg"
+                src={item.iconUrl}
+              />
+            ) : null}
+            <div className="flex flex-col gap-0">
+              <span className="font-medium leading-5">{item.title}</span>
+              <span className="text-muted/80 font-normal leading-6">{item.subtitle}</span>
+            </div>
+            <Accordion.Indicator className="text-muted/50 [&>svg]:size-4">
+              <Icon icon="gravity-ui:chevron-down" />
+            </Accordion.Indicator>
+          </Accordion.Trigger>
+        </Accordion.Heading>
+        <Accordion.Panel>
+          <Accordion.Body className="text-muted/80">{item.content}</Accordion.Body>
+        </Accordion.Panel>
+      </Accordion.Item>
+    ))}
+  </Accordion>
+);
+}26:["$","$L8e",null,{"className":"","code":"$8f","collapsible":true,"isIsolated":true,"lang":"tsx","preview":"$L90","showLineNumbers":true,"title":"","children":"$L91"}]
+27:["$","$L8",null,{"as":"h3","id":"customizing-the-component-classes","children":"Customizing the component classes"}]
+28:["$","p",null,{"children":["To customize the Accordion component classes, you can use the ",["$","code",null,{"children":"@layer components"}]," directive.\n",["$","br",null,{}],["$","$L92",null,{"href":"https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes","children":"Learn more"}],"."]}]
+29:["$","$L9",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L46",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"@layer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" components {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .accordion"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" rounded-xl"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" bg-gray-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"50;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .accordion__trigger"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" font-semibold"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-lg"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .accordion--outline"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" shadow-lg"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" border-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"2;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]]}]}]}]
+2a:["$","p",null,{"children":["HeroUI follows the ",["$","$L92",null,{"href":"https://getbem.com/","children":"BEM"}]," methodology to ensure component variants and states are reusable and easy to customize."]}]
+2b:["$","$L8",null,{"as":"h3","id":"css-classes","children":"CSS Classes"}]
+2c:["$","p",null,{"children":["The Accordion component uses these CSS classes (",["$","$L92",null,{"href":"https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/accordion.css","children":"View source styles"}],"):"]}]
+2d:["$","$L8",null,{"as":"h4","id":"base-classes","children":"Base Classes"}]
+2e:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion"}]," - Base accordion container"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__body"}]," - Content body container"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__heading"}]," - Heading wrapper"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__indicator"}]," - Expand/collapse indicator icon"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__item"}]," - Individual accordion item"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__panel"}]," - Collapsible panel container"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__trigger"}]," - Clickable trigger button"]}],"\n"]}]
+2f:["$","$L8",null,{"as":"h4","id":"variant-classes","children":"Variant Classes"}]
+30:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion--outline"}]," - Outline variant with border and background"]}],"\n"]}]
+31:["$","$L8",null,{"as":"h4","id":"state-classes","children":"State Classes"}]
+32:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__trigger[aria-expanded=\"true\"]"}]," - Expanded state"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".accordion__panel[aria-hidden=\"false\"]"}]," - Panel visible state"]}],"\n"]}]
+33:["$","$L8",null,{"as":"h3","id":"interactive-states","children":"Interactive States"}]
+34:["$","p",null,{"children":"The component supports both CSS pseudo-classes and data attributes for flexibility:"}]
+35:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Hover"}],": ",["$","code",null,{"children":":hover"}]," or ",["$","code",null,{"children":"[data-hovered=\"true\"]"}]," on trigger"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Focus"}],": ",["$","code",null,{"children":":focus-visible"}]," or ",["$","code",null,{"children":"[data-focus-visible=\"true\"]"}]," on trigger"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Disabled"}],": ",["$","code",null,{"children":":disabled"}]," or ",["$","code",null,{"children":"[aria-disabled=\"true\"]"}]," on trigger"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Expanded"}],": ",["$","code",null,{"children":"[aria-expanded=\"true\"]"}]," on trigger"]}],"\n"]}]
+36:["$","$L8",null,{"as":"h2","id":"api-reference","children":"API Reference"}]
+37:["$","$L8",null,{"as":"h3","id":"accordion-props","children":"Accordion Props"}]
+38:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"allowsMultipleExpanded"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether multiple items can be expanded at once"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultExpandedKeys"}]}],["$","td",null,{"children":["$","code",null,{"children":"Iterable<Key>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"The initial expanded keys"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"expandedKeys"}]}],["$","td",null,{"children":["$","code",null,{"children":"Iterable<Key>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"The controlled expanded keys"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onExpandedChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(keys: Set<Key>) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Handler called when expanded keys change"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether the entire accordion is disabled"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"variant"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"default\" | \"surface\""}]}],["$","td",null,{"children":["$","code",null,{"children":"\"default\""}]}],["$","td",null,{"children":"The visual variant of the accordion"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"hideSeparator"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Hide separator lines between accordion items"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"The accordion items"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, AccordionRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Overrides the default DOM element with a custom render function."}]]}]]}]]}]}]
+39:["$","$L8",null,{"as":"h3","id":"accordionitem-props","children":"Accordion.Item Props"}]
+3a:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"id"}]}],["$","td",null,{"children":["$","code",null,{"children":"Key"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Unique identifier for the item"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether this item is disabled"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultExpanded"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether item is initially expanded"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isExpanded"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Controlled expanded state"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onExpandedChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(isExpanded: boolean) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Handler for expanded state changes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"The item content"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, AccordionItemRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Overrides the default DOM element with a custom render function."}]]}]]}]]}]}]
+3b:["$","$L8",null,{"as":"h3","id":"accordiontrigger-props","children":"Accordion.Trigger Props"}]
+3c:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode | RenderFunction"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Trigger content or render function"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onPress"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional press handler"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isDisabled"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Whether trigger is disabled"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, TriggerRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Overrides the default DOM element with a custom render function."}]]}]]}]]}]}]
+3d:["$","$L8",null,{"as":"h3","id":"accordionpanel-props","children":"Accordion.Panel Props"}]
+3e:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Panel content"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"render"}]}],["$","td",null,{"children":["$","code",null,{"children":"DOMRenderFunction<keyof React.JSX.IntrinsicElements, AccordionPanelRenderProps>"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Overrides the default DOM element with a custom render function."}]]}]]}]]}]}]
+3f:["$","$L8",null,{"as":"h3","id":"accordionindicator-props","children":"Accordion.Indicator Props"}]
+40:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Custom indicator icon"}]]}]]}]]}]}]
+41:["$","$L8",null,{"as":"h3","id":"accordionbody-props","children":"Accordion.Body Props"}]
+42:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Body content"}]]}]]}]]}]}]
+43:["$","script","script-0",{"src":"/_next/static/chunks/0fpc6ujy7.75j.js","async":true}]
+44:["$","script","script-1",{"src":"/_next/static/chunks/0z-r2uz5n7mxn.js","async":true}]
+45:["$","$L93",null,{"children":["$","$8c",null,{"name":"Next.MetadataOutlet","children":"$@94"}]}]
+4e:["$","$L6f",null,{"children":["$","$L70",null,{"children":"Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase."}]}]
+4f:["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M6.3 2 3.9.5 2 2v13.5l1.5-.776L4.9 14l2.4 1.5L9.7 14l2.4 1.5L14 14V.5l-1.5.776L11.1 2 8.7.5zm2.4.269L7.095 3.272l-.795.497-.795-.497-1.504-.94-.501.395v10.308l.71-.367.76-.393.725.453L7.3 13.731l1.605-1.003.795-.497.795.497 1.504.94.501-.395V2.965l-.71.367-.76.393-.725-.453zM5 6.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 6.5m.75 2.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"Can I modify or cancel my order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes."}]}]]}]
+50:["$","$L4a","2",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M12.5 4h-9A1.5 1.5 0 0 0 2 5.5h12A1.5 1.5 0 0 0 12.5 4M2 10.5V7h12v3.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 10.5m1.5-8a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3zM4.25 9a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"What payment methods do you accept?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"We accept all major credit cards, including Visa, Mastercard, and American Express."}]}]]}]
+51:["$","$L4a","3",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M13.5 10.421V5.475l-2 .714V8.25a.75.75 0 0 1-1.5 0V6.725l-2.25.804v6.088l4.777-1.792a1.5 1.5 0 0 0 .973-1.404m-2.254-5.734 1.6-.571a2 2 0 0 0-.175-.104L9.499 2.427a1.5 1.5 0 0 0-1.197-.063l-.941.353 3.724 1.862q.09.045.16.108M5.444 3.435l3.878 1.94-2.273.811-3.805-1.903q.108-.063.23-.109zm.806 4.029L2.5 5.589v5.057a1.5 1.5 0 0 0 .83 1.342l2.92 1.46zM1 5.579c0-.436.094-.856.266-1.236a.75.75 0 0 1 .2-.37c.342-.54.855-.968 1.48-1.203L7.777.96a3 3 0 0 1 2.394.125l3.172 1.586A3 3 0 0 1 15 5.354v5.067a3 3 0 0 1-1.947 2.809l-4.828 1.81a3 3 0 0 1-2.395-.125l-3.172-1.586A3 3 0 0 1 1 10.646z","clipRule":"evenodd"}]}]}],"How much does shipping cost?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Shipping costs vary based on your location and the size of your order. We offer free shipping for orders over $50."}]}]]}]
+52:["$","$L4a","4",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 13.5c1.63 0 3.094-.709 4.101-1.835A2.5 2.5 0 0 1 10.25 9.25V9a.75.75 0 0 0-.75-.75 2.25 2.25 0 0 1 0-4.5.75.75 0 0 0 .75-.75v-.02a5.5 5.5 0 0 0-7.471 3.287A2.25 2.25 0 0 1 4.75 8.5c0 .414.336.75.75.75a2.25 2.25 0 0 1 1.265 4.11q.597.139 1.235.14m-3.491-1.25H5.5a.75.75 0 0 0 0-1.5A2.25 2.25 0 0 1 3.25 8.5a.75.75 0 0 0-.744-.75 5.49 5.49 0 0 0 2.003 4.5m8.241-2h.27A5.5 5.5 0 0 0 13.5 8c0-1.665-.74-3.158-1.91-4.166A2.25 2.25 0 0 1 9.5 5.25a.75.75 0 1 0 0 1.5A2.25 2.25 0 0 1 11.75 9v.25a1 1 0 0 0 1 1M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14","clipRule":"evenodd"}]}]}],"Do you ship internationally?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Yes, we ship to most countries. Please check our shipping rates and policies for more information."}]}]]}]
+53:["$","$L4a","5",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 1.5a6.5 6.5 0 0 1 6.445 5.649.75.75 0 1 1-1.488.194A5.001 5.001 0 0 0 4.43 4.5h1.32a.75.75 0 0 1 0 1.5h-3A.75.75 0 0 1 2 5.25v-3a.75.75 0 1 1 1.5 0v1.06A6.48 6.48 0 0 1 8 1.5m5.25 13a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75h-3a.75.75 0 1 0 0 1.5h1.32a5.001 5.001 0 0 1-8.528-2.843.75.75 0 1 0-1.487.194 6.501 6.501 0 0 0 10.945 3.84v1.059c0 .414.336.75.75.75","clipRule":"evenodd"}]}]}],"How do I request a refund?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"If you're not satisfied with your purchase, you can request a refund within 30 days of purchase. Please contact our customer support team for assistance."}]}]]}]
+55:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+56:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+57:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+58:["$","span",null,{"className":"line"}]
+59:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" () "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+5a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+5e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Indicator"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+5f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+60:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+61:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+62:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Body"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"/>"}]]}]
+63:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+64:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+65:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+66:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":")"}]}]
+68:["$","$L6f",null,{"children":["$","$L70",null,{"children":"Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase."}]}]
+69:["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M6.3 2 3.9.5 2 2v13.5l1.5-.776L4.9 14l2.4 1.5L9.7 14l2.4 1.5L14 14V.5l-1.5.776L11.1 2 8.7.5zm2.4.269L7.095 3.272l-.795.497-.795-.497-1.504-.94-.501.395v10.308l.71-.367.76-.393.725.453L7.3 13.731l1.605-1.003.795-.497.795.497 1.504.94.501-.395V2.965l-.71.367-.76.393-.725-.453zM5 6.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 6.5m.75 2.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"Can I modify or cancel my order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes."}]}]]}]
+6a:["$","$L4a","2",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M12.5 4h-9A1.5 1.5 0 0 0 2 5.5h12A1.5 1.5 0 0 0 12.5 4M2 10.5V7h12v3.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 10.5m1.5-8a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3zM4.25 9a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"What payment methods do you accept?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"We accept all major credit cards, including Visa, Mastercard, and American Express."}]}]]}]
+6b:["$","$L4a","3",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M13.5 10.421V5.475l-2 .714V8.25a.75.75 0 0 1-1.5 0V6.725l-2.25.804v6.088l4.777-1.792a1.5 1.5 0 0 0 .973-1.404m-2.254-5.734 1.6-.571a2 2 0 0 0-.175-.104L9.499 2.427a1.5 1.5 0 0 0-1.197-.063l-.941.353 3.724 1.862q.09.045.16.108M5.444 3.435l3.878 1.94-2.273.811-3.805-1.903q.108-.063.23-.109zm.806 4.029L2.5 5.589v5.057a1.5 1.5 0 0 0 .83 1.342l2.92 1.46zM1 5.579c0-.436.094-.856.266-1.236a.75.75 0 0 1 .2-.37c.342-.54.855-.968 1.48-1.203L7.777.96a3 3 0 0 1 2.394.125l3.172 1.586A3 3 0 0 1 15 5.354v5.067a3 3 0 0 1-1.947 2.809l-4.828 1.81a3 3 0 0 1-2.395-.125l-3.172-1.586A3 3 0 0 1 1 10.646z","clipRule":"evenodd"}]}]}],"How much does shipping cost?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Shipping costs vary based on your location and the size of your order. We offer free shipping for orders over $50."}]}]]}]
+6c:["$","$L4a","4",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 13.5c1.63 0 3.094-.709 4.101-1.835A2.5 2.5 0 0 1 10.25 9.25V9a.75.75 0 0 0-.75-.75 2.25 2.25 0 0 1 0-4.5.75.75 0 0 0 .75-.75v-.02a5.5 5.5 0 0 0-7.471 3.287A2.25 2.25 0 0 1 4.75 8.5c0 .414.336.75.75.75a2.25 2.25 0 0 1 1.265 4.11q.597.139 1.235.14m-3.491-1.25H5.5a.75.75 0 0 0 0-1.5A2.25 2.25 0 0 1 3.25 8.5a.75.75 0 0 0-.744-.75 5.49 5.49 0 0 0 2.003 4.5m8.241-2h.27A5.5 5.5 0 0 0 13.5 8c0-1.665-.74-3.158-1.91-4.166A2.25 2.25 0 0 1 9.5 5.25a.75.75 0 1 0 0 1.5A2.25 2.25 0 0 1 11.75 9v.25a1 1 0 0 0 1 1M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14","clipRule":"evenodd"}]}]}],"Do you ship internationally?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Yes, we ship to most countries. Please check our shipping rates and policies for more information."}]}]]}]
+6d:["$","$L4a","5",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M8 1.5a6.5 6.5 0 0 1 6.445 5.649.75.75 0 1 1-1.488.194A5.001 5.001 0 0 0 4.43 4.5h1.32a.75.75 0 0 1 0 1.5h-3A.75.75 0 0 1 2 5.25v-3a.75.75 0 1 1 1.5 0v1.06A6.48 6.48 0 0 1 8 1.5m5.25 13a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75h-3a.75.75 0 1 0 0 1.5h1.32a5.001 5.001 0 0 1-8.528-2.843.75.75 0 1 0-1.487.194 6.501 6.501 0 0 0 10.945 3.84v1.059c0 .414.336.75.75.75","clipRule":"evenodd"}]}]}],"How do I request a refund?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"If you're not satisfied with your purchase, you can request a refund within 30 days of purchase. Please contact our customer support team for assistance."}]}]]}]
+76:["$","$L4d",null,{}]
+77:["$","$L6f",null,{"children":["$","$L70",null,{"children":"This content cannot be accessed when the accordion is disabled."}]}]
+78:["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Disabled Item 2",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"This content cannot be accessed when the accordion is disabled."}]}]]}]
+79:["$","div",null,{"className":"w-full max-w-md space-y-2","children":[["$","h3",null,{"className":"text-sm font-medium text-muted","children":"Individual items disabled"}],["$","$L49",null,{"className":"w-full max-w-md","children":[["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Active Item",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"This item is active and can be toggled normally."}]}]]}],["$","$L4a",null,{"isDisabled":true,"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Disabled Item",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"This content cannot be accessed when the item is disabled."}]}]]}],["$","$L4a",null,{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Another Active Item",["$","$L4d",null,{}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"This item is also active and can be toggled."}]}]]}]]}]]}]
+7b:["$","$L4c",null,{"children":["How do I place an order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]
+7c:["$","$L6f",null,{"children":["$","$L70",null,{"children":"Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase."}]}]
+7d:["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["Can I modify or cancel my order?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes."}]}]]}]
+7e:["$","div","Licensing",{"children":[["$","p",null,{"className":"text-md mb-2 font-medium text-muted","children":"Licensing"}],["$","$L49",null,{"className":"w-full","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["How do I purchase a license?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"You can purchase a license directly from our website. Select the license type that fits your needs and proceed to checkout."}]}]]}],["$","$L4a","1",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["What is the difference between a standard and a pro license?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"A standard license is for personal use or small projects, while a pro license includes commercial use rights and priority support."}]}]]}]]}]]}]
+7f:["$","div","Support",{"children":[["$","p",null,{"className":"text-md mb-2 font-medium text-muted","children":"Support"}],["$","$L49",null,{"className":"w-full","variant":"surface","children":[["$","$L4a","0",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":["How do I get support?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"You can reach our support team through the contact form on our website, or email us directly at support@example.com."}]}]]}]]}]]}]
+81:["$","div",null,{"className":"flex flex-col gap-0","children":[["$","span",null,{"className":"leading-5 font-medium","children":"Set Up Notifications"}],["$","span",null,{"className":"leading-6 font-normal text-muted/80","children":"Receive account activity updates"}]]}]
+82:["$","$L4d",null,{"className":"text-muted/50 [&>svg]:size-4","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]
+83:["$","$L6f",null,{"children":["$","$L70",null,{"className":"text-muted/80","children":"Stay informed about your account activity with real-time notifications. "}]}]
+84:["$","$L4a","1",{"className":"group/item first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl","children":[["$","$L4b",null,{"children":["$","$L4c",null,{"className":"hover:bgsurface group flex items-center gap-2 transition-none","children":[["$","img",null,{"alt":"Set up Browser Extension","className":"h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg","src":"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png"}],["$","div",null,{"className":"flex flex-col gap-0","children":[["$","span",null,{"className":"leading-5 font-medium","children":"Set up Browser Extension"}],["$","span",null,{"className":"leading-6 font-normal text-muted/80","children":"Connect you browser to your account"}]]}],["$","$L4d",null,{"className":"text-muted/50 [&>svg]:size-4","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"className":"text-muted/80","children":"Enhance your browsing experience by installing our official browser extension"}]}]]}]
+85:["$","$L4a","2",{"className":"group/item first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl","children":[["$","$L4b",null,{"children":["$","$L4c",null,{"className":"hover:bgsurface group flex items-center gap-2 transition-none","children":[["$","img",null,{"alt":"Mint Collectible","className":"h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:scale-120 group-hover/item:-rotate-10 group-hover/item:drop-shadow-lg","src":"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png"}],["$","div",null,{"className":"flex flex-col gap-0","children":[["$","span",null,{"className":"leading-5 font-medium","children":"Mint Collectible"}],["$","span",null,{"className":"leading-6 font-normal text-muted/80","children":"Create your first collectible"}]]}],["$","$L4d",null,{"className":"text-muted/50 [&>svg]:size-4","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"className":"text-muted/80","children":"Begin your journey into the world of digital collectibles by creating your first NFT. "}]}]]}]
+87:["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]
+88:["$","$L6f",null,{"children":["$","$L70",null,{"children":"Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes."}]}]
+89:["$","$L4a","2",{"children":[["$","$L4b",null,{"children":["$","$L4c",null,{"children":[["$","span",null,{"className":"mr-3 size-4 shrink-0 text-muted","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M12.5 4h-9A1.5 1.5 0 0 0 2 5.5h12A1.5 1.5 0 0 0 12.5 4M2 10.5V7h12v3.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 10.5m1.5-8a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3zM4.25 9a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5z","clipRule":"evenodd"}]}]}],"What payment methods do you accept?",["$","$L4d",null,{"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"fill":"none","viewBox":"0 0 16 16","children":["$","path",null,{"fill":"currentColor","fillRule":"evenodd","d":"M2.97 5.47a.75.75 0 0 1 1.06 0L8 9.44l3.97-3.97a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 0-1.06","clipRule":"evenodd"}]}]}]]}]}],["$","$L6f",null,{"children":["$","$L70",null,{"children":"We accept all major credit cards, including Visa, Mastercard, and American Express."}]}]]}]
+90:[["$","$L46","pre-0",{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","children":["$","code","code-0",{"children":[["$","span","span-0",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"use client\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-1",{"className":"line"}],"\n",["$","span","span-2",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion, cn } "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@heroui/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-3",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {Icon} "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@iconify/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-4",{"className":"line"}]]}]}]]
+91:[["$","$L46","pre-0",{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","children":["$","code","code-0",{"children":[["$","span","span-0",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"use client\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-1",{"className":"line"}],"\n",["$","span","span-2",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Accordion, cn } "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@heroui/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-3",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {Icon} "}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span","span-3",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"@iconify/react\""}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span","span-4",{"className":"line"}],"\n",["$","span","span-5",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"const"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" items"}],["$","span","span-2",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" ="}],["$","span","span-3",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ["}]]}],"\n",["$","span","span-6",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}]}],"\n",["$","span","span-7",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  content:"}]}],"\n",["$","span","span-8",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"Stay informed about your account activity with real-time notifications. You'll receive instant alerts for important events like transactions, new messages, security updates, and system announcements. \""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-9",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  iconUrl: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/bell-small.png\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-10",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  title: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Set Up Notifications\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-11",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  subtitle: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Receive account activity updates\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}],"\n",["$","span","span-12",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"},"}]}],"\n",["$","span","span-13",{"className":"line","children":"$L95"}],"\n","$L96","\n","$L97","\n","$L98","\n","$L99","\n","$L9a","\n","$L9b","\n","$L9c","\n","$L9d","\n","$L9e","\n","$L9f","\n","$La0","\n","$La1","\n","$La2","\n","$La3","\n","$La4","\n","$La5","\n","$La6","\n","$La7","\n","$La8","\n","$La9","\n","$Laa","\n","$Lab","\n","$Lac","\n","$Lad","\n","$Lae","\n","$Laf","\n","$Lb0","\n","$Lb1","\n","$Lb2","\n","$Lb3","\n","$Lb4","\n","$Lb5","\n","$Lb6","\n","$Lb7","\n","$Lb8","\n","$Lb9","\n","$Lba","\n","$Lbb","\n","$Lbc","\n","$Lbd","\n","$Lbe","\n","$Lbf","\n","$Lc0","\n","$Lc1","\n","$Lc2","\n","$Lc3","\n","$Lc4","\n","$Lc5","\n","$Lc6","\n","$Lc7","\n","$Lc8","\n","$Lc9","\n","$Lca","\n","$Lcb"]}]}]]
+94:null
+95:["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}]
+96:["$","span","span-14",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  content:"}]}]
+97:["$","span","span-15",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"Enhance your browsing experience by installing our official browser extension. The extension provides seamless integration with your account, allowing you to receive notifications directly in your browser, quickly access your dashboard, and interact with web3 applications securely. Compatible with Chrome, Firefox, Edge, and Brave browsers.\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+98:["$","span","span-16",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  iconUrl: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/compass-small.png\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+99:["$","span","span-17",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  title: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Set up Browser Extension\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9a:["$","span","span-18",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  subtitle: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Connect you browser to your account\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9b:["$","span","span-19",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"},"}]}]
+9c:["$","span","span-20",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}]}]
+9d:["$","span","span-21",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  content:"}]}]
+9e:["$","span","span-22",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"Begin your journey into the world of digital collectibles by creating your first NFT. Our intuitive minting process guides you through uploading your artwork, setting metadata, choosing royalty percentages, and deploying to the blockchain. Whether you're an artist, creator, or collector, you'll find all the tools you need to bring your digital assets to life. Your collectibles are stored on IPFS for permanent decentralized storage.\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+9f:["$","span","span-23",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  iconUrl:"}]}]
+a0:["$","span","span-24",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"    \"https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/3dicons/mint-collective-small.png\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+a1:["$","span","span-25",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  title: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Mint Collectible\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+a2:["$","span","span-26",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  subtitle: "}],["$","span","span-1",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Create your first collectible\""}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+a3:["$","span","span-27",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"},"}]}]
+a4:["$","span","span-28",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"];"}]}]
+a5:["$","span","span-29",{"className":"line"}]
+a6:["$","span","span-30",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" function"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" CustomStyles"}],["$","span","span-3",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"() {"}]]}]
+a7:["$","span","span-31",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"return"}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+a8:["$","span","span-32",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"bg-surface-secondary w-full max-w-md rounded-2xl\""}],["$","span","span-5",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" variant"}],["$","span","span-6",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-7",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"surface\""}],["$","span","span-8",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+a9:["$","span","span-33",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    {items."}],["$","span","span-1",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"map"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"(("}],["$","span","span-3",{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"item"}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":", "}],["$","span","span-5",{"style":{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},"children":"index"}],["$","span","span-6",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") "}],["$","span","span-7",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span","span-8",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+aa:["$","span","span-34",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}]]}]
+ab:["$","span","span-35",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"        key"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{index}"}]]}]
+ac:["$","span","span-36",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"        className"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{"}],["$","span","span-3",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"cn"}],["$","span","span-4",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"("}]]}]
+ad:["$","span","span-37",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"          \"group/item\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":","}]]}]
+ae:["$","span","span-38",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"          \"first:[&_[data-slot=accordion-trigger]]:rounded-t-2xl\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":", "}],["$","span","span-2",{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"// First trigger we want to round the top"}]]}]
+af:["$","span","span-39",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"          \"last:[&:not(:has([data-slot=accordion-trigger][aria-expanded='true']))_[data-slot=accordion-trigger]]:rounded-b-2xl\""}],["$","span","span-1",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":", "}],["$","span","span-2",{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"// Last trigger we want to round the bottom"}]]}]
+b0:["$","span","span-40",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        )}"}]}]
+b1:["$","span","span-41",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      >"}]}]
+b2:["$","span","span-42",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b3:["$","span","span-43",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"hover:bg-surface-tertiary group flex items-center gap-2\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b4:["$","span","span-44",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            {item.iconUrl "}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"?"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+b5:["$","span","span-45",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"img"}]]}]
+b6:["$","span","span-46",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"                alt"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{item.title}"}]]}]
+b7:["$","span","span-47",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"                className"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"group-hover/item:scale-120 group-hover/item:-rotate-10 h-11 w-11 transition-[scale,rotate] duration-300 ease-out group-hover/item:drop-shadow-lg\""}]]}]
+b8:["$","span","span-48",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"                src"}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"{item.iconUrl}"}]]}]
+b9:["$","span","span-49",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              />"}]}]
+ba:["$","span","span-50",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            ) "}],["$","span","span-1",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":":"}],["$","span","span-2",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" null"}],["$","span","span-3",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]]}]
+bb:["$","span","span-51",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"div"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"flex flex-col gap-0\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bc:["$","span","span-52",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"font-medium leading-5\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{item.title}</"}],["$","span","span-6",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-7",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bd:["$","span","span-53",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-muted/80 font-normal leading-6\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{item.subtitle}</"}],["$","span","span-6",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"span"}],["$","span","span-7",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+be:["$","span","span-54",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            </"}],["$","span","span-1",{"style":{"--shiki-light":"#22863A","--shiki-dark":"#85E89D"},"children":"div"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bf:["$","span","span-55",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Indicator"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-muted/50 [&>svg]:size-4\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c0:["$","span","span-56",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Icon"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" icon"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"gravity-ui:chevron-down\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" />"}]]}]
+c1:["$","span","span-57",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Indicator"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c2:["$","span","span-58",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Trigger"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c3:["$","span","span-59",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Heading"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c4:["$","span","span-60",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c5:["$","span","span-61",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Body"}],["$","span","span-2",{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span","span-3",{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span","span-4",{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"text-muted/80\""}],["$","span","span-5",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{item.content}</"}],["$","span","span-6",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Body"}],["$","span","span-7",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c6:["$","span","span-62",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Panel"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c7:["$","span","span-63",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion.Item"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c8:["$","span","span-64",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    ))}"}]}]
+c9:["$","span","span-65",{"className":"line","children":[["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span","span-1",{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Accordion"}],["$","span","span-2",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+ca:["$","span","span-66",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":");"}]}]
+cb:["$","span","span-67",{"className":"line","children":["$","span","span-0",{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]

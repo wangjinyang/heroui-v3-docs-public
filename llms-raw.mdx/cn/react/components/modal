@@ -1,0 +1,1196 @@
+<page url="/cn/docs/react/components/modal">
+# Modal 模态框
+
+**Category**: react
+**URL**: http://localhost:3000/cn/docs/react/components/modal
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(overlays)/modal.mdx
+> 用于聚焦用户交互与重要内容的对话框遮罩层。
+
+
+***
+
+## 引入
+
+```tsx
+import { Modal } from "@heroui/react";
+
+```
+
+### 用法
+
+```tsx
+"use client";
+
+import {Rocket} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+export function Default() {
+  return (
+    <Modal>
+      <Button variant="secondary">打开模态框</Button>
+      <Modal.Backdrop>
+        <Modal.Container>
+          <Modal.Dialog className="sm:max-w-[360px]">
+            <Modal.CloseTrigger />
+            <Modal.Header>
+              <Modal.Icon className="bg-default text-foreground">
+                <Rocket className="size-5" />
+              </Modal.Icon>
+              <Modal.Heading>欢迎使用 HeroUI</Modal.Heading>
+            </Modal.Header>
+            <Modal.Body>
+              <p>一套美观、快速、现代的 React UI 库，可轻松构建无障碍且高度可定制的 Web 应用。</p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button className="w-full" slot="close">
+                继续
+              </Button>
+            </Modal.Footer>
+          </Modal.Dialog>
+        </Modal.Container>
+      </Modal.Backdrop>
+    </Modal>
+  );
+}
+
+```
+
+### 组件结构
+
+导入 Modal 组件后，可通过点语法访问所有子部分。
+
+```tsx
+import {Modal, Button} from "@heroui/react";
+
+export default () => (
+  <Modal>
+    <Button>Open Modal</Button>
+    <Modal.Backdrop>
+      <Modal.Container>
+        <Modal.Dialog>
+          <Modal.CloseTrigger /> {/* Optional: Close button */}
+          <Modal.Header>
+            <Modal.Icon /> {/* Optional: Icon */}
+            <Modal.Heading />
+          </Modal.Header>
+          <Modal.Body />
+          <Modal.Footer />
+        </Modal.Dialog>
+      </Modal.Container>
+    </Modal.Backdrop>
+  </Modal>
+);
+
+```
+
+### 位置
+
+```tsx
+"use client";
+
+import {Rocket} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+const PLACEMENT_LABELS = {
+  auto: "自动",
+  bottom: "底部",
+  center: "居中",
+  top: "顶部",
+} as const;
+
+export function Placements() {
+  const placements = ["auto", "top", "center", "bottom"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {placements.map((placement) => (
+        <Modal key={placement}>
+          <Button variant="secondary">{PLACEMENT_LABELS[placement]}</Button>
+          <Modal.Backdrop>
+            <Modal.Container placement={placement}>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <Rocket className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>
+                    {placement === "auto" ? "自动定位" : `${PLACEMENT_LABELS[placement]}位置`}
+                  </Modal.Heading>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>
+                    {placement === "auto"
+                      ? "在移动端默认靠近底部，在桌面端居中，以获得更合适的阅读与操作体验。"
+                      : `模态框将锚定在视口的「${PLACEMENT_LABELS[placement]}」区域。可尝试不同 placement 查看屏幕上的定位效果。`}
+                  </p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    继续
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 遮罩变体
+
+```tsx
+"use client";
+
+import {Rocket} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+const VARIANT_LABELS = {
+  blur: "模糊",
+  opaque: "不透明",
+  transparent: "透明",
+} as const;
+
+export function BackdropVariants() {
+  const variants = ["opaque", "blur", "transparent"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {variants.map((variant) => (
+        <Modal key={variant}>
+          <Button variant="secondary">{VARIANT_LABELS[variant]}</Button>
+          <Modal.Backdrop variant={variant}>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <Rocket className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>背景：{VARIANT_LABELS[variant]}</Modal.Heading>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>
+                    {variant === "opaque"
+                      ? "不透明背景会完全遮挡背后内容，让用户把注意力集中在模态框上。"
+                      : variant === "blur"
+                        ? "模糊背景会柔和地虚化背后内容，同时保留一定的环境上下文。"
+                        : "透明背景会完整保留背后内容，适合重要性较低的交互场景。"}
+                  </p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    继续
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 尺寸
+
+```tsx
+"use client";
+
+import {Rocket} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+const SIZE_LABELS = {
+  cover: "通栏",
+  full: "全屏",
+  lg: "大",
+  md: "中",
+  sm: "小",
+  xs: "超小",
+} as const;
+
+export function Sizes() {
+  const sizes = ["xs", "sm", "md", "lg", "cover", "full"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {sizes.map((size) => (
+        <Modal key={size}>
+          <Button variant="secondary">{SIZE_LABELS[size]}</Button>
+          <Modal.Backdrop>
+            <Modal.Container size={size}>
+              <Modal.Dialog>
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <Rocket className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>尺寸：{SIZE_LABELS[size]}</Modal.Heading>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>
+                    {size === "cover" ? (
+                      <>
+                        此模态框使用 <code>cover</code> 尺寸：在移动端与桌面端保留边距（移动端约
+                        16px、桌面端约
+                        40px）铺满可视区域，仍保持圆角与标准内边距，适合需要最大宽度又保留模态框气质的内容展示。
+                      </>
+                    ) : size === "full" ? (
+                      <>
+                        此模态框使用 <code>full</code>{" "}
+                        尺寸，占满整个视口，无边距、圆角或阴影，提供真正的全屏体验，适合沉浸式内容或全页交互。
+                      </>
+                    ) : (
+                      <>
+                        此模态框使用 <code>{size}</code>{" "}
+                        尺寸。在移动端各尺寸都会接近全宽以便阅读；在桌面端则对应不同的最大宽度，以适配不同信息量。
+                      </>
+                    )}
+                  </p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button slot="close" variant="secondary">
+                    取消
+                  </Button>
+                  <Button slot="close">确认</Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 自定义遮罩
+
+```tsx
+"use client";
+
+import {Sparkles} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+export function CustomBackdrop() {
+  return (
+    <Modal>
+      <Button variant="secondary">自定义背景</Button>
+      <Modal.Backdrop
+        className="bg-linear-to-t from-black/80 via-black/40 to-transparent dark:from-zinc-800/80 dark:via-zinc-800/40"
+        variant="blur"
+      >
+        <Modal.Container>
+          <Modal.Dialog className="sm:max-w-[360px]">
+            <Modal.Header className="items-center text-center">
+              <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
+                <Sparkles className="size-5" />
+              </Modal.Icon>
+              <Modal.Heading>高级背景</Modal.Heading>
+            </Modal.Header>
+            <Modal.Body>
+              <p>
+                此背景采用从底部深色过渡到顶部完全透明的精致渐变，并配合柔和的模糊效果。渐变会在浅色与深色模式下自动调整强度，以获得最佳对比度。
+              </p>
+            </Modal.Body>
+            <Modal.Footer className="flex-col-reverse">
+              <Button className="w-full" slot="close">
+                Amazing!
+              </Button>
+              <Button className="w-full" slot="close" variant="secondary">
+                关闭
+              </Button>
+            </Modal.Footer>
+            <Modal.CloseTrigger />
+          </Modal.Dialog>
+        </Modal.Container>
+      </Modal.Backdrop>
+    </Modal>
+  );
+}
+
+```
+
+### 关闭行为
+
+```tsx
+"use client";
+
+import {CircleInfo} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+export function DismissBehavior() {
+  return (
+    <div className="flex max-w-sm flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-semibold">isDismissable</h3>
+        <p className="text-sm text-muted">
+          控制是否允许通过点击遮罩关闭模态框。默认为 <code>true</code>。设为 <code>false</code>{" "}
+          时需通过明确操作关闭。
+        </p>
+        <Modal>
+          <Button variant="secondary">打开模态框</Button>
+          <Modal.Backdrop isDismissable={false}>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <CircleInfo className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>isDismissable = false</Modal.Heading>
+                  <p className="text-sm leading-5 text-muted">点击遮罩不会关闭此模态框</p>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>尝试点击遮罩区域——模态框不会关闭，必须使用关闭按钮或按 ESC 键关闭。</p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    关闭
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-semibold">isKeyboardDismissDisabled</h3>
+        <p className="text-sm text-muted">
+          控制是否允许通过 ESC 关闭模态框。设为 <code>true</code> 时将禁用
+          ESC，用户须通过明确操作关闭。
+        </p>
+        <Modal>
+          <Button variant="secondary">打开模态框</Button>
+          <Modal.Backdrop isKeyboardDismissDisabled>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <CircleInfo className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>isKeyboardDismissDisabled = true</Modal.Heading>
+                  <p className="text-sm leading-5 text-muted">已禁用 ESC 键</p>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>按 ESC 无反应。必须使用关闭按钮或点击遮罩才能关闭此模态框。</p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    关闭
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 关闭方式
+
+```tsx
+"use client";
+
+import {CircleCheck, CircleInfo} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+export function CloseMethods() {
+  return (
+    <div className="flex max-w-2xl flex-col gap-8">
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-semibold">使用 slot="close"</h3>
+        <p className="text-sm text-muted">
+          关闭模态框的最简方式：为模态框内任意 Button 添加 <code>slot="close"</code>
+          ，点击即可自动关闭。
+        </p>
+        <Modal>
+          <Button variant="secondary">打开模态框</Button>
+          <Modal.Backdrop>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.Header>
+                  <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
+                    <CircleInfo className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>使用 slot="close"</Modal.Heading>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>
+                    点击下方任一按钮——它们都带有 <code>slot="close"</code>，会自动关闭模态框。
+                  </p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button slot="close" variant="secondary">
+                    取消
+                  </Button>
+                  <Button slot="close">确认</Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-semibold">使用 Dialog 渲染属性</h3>
+        <p className="text-sm text-muted">
+          通过 Dialog 的渲染属性访问 <code>close</code>{" "}
+          方法，可完全控制关闭时机与方式，并在关闭前加入自定义逻辑。
+        </p>
+        <Modal>
+          <Button variant="secondary">打开模态框</Button>
+          <Modal.Backdrop>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                {(renderProps) => (
+                  <>
+                    <Modal.Header>
+                      <Modal.Icon className="bg-success-soft text-success-soft-foreground">
+                        <CircleCheck className="size-5" />
+                      </Modal.Icon>
+                      <Modal.Heading>使用 Dialog 渲染属性</Modal.Heading>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <p>
+                        下方按钮使用渲染属性中的 <code>close</code> 方法。可在调用{" "}
+                        <code>renderProps.close()</code> 前进行校验或其他逻辑。
+                      </p>
+                    </Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="secondary" onPress={() => renderProps.close()}>
+                        取消
+                      </Button>
+                      <Button onPress={() => renderProps.close()}>确认</Button>
+                    </Modal.Footer>
+                  </>
+                )}
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 滚动行为
+
+```tsx
+"use client";
+
+import {Button, Label, Modal, Radio, RadioGroup} from "@heroui/react";
+import {useState} from "react";
+
+export function ScrollComparison() {
+  const [scroll, setScroll] = useState<"inside" | "outside">("inside");
+
+  return (
+    <div className="flex flex-col gap-4">
+      <RadioGroup
+        orientation="horizontal"
+        value={scroll}
+        onChange={(value) => setScroll(value as "inside" | "outside")}
+      >
+        <Radio value="inside">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Label>内部</Label>
+        </Radio>
+        <Radio value="outside">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Label>外部</Label>
+        </Radio>
+      </RadioGroup>
+
+      <Modal>
+        <Button variant="secondary">
+          打开模态框（{scroll.charAt(0).toUpperCase() + scroll.slice(1)})
+        </Button>
+        <Modal.Backdrop>
+          <Modal.Container scroll={scroll}>
+            <Modal.Dialog className="sm:max-w-[360px]">
+              <Modal.Header>
+                <Modal.Heading>{scroll === "inside" ? "滚动：内部" : "滚动：外部"}</Modal.Heading>
+                <p className="text-sm leading-5 text-muted">
+                  对比滚动行为——内部在模态框内滚动内容，外部允许页面滚动
+                </p>
+              </Modal.Header>
+              <Modal.Body>
+                {Array.from({length: 30}).map((_, i) => (
+                  <p key={i} className="mb-3">
+                    段落 {i + 1}： Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                    pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit
+                    risus, sed porttitor quam.
+                  </p>
+                ))}
+              </Modal.Body>
+              <Modal.Footer>
+                <Button slot="close" variant="secondary">
+                  取消
+                </Button>
+                <Button slot="close">确认</Button>
+              </Modal.Footer>
+              <Modal.CloseTrigger />
+            </Modal.Dialog>
+          </Modal.Container>
+        </Modal.Backdrop>
+      </Modal>
+    </div>
+  );
+}
+
+```
+
+### 受控状态
+
+```tsx
+"use client";
+
+import {CircleCheck} from "@gravity-ui/icons";
+import {Button, Modal, useOverlayState} from "@heroui/react";
+import React from "react";
+
+export function Controlled() {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const state = useOverlayState();
+
+  return (
+    <div className="flex max-w-md flex-col gap-8">
+      <div className="flex flex-col gap-3">
+        <h3 className="text-lg font-semibold text-foreground">配合 React.useState()</h3>
+        <p className="text-sm leading-relaxed text-pretty text-muted">
+          使用 React 的 <code className="text-foreground">useState</code>{" "}
+          管理模态框开关，适合简单场景。
+        </p>
+        <div className="flex flex-col items-start gap-3 rounded-2xl bg-surface p-4 shadow-sm">
+          <div className="flex w-full items-center justify-between">
+            <p className="text-xs text-muted">
+              状态：{" "}
+              <span className="font-mono font-medium text-foreground">
+                {isOpen ? "打开" : "关闭"}
+              </span>
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <Button size="sm" variant="secondary" onPress={() => setIsOpen(true)}>
+              打开模态框
+            </Button>
+            <Button size="sm" variant="tertiary" onPress={() => setIsOpen(!isOpen)}>
+              切换
+            </Button>
+          </div>
+        </div>
+
+        <Modal.Backdrop isOpen={isOpen} onOpenChange={setIsOpen}>
+          <Modal.Container>
+            <Modal.Dialog className="sm:max-w-[360px]">
+              <Modal.CloseTrigger />
+              <Modal.Header>
+                <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
+                  <CircleCheck className="size-5" />
+                </Modal.Icon>
+                <Modal.Heading>由 useState() 控制</Modal.Heading>
+              </Modal.Header>
+              <Modal.Body>
+                <p>
+                  该模态框由 React 的 <code>useState</code> 控制。将 <code>isOpen</code> 与{" "}
+                  <code>onOpenChange</code> 传入即可在外部管理状态。
+                </p>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button slot="close" variant="secondary">
+                  取消
+                </Button>
+                <Button slot="close">确认</Button>
+              </Modal.Footer>
+            </Modal.Dialog>
+          </Modal.Container>
+        </Modal.Backdrop>
+      </div>
+
+      <div className="flex flex-col gap-3">
+        <h3 className="text-lg font-semibold text-foreground">配合 useOverlayState()</h3>
+        <p className="text-sm leading-relaxed text-pretty text-muted">
+          使用 <code className="text-foreground">useOverlayState</code> 获得更简洁的 API，内置{" "}
+          <code>open()</code>、<code>close()</code>、<code>toggle()</code> 等方法。
+        </p>
+        <div className="flex flex-col items-start gap-3 rounded-2xl bg-surface p-4 shadow-sm">
+          <div className="flex w-full items-center justify-between">
+            <p className="text-xs text-muted">
+              状态：{" "}
+              <span className="font-mono font-medium text-foreground">
+                {state.isOpen ? "打开" : "关闭"}
+              </span>
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <Button size="sm" variant="secondary" onPress={state.open}>
+              打开模态框
+            </Button>
+            <Button size="sm" variant="tertiary" onPress={state.toggle}>
+              切换
+            </Button>
+          </div>
+        </div>
+
+        <Modal.Backdrop isOpen={state.isOpen} onOpenChange={state.setOpen}>
+          <Modal.Container>
+            <Modal.Dialog className="sm:max-w-[360px]">
+              <Modal.CloseTrigger />
+              <Modal.Header>
+                <Modal.Icon className="bg-success-soft text-success-soft-foreground">
+                  <CircleCheck className="size-5" />
+                </Modal.Icon>
+                <Modal.Heading>由 useOverlayState() 控制</Modal.Heading>
+              </Modal.Header>
+              <Modal.Body>
+                <p>
+                  <code>useOverlayState</code> 为常见操作提供专用方法，无需手写回调，直接使用{" "}
+                  <code>state.open()</code>、<code>state.close()</code> 或{" "}
+                  <code>state.toggle()</code> 即可。
+                </p>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button slot="close" variant="secondary">
+                  取消
+                </Button>
+                <Button slot="close">确认</Button>
+              </Modal.Footer>
+            </Modal.Dialog>
+          </Modal.Container>
+        </Modal.Backdrop>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 带表单
+
+```tsx
+"use client";
+
+import {Envelope} from "@gravity-ui/icons";
+import {Button, Input, Label, Modal, Surface, TextField} from "@heroui/react";
+
+export function WithForm() {
+  return (
+    <Modal>
+      <Button variant="secondary">打开联系表单</Button>
+      <Modal.Backdrop>
+        <Modal.Container placement="auto">
+          <Modal.Dialog className="sm:max-w-md">
+            <Modal.CloseTrigger />
+            <Modal.Header>
+              <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
+                <Envelope className="size-5" />
+              </Modal.Icon>
+              <Modal.Heading>联系我们</Modal.Heading>
+              <p className="mt-1.5 text-sm leading-5 text-muted">
+                填写下方表单，我们会尽快回复。在移动端弹出键盘时，模态框会自动适配。
+              </p>
+            </Modal.Header>
+            <Modal.Body className="p-6">
+              <Surface variant="default">
+                <form className="flex flex-col gap-4">
+                  <TextField className="w-full" name="name" type="text">
+                    <Label>姓名</Label>
+                    <Input placeholder="输入你的姓名" />
+                  </TextField>
+                  <TextField className="w-full" name="email" type="email">
+                    <Label>邮箱</Label>
+                    <Input placeholder="输入你的邮箱" />
+                  </TextField>
+                  <TextField className="w-full" name="phone" type="tel">
+                    <Label>电话</Label>
+                    <Input placeholder="输入你的电话号码" />
+                  </TextField>
+                  <TextField className="w-full" name="company">
+                    <Label>公司</Label>
+                    <Input placeholder="输入公司名称" />
+                  </TextField>
+                  <TextField className="w-full" name="message">
+                    <Label>留言</Label>
+                    <Input placeholder="输入留言内容" />
+                  </TextField>
+                </form>
+              </Surface>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button slot="close" variant="secondary">
+                取消
+              </Button>
+              <Button slot="close">发送消息</Button>
+            </Modal.Footer>
+          </Modal.Dialog>
+        </Modal.Container>
+      </Modal.Backdrop>
+    </Modal>
+  );
+}
+
+```
+
+### 自定义触发器
+
+```tsx
+"use client";
+
+import {Gear} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+export function CustomTrigger() {
+  return (
+    <Modal>
+      <Modal.Trigger className="group flex items-center gap-3 rounded-2xl bg-surface p-4 shadow-xs select-none hover:bg-surface-secondary">
+        <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent-soft-foreground">
+          <Gear className="size-6" />
+        </div>
+        <div className="flex flex-1 flex-col gap-0.5">
+          <p className="text-sm font-semibold">设置</p>
+          <p className="text-xs text-muted">管理你的偏好设置</p>
+        </div>
+      </Modal.Trigger>
+      <Modal.Backdrop>
+        <Modal.Container>
+          <Modal.Dialog className="sm:max-w-[360px]">
+            <Modal.CloseTrigger />
+            <Modal.Header>
+              <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
+                <Gear className="size-5" />
+              </Modal.Icon>
+              <Modal.Heading>设置</Modal.Heading>
+            </Modal.Header>
+            <Modal.Body>
+              <p>
+                使用 <code>Modal.Trigger</code>{" "}
+                可在标准按钮之外创建自定义触发器。此示例展示带图标与说明文字的卡片式触发器。
+              </p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button slot="close" variant="secondary">
+                取消
+              </Button>
+              <Button slot="close">保存</Button>
+            </Modal.Footer>
+          </Modal.Dialog>
+        </Modal.Container>
+      </Modal.Backdrop>
+    </Modal>
+  );
+}
+
+```
+
+### 自定义动画
+
+```tsx
+"use client";
+
+import {ArrowUpFromLine, Sparkles} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+import React from "react";
+
+const iconMap: Record<string, React.ComponentType<{className?: string}>> = {
+  "gravity-ui:arrow-up-from-line": ArrowUpFromLine,
+  "gravity-ui:sparkles": Sparkles,
+};
+
+export function CustomAnimations() {
+  const animations = [
+    {
+      classNames: {
+        backdrop: [
+          "data-[entering]:duration-400",
+          "data-[entering]:ease-[cubic-bezier(0.16,1,0.3,1)]",
+          "data-[exiting]:duration-200",
+          "data-[exiting]:ease-[cubic-bezier(0.7,0,0.84,0)]",
+        ].join(" "),
+        container: [
+          "data-[entering]:animate-in",
+          "data-[entering]:fade-in-0",
+          "data-[entering]:zoom-in-95",
+          "data-[entering]:duration-400",
+          "data-[entering]:ease-[cubic-bezier(0.16,1,0.3,1)]",
+          "data-[exiting]:animate-out",
+          "data-[exiting]:fade-out-0",
+          "data-[exiting]:zoom-out-95",
+          "data-[exiting]:duration-200",
+          "data-[exiting]:ease-[cubic-bezier(0.7,0,0.84,0)]",
+        ].join(" "),
+      },
+      description:
+        "基于物理的弹性缩放，模拟高阻尼弹簧系统：快速瞬态响应与较长 settling 时间。适用于模态框与弹出层。",
+      icon: "gravity-ui:sparkles",
+      name: "运动缩放",
+    },
+    {
+      classNames: {
+        backdrop: [
+          "data-[entering]:duration-500",
+          "data-[entering]:ease-[cubic-bezier(0.25,1,0.5,1)]",
+          "data-[exiting]:duration-200",
+          "data-[exiting]:ease-[cubic-bezier(0.5,0,0.75,0)]",
+        ].join(" "),
+        container: [
+          "data-[entering]:animate-in",
+          "data-[entering]:fade-in-0",
+          "data-[entering]:slide-in-from-bottom-4",
+          "data-[entering]:duration-500",
+          "data-[entering]:ease-[cubic-bezier(0.25,1,0.5,1)]",
+          "data-[exiting]:animate-out",
+          "data-[exiting]:fade-out-0",
+          "data-[exiting]:slide-out-to-bottom-2",
+          "data-[exiting]:duration-200",
+          "data-[exiting]:ease-[cubic-bezier(0.5,0,0.75,0)]",
+        ].join(" "),
+      },
+      description:
+        "模拟流体阻力中的运动，摆脱机械式线性动画，呈现更自然、沉稳的质感。适用于底部抽屉或 Toast。",
+      icon: "gravity-ui:arrow-up-from-line",
+      name: "流体滑入",
+    },
+  ];
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {animations.map(({classNames, description, icon, name}) => {
+        const IconComponent = iconMap[icon];
+
+        return (
+          <Modal key={name}>
+            <Button variant="secondary">{name}</Button>
+            <Modal.Backdrop className={classNames.backdrop}>
+              <Modal.Container className={classNames.container}>
+                <Modal.Dialog className="sm:max-w-[360px]">
+                  <Modal.CloseTrigger />
+                  <Modal.Header>
+                    <Modal.Icon className="bg-default text-foreground">
+                      {!!IconComponent && <IconComponent className="size-5" />}
+                    </Modal.Icon>
+                    <Modal.Heading>{name} 动画</Modal.Heading>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <p className="mt-1">{description}</p>
+                  </Modal.Body>
+                  <Modal.Footer>
+                    <Button slot="close" variant="tertiary">
+                      关闭
+                    </Button>
+                    <Button slot="close">再试一次</Button>
+                  </Modal.Footer>
+                </Modal.Dialog>
+              </Modal.Container>
+            </Modal.Backdrop>
+          </Modal>
+        );
+      })}
+    </div>
+  );
+}
+
+```
+
+### 自定义 Portal
+
+```tsx
+"use client";
+
+import {Button, Modal} from "@heroui/react";
+import {useCallback, useRef, useState} from "react";
+
+export function CustomPortal() {
+  const portalRef = useRef<HTMLDivElement>(null);
+  const [portalContainer, setPortalContainer] = useState<HTMLElement | null>(null);
+
+  const setPortalRef = useCallback((node: HTMLDivElement | null) => {
+    portalRef.current = node;
+    setPortalContainer(node);
+  }, []);
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div>
+        <p className="text-sm">
+          在自定义容器内渲染模态框，而非 <code>document.body</code>
+        </p>
+        <p className="text-sm text-muted">
+          为容器应用 <code className="rounded px-1 py-0.5 text-xs">transform: translateZ(0)</code>{" "}
+          以创建新的层叠上下文。
+        </p>
+      </div>
+      <div
+        ref={setPortalRef}
+        className="relative flex h-[380px] items-center justify-center overflow-hidden rounded bg-muted/20"
+        // new stacking context
+        style={{transform: "translate(0)"}}
+      >
+        {!!portalContainer && (
+          <Modal>
+            <Button>打开模态框</Button>
+            <Modal.Backdrop className="h-full" UNSTABLE_portalContainer={portalContainer}>
+              <Modal.Container className="h-full max-h-full">
+                <Modal.Dialog className="h-full max-h-full sm:max-w-md">
+                  <Modal.CloseTrigger />
+                  <Modal.Header>
+                    <Modal.Heading>自定义 Portal</Modal.Heading>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <p className="text-sm text-muted">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p className="text-sm text-muted">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p className="text-sm text-muted">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </Modal.Body>
+                  <Modal.Footer>
+                    <Button slot="close" variant="secondary">
+                      关闭
+                    </Button>
+                  </Modal.Footer>
+                </Modal.Dialog>
+              </Modal.Container>
+            </Modal.Backdrop>
+          </Modal>
+        )}
+      </div>
+    </div>
+  );
+}
+
+```
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import {Modal, Button} from "@heroui/react";
+
+function CustomModal() {
+  return (
+    <Modal>
+      <Button>Open Modal</Button>
+      <Modal.Backdrop className="bg-black/80">
+        <Modal.Container className="items-start pt-20">
+          <Modal.Dialog className="bg-linear-to-br from-purple-500 to-pink-500 text-white">
+            <Modal.CloseTrigger />
+            <Modal.Header>
+              <Modal.Heading>Custom Styled Modal</Modal.Heading>
+            </Modal.Header>
+            <Modal.Body>
+              <p>This modal has custom styling applied via Tailwind classes</p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button slot="close">Close</Button>
+            </Modal.Footer>
+          </Modal.Dialog>
+        </Modal.Container>
+      </Modal.Backdrop>
+    </Modal>
+  );
+}
+
+```
+
+### 自定义组件类
+
+要自定义 Modal 的组件类，可使用 `@layer components` 指令。
+
+<br />
+[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .modal__backdrop {
+    @apply bg-gradient-to-br from-black/50 to-black/70;
+  }
+
+  .modal__dialog {
+    @apply rounded-2xl border border-white/10 shadow-2xl;
+  }
+
+  .modal__header {
+    @apply text-center;
+  }
+
+  .modal__close-trigger {
+    @apply rounded-full bg-white/10 hover:bg-white/20;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+Modal 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/modal.css)）：
+
+#### 基础类
+
+- `.modal__trigger` — 打开 Modal 的触发元素
+- `.modal__backdrop` — Modal 背后的遮罩层
+- `.modal__container` — 支持 placement 的定位包裹层
+- `.modal__dialog` — Modal 内容容器
+- `.modal__header` — 标题与图标区域
+- `.modal__body` — 主内容区域
+- `.modal__footer` — 操作区域
+- `.modal__close-trigger` — 关闭按钮元素
+
+#### 遮罩变体
+
+- `.modal__backdrop--opaque` — 不透明有色遮罩（默认）
+- `.modal__backdrop--blur` — 带玻璃效果的模糊遮罩
+- `.modal__backdrop--transparent` — 透明遮罩（无叠加层）
+
+#### 滚动变体
+
+- `.modal__container--scroll-outside` — 允许整个 Modal 滚动
+- `.modal__dialog--scroll-inside` — 限制 Modal 高度，由 body 区域滚动
+- `.modal__body--scroll-inside` — 仅 body 区域可滚动
+- `.modal__body--scroll-outside` — 允许整页滚动
+
+### 交互状态
+
+组件支持以下交互状态：
+
+- **焦点**：`:focus-visible` 或 `[data-focus-visible="true"]` — 应用于触发器、对话框与关闭按钮
+- **悬停**：`:hover` 或 `[data-hovered="true"]` — 应用于关闭按钮悬停
+- **按下**：`:active` 或 `[data-pressed="true"]` — 应用于关闭按钮按下
+- **进入**：`[data-entering]` — Modal 打开动画期间
+- **离开**：`[data-exiting]` — Modal 关闭动画期间
+- **位置**：`[data-placement="*"]` — 基于 Modal 位置（auto、top、center、bottom）
+
+## API 参考
+
+### Modal
+
+| Prop       | 类型        | 默认值 | 描述                    |
+| ---------- | ----------- | ------ | ----------------------- |
+| `children` | `ReactNode` | -      | 触发器与容器元素        |
+
+### Modal.Trigger
+
+| Prop        | 类型        | 默认值 | 描述             |
+| ----------- | ----------- | ------ | ---------------- |
+| `children`  | `ReactNode` | -      | 自定义触发内容   |
+| `className` | `string`    | -      | CSS 类           |
+
+### Modal.Backdrop
+
+| Prop                        | 类型                                  | 默认值    | 描述                 |
+| --------------------------- | ------------------------------------- | --------- | -------------------- |
+| `variant`                   | `"opaque" \| "blur" \| "transparent"` | `"opaque"` | 遮罩叠加样式         |
+| `isDismissable`             | `boolean`                             | `true`    | 点击遮罩是否关闭     |
+| `isKeyboardDismissDisabled` | `boolean`                             | `false`   | 是否禁用 ESC 关闭    |
+| `isOpen`                    | `boolean`                             | -         | 受控打开状态         |
+| `onOpenChange`              | `(isOpen: boolean) => void`           | -         | 打开状态变化处理函数 |
+| `className`                 | `string \| (values) => string`        | -         | 遮罩 CSS 类          |
+| `UNSTABLE_portalContainer`  | `HTMLElement`                         | -         | 自定义 portal 容器   |
+
+### Modal.Container
+
+| Prop        | 类型                                      | 默认值    | 描述                |
+| ----------- | ----------------------------------------- | --------- | ------------------- |
+| `placement` | `"auto" \| "center" \| "top" \| "bottom"` | `"auto"`  | Modal 在屏幕上的位置 |
+| `scroll`    | `"inside" \| "outside"`                   | `"inside"` | 滚动行为            |
+| `size`      | `"xs" \| "sm" \| "md" \| "lg" \| "cover" \| "full"` | `"md"` | Modal 尺寸变体      |
+| `className` | `string \| (values) => string`            | -         | 容器 CSS 类         |
+
+### Modal.Dialog
+
+| Prop               | 类型                                  | 默认值    | 描述                   |
+| ------------------ | ------------------------------------- | --------- | ---------------------- |
+| `children`         | `ReactNode \| ({close}) => ReactNode` | -         | 内容或渲染函数         |
+| `className`        | `string \| (values) => string`        | -         | CSS 类                 |
+| `role`             | `string`                              | `"dialog"` | ARIA role              |
+| `aria-label`       | `string`                              | -         | 无障碍标签             |
+| `aria-labelledby`  | `string`                              | -         | 标签元素的 id          |
+| `aria-describedby` | `string`                              | -         | 描述元素的 id          |
+
+### Modal.Header
+
+| Prop        | 类型        | 默认值 | 描述       |
+| ----------- | ----------- | ------ | ---------- |
+| `children`  | `ReactNode` | -      | 头部内容   |
+| `className` | `string`    | -      | CSS 类     |
+
+### Modal.Body
+
+| Prop        | 类型        | 默认值 | 描述     |
+| ----------- | ----------- | ------ | -------- |
+| `children`  | `ReactNode` | -      | 正文内容 |
+| `className` | `string`    | -      | CSS 类   |
+
+### Modal.Footer
+
+| Prop        | 类型        | 默认值 | 描述     |
+| ----------- | ----------- | ------ | -------- |
+| `children`  | `ReactNode` | -      | 底部内容 |
+| `className` | `string`    | -      | CSS 类   |
+
+### Modal.CloseTrigger
+
+| Prop        | 类型                           | 默认值 | 描述           |
+| ----------- | ------------------------------ | ------ | -------------- |
+| `children`  | `ReactNode`                    | -      | 自定义关闭按钮 |
+| `className` | `string \| (values) => string` | -      | CSS 类         |
+
+### useOverlayState Hook
+
+```tsx
+import {useOverlayState} from "@heroui/react";
+
+const state = useOverlayState({
+  defaultOpen: false,
+  onOpenChange: (isOpen) => console.log(isOpen),
+});
+
+state.isOpen; // 当前状态
+state.open(); // 打开 modal
+state.close(); // 关闭 modal
+state.toggle(); // 切换状态
+state.setOpen(); // 直接设置状态
+
+```
+
+## 无障碍
+
+实现 [WAI-ARIA Dialog 模式](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)：
+
+- **焦点陷阱**：焦点锁定在 Modal 内
+- **键盘**：`ESC` 关闭（启用时）、`Tab` 在元素间循环
+- **屏幕阅读器**：正确的 ARIA 属性
+- **滚动锁定**：打开时禁用 body 滚动
+</page>

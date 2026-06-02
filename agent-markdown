@@ -1,0 +1,32 @@
+# HeroUI
+
+Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.
+
+HeroUI is the modern UI library for web and mobile, built to help teams move fast, stay consistent, and deliver delightful user experiences.
+
+## Start here
+
+- [Get started](http://localhost:3000/docs/react/getting-started)
+- [React components](http://localhost:3000/docs/react/components)
+- [Native components](http://localhost:3000/docs/native/components)
+- [GitHub repository](https://github.com/heroui-inc/heroui)
+
+## Agent resources
+
+- [LLMs quick index](http://localhost:3000/llms.txt)
+- [Full LLM documentation](http://localhost:3000/llms-full.txt)
+- [React LLM documentation](http://localhost:3000/react/llms-full.txt)
+- [Native LLM documentation](http://localhost:3000/native/llms-full.txt)
+- [API catalog](http://localhost:3000/.well-known/api-catalog)
+- [MCP server card](http://localhost:3000/.well-known/mcp/server-card.json)
+- [Agent skills index](http://localhost:3000/.well-known/agent-skills/index.json)
+
+## MCP and skills
+
+- [HeroUI React MCP server](http://localhost:3000/docs/react/getting-started/mcp-server)
+- [HeroUI Native MCP server](http://localhost:3000/docs/native/getting-started/mcp-server)
+- [HeroUI React Agent Skills](http://localhost:3000/docs/react/getting-started/agent-skills)
+- [HeroUI Native Agent Skills](http://localhost:3000/docs/native/getting-started/agent-skills)
+
+
+> Path-specific markdown lookup is unavailable in the static export build.
