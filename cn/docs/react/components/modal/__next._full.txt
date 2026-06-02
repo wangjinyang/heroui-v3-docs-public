@@ -8,7 +8,7 @@
 :HL["/heroui-v3-docs-public/_next/static/media/Inter_Bold-s.p.0libujw.zovmv.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
 :HL["/heroui-v3-docs-public/_next/static/media/Inter_Medium-s.p.01t4y7zkof.7b.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
 :HL["/heroui-v3-docs-public/_next/static/media/Inter_Regular-s.p.01~_0bgegu-en.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
-0:{"P":null,"c":["","cn","docs","react","components","modal",""],"q":"","i":false,"f":[[["",{"children":[["lang","cn","d",null],{"children":["docs",{"children":[["slug","react/components/modal","oc",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/heroui-v3-docs-public/_next/static/chunks/0ig04rqqn~eig.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/heroui-v3-docs-public/_next/static/chunks/17a6c2wxjw..~.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"lang":"en","children":["$","body",null,{"className":"flex min-h-screen flex-col figtree_40c9d8a-module__4T9M3a__className","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/heroui-v3-docs-public/_next/static/chunks/16b5pafb_3pdh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","async":true,"nonce":"$undefined"}],["$","script","script-12",{"src":"/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","async":true,"nonce":"$undefined"}],["$","script","script-13",{"src":"/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","async":true,"nonce":"$undefined"}],["$","script","script-14",{"src":"/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","async":true,"nonce":"$undefined"}],["$","script","script-15",{"src":"/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","async":true,"nonce":"$undefined"}],"$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],{"children":["$L10",{"children":["$L11",{"children":["$L12",{},null,false,null]},null,false,null]},null,false,"$@13"]},null,false,null]},null,false,null],"$L14",false]],"m":"$undefined","G":["$15",["$L16","$L17"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"FDgGPBxbbYQR9B_va9PfG"}
+0:{"P":null,"c":["","cn","docs","react","components","modal",""],"q":"","i":false,"f":[[["",{"children":[["lang","cn","d",null],{"children":["docs",{"children":[["slug","react/components/modal","oc",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/heroui-v3-docs-public/_next/static/chunks/0ig04rqqn~eig.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/heroui-v3-docs-public/_next/static/chunks/17a6c2wxjw..~.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"lang":"en","children":["$","body",null,{"className":"flex min-h-screen flex-col figtree_40c9d8a-module__4T9M3a__className","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/heroui-v3-docs-public/_next/static/chunks/16b5pafb_3pdh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","async":true,"nonce":"$undefined"}],["$","script","script-12",{"src":"/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","async":true,"nonce":"$undefined"}],["$","script","script-13",{"src":"/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","async":true,"nonce":"$undefined"}],["$","script","script-14",{"src":"/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","async":true,"nonce":"$undefined"}],["$","script","script-15",{"src":"/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","async":true,"nonce":"$undefined"}],"$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],{"children":["$L10",{"children":["$L11",{"children":["$L12",{},null,false,null]},null,false,null]},null,false,"$@13"]},null,false,null]},null,false,null],"$L14",false]],"m":"$undefined","G":["$15",["$L16","$L17"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kbi7kqaksr_rOP3Wk5gw3"}
 1a:I[897367,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
 1b:"$Sreact.suspense"
 1e:I[897367,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js"],"ViewportBoundary"]
@@ -242,18 +242,123 @@ ee:["$","$Lff",null,{"href":"https://github.com/heroui-inc/heroui/blob/v3/packag
 fe:["$","$Lff",null,{"href":"https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/","children":"WAI-ARIA Dialog 模式"}]
 100:I[3108,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
 101:I[148120,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Default"]
-103:I[803142,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Sizes"]
+103:I[441122,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"BackdropVariants"]
 105:I[569379,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Placements"]
-107:I[441122,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"BackdropVariants"]
+107:I[803142,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Sizes"]
 109:I[455423,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomBackdrop"]
-10b:I[499871,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CloseMethods"]
-10d:I[575420,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"ScrollComparison"]
-10f:I[312565,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"DismissBehavior"]
-113:I[846083,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomTrigger"]
-115:I[192227,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"WithForm"]
+10b:I[575420,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"ScrollComparison"]
+10d:I[312565,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"DismissBehavior"]
+10f:I[499871,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CloseMethods"]
+111:I[192227,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"WithForm"]
+115:I[846083,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomTrigger"]
 119:I[986336,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomPortal"]
 69:["$","$L100",null,{"align":"center","className":"$undefined","code":"\"use client\";\n\nimport {Rocket} from \"@gravity-ui/icons\";\nimport {Button, Modal} from \"@heroui/react\";\n\nexport function Default() {\n  return (\n    <Modal>\n      <Button variant=\"secondary\">打开模态框</Button>\n      <Modal.Backdrop>\n        <Modal.Container>\n          <Modal.Dialog className=\"sm:max-w-[360px]\">\n            <Modal.CloseTrigger />\n            <Modal.Header>\n              <Modal.Icon className=\"bg-default text-foreground\">\n                <Rocket className=\"size-5\" />\n              </Modal.Icon>\n              <Modal.Heading>欢迎使用 HeroUI</Modal.Heading>\n            </Modal.Header>\n            <Modal.Body>\n              <p>一套美观、快速、现代的 React UI 库，可轻松构建无障碍且高度可定制的 Web 应用。</p>\n            </Modal.Body>\n            <Modal.Footer>\n              <Button className=\"w-full\" slot=\"close\">\n                继续\n              </Button>\n            </Modal.Footer>\n          </Modal.Dialog>\n        </Modal.Container>\n      </Modal.Backdrop>\n    </Modal>\n  );\n}\n","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-default","children":["$","$L101",null,{}]}]
-102:T99d,"use client";
+102:T714,"use client";
+
+import {Rocket} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+const VARIANT_LABELS = {
+  blur: "模糊",
+  opaque: "不透明",
+  transparent: "透明",
+} as const;
+
+export function BackdropVariants() {
+  const variants = ["opaque", "blur", "transparent"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {variants.map((variant) => (
+        <Modal key={variant}>
+          <Button variant="secondary">{VARIANT_LABELS[variant]}</Button>
+          <Modal.Backdrop variant={variant}>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <Rocket className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>背景：{VARIANT_LABELS[variant]}</Modal.Heading>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>
+                    {variant === "opaque"
+                      ? "不透明背景会完全遮挡背后内容，让用户把注意力集中在模态框上。"
+                      : variant === "blur"
+                        ? "模糊背景会柔和地虚化背后内容，同时保留一定的环境上下文。"
+                        : "透明背景会完整保留背后内容，适合重要性较低的交互场景。"}
+                  </p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    继续
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      ))}
+    </div>
+  );
+}
+70:["$","$L100",null,{"align":"center","className":"$undefined","code":"$102","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-backdrop-variants","children":["$","$L103",null,{}]}]
+104:T721,"use client";
+
+import {Rocket} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+const PLACEMENT_LABELS = {
+  auto: "自动",
+  bottom: "底部",
+  center: "居中",
+  top: "顶部",
+} as const;
+
+export function Placements() {
+  const placements = ["auto", "top", "center", "bottom"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {placements.map((placement) => (
+        <Modal key={placement}>
+          <Button variant="secondary">{PLACEMENT_LABELS[placement]}</Button>
+          <Modal.Backdrop>
+            <Modal.Container placement={placement}>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <Rocket className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>
+                    {placement === "auto" ? "自动定位" : `${PLACEMENT_LABELS[placement]}位置`}
+                  </Modal.Heading>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>
+                    {placement === "auto"
+                      ? "在移动端默认靠近底部，在桌面端居中，以获得更合适的阅读与操作体验。"
+                      : `模态框将锚定在视口的「${PLACEMENT_LABELS[placement]}」区域。可尝试不同 placement 查看屏幕上的定位效果。`}
+                  </p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    继续
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      ))}
+    </div>
+  );
+}
+6e:["$","$L100",null,{"align":"center","className":"$undefined","code":"$104","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-placements","children":["$","$L105",null,{}]}]
+106:T99d,"use client";
 
 import {Rocket} from "@gravity-ui/icons";
 import {Button, Modal} from "@heroui/react";
@@ -320,112 +425,7 @@ export function Sizes() {
     </div>
   );
 }
-72:["$","$L100",null,{"align":"center","className":"$undefined","code":"$102","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-sizes","children":["$","$L103",null,{}]}]
-104:T721,"use client";
-
-import {Rocket} from "@gravity-ui/icons";
-import {Button, Modal} from "@heroui/react";
-
-const PLACEMENT_LABELS = {
-  auto: "自动",
-  bottom: "底部",
-  center: "居中",
-  top: "顶部",
-} as const;
-
-export function Placements() {
-  const placements = ["auto", "top", "center", "bottom"] as const;
-
-  return (
-    <div className="flex flex-wrap gap-4">
-      {placements.map((placement) => (
-        <Modal key={placement}>
-          <Button variant="secondary">{PLACEMENT_LABELS[placement]}</Button>
-          <Modal.Backdrop>
-            <Modal.Container placement={placement}>
-              <Modal.Dialog className="sm:max-w-[360px]">
-                <Modal.CloseTrigger />
-                <Modal.Header>
-                  <Modal.Icon className="bg-default text-foreground">
-                    <Rocket className="size-5" />
-                  </Modal.Icon>
-                  <Modal.Heading>
-                    {placement === "auto" ? "自动定位" : `${PLACEMENT_LABELS[placement]}位置`}
-                  </Modal.Heading>
-                </Modal.Header>
-                <Modal.Body>
-                  <p>
-                    {placement === "auto"
-                      ? "在移动端默认靠近底部，在桌面端居中，以获得更合适的阅读与操作体验。"
-                      : `模态框将锚定在视口的「${PLACEMENT_LABELS[placement]}」区域。可尝试不同 placement 查看屏幕上的定位效果。`}
-                  </p>
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button className="w-full" slot="close">
-                    继续
-                  </Button>
-                </Modal.Footer>
-              </Modal.Dialog>
-            </Modal.Container>
-          </Modal.Backdrop>
-        </Modal>
-      ))}
-    </div>
-  );
-}
-6e:["$","$L100",null,{"align":"center","className":"$undefined","code":"$104","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-placements","children":["$","$L105",null,{}]}]
-106:T714,"use client";
-
-import {Rocket} from "@gravity-ui/icons";
-import {Button, Modal} from "@heroui/react";
-
-const VARIANT_LABELS = {
-  blur: "模糊",
-  opaque: "不透明",
-  transparent: "透明",
-} as const;
-
-export function BackdropVariants() {
-  const variants = ["opaque", "blur", "transparent"] as const;
-
-  return (
-    <div className="flex flex-wrap gap-4">
-      {variants.map((variant) => (
-        <Modal key={variant}>
-          <Button variant="secondary">{VARIANT_LABELS[variant]}</Button>
-          <Modal.Backdrop variant={variant}>
-            <Modal.Container>
-              <Modal.Dialog className="sm:max-w-[360px]">
-                <Modal.CloseTrigger />
-                <Modal.Header>
-                  <Modal.Icon className="bg-default text-foreground">
-                    <Rocket className="size-5" />
-                  </Modal.Icon>
-                  <Modal.Heading>背景：{VARIANT_LABELS[variant]}</Modal.Heading>
-                </Modal.Header>
-                <Modal.Body>
-                  <p>
-                    {variant === "opaque"
-                      ? "不透明背景会完全遮挡背后内容，让用户把注意力集中在模态框上。"
-                      : variant === "blur"
-                        ? "模糊背景会柔和地虚化背后内容，同时保留一定的环境上下文。"
-                        : "透明背景会完整保留背后内容，适合重要性较低的交互场景。"}
-                  </p>
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button className="w-full" slot="close">
-                    继续
-                  </Button>
-                </Modal.Footer>
-              </Modal.Dialog>
-            </Modal.Container>
-          </Modal.Backdrop>
-        </Modal>
-      ))}
-    </div>
-  );
-}
-70:["$","$L100",null,{"align":"center","className":"$undefined","code":"$106","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-backdrop-variants","children":["$","$L107",null,{}]}]
+72:["$","$L100",null,{"align":"center","className":"$undefined","code":"$106","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-sizes","children":["$","$L107",null,{}]}]
 108:T5f2,"use client";
 
 import {Sparkles} from "@gravity-ui/icons";
@@ -468,7 +468,150 @@ export function CustomBackdrop() {
   );
 }
 74:["$","$L100",null,{"align":"center","className":"$undefined","code":"$108","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-custom-backdrop","children":["$","$L109",null,{}]}]
-10a:Td10,"use client";
+10a:T8be,"use client";
+
+import {Button, Label, Modal, Radio, RadioGroup} from "@heroui/react";
+import {useState} from "react";
+
+export function ScrollComparison() {
+  const [scroll, setScroll] = useState<"inside" | "outside">("inside");
+
+  return (
+    <div className="flex flex-col gap-4">
+      <RadioGroup
+        orientation="horizontal"
+        value={scroll}
+        onChange={(value) => setScroll(value as "inside" | "outside")}
+      >
+        <Radio value="inside">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Label>内部</Label>
+        </Radio>
+        <Radio value="outside">
+          <Radio.Control>
+            <Radio.Indicator />
+          </Radio.Control>
+          <Label>外部</Label>
+        </Radio>
+      </RadioGroup>
+
+      <Modal>
+        <Button variant="secondary">
+          打开模态框（{scroll.charAt(0).toUpperCase() + scroll.slice(1)})
+        </Button>
+        <Modal.Backdrop>
+          <Modal.Container scroll={scroll}>
+            <Modal.Dialog className="sm:max-w-[360px]">
+              <Modal.Header>
+                <Modal.Heading>{scroll === "inside" ? "滚动：内部" : "滚动：外部"}</Modal.Heading>
+                <p className="text-sm leading-5 text-muted">
+                  对比滚动行为——内部在模态框内滚动内容，外部允许页面滚动
+                </p>
+              </Modal.Header>
+              <Modal.Body>
+                {Array.from({length: 30}).map((_, i) => (
+                  <p key={i} className="mb-3">
+                    段落 {i + 1}： Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                    pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit
+                    risus, sed porttitor quam.
+                  </p>
+                ))}
+              </Modal.Body>
+              <Modal.Footer>
+                <Button slot="close" variant="secondary">
+                  取消
+                </Button>
+                <Button slot="close">确认</Button>
+              </Modal.Footer>
+              <Modal.CloseTrigger />
+            </Modal.Dialog>
+          </Modal.Container>
+        </Modal.Backdrop>
+      </Modal>
+    </div>
+  );
+}
+7a:["$","$L100",null,{"align":"center","className":"$undefined","code":"$10a","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-scroll-comparison","children":["$","$L10b",null,{}]}]
+10c:Tc34,"use client";
+
+import {CircleInfo} from "@gravity-ui/icons";
+import {Button, Modal} from "@heroui/react";
+
+export function DismissBehavior() {
+  return (
+    <div className="flex max-w-sm flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-semibold">isDismissable</h3>
+        <p className="text-sm text-muted">
+          控制是否允许通过点击遮罩关闭模态框。默认为 <code>true</code>。设为 <code>false</code>{" "}
+          时需通过明确操作关闭。
+        </p>
+        <Modal>
+          <Button variant="secondary">打开模态框</Button>
+          <Modal.Backdrop isDismissable={false}>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <CircleInfo className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>isDismissable = false</Modal.Heading>
+                  <p className="text-sm leading-5 text-muted">点击遮罩不会关闭此模态框</p>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>尝试点击遮罩区域——模态框不会关闭，必须使用关闭按钮或按 ESC 键关闭。</p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    关闭
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-semibold">isKeyboardDismissDisabled</h3>
+        <p className="text-sm text-muted">
+          控制是否允许通过 ESC 关闭模态框。设为 <code>true</code> 时将禁用
+          ESC，用户须通过明确操作关闭。
+        </p>
+        <Modal>
+          <Button variant="secondary">打开模态框</Button>
+          <Modal.Backdrop isKeyboardDismissDisabled>
+            <Modal.Container>
+              <Modal.Dialog className="sm:max-w-[360px]">
+                <Modal.CloseTrigger />
+                <Modal.Header>
+                  <Modal.Icon className="bg-default text-foreground">
+                    <CircleInfo className="size-5" />
+                  </Modal.Icon>
+                  <Modal.Heading>isKeyboardDismissDisabled = true</Modal.Heading>
+                  <p className="text-sm leading-5 text-muted">已禁用 ESC 键</p>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>按 ESC 无反应。必须使用关闭按钮或点击遮罩才能关闭此模态框。</p>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="w-full" slot="close">
+                    关闭
+                  </Button>
+                </Modal.Footer>
+              </Modal.Dialog>
+            </Modal.Container>
+          </Modal.Backdrop>
+        </Modal>
+      </div>
+    </div>
+  );
+}
+76:["$","$L100",null,{"align":"center","className":"$undefined","code":"$10c","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-dismiss-behavior","children":["$","$L10d",null,{}]}]
+10e:Td10,"use client";
 
 import {CircleCheck, CircleInfo} from "@gravity-ui/icons";
 import {Button, Modal} from "@heroui/react";
@@ -551,151 +694,69 @@ export function CloseMethods() {
     </div>
   );
 }
-78:["$","$L100",null,{"align":"center","className":"$undefined","code":"$10a","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-close-methods","children":["$","$L10b",null,{}]}]
-10c:T8be,"use client";
+78:["$","$L100",null,{"align":"center","className":"$undefined","code":"$10e","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-close-methods","children":["$","$L10f",null,{}]}]
+110:T986,"use client";
 
-import {Button, Label, Modal, Radio, RadioGroup} from "@heroui/react";
-import {useState} from "react";
+import {Envelope} from "@gravity-ui/icons";
+import {Button, Input, Label, Modal, Surface, TextField} from "@heroui/react";
 
-export function ScrollComparison() {
-  const [scroll, setScroll] = useState<"inside" | "outside">("inside");
-
+export function WithForm() {
   return (
-    <div className="flex flex-col gap-4">
-      <RadioGroup
-        orientation="horizontal"
-        value={scroll}
-        onChange={(value) => setScroll(value as "inside" | "outside")}
-      >
-        <Radio value="inside">
-          <Radio.Control>
-            <Radio.Indicator />
-          </Radio.Control>
-          <Label>内部</Label>
-        </Radio>
-        <Radio value="outside">
-          <Radio.Control>
-            <Radio.Indicator />
-          </Radio.Control>
-          <Label>外部</Label>
-        </Radio>
-      </RadioGroup>
-
-      <Modal>
-        <Button variant="secondary">
-          打开模态框（{scroll.charAt(0).toUpperCase() + scroll.slice(1)})
-        </Button>
-        <Modal.Backdrop>
-          <Modal.Container scroll={scroll}>
-            <Modal.Dialog className="sm:max-w-[360px]">
-              <Modal.Header>
-                <Modal.Heading>{scroll === "inside" ? "滚动：内部" : "滚动：外部"}</Modal.Heading>
-                <p className="text-sm leading-5 text-muted">
-                  对比滚动行为——内部在模态框内滚动内容，外部允许页面滚动
-                </p>
-              </Modal.Header>
-              <Modal.Body>
-                {Array.from({length: 30}).map((_, i) => (
-                  <p key={i} className="mb-3">
-                    段落 {i + 1}： Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                    pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit
-                    risus, sed porttitor quam.
-                  </p>
-                ))}
-              </Modal.Body>
-              <Modal.Footer>
-                <Button slot="close" variant="secondary">
-                  取消
-                </Button>
-                <Button slot="close">确认</Button>
-              </Modal.Footer>
-              <Modal.CloseTrigger />
-            </Modal.Dialog>
-          </Modal.Container>
-        </Modal.Backdrop>
-      </Modal>
-    </div>
+    <Modal>
+      <Button variant="secondary">打开联系表单</Button>
+      <Modal.Backdrop>
+        <Modal.Container placement="auto">
+          <Modal.Dialog className="sm:max-w-md">
+            <Modal.CloseTrigger />
+            <Modal.Header>
+              <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
+                <Envelope className="size-5" />
+              </Modal.Icon>
+              <Modal.Heading>联系我们</Modal.Heading>
+              <p className="mt-1.5 text-sm leading-5 text-muted">
+                填写下方表单，我们会尽快回复。在移动端弹出键盘时，模态框会自动适配。
+              </p>
+            </Modal.Header>
+            <Modal.Body className="p-6">
+              <Surface variant="default">
+                <form className="flex flex-col gap-4">
+                  <TextField className="w-full" name="name" type="text">
+                    <Label>姓名</Label>
+                    <Input placeholder="输入你的姓名" />
+                  </TextField>
+                  <TextField className="w-full" name="email" type="email">
+                    <Label>邮箱</Label>
+                    <Input placeholder="输入你的邮箱" />
+                  </TextField>
+                  <TextField className="w-full" name="phone" type="tel">
+                    <Label>电话</Label>
+                    <Input placeholder="输入你的电话号码" />
+                  </TextField>
+                  <TextField className="w-full" name="company">
+                    <Label>公司</Label>
+                    <Input placeholder="输入公司名称" />
+                  </TextField>
+                  <TextField className="w-full" name="message">
+                    <Label>留言</Label>
+                    <Input placeholder="输入留言内容" />
+                  </TextField>
+                </form>
+              </Surface>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button slot="close" variant="secondary">
+                取消
+              </Button>
+              <Button slot="close">发送消息</Button>
+            </Modal.Footer>
+          </Modal.Dialog>
+        </Modal.Container>
+      </Modal.Backdrop>
+    </Modal>
   );
 }
-7a:["$","$L100",null,{"align":"center","className":"$undefined","code":"$10c","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-scroll-comparison","children":["$","$L10d",null,{}]}]
-10e:Tc34,"use client";
-
-import {CircleInfo} from "@gravity-ui/icons";
-import {Button, Modal} from "@heroui/react";
-
-export function DismissBehavior() {
-  return (
-    <div className="flex max-w-sm flex-col gap-6">
-      <div className="flex flex-col gap-2">
-        <h3 className="text-lg font-semibold">isDismissable</h3>
-        <p className="text-sm text-muted">
-          控制是否允许通过点击遮罩关闭模态框。默认为 <code>true</code>。设为 <code>false</code>{" "}
-          时需通过明确操作关闭。
-        </p>
-        <Modal>
-          <Button variant="secondary">打开模态框</Button>
-          <Modal.Backdrop isDismissable={false}>
-            <Modal.Container>
-              <Modal.Dialog className="sm:max-w-[360px]">
-                <Modal.CloseTrigger />
-                <Modal.Header>
-                  <Modal.Icon className="bg-default text-foreground">
-                    <CircleInfo className="size-5" />
-                  </Modal.Icon>
-                  <Modal.Heading>isDismissable = false</Modal.Heading>
-                  <p className="text-sm leading-5 text-muted">点击遮罩不会关闭此模态框</p>
-                </Modal.Header>
-                <Modal.Body>
-                  <p>尝试点击遮罩区域——模态框不会关闭，必须使用关闭按钮或按 ESC 键关闭。</p>
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button className="w-full" slot="close">
-                    关闭
-                  </Button>
-                </Modal.Footer>
-              </Modal.Dialog>
-            </Modal.Container>
-          </Modal.Backdrop>
-        </Modal>
-      </div>
-
-      <div className="flex flex-col gap-2">
-        <h3 className="text-lg font-semibold">isKeyboardDismissDisabled</h3>
-        <p className="text-sm text-muted">
-          控制是否允许通过 ESC 关闭模态框。设为 <code>true</code> 时将禁用
-          ESC，用户须通过明确操作关闭。
-        </p>
-        <Modal>
-          <Button variant="secondary">打开模态框</Button>
-          <Modal.Backdrop isKeyboardDismissDisabled>
-            <Modal.Container>
-              <Modal.Dialog className="sm:max-w-[360px]">
-                <Modal.CloseTrigger />
-                <Modal.Header>
-                  <Modal.Icon className="bg-default text-foreground">
-                    <CircleInfo className="size-5" />
-                  </Modal.Icon>
-                  <Modal.Heading>isKeyboardDismissDisabled = true</Modal.Heading>
-                  <p className="text-sm leading-5 text-muted">已禁用 ESC 键</p>
-                </Modal.Header>
-                <Modal.Body>
-                  <p>按 ESC 无反应。必须使用关闭按钮或点击遮罩才能关闭此模态框。</p>
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button className="w-full" slot="close">
-                    关闭
-                  </Button>
-                </Modal.Footer>
-              </Modal.Dialog>
-            </Modal.Container>
-          </Modal.Backdrop>
-        </Modal>
-      </div>
-    </div>
-  );
-}
-76:["$","$L100",null,{"align":"center","className":"$undefined","code":"$10e","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-dismiss-behavior","children":["$","$L10f",null,{}]}]
-110:T1307,"use client";
+7e:["$","$L100",null,{"align":"center","className":"$undefined","code":"$110","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-with-form","children":["$","$L111",null,{}]}]
+112:T1307,"use client";
 
 import {CircleCheck} from "@gravity-ui/icons";
 import {Button, Modal, useOverlayState} from "@heroui/react";
@@ -815,8 +876,8 @@ export function Controlled() {
     </div>
   );
 }
-7c:["$","$L100",null,{"align":"center","className":"$undefined","code":"$110","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-controlled","children":"$L111"}]
-112:T694,"use client";
+7c:["$","$L100",null,{"align":"center","className":"$undefined","code":"$112","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-controlled","children":"$L113"}]
+114:T694,"use client";
 
 import {Gear} from "@gravity-ui/icons";
 import {Button, Modal} from "@heroui/react";
@@ -861,68 +922,7 @@ export function CustomTrigger() {
     </Modal>
   );
 }
-80:["$","$L100",null,{"align":"center","className":"$undefined","code":"$112","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-custom-trigger","children":["$","$L113",null,{}]}]
-114:T986,"use client";
-
-import {Envelope} from "@gravity-ui/icons";
-import {Button, Input, Label, Modal, Surface, TextField} from "@heroui/react";
-
-export function WithForm() {
-  return (
-    <Modal>
-      <Button variant="secondary">打开联系表单</Button>
-      <Modal.Backdrop>
-        <Modal.Container placement="auto">
-          <Modal.Dialog className="sm:max-w-md">
-            <Modal.CloseTrigger />
-            <Modal.Header>
-              <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
-                <Envelope className="size-5" />
-              </Modal.Icon>
-              <Modal.Heading>联系我们</Modal.Heading>
-              <p className="mt-1.5 text-sm leading-5 text-muted">
-                填写下方表单，我们会尽快回复。在移动端弹出键盘时，模态框会自动适配。
-              </p>
-            </Modal.Header>
-            <Modal.Body className="p-6">
-              <Surface variant="default">
-                <form className="flex flex-col gap-4">
-                  <TextField className="w-full" name="name" type="text">
-                    <Label>姓名</Label>
-                    <Input placeholder="输入你的姓名" />
-                  </TextField>
-                  <TextField className="w-full" name="email" type="email">
-                    <Label>邮箱</Label>
-                    <Input placeholder="输入你的邮箱" />
-                  </TextField>
-                  <TextField className="w-full" name="phone" type="tel">
-                    <Label>电话</Label>
-                    <Input placeholder="输入你的电话号码" />
-                  </TextField>
-                  <TextField className="w-full" name="company">
-                    <Label>公司</Label>
-                    <Input placeholder="输入公司名称" />
-                  </TextField>
-                  <TextField className="w-full" name="message">
-                    <Label>留言</Label>
-                    <Input placeholder="输入留言内容" />
-                  </TextField>
-                </form>
-              </Surface>
-            </Modal.Body>
-            <Modal.Footer>
-              <Button slot="close" variant="secondary">
-                取消
-              </Button>
-              <Button slot="close">发送消息</Button>
-            </Modal.Footer>
-          </Modal.Dialog>
-        </Modal.Container>
-      </Modal.Backdrop>
-    </Modal>
-  );
-}
-7e:["$","$L100",null,{"align":"center","className":"$undefined","code":"$114","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-with-form","children":["$","$L115",null,{}]}]
+80:["$","$L100",null,{"align":"center","className":"$undefined","code":"$114","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-custom-trigger","children":["$","$L115",null,{}]}]
 116:Teba,"use client";
 
 import {ArrowUpFromLine, Sparkles} from "@gravity-ui/icons";
@@ -1102,5 +1102,5 @@ export function CustomPortal() {
 84:["$","$L100",null,{"align":"center","className":"$undefined","code":"$118","description":"$undefined","isBgSolid":false,"minHeight":"$undefined","name":"modal-custom-portal","children":["$","$L119",null,{}]}]
 11a:I[511162,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Controlled"]
 11b:I[337312,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomAnimations"]
-111:["$","$L11a",null,{}]
+113:["$","$L11a",null,{}]
 117:["$","$L11b",null,{}]
