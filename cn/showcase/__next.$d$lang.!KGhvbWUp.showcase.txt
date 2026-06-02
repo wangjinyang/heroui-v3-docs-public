@@ -1,4 +1,0 @@
-1:"$Sreact.fragment"
-2:I[339756,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js"],"default"]
-3:I[837457,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js"],"default"]
-0:{"rsc":["$","$1","c",{"children":[null,["$","main",null,{"className":"container mx-auto px-6 py-12","children":["$","div",null,{"className":"mx-auto max-w-[68rem]","children":[["$","h1",null,{"className":"mb-2 text-4xl font-bold tracking-tight","children":"展示"}],["$","p",null,{"className":"mb-12 text-lg font-light text-muted","children":"探索展示 HeroUI 组件在真实场景中应用的互动示例。"}],["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"2D7n3yexY0t0nnTBvJpdV"}

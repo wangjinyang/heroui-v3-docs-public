@@ -1,1 +1,0 @@
-{"error":"Skill tarball not found: heroui-migration","message":"The skill tarball may not have been built. Run 'pnpm dev' or 'pnpm build' to build skill files."}
