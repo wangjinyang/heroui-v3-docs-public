@@ -1,0 +1,3335 @@
+<page url="/cn/docs/native/getting-started/animation">
+# 动画
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/animation
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/animation.mdx
+> 为 HeroUI Native 组件添加流畅动画与过渡
+
+
+HeroUI Native 的动画基于 [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)，手势由 [react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/) 处理。若需更细粒度控制，建议先熟悉二者。
+
+## `animation` 属性
+
+每个带动画的组件都暴露统一的 `animation` 属性，用于控制该组件上的全部动画：可调整数值、时间配置、布局动画，或完全关闭动画。
+
+**做法：** 处理动画时，先查看目标组件是否提供 `animation` 属性。
+
+## 修改动画
+
+向 `animation` 传入对象即可定制。不同组件暴露的可调属性不同。若只想微调内置动画，可使用我们提供的各项配置；若要完全自定义动画逻辑，通常需要自行编写带动画的自定义组件。
+
+### 示例 1：简单数值调整
+
+调整缩放、透明度或颜色等数值：
+
+```tsx
+import {Switch} from 'heroui-native';
+
+<Switch
+  animation={{
+    scale: {
+      value: [1, 0.9], // [unpressed, pressed]
+    },
+    backgroundColor: {
+      value: ['#172554', '#eab308'], // [unselected, selected]
+    },
+  }}>
+  <Switch.Thumb />
+</Switch>;
+
+```
+
+### 示例 2：时间曲线配置
+
+自定义时长与缓动：
+
+```tsx
+import {Accordion} from 'heroui-native';
+
+<Accordion>
+  <Accordion.Item value="1">
+    <Accordion.Trigger>
+      <Accordion.Indicator
+        animation={{
+          rotation: {
+            value: [0, -180],
+            springConfig: {
+              damping: 60,
+              stiffness: 900,
+              mass: 3,
+            },
+          },
+        }}
+      />
+    </Accordion.Trigger>
+  </Accordion.Item>
+</Accordion>;
+
+```
+
+### 示例 3：布局动画（进入 / 退出）
+
+使用 Reanimated 的布局动画 API：
+
+```tsx
+import {Accordion} from 'heroui-native';
+import {FadeInRight, FadeInLeft, ZoomIn} from 'react-native-reanimated';
+import {Easing} from 'react-native-reanimated';
+
+<Accordion>
+  <Accordion.Item value="1">
+    <Accordion.Content
+      animation={{
+        entering: {
+          value: FadeInRight.delay(50).easing(Easing.inOut(Easing.ease)),
+        },
+      }}>
+      Content here
+    </Accordion.Content>
+  </Accordion.Item>
+</Accordion>;
+
+```
+
+### 示例 4：使用 `state` 精细控制
+
+`state` 可在关闭动画的同时仍保留属性配置，便于微调而不真正播放动画：
+
+```tsx
+import {Switch} from 'heroui-native';
+
+<Switch
+  animation={{
+    state: 'disabled', // Disable animations but allow property customization
+    scale: {
+      value: 0.95, // This value is still respected even though animations are disabled
+    },
+    backgroundColor: {
+      value: ['#172554', '#eab308'],
+    },
+  }}>
+  <Switch.Thumb />
+</Switch>
+
+```
+
+`state` 可取：
+
+* `'disabled'`：关闭动画，但仍可配置属性值
+* `'disable-all'`：关闭自身及子级全部动画（仅在根级可用）
+* `boolean`：简单开关（`true` 启用，`false` 禁用）
+
+这样既能精细控制动画行为，又能在不启用动画的情况下自定义属性值。
+
+## 关闭动画
+
+可通过 `animation` 在不同层级关闭动画。
+
+### 关闭选项
+
+* `animation={false}` 或 `animation="disabled"`：仅关闭当前组件动画
+* `animation="disable-all"`：关闭根级及其子级全部动画（仅根级可用）
+* `animation={true}` 或 `animation={undefined}`：使用默认动画
+
+### 组件级关闭
+
+仅关闭某个子部件的动画：
+
+```tsx
+<Switch>
+  <Switch.Thumb animation={false} />
+</Switch>
+
+```
+
+### 根级 `disable-all`
+
+`"disable-all"` 仅在复合组件根级可用，会向下级联，**包括**树中的独立组件（如 `Button`、`Spinner` 等），不仅限于复合子部件：
+
+```tsx
+// Disables all animations including Button components inside Card
+<Card animation="disable-all">
+  <Card.Body>
+    <Card.Title>$450</Card.Title>
+    <Card.Description>Living room Sofa</Card.Description>
+  </Card.Body>
+  <Card.Footer className="gap-3">
+    <Button variant="primary">Buy now</Button>
+    <Button variant="ghost">Add to cart</Button>
+  </Card.Footer>
+</Card>
+
+```
+
+**注意：** `"disable-all"` 会级联到所有子组件，包括独立的 `Button`、`Spinner` 等。
+
+## 全局动画配置
+
+在 `HeroUINativeProvider` 上统一关闭应用内全部 HeroUI Native 动画：
+
+```tsx
+import {HeroUINativeProvider} from 'heroui-native';
+
+<HeroUINativeProvider
+  config={{
+    animation: 'disable-all',
+  }}>
+  <App />
+</HeroUINativeProvider>;
+
+```
+
+这会覆盖各组件自身的 `animation` 设置，全局禁用动画。
+
+## 无障碍
+
+系统「减少动态效果」会在底层自动处理：当用户开启该无障碍选项时，库会通过 `GlobalAnimationSettingsProvider` 与 Reanimated 的 `useReducedMotion()` 全局关闭动画。
+
+你通常无需额外编码，库会尊重系统无障碍偏好。
+
+## 动画状态管理
+
+内部会统一管理禁用态，避免关闭动画后出现卡顿或跳变：禁用时组件会直接落到终态，而不是播放到一半。
+
+## 子级渲染函数
+
+许多组件支持将 `children` 设为函数，便于根据 `isSelected` 等状态渲染：
+
+```tsx
+import {Switch} from 'heroui-native';
+
+<Switch
+  isSelected={isSelected}
+  onSelectedChange={setIsSelected}>
+  {({isSelected, isDisabled}) => (
+    <Switch.Thumb>{isSelected ? <CheckIcon /> : <XIcon />}</Switch.Thumb>
+  )}
+</Switch>;
+
+```
+
+该模式便于根据选中、禁用等状态构建动态界面。
+
+## 下一步
+
+* [样式](/docs/native/getting-started/styling)
+* [主题](/docs/native/getting-started/theming)
+* [颜色](/docs/native/getting-started/colors)
+
+</page>
+
+<page url="/cn/docs/native/getting-started/colors">
+# 颜色
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/colors
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/colors.mdx
+> HeroUI Native 的调色板与主题系统
+
+
+import {ColorSectionSideBySide, ColorSectionStacked, ColorSectionFormField, ColorSectionPrimitive} from "@/components/color-section";
+
+HeroUI Native 的颜色体系围绕语义意图构建，而非堆砌视觉色板。系统不会暴露庞大的原始色表，而是定义一小套有意义的色彩角色，覆盖绝大多数界面需求。
+
+系统中的多数颜色会由少量基础值自动派生。这样 HeroUI 能在保持对比度、层级与主题行为一致的同时，让整套体系易于理解与修改。
+
+颜色应首先传达用途与状态；视觉变化来自尺度、强调与上下文。
+
+## 强调色
+
+强调色代表品牌或产品的主识别色，用于吸引对关键操作、高亮与重点时刻的注意。
+
+强调色应有意识地节制使用。滥用会削弱其冲击力，并破坏视觉层级。多数情况下，组件会从基础强调色自动派生悬停、柔和背景与聚焦等相关取值。
+
+<ColorSectionSideBySide
+  name="强调色"
+  baseVariable="--accent"
+  hoverVariable="--accent"
+  hoverCssValue="color-mix(in oklab, var(--accent) 90%, var(--accent-foreground) 10%)"
+  foregroundVariable="--accent-foreground"
+  soft={{
+  baseVariable: "--accent",
+  baseCssValue: "color-mix(in oklab, var(--accent) 15%, transparent)",
+  hoverVariable: "--accent",
+  hoverCssValue: "color-mix(in oklab, var(--accent) 20%, transparent)",
+  foregroundVariable: "--accent",
+  foregroundCssValue: "var(--accent)",
+}}
+/>
+
+## 默认（中性色）
+
+默认色构成系统的中性骨架，用于大多数非强调的界面元素。
+
+<ColorSectionSideBySide name="默认" baseVariable="--default" hoverVariable="--default" hoverCssValue="color-mix(in oklab, var(--default) 96%, var(--default-foreground) 4%)" foregroundVariable="--default-foreground" />
+
+## 成功
+
+成功色传达积极结果、确认与完成状态，常见于反馈组件、状态指示与校验通过等场景。
+
+<ColorSectionSideBySide
+  name="成功"
+  baseVariable="--success"
+  hoverVariable="--success"
+  hoverCssValue="color-mix(in oklab, var(--success) 90%, var(--success-foreground) 10%)"
+  foregroundVariable="--success-foreground"
+  soft={{
+  baseVariable: "--success",
+  baseCssValue: "color-mix(in oklab, var(--success) 15%, transparent)",
+  hoverVariable: "--success",
+  hoverCssValue: "color-mix(in oklab, var(--success) 20%, transparent)",
+  foregroundVariable: "--success",
+  foregroundCssValue: "var(--success)",
+}}
+/>
+
+## 警告
+
+警告色表示需谨慎、存在风险，或需要留意但非破坏性的操作，常用于提示、消息以及用户应暂停或复核信息的过渡状态。
+
+<ColorSectionSideBySide
+  name="警告"
+  baseVariable="--warning"
+  hoverVariable="--warning"
+  hoverCssValue="color-mix(in oklab, var(--warning) 90%, var(--warning-foreground) 10%)"
+  foregroundVariable="--warning-foreground"
+  soft={{
+  baseVariable: "--warning",
+  baseCssValue: "color-mix(in oklab, var(--warning) 15%, transparent)",
+  hoverVariable: "--warning",
+  hoverCssValue: "color-mix(in oklab, var(--warning) 20%, transparent)",
+  foregroundVariable: "--warning",
+  foregroundCssValue: "var(--warning)",
+}}
+/>
+
+## 危险
+
+危险色表示破坏性、不可逆或关键的操作与状态，应一眼可辨，并稳定用于错误、危险按钮与严重告警。
+
+<ColorSectionSideBySide
+  name="危险"
+  baseVariable="--danger"
+  hoverVariable="--danger"
+  hoverCssValue="color-mix(in oklab, var(--danger) 90%, var(--danger-foreground) 10%)"
+  foregroundVariable="--danger-foreground"
+  soft={{
+  baseVariable: "--danger",
+  baseCssValue: "color-mix(in oklab, var(--danger) 15%, transparent)",
+  hoverVariable: "--danger",
+  hoverCssValue: "color-mix(in oklab, var(--danger) 20%, transparent)",
+  foregroundVariable: "--danger",
+  foregroundCssValue: "var(--danger)",
+}}
+/>
+
+## 前景色
+
+前景色用于正文级内容，如文字与图标。这些颜色针对可读性与无障碍优化，并会随背景与表面上下文自动适配。请勿在组件内硬编码前景色。
+
+<ColorSectionStacked
+  lightColors={[
+  { label: "前景", variable: "--foreground" },
+  { label: "弱化", variable: "--muted" },
+  { label: "分段", variable: "--segment" },
+  { label: "覆盖层", variable: "--overlay" },
+  { label: "链接", variable: "--link" },
+]}
+  darkColors={[
+  { label: "前景", variable: "--foreground", border: true },
+  { label: "弱化", variable: "--muted", border: true },
+  { label: "分段", variable: "--segment", border: true },
+  { label: "覆盖层", variable: "--overlay", border: true },
+  { label: "链接", variable: "--link", border: true },
+]}
+/>
+
+## 背景色
+
+背景色定义界面的基底画布，在保持视觉克制的前提下建立整体对比与氛围。
+
+<ColorSectionStacked
+  lightColors={[
+  { label: "背景", variable: "--background", border: true },
+  { label: "次级", variable: "--background", cssValue: "color-mix(in oklab, var(--background) 96%, var(--foreground) 4%)", border: true },
+  { label: "第三级", variable: "--background", cssValue: "color-mix(in oklab, var(--background) 92%, var(--foreground) 8%)", border: true },
+  { label: "反色", variable: "--foreground" },
+]}
+  darkColors={[
+  { label: "背景", variable: "--background", border: true },
+  { label: "次级", variable: "--background", cssValue: "color-mix(in oklab, var(--background) 96%, var(--foreground) 4%)", border: true },
+  { label: "第三级", variable: "--background", cssValue: "color-mix(in oklab, var(--background) 92%, var(--foreground) 8%)", border: true },
+  { label: "反色", variable: "--foreground", border: true },
+]}
+/>
+
+## 表面色
+
+表面色叠在背景之上，用于卡片、面板、模态与下拉等容器。表面通过抬升、对比与分层形成区隔与层级，而非依赖强烈的色相跳跃。
+
+<ColorSectionStacked
+  lightColors={[
+  { label: "表面", variable: "--surface", border: true },
+  { label: "次级", variable: "--surface-secondary", border: true },
+  { label: "第三级", variable: "--surface-tertiary", border: true },
+]}
+  darkColors={[
+  { label: "表面", variable: "--surface", border: true },
+  { label: "次级", variable: "--surface-secondary", border: true },
+  { label: "第三级", variable: "--surface-tertiary", border: true },
+]}
+/>
+
+## 表单字段
+
+表单字段色是面向输入、控件与可交互字段的专用令牌，覆盖默认、聚焦与悬停等多种状态。将其独立出来，可让表单元素在视觉上与按钮及界面其余部分保持清晰区分。
+
+<ColorSectionFormField
+  colors={{
+  bg: "--field-background",
+  bgHover: "color-mix(in oklab, var(--field-background) 90%, var(--field-foreground) 10%)",
+  placeholder: "--field-placeholder",
+  foreground: "--field-foreground",
+}}
+/>
+
+## 分隔线
+
+分隔线色用于分割线、描边与轻量边界，用来组织内容、引导视线而不增加噪点。分隔线色应保持低对比、不抢眼。
+
+<ColorSectionStacked
+  lightColors={[
+  { label: "分隔线", variable: "--separator", border: true },
+  { label: "次级", variable: "--surface", cssValue: "color-mix(in oklab, var(--surface) 85%, var(--surface-foreground) 15%)", border: true },
+  { label: "第三级", variable: "--surface", cssValue: "color-mix(in oklab, var(--surface) 81%, var(--surface-foreground) 19%)", border: true },
+]}
+  darkColors={[
+  { label: "分隔线", variable: "--separator", border: true },
+  { label: "次级", variable: "--surface", cssValue: "color-mix(in oklab, var(--surface) 85%, var(--surface-foreground) 15%)", border: true },
+  { label: "第三级", variable: "--surface", cssValue: "color-mix(in oklab, var(--surface) 81%, var(--surface-foreground) 19%)", border: true },
+]}
+/>
+
+## 其他
+
+其他颜色在界面中承担特定工具性角色，用于组织内容、引导视线而不增加噪点。
+
+<ColorSectionStacked
+  lightColors={[
+  { label: "边框", variable: "--border" },
+  { label: "背衬", variable: "--backdrop" },
+  { label: "覆盖层", variable: "--overlay", border: true },
+  { label: "分段", variable: "--segment", border: true },
+]}
+  darkColors={[
+  { label: "边框", variable: "--border" },
+  { label: "背衬", variable: "--backdrop" },
+  { label: "覆盖层", variable: "--overlay", border: true },
+  { label: "分段", variable: "--segment", border: true },
+]}
+/>
+
+## 基础色
+
+基础色是与模式无关的底层取值，作为语义色令牌的根基，在明暗主题之间不会改变。
+
+<ColorSectionPrimitive
+  colors={[
+  { label: "白", variable: "--white", border: true, tooltip: "--white: oklch(100% 0 0)" },
+  { label: "黑", variable: "--black", tooltip: "--black: oklch(0% 0 0)" },
+  { label: "雪白", variable: "--snow", border: true, tooltip: "--snow: oklch(0.9911 0 0)" },
+  { label: "月蚀", variable: "--eclipse", tooltip: "--eclipse: oklch(0.2103 0.0059 285.89)" },
+]}
+/>
+
+## 如何使用颜色
+
+**在组件中：**
+
+```tsx
+import { View, Text } from 'react-native';
+
+<View className="bg-background flex-1 p-4">
+  <Text className="text-foreground mb-4">内容</Text>
+  <Button variant="primary" className="bg-accent">
+    <Button.Label className="text-accent-foreground">点击我</Button.Label>
+  </Button>
+</View>;
+
+```
+
+**在 CSS 文件中：**
+
+```css title="global.css"
+/* 直接使用 CSS 变量 */
+.container {
+  flex: 1;
+  background-color: var(--accent);
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius);
+}
+
+```
+
+## 默认主题
+
+完整主题定义见仓库中的 [variables.css](https://github.com/heroui-inc/heroui-native/blob/main/src/styles/variables.css)。该主题通过 [Uniwind 主题系统](https://docs.uniwind.dev/theming/basics) 在明暗模式间自动切换，并支持跟随系统与在代码中切换主题。
+
+```css
+  @theme {
+    /* 基础色（在明暗模式间保持不变） */
+    --white: oklch(100% 0 0);
+    --black: oklch(0% 0 0);
+    --snow: oklch(0.9911 0 0);
+    --eclipse: oklch(0.2103 0.0059 285.89);
+
+    /* 边框 */
+    --border-width: 1px;
+    --field-border-width: 0px;
+
+    /* 基础圆角 */
+    --radius: 0.5rem;
+    --field-radius: calc(var(--radius) * 1.5);
+
+    /* 不透明度 */
+    --opacity-disabled: 0.5;
+}
+
+@layer theme {
+    :root {
+      @variant light {
+        /* 基础颜色 */
+        --background: oklch(0.9702 0 0);
+        --foreground: var(--eclipse);
+
+        /* 表面 */
+        --surface: var(--white);
+        --surface-foreground: var(--foreground);
+
+        --surface-secondary: oklch(0.9524 0.0013 286.37);
+        --surface-secondary-foreground: var(--foreground);
+
+        --surface-tertiary: oklch(0.9373 0.0013 286.37);
+        --surface-tertiary-foreground: var(--foreground);
+
+        /* 覆盖层 */
+        --overlay: var(--white);
+        --overlay-foreground: var(--foreground);
+        --backdrop: oklch(0% 0 0 / 20%);
+
+        --muted: oklch(0.5517 0.0138 285.94);
+
+        --default: oklch(94% 0.001 286.375);
+        --default-foreground: var(--eclipse);
+
+        --accent: oklch(0.6204 0.195 253.83);
+        --accent-foreground: var(--snow);
+
+        /* 表单字段 */
+        --field-background: var(--white);
+        --field-foreground: oklch(0.2103 0.0059 285.89);
+        --field-placeholder: var(--muted);
+        --field-border: transparent;
+
+        /* 状态色 */
+        --success: oklch(0.7329 0.1935 150.81);
+        --success-foreground: var(--eclipse);
+
+        --warning: oklch(0.7819 0.1585 72.33);
+        --warning-foreground: var(--eclipse);
+
+        --danger: oklch(0.6532 0.2328 25.74);
+        --danger-foreground: var(--snow);
+
+        /* 组件颜色 */
+        --segment: var(--white);
+        --segment-foreground: var(--eclipse);
+
+        /* 杂项颜色 */
+        --border: oklch(90% 0.004 286.32);
+        --separator: oklch(74% 0.004 286.32);
+        --focus: var(--accent);
+        --link: var(--foreground);
+      }
+
+      @variant dark {
+        /* 基础颜色 */
+        --background: oklch(12% 0.005 285.823);
+        --foreground: var(--snow);
+
+        /* 表面 */
+        --surface: oklch(0.2103 0.0059 285.89);
+        --surface-foreground: var(--foreground);
+
+        --surface-secondary: oklch(0.257 0.0037 286.14);
+        --surface-secondary-foreground: var(--foreground);
+
+        --surface-tertiary: oklch(0.2721 0.0024 247.91);
+        --surface-tertiary-foreground: var(--foreground);
+
+        /* 覆盖层 */
+        --overlay: oklch(0.2103 0.0059 285.89);
+        --overlay-foreground: var(--foreground);
+        --backdrop: oklch(0% 0 0 / 20%);
+
+        --muted: oklch(70.5% 0.015 286.067);
+
+        --default: oklch(27.4% 0.006 286.033);
+        --default-foreground: var(--snow);
+
+        --accent: oklch(0.6204 0.195 253.83);
+        --accent-foreground: var(--snow);
+
+        /* 表单字段 */
+        --field-background: oklch(0.2103 0.0059 285.89);
+        --field-foreground: var(--foreground);
+        --field-placeholder: var(--muted);
+        --field-border: transparent;
+
+        /* 状态色 */
+        --success: oklch(0.7329 0.1935 150.81);
+        --success-foreground: var(--eclipse);
+
+        --warning: oklch(0.8203 0.1388 76.34);
+        --warning-foreground: var(--eclipse);
+
+        --danger: oklch(0.594 0.1967 24.63);
+        --danger-foreground: var(--snow);
+
+        /* 组件颜色 */
+        --segment: oklch(0.3964 0.01 285.93);
+        --segment-foreground: var(--foreground);
+
+        /* 杂项颜色 */
+        --border: oklch(28% 0.006 286.033);
+        --separator: oklch(40% 0.006 286.033);
+        --focus: var(--accent);
+        --link: var(--foreground);
+      }
+    }
+  }
+
+```
+
+## 自定义颜色
+
+**覆盖已有颜色：**
+
+```css
+@layer theme {
+  @variant light {
+    /* 覆盖默认颜色 */
+    --accent: oklch(0.65 0.25 270); /* 自定义靛蓝强调色 */
+    --success: oklch(0.65 0.15 155);
+  }
+
+  @variant dark {
+    /* 覆盖深色主题颜色 */
+    --accent: oklch(0.65 0.25 270);
+    --success: oklch(0.75 0.12 155);
+  }
+}
+
+```
+
+**提示：** 可在 [oklch.com](https://oklch.com) 转换颜色。
+
+**添加自定义颜色：**
+
+```css
+@layer theme {
+  @variant light {
+    --info: oklch(0.6 0.15 210);
+    --info-foreground: oklch(0.98 0 0);
+  }
+
+  @variant dark {
+    --info: oklch(0.7 0.12 210);
+    --info-foreground: oklch(0.15 0 0);
+  }
+}
+
+@theme inline {
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+}
+
+```
+
+随后即可使用：
+
+```tsx
+import { View, Text } from 'react-native';
+
+<View className="bg-info p-4 rounded-lg">
+  <Text className="text-info-foreground">提示信息</Text>
+</View>;
+
+```
+
+> **注意：** 若要进一步了解主题变量及其在 Tailwind CSS v4 中的行为，请参阅 [Tailwind CSS 主题文档](https://tailwindcss.com/docs/theme)。
+
+## useThemeColor 钩子
+
+`useThemeColor` 钩子已增强，支持一次选取多种颜色，在复杂主题场景下更灵活。
+
+**一次选取多种颜色：**
+
+现在可以同时选取多种颜色，在需要一并处理相关色值时很有用：
+
+```tsx
+import { useThemeColor } from 'heroui-native';
+
+// 一次选取多种颜色
+const [accent, accentForeground, success, danger] = useThemeColor([
+  'accent',
+  'accentForeground',
+  'success',
+  'danger',
+]);
+
+// 使用所选颜色
+<View style={{ backgroundColor: accent }}>
+  <Text style={{ color: accentForeground }}>强调色文字</Text>
+</View>;
+
+```
+
+该改进在需要同时选取并应用多种颜色时，可提升性能，也便于管理复杂的主题组合。
+
+</page>
+
+<page url="/cn/docs/native/getting-started/composition">
+# 组合
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/composition
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/composition.mdx
+> 用组件组合模式搭建灵活 UI
+
+
+HeroUI Native 通过组合模式实现灵活、可定制的组件：可更换实际渲染元素、将多个部件拼在一起，并完全掌控结构。
+
+## 复合组件
+
+HeroUI Native 采用点记法的复合组件——子组件作为属性导出（如 `Button.Label`、`Dialog.Trigger`、`Accordion.Item`），共同构成完整界面。
+
+```tsx
+import { Button, Dialog } from 'heroui-native';
+
+function DialogExample() {
+  return (
+    <Dialog>
+      <Dialog.Trigger>
+        打开对话框
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Dialog.Overlay />
+        <Dialog.Content>
+          <Dialog.Close />
+          <Dialog.Title>对话框标题</Dialog.Title>
+          <Dialog.Description>对话框说明</Dialog.Description>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog>
+  );
+}
+
+```
+
+## asChild 属性
+
+`asChild` 用于改变组件实际渲染的元素。为 `true` 时，HeroUI Native 会克隆子元素并合并属性，而不是渲染默认包裹节点。
+
+```tsx
+import { Button, Dialog } from 'heroui-native';
+
+function DialogExample() {
+  return (
+    <Dialog>
+      {/* asChild：Button 直接作为触发器，无额外包裹 */}
+      <Dialog.Trigger asChild>
+        <Button variant="primary">打开对话框</Button>
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Dialog.Overlay />
+        <Dialog.Content>
+          {/* Dialog.Close 也可使用 asChild */}
+          <Dialog.Close asChild>
+            <Button variant="ghost" size="sm">取消</Button>
+          </Dialog.Close>
+          <Dialog.Title>对话框标题</Dialog.Title>
+          <Dialog.Description>对话框说明</Dialog.Description>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog>
+  );
+}
+
+```
+
+## 自定义组件
+
+通过组合 HeroUI Native 原语封装自己的组件：
+
+```tsx
+import { Button, Card, Popover } from 'heroui-native';
+import { View } from 'react-native';
+
+// 商品卡片
+function ProductCard({ title, description, price, onBuy, ...props }) {
+  return (
+    <Card {...props}>
+      <Card.Body>
+        <Card.Title>{price}</Card.Title>
+        <Card.Title>{title}</Card.Title>
+        <Card.Description>{description}</Card.Description>
+      </Card.Body>
+      <Card.Footer>
+        <Button variant="primary" onPress={onBuy}>
+          <Button.Label>立即购买</Button.Label>
+        </Button>
+      </Card.Footer>
+    </Card>
+  );
+}
+
+// 带 Popover 的按钮
+function PopoverButton({ children, popoverContent, ...props }) {
+  return (
+    <Popover>
+      <Popover.Trigger asChild>
+        <Button {...props}>
+          <Button.Label>{children}</Button.Label>
+        </Button>
+      </Popover.Trigger>
+      <Popover.Portal>
+        <Popover.Overlay />
+        <Popover.Content>
+          <Popover.Close />
+          {popoverContent}
+        </Popover.Content>
+      </Popover.Portal>
+    </Popover>
+  );
+}
+
+// 用法
+<ProductCard
+  title="客厅沙发"
+  description="适合现代家居空间"
+  price="$450"
+  onBuy={() => console.log('购买')}
+/>
+
+<PopoverButton variant="tertiary" popoverContent={
+  <View>
+    <Popover.Title>说明</Popover.Title>
+    <Popover.Description>更多详情见此处</Popover.Description>
+  </View>
+}>
+  显示说明
+</PopoverButton>
+
+```
+
+## 自定义变体
+
+可用 `tailwind-variants` 扩展样式。**文字颜色类须加在 `Button.Label` 上，而不是父级 `Button`：**
+
+```tsx
+import { Button } from 'heroui-native';
+import type { ButtonRootProps } from 'heroui-native';
+import { tv, type VariantProps } from 'tailwind-variants';
+
+const customButtonVariants = tv({
+  base: 'font-semibold rounded-lg',
+  variants: {
+    intent: {
+      primary: 'bg-blue-500',
+      secondary: 'bg-gray-200',
+      danger: 'bg-red-500',
+    },
+  },
+  defaultVariants: {
+    intent: 'primary',
+  },
+});
+
+const customLabelVariants = tv({
+  base: '',
+  variants: {
+    intent: {
+      primary: 'text-white',
+      secondary: 'text-gray-800',
+      danger: 'text-white',
+    },
+  },
+  defaultVariants: {
+    intent: 'primary',
+  },
+});
+
+type CustomButtonVariants = VariantProps<typeof customButtonVariants>;
+
+interface CustomButtonProps
+  extends Omit<ButtonRootProps, 'className' | 'variant'>,
+    CustomButtonVariants {
+  className?: string;
+  labelClassName?: string;
+}
+
+export function CustomButton({
+  intent,
+  className,
+  labelClassName,
+  children,
+  ...props
+}: CustomButtonProps) {
+  return (
+    <Button
+      className={customButtonVariants({ intent, className })}
+      {...props}
+    >
+      <Button.Label
+        className={customLabelVariants({ intent, className: labelClassName })}
+      >
+        {children}
+      </Button.Label>
+    </Button>
+  );
+}
+
+```
+
+## 下一步
+
+* 了解 [样式](/docs/native/getting-started/styling) 体系
+* 阅读 [主题](/docs/native/getting-started/theming) 文档
+* 探索 [动画](/docs/native/getting-started/animation) 选项
+
+</page>
+
+<page url="/cn/docs/native/getting-started/portal">
+# Portal
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/portal
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/portal.mdx
+
+
+Portal 可将子节点渲染到应用中的其他位置，特别适用于需要浮在其他内容之上的组件，例如模态框、覆盖层与弹出层。
+
+## 默认配置
+
+默认情况下，`PortalHost` 已包含在 `HeroUINativeProvider` 中，无需手动添加。Provider 会自动为所有使用 Portal 的组件设置好Portal系统。
+
+## 进阶用法
+
+如需自定义Portal实现，可直接从 `heroui-native` 导入 `Portal` 与 `PortalHost`：
+
+```tsx
+import { Portal, PortalHost } from "heroui-native";
+import { View, Text } from "react-native";
+
+function AppLayout() {
+  return (
+    <View className="flex-1">
+      <View className="p-5">
+        <Text>Header Content</Text>
+      </View>
+      
+      <View className="flex-1 p-5">
+        <Text>Main Content Area</Text>
+        <CustomNotification />
+      </View>
+      
+      {/* Portal host positioned at the top of the screen */}
+      <PortalHost name="notification-host" />
+    </View>
+  );
+}
+
+function CustomNotification() {
+  return (
+    <Portal name="notification-portal" hostName="notification-host">
+      <View className="absolute top-0 left-0 right-0 bg-blue-500 p-4">
+        <Text>This notification appears at the top via Portal</Text>
+      </View>
+    </Portal>
+  );
+}
+
+```
+
+本例中，`CustomNotification` 组件通过 `Portal` 将内容渲染到位于屏幕顶部的 `PortalHost` 处，使通知浮于所有其他内容之上，无论它在组件树中的实际定义位置在哪。
+
+## 状态管理注意事项
+
+父组件中的状态变化可能导致Portal内组件出现意外问题。例如，将文本输入框直接放入Portal内时，若父组件触发重渲染，可能会重置输入框的自动建议，或导致其他界面异常。
+
+为避免该问题，请将交互组件（如输入框）的状态保留在Portal内部：把Portal内容拆分为独立组件，从而隔离父组件重渲染带来的影响。
+
+### 示例模式
+
+```tsx
+// ❌ 问题：父级状态导致重渲染，影响Portal内内容
+function ParentComponent() {
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [inputValue, setInputValue] = useState(""); // State in parent
+  
+  return (
+    <Dialog isOpen={dialogOpen} onOpenChange={setDialogOpen}>
+      <Dialog.Trigger>
+        <Button>Open Dialog</Button>
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Input 
+          value={inputValue} 
+          onChangeText={setInputValue} 
+          // Parent re-renders reset auto-suggestions
+        />
+      </Dialog.Portal>
+    </Dialog>
+  );
+}
+
+// ✅ 正确：在Portal内的独立组件中管理状态
+function ParentComponent() {
+  const [dialogOpen, setDialogOpen] = useState(false);
+  
+  return (
+    <Dialog isOpen={dialogOpen} onOpenChange={setDialogOpen}>
+      <Dialog.Trigger>
+        <Button>Open Dialog</Button>
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <DialogFormContent 
+          onClose={() => setDialogOpen(false)} 
+          // Form state isolated from parent
+        />
+      </Dialog.Portal>
+    </Dialog>
+  );
+}
+
+function DialogFormContent({ onClose }: { onClose: () => void }) {
+  const [inputValue, setInputValue] = useState(""); // State inside portal
+  const [error, setError] = useState("");
+  
+  return (
+    <Dialog.Content>
+      <Input 
+        value={inputValue} 
+        onChangeText={setInputValue}
+        // Auto-suggestions preserved during parent re-renders
+      />
+      <FieldError>{error}</FieldError>
+      <Button onPress={onClose}>Close</Button>
+    </Dialog.Content>
+  );
+}
+
+```
+
+在正确示例中，`DialogFormContent` 独立于父组件管理自身状态。这样即便父组件因 `dialogOpen` 等变化而重渲染，也不会影响输入框的内部状态，从而保留自动建议等输入行为。
+
+## API 参考
+
+### PortalHost
+
+默认情况下，所有 `Portal` 组件的子内容都会作为该 `PortalHost` 的子节点进行渲染。
+
+| prop | type     | description      |
+| ---- | -------- | ---------------- |
+| name | `string` | 作为自定义宿主使用时提供（可选） |
+
+### Portal
+
+| prop     | type              | description                |
+| -------- | ----------------- | -------------------------- |
+| name\*   | `string`          | 唯一值；同名 Portal 会替换原有 Portal |
+| hostName | `string`          | 子内容需要渲染到自定义宿主时提供（可选）       |
+| children | `React.ReactNode` | 要渲染到Portal中的内容             |
+
+\* 必填属性
+
+## 相关链接
+
+* [快速开始](/docs/native/getting-started/quick-start) — 基础搭建指南
+* 查阅 [Provider](/docs/native/getting-started/provider) 文档
+
+</page>
+
+<page url="/cn/docs/native/getting-started/provider">
+# Provider
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/provider
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/provider.mdx
+> 配置 HeroUI Native 的文本、动画与 Toast 等全局能力
+
+
+`HeroUINativeProvider` 是根级 Provider，用于在 React Native 应用中初始化并配置 HeroUI Native，提供全局配置与Portal管理。
+
+## 概览
+
+Provider 作为 HeroUI Native 的主入口，为应用包裹必要的上下文与配置：
+
+* **安全区内边距**：通过 `SafeAreaListener` 自动同步安全区变化，并写入 Uniwind，便于在 Tailwind 中使用（如 `pb-safe-offset-3`）
+* **文本配置**：全局 Text 相关设置，保证各 HeroUI 组件文本表现一致
+* **动画配置**：全局控制是否关闭应用内全部动画
+* **Toast 配置**：全局 Toast 系统（边距、默认属性、内容包裹层等）
+* **Portal管理**：处理叠层、模态等需要浮在应用层级之上的组件
+
+## 基础用法
+
+在应用根节点使用 Provider：
+
+```tsx
+import { HeroUINativeProvider } from 'heroui-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
+export default function App() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <HeroUINativeProvider>{/* Your app content */}</HeroUINativeProvider>
+    </GestureHandlerRootView>
+  );
+}
+
+```
+
+## 配置项
+
+Provider 接受 `config` 属性，常用分组如下。
+
+### 文本组件配置
+
+面向 HeroUI Native 内所有 Text 的全局设置。仅包含适合「全局统一」调整的属性：
+
+```tsx
+import { HeroUINativeProvider } from 'heroui-native';
+import type { HeroUINativeConfig } from 'heroui-native';
+
+const config: HeroUINativeConfig = {
+  textProps: {
+    // Disable font scaling for accessibility
+    allowFontScaling: false,
+
+    // Auto-adjust font size to fit container
+    adjustsFontSizeToFit: false,
+
+    // Maximum font size multiplier when scaling
+    maxFontSizeMultiplier: 1.5,
+
+    // Minimum font scale (iOS only, 0.01-1.0)
+    minimumFontScale: 0.5,
+  },
+};
+
+export default function App() {
+  return (
+    <HeroUINativeProvider config={config}>
+      {/* Your app content */}
+    </HeroUINativeProvider>
+  );
+}
+
+```
+
+### 动画配置
+
+应用级动画开关：
+
+```tsx
+const config: HeroUINativeConfig = {
+  // Disable all animations across the application (cascades to all children)
+  animation: 'disable-all',
+};
+
+```
+
+<Callout type="warning">
+  **说明：** 设为 `'disable-all'` 后，应用内全部动画将被关闭，可用于无障碍或性能优化场景。
+</Callout>
+
+### 开发者信息配置
+
+控制开发环境下控制台中的提示信息：
+
+```tsx
+const config: HeroUINativeConfig = {
+  devInfo: {
+    // Disable styling principles information message
+    stylingPrinciples: false,
+  },
+};
+
+```
+
+<Callout type="info">
+  **说明：** 默认会输出信息类日志。将 `stylingPrinciples: false` 可关闭开发时关于样式原则的提示。
+</Callout>
+
+### Toast 配置
+
+配置全局 Toast（边距、默认属性、包裹层等），也可完全关闭 Toast：
+
+**方式一：关闭 Toast Provider**
+
+```tsx
+const config: HeroUINativeConfig = {
+  // Disable toast provider entirely
+  toast: false,
+  // or
+  toast: 'disabled',
+};
+
+```
+
+<Callout type="info">
+  **说明：** 当 `toast` 为 `false` 或 `'disabled'` 时，不会渲染 `ToastProvider`，应用内无法使用 Toast。
+</Callout>
+
+**方式二：配置 Toast Provider**
+
+```tsx
+import { KeyboardAvoidingView } from 'react-native';
+
+const config: HeroUINativeConfig = {
+  toast: {
+    // Global toast configuration (used as defaults for all toasts)
+    defaultProps: {
+      variant: 'default',
+      placement: 'top',
+      isSwipeable: true,
+      animation: true,
+    },
+    // Insets for spacing from screen edges (added to safe area insets)
+    insets: {
+      top: 0,      // Default: iOS = 0, Android = 12
+      bottom: 6,   // Default: iOS = 6, Android = 12
+      left: 12,    // Default: 12
+      right: 12,   // Default: 12
+    },
+    // Maximum number of visible toasts before opacity starts fading
+    maxVisibleToasts: 3,
+    // Custom wrapper function to wrap the toast content
+    contentWrapper: (children) => (
+      <KeyboardAvoidingView
+        behavior="padding"
+        keyboardVerticalOffset={24}
+        className="flex-1"
+      >
+        {children}
+      </KeyboardAvoidingView>
+    ),
+  },
+};
+
+```
+
+## 完整示例
+
+综合展示各项配置：
+
+```tsx
+import { HeroUINativeProvider } from 'heroui-native';
+import type { HeroUINativeConfig } from 'heroui-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
+const config: HeroUINativeConfig = {
+  // Global text configuration
+  textProps: {
+    minimumFontScale: 0.5,
+    maxFontSizeMultiplier: 1.5,
+    allowFontScaling: true,
+    adjustsFontSizeToFit: false,
+  },
+  // Global animation configuration
+  animation: 'disable-all', // Optional: disable all animations
+  // Developer information messages configuration
+  devInfo: {
+    stylingPrinciples: true, // Optional: disable styling principles message
+  },
+  // Global toast configuration
+  // Option 1: Configure toast with custom settings
+  toast: {
+    defaultProps: {
+      variant: 'default',
+      placement: 'top',
+    },
+    insets: {
+      top: 0,
+      bottom: 6,
+      left: 12,
+      right: 12,
+    },
+    maxVisibleToasts: 3,
+  },
+  // Option 2: Disable toast entirely
+  // toast: false,
+  // or
+  // toast: 'disabled',
+};
+
+export default function App() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <HeroUINativeProvider config={config}>
+        <YourApp />
+      </HeroUINativeProvider>
+    </GestureHandlerRootView>
+  );
+}
+
+```
+
+## 与 Expo Router 集成
+
+使用 Expo Router 时，在根布局中包裹：
+
+```tsx
+// app/_layout.tsx
+import { HeroUINativeProvider } from 'heroui-native';
+import type { HeroUINativeConfig } from 'heroui-native';
+import { Stack } from 'expo-router';
+
+const config: HeroUINativeConfig = {
+  textProps: {
+    minimumFontScale: 0.5,
+    maxFontSizeMultiplier: 1.5,
+  },
+};
+
+export default function RootLayout() {
+  return (
+    <HeroUINativeProvider config={config}>
+      <Stack />
+    </HeroUINativeProvider>
+  );
+}
+
+```
+
+## 架构
+
+### Provider 层级
+
+`HeroUINativeProvider` 内部由多层 Provider 组合而成：
+
+```
+
+HeroUINativeProvider
+├── SafeAreaListener (handles safe area insets updates)
+│   └── GlobalAnimationSettingsProvider (animation configuration)
+│       └── TextComponentProvider (text configuration)
+│           └── ToastProvider (toast configuration, conditionally rendered)
+│               └── Your App
+│               └── PortalHost (for overlays)
+
+```
+
+<Callout type="info">
+  **说明：** `ToastProvider` 是否渲染取决于 `toast` 配置。当 `toast` 为 `false` 或 `'disabled'` 时，不会渲染 `ToastProvider`，应用内容与 `PortalHost` 将直接挂在 `TextComponentProvider` 之下。
+</Callout>
+
+### 安全区内边距处理
+
+Provider 会自动使用 `react-native-safe-area-context` 的 [`SafeAreaListener`](https://appandflow.github.io/react-native-safe-area-context/api/safe-area-listener) 包裹应用。该组件监听安全区与帧的变化但不会触发重渲染，并通过 `onChange` 回调将最新的 insets 同步给 Uniwind。
+
+## 轻量 Provider（Raw）
+
+`HeroUINativeProviderRaw` 是面向包体优化的精简版，不包含 `ToastProvider` 与 `PortalHost`，仅保留最小起点，按需自行组合能力。
+
+### 何时使用
+
+当你希望精确控制打包进应用的依赖时，可使用 Raw Provider。从 `heroui-native/provider-raw` 导入后，下列依赖仅在用到对应组件时才需要：
+
+* **react-native-screens** — 浮层类组件（Popover、Dialog）需要
+* **@gorhom/bottom-sheet** — BottomSheet 需要
+* **react-native-svg** — 使用图标的组件（Accordion、Alert、Checkbox 等）需要
+
+### 接入
+
+```tsx
+import {
+  HeroUINativeProviderRaw,
+  type HeroUINativeConfigRaw,
+} from 'heroui-native/provider-raw';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
+const config: HeroUINativeConfigRaw = {
+  textProps: {
+    maxFontSizeMultiplier: 1.5,
+  },
+};
+
+export default function App() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <HeroUINativeProviderRaw config={config}>
+        {/* Your app content */}
+      </HeroUINativeProviderRaw>
+    </GestureHandlerRootView>
+  );
+}
+
+```
+
+### 手动添加 Toast 与 Portal
+
+使用 Raw Provider 且仍需要 Toast 或 Portal 时，请自行组合：
+
+```tsx
+import { HeroUINativeProviderRaw } from 'heroui-native/provider-raw';
+import { PortalHost } from 'heroui-native/portal';
+import { ToastProvider } from 'heroui-native/toast';
+
+export default function App() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <HeroUINativeProviderRaw>
+        <ToastProvider>
+          {/* Your app content */}
+          <PortalHost />
+        </ToastProvider>
+      </HeroUINativeProviderRaw>
+    </GestureHandlerRootView>
+  );
+}
+
+```
+
+### Raw 的层级
+
+```
+
+HeroUINativeProviderRaw
+├── SafeAreaListener (handles safe area insets updates)
+│   └── GlobalAnimationSettingsProvider (animation configuration)
+│       └── TextComponentProvider (text configuration)
+│           └── Your App
+
+```
+
+## 最佳实践
+
+### 1. 单一 Provider 实例
+
+始终在应用根使用**一个** `HeroUINativeProvider`，不要嵌套多个：
+
+```tsx
+// ❌ Bad
+<HeroUINativeProvider>
+  <SomeComponent>
+    <HeroUINativeProvider> {/* Don't do this */}
+      <AnotherComponent />
+    </HeroUINativeProvider>
+  </SomeComponent>
+</HeroUINativeProvider>
+
+// ✅ Good
+<HeroUINativeProvider>
+  <SomeComponent>
+    <AnotherComponent />
+  </SomeComponent>
+</HeroUINativeProvider>
+
+```
+
+### 2. 配置对象外置
+
+将 `config` 定义在组件外，避免每次渲染重新创建：
+
+```tsx
+// ❌ Bad
+function App() {
+  return (
+    <HeroUINativeProvider
+      config={{
+        textProps: {
+          /* inline config */
+        },
+      }}
+    >
+      {/* ... */}
+    </HeroUINativeProvider>
+  );
+}
+
+// ✅ Good
+const config: HeroUINativeConfig = {
+  textProps: {
+    maxFontSizeMultiplier: 1.5,
+  },
+};
+
+function App() {
+  return (
+    <HeroUINativeProvider config={config}>{/* ... */}</HeroUINativeProvider>
+  );
+}
+
+```
+
+### 3. 文本与无障碍
+
+配置文本属性时请兼顾无障碍，例如允许系统字体缩放但限制上限：
+
+```tsx
+const config: HeroUINativeConfig = {
+  textProps: {
+    // Allow font scaling for accessibility
+    allowFontScaling: true,
+    // But limit maximum scale
+    maxFontSizeMultiplier: 1.5,
+  },
+};
+
+```
+
+## TypeScript 支持
+
+Provider 具备完整类型，可导入类型以获得更好的 IDE 体验：
+
+```tsx
+import { HeroUINativeProvider, type HeroUINativeConfig } from 'heroui-native';
+
+const config: HeroUINativeConfig = {
+  // Full type safety and autocomplete
+  textProps: {
+    allowFontScaling: true,
+    maxFontSizeMultiplier: 1.5,
+  },
+  animation: 'disable-all', // Optional: disable all animations
+  devInfo: {
+    stylingPrinciples: true, // Optional: disable styling principles message
+  },
+  // Toast configuration options:
+  // - false or 'disabled': Disable toast provider
+  // - ToastProviderProps object: Configure toast settings
+  toast: {
+    defaultProps: {
+      variant: 'default',
+      placement: 'top',
+    },
+    insets: {
+      top: 0,
+      bottom: 6,
+      left: 12,
+      right: 12,
+    },
+  },
+};
+
+```
+
+## 相关链接
+
+* [快速开始](/docs/native/getting-started/quick-start) — 基础搭建指南
+* [主题](/docs/native/getting-started/theming) — 颜色与主题定制
+* [样式](/docs/native/getting-started/styling) — 使用 Tailwind 编写样式
+
+</page>
+
+<page url="/cn/docs/native/getting-started/styling">
+# 样式
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/styling
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/styling.mdx
+> 使用 Tailwind 或 StyleSheet API 为 HeroUI Native 组件编写样式
+
+
+HeroUI Native 提供灵活的样式方案：Tailwind CSS 工具类、StyleSheet API，以及用于动态样式的 render props。
+
+## 样式原则
+
+HeroUI Native 以 `className` 作为主要样式入口，所有组件均可通过 `className` 使用 Tailwind 类。
+
+**StyleSheet 优先级：** 同时传入 `style`（StyleSheet）与 `className` 时，`style` 优先级更高，可在需要时覆盖 Tailwind。
+
+**动画样式：** 部分样式属性由 `react-native-reanimated` 驱动，与 StyleSheet 类似，其优先级也高于 `className`。要确认哪些属性受动画占用、无法仅靠 `className` 设置：
+
+* **在 IDE 中悬停 `className`** — TypeScript 定义会提示可用属性
+* **查阅组件文档** — 组件页顶部通常有样式源码链接，其中会标注动画相关限制
+
+**自定义动画样式：** 若某属性被动画占用，可在支持 `animation` 属性的组件上通过 `animation` 进行调整。
+
+## 基础样式
+
+**使用 className：** 所有 HeroUI Native 组件都支持 `className`：
+
+```tsx
+import { Button } from 'heroui-native';
+
+<Button className="bg-accent px-6 py-3 rounded-lg">
+  <Button.Label>Custom Button</Button.Label>
+</Button>;
+
+```
+
+**使用 style：** 也可通过 `style` 传入内联样式：
+
+```tsx
+import { Button } from 'heroui-native';
+
+<Button style={{ backgroundColor: '#8B5CF6', paddingHorizontal: 24 }}>
+  <Button.Label>Styled Button</Button.Label>
+</Button>;
+
+```
+
+## Render Props
+
+使用渲染函数读取组件状态并动态定制内容：
+
+```tsx
+import { RadioGroup, Label, cn } from 'heroui-native';
+
+<RadioGroup value={value} onValueChange={setValue}>
+  <RadioGroup.Item value="option1">
+    {({ isSelected, isInvalid, isDisabled }) => (
+      <>
+        <Label
+          className={cn(
+            'text-foreground',
+            isSelected && 'text-accent font-semibold'
+          )}
+        >
+          Option 1
+        </Label>
+        <Radio
+          className={cn(
+            'border-2 rounded-full',
+            isSelected && 'border-accent bg-accent'
+          )}
+        >
+          {isSelected && <CustomIcon />}
+        </Radio>
+      </>
+    )}
+  </RadioGroup.Item>
+</RadioGroup>;
+
+```
+
+## 封装可复用组件
+
+结合 [tailwind-variants](https://tailwind-variants.org/)（Tailwind 优先的变体 API）封装自定义组件：
+
+```tsx
+import { Button } from 'heroui-native';
+import type { ButtonRootProps } from 'heroui-native';
+import { tv, type VariantProps } from 'tailwind-variants';
+
+const customButtonVariants = tv({
+  base: 'font-semibold rounded-lg',
+  variants: {
+    intent: {
+      primary: 'bg-blue-500',
+      secondary: 'bg-gray-200',
+      danger: 'bg-red-500',
+    },
+  },
+  defaultVariants: {
+    intent: 'primary',
+  },
+});
+
+const customLabelVariants = tv({
+  base: '',
+  variants: {
+    intent: {
+      primary: 'text-white',
+      secondary: 'text-gray-800',
+      danger: 'text-white',
+    },
+  },
+  defaultVariants: {
+    intent: 'primary',
+  },
+});
+
+type CustomButtonVariants = VariantProps<typeof customButtonVariants>;
+
+interface CustomButtonProps
+  extends Omit<ButtonRootProps, 'className' | 'variant'>,
+    CustomButtonVariants {
+  className?: string;
+  labelClassName?: string;
+}
+
+export function CustomButton({
+  intent,
+  className,
+  labelClassName,
+  children,
+  ...props
+}: CustomButtonProps) {
+  return (
+    <Button
+      className={customButtonVariants({ intent, className })}
+      {...props}
+    >
+      <Button.Label
+        className={customLabelVariants({ intent, className: labelClassName })}
+      >
+        {children}
+      </Button.Label>
+    </Button>
+  );
+}
+
+```
+
+## 使用组件自带的 classNames
+
+每个 HeroUI Native 组件都会导出与内部一致的 `classNames` 工具对象，便于让自定义组件在视觉上与库内组件保持一致。
+
+例如，让自定义 `Link` 看起来像 `Button`：
+
+```tsx
+import { buttonClassNames, cn } from 'heroui-native';
+import { Pressable, Text } from 'react-native';
+
+interface LinkProps {
+  href: string;
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  children: React.ReactNode;
+  className?: string;
+}
+
+export function Link({
+  href,
+  variant = 'primary',
+  size = 'md',
+  children,
+  className,
+}: LinkProps) {
+  return (
+    <Pressable
+      className={cn(
+        buttonClassNames.root({ variant, size }),
+        className
+      )}
+      onPress={() => {
+        // Handle navigation
+      }}
+    >
+      <Text className={buttonClassNames.label({ variant, size })}>
+        {children}
+      </Text>
+    </Pressable>
+  );
+}
+
+```
+
+**可用的 classNames 导出：**
+
+每个组件都会导出对应的 `classNames` 对象，例如：
+
+* `buttonClassNames` — 包含 `root` 与 `label` 函数
+* `cardClassNames` — 包含 `root`、`header`、`body`、`footer`、`label` 与 `description` 函数
+* `chipClassNames` — 包含 `root` 与 `label` 函数
+* 其他组件同理……
+
+**典型用法：**
+
+```tsx
+import { buttonClassNames } from 'heroui-native';
+
+// Use with variant and size options
+const rootClasses = buttonClassNames.root({
+  variant: 'primary',
+  size: 'md',
+  className: 'custom-class', // Optional: merge with your own classes
+});
+
+const labelClasses = buttonClassNames.label({
+  variant: 'primary',
+  size: 'md',
+});
+
+```
+
+`classNames` 函数的变体参数与对应组件一致，便于在自定义组件与 HeroUI 组件之间保持视觉一致。
+
+## 响应式设计
+
+HeroUI Native 通过 [Uniwind](https://docs.uniwind.dev/breakpoints) 支持 Tailwind 的响应式断点前缀，如 `sm:`、`md:`、`lg:`、`xl:`，按屏幕宽度条件应用样式。
+
+**移动优先：** 先写无前缀的小屏样式，再用断点为大屏增强。
+
+### 响应式排版与间距
+
+```tsx
+import { Button } from 'heroui-native';
+import { View, Text } from 'react-native';
+
+<View className="px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+  <Text className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">
+    Responsive Heading
+  </Text>
+  <Button className="px-3 sm:px-4 lg:px-6">
+    <Button.Label className="text-sm sm:text-base lg:text-lg">
+      Responsive Button
+    </Button.Label>
+  </Button>
+</View>;
+
+```
+
+### 响应式布局
+
+```tsx
+import { View, Text } from 'react-native';
+
+<View className="flex-row flex-wrap">
+  {/* Mobile: 1 column, Tablet: 2 columns, Desktop: 3 columns */}
+  <View className="w-full sm:w-1/2 lg:w-1/3 p-2">
+    <View className="bg-accent p-4 rounded-lg">
+      <Text className="text-accent-foreground">Item 1</Text>
+    </View>
+  </View>
+</View>;
+
+```
+
+**默认断点：**
+
+* `sm`：640px
+* `md`：768px
+* `lg`：1024px
+* `xl`：1280px
+* `2xl`：1536px
+
+自定义断点与更多说明见 [Uniwind 断点文档](https://docs.uniwind.dev/breakpoints)。
+
+## 工具函数
+
+HeroUI Native 提供一些样式相关的工具。
+
+### cn
+
+`cn` 用于合并 Tailwind 类并处理冲突，适合条件类或与 props 传入的类合并：
+
+```tsx
+import { cn } from 'heroui-native';
+import { View } from 'react-native';
+
+function MyComponent({ className, isActive }) {
+  return (
+    <View
+      className={cn(
+        'bg-background p-4 rounded-lg',
+        'border border-separator',
+        isActive && 'bg-accent',
+        className
+      )}
+    />
+  );
+}
+
+```
+
+`cn` 基于 `tailwind-variants`，具备：
+
+* 自动合并 Tailwind 类（`twMerge: true`）
+* 自定义透明度分组等能力
+* 合理的冲突解决（靠后的类覆盖靠前的类）
+
+**冲突示例：**
+
+```tsx
+// 'bg-accent' overrides 'bg-background'
+cn('bg-background p-4', 'bg-accent');
+// Result: 'p-4 bg-accent'
+
+```
+
+### useThemeColor
+
+从 CSS 变量读取主题色，支持单色或一次读取多种颜色（后者更高效）。
+
+**单色：**
+
+```tsx
+import { useThemeColor } from 'heroui-native';
+
+function MyComponent() {
+  const accentColor = useThemeColor('accent');
+  const dangerColor = useThemeColor('danger');
+
+  return (
+    <View style={{ borderColor: accentColor }}>
+      <Text style={{ color: dangerColor }}>Error message</Text>
+    </View>
+  );
+}
+
+```
+
+**多色（推荐在需要多个 token 时使用）：**
+
+```tsx
+import { useThemeColor } from 'heroui-native';
+
+function MyComponent() {
+  const [accentColor, backgroundColor, dangerColor] = useThemeColor([
+    'accent',
+    'background',
+    'danger',
+  ]);
+
+  return (
+    <View style={{ borderColor: accentColor, backgroundColor }}>
+      <Text style={{ color: dangerColor }}>Error message</Text>
+    </View>
+  );
+}
+
+```
+
+**类型签名：**
+
+```tsx
+// Single color
+useThemeColor(themeColor: ThemeColor): string
+
+// Multiple colors (with type inference for tuples)
+useThemeColor<T extends readonly [ThemeColor, ...ThemeColor[]]>(
+  themeColor: T
+): CreateStringTuple<T['length']>
+
+// Multiple colors (array)
+useThemeColor(themeColor: ThemeColor[]): string[]
+
+```
+
+可用主题色包括：`background`、`foreground`、`surface`、`accent`、`default`、`success`、`warning`、`danger` 及其 hover、soft、foreground 等变体，以及 `muted`、`border`、`separator`、`field`、`overlay` 等语义色。
+
+## 下一步
+
+* [动画](/docs/native/getting-started/animation)
+* [主题](/docs/native/getting-started/theming)
+* [颜色](/docs/native/getting-started/colors)
+
+</page>
+
+<page url="/cn/docs/native/getting-started/theming">
+# 主题
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/theming
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/theming.mdx
+> 使用 CSS 变量与全局样式定制 HeroUI Native 设计系统
+
+
+HeroUI Native 使用 CSS 变量实现主题化，可用标准 CSS 覆盖从颜色到组件样式的一切。
+
+## 工作原理
+
+主题系统建立在 [Tailwind CSS v4](https://tailwindcss.com/docs/theme) 的主题能力之上，并通过 [Uniwind](https://uniwind.dev/) 接入 React Native。导入 `heroui-native/styles` 后，会使用 Tailwind 内置色板并映射到语义变量，自动在明暗主题间切换，并借助 CSS 层与 `@theme` 进行组织。
+
+**命名约定：**
+
+* 无后缀的颜色一般用作背景（如 `--accent`）
+* 带 `-foreground` 后缀的用于该背景上的文字（如 `--accent-foreground`）
+
+## 快速开始
+
+**在组件中应用颜色：**
+
+```tsx
+import { View, Text } from 'react-native';
+
+<View className="bg-background flex-1">
+  <Text className="text-foreground">Your app content</Text>
+</View>;
+
+```
+
+**切换主题：**
+
+通过 [Uniwind](https://docs.uniwind.dev/theming/basics)，HeroUI Native 自动支持深色模式；可跟随系统，也可手动切换明暗变体：
+
+```tsx
+import { Uniwind, useUniwind } from 'uniwind';
+import { Button } from 'heroui-native';
+
+function ThemeToggle() {
+  const { theme } = useUniwind();
+
+  return (
+    <Button
+      onPress={() => Uniwind.setTheme(theme === 'light' ? 'dark' : 'light')}
+    >
+      <Button.Label>
+        Toggle {theme === 'light' ? 'Dark' : 'Light'} Mode
+      </Button.Label>
+    </Button>
+  );
+}
+
+```
+
+**覆盖颜色：**
+
+```css
+/* global.css */
+@layer theme {
+  @variant light {
+    /* Override any color variable */
+    --accent: oklch(0.65 0.25 270); /* Custom indigo accent */
+    --success: oklch(0.65 0.15 155);
+  }
+
+  @variant dark {
+    --accent: oklch(0.65 0.25 270);
+    --success: oklch(0.75 0.12 155);
+  }
+}
+
+```
+
+> **说明：** 完整色板与可视化参考见 [颜色](/docs/native/getting-started/colors)。
+
+**创建自定义主题：**
+
+可借助 Uniwind 的变体系统定义多套主题。完整自定义主题文档见 [Uniwind 自定义主题指南](https://docs.uniwind.dev/theming/custom-themes)。
+
+<Callout type="warning">
+  **重要：** 所有主题必须定义**相同**的变量集合。必填变量清单见 [默认主题](/docs/native/getting-started/colors#default-theme)。
+</Callout>
+
+```css
+/* global.css */
+@layer theme {
+  :root {
+    @variant ocean-light {
+      /* Base Colors */
+      --background: oklch(0.95 0.02 230);
+      --foreground: oklch(0.25 0.04 230);
+
+     /* Surface: Used for non-overlay components (cards, accordions, disclosure groups) */
+      --surface: oklch(0.98 0.01 230);
+      --surface-foreground: oklch(0.3 0.045 230);
+
+      --surface-secondary: oklch(0.96 0.012 230);
+      --surface-secondary-foreground: oklch(0.3 0.045 230);
+
+      --surface-tertiary: oklch(0.94 0.015 230);
+      --surface-tertiary-foreground: oklch(0.3 0.045 230);
+
+      /* Overlay: Used for floating/overlay components (dialogs, popovers, modals, menus) */
+      --overlay: oklch(0.998 0.003 230);
+      --overlay-foreground: oklch(0.3 0.045 230);
+      --backdrop: oklch(0% 0 0 / 20%);
+
+      --muted: oklch(0.55 0.035 230);
+
+      --default: oklch(0.94 0.018 230);
+      --default-foreground: oklch(0.4 0.05 230);
+
+      /* Accent */
+      --accent: oklch(0.6 0.2 230);
+      --accent-foreground: oklch(0.98 0.005 230);
+
+      /* Form Field Defaults - Colors */
+      --field-background: oklch(0.98 0.01 230);
+      --field-foreground: oklch(0.25 0.04 230);
+      --field-placeholder: var(--muted);
+      --field-border: transparent;
+
+      /* Status Colors */
+      --success: oklch(0.72 0.14 165);
+      --success-foreground: oklch(0.25 0.08 165);
+
+      --warning: oklch(0.78 0.12 85);
+      --warning-foreground: oklch(0.3 0.08 85);
+
+      --danger: oklch(0.68 0.18 15);
+      --danger-foreground: oklch(0.98 0.005 15);
+
+      /* Component Colors */
+      --segment: oklch(0.98 0.01 230);
+      --segment-foreground: oklch(0.25 0.04 230);
+
+      /* Misc Colors */
+      --border: oklch(0 0 0 / 0%);
+      --separator: oklch(0.91 0.015 230);
+      --focus: var(--accent);
+      --link: oklch(0.62 0.17 230);
+
+      /* Shadows */
+      --surface-shadow:
+        0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
+        0 0 1px 0 rgba(0, 0, 0, 0.06);
+      --overlay-shadow:
+        0 2px 8px 0 rgba(0, 0, 0, 0.02), 0 -6px 12px 0 rgba(0, 0, 0, 0.01),
+        0 14px 28px 0 rgba(0, 0, 0, 0.03);
+      --field-shadow:
+        0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
+        0 0 1px 0 rgba(0, 0, 0, 0.06);
+    }
+
+    @variant ocean-dark {
+      /* Base Colors */
+      --background: oklch(0.15 0.04 230);
+      --foreground: oklch(0.94 0.01 230);
+
+      /* Surface: Used for non-overlay components (cards, accordions, disclosure groups) */
+      --surface: oklch(0.2 0.048 230);
+      --surface-foreground: oklch(0.9 0.015 230);
+
+      --surface-secondary: oklch(0.24 0.046 230);
+      --surface-secondary-foreground: oklch(0.9 0.015 230);
+
+      --surface-tertiary: oklch(0.27 0.044 230);
+      --surface-tertiary-foreground: oklch(0.9 0.015 230);
+
+      /* Overlay: Used for floating/overlay components (dialogs, popovers, modals, menus) */
+      --overlay: oklch(0.23 0.045 230);
+      --overlay-foreground: oklch(0.9 0.015 230);
+      --backdrop: oklch(0% 0 0 / 20%);
+
+      --muted: oklch(0.5 0.04 230);
+
+      --default: oklch(0.25 0.05 230);
+      --default-foreground: oklch(0.88 0.018 230);
+
+      /* Accent */
+      --accent: oklch(0.72 0.21 230);
+      --accent-foreground: oklch(0.15 0.04 230);
+
+      /* Form Field Defaults - Colors */
+      --field-background: var(--default);
+      --field-foreground: var(--foreground);
+      --field-placeholder: var(--muted);
+      --field-border: transparent;
+
+      /* Status Colors */
+      --success: oklch(0.68 0.16 165);
+      --success-foreground: oklch(0.95 0.008 165);
+
+      --warning: oklch(0.75 0.14 90);
+      --warning-foreground: oklch(0.2 0.04 90);
+
+      --danger: oklch(0.65 0.2 20);
+      --danger-foreground: oklch(0.95 0.008 20);
+
+      /* Component Colors */
+      --segment: oklch(0.22 0.046 230);
+      --segment-foreground: oklch(0.9 0.015 230);
+
+      /* Misc Colors */
+      --border: oklch(0 0 0 / 0%);
+      --separator: oklch(0.28 0.045 230);
+      --focus: var(--accent);
+      --link: oklch(0.75 0.18 230);
+
+      /* Shadows */
+      --surface-shadow: 0 0 0 0 transparent inset; /* No shadow on dark mode */
+      --overlay-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+      --field-shadow: 0 0 0 0 transparent inset; /* Transparent shadow to allow ring utilities to work */
+    }
+  }
+}
+
+```
+
+**重要：** 添加自定义主题后，必须在 Metro 配置中注册：
+
+```js
+// metro.config.js
+const { withUniwindConfig } = require('uniwind/metro');
+const {
+  wrapWithReanimatedMetroConfig,
+} = require('react-native-reanimated/metro-config');
+
+const config = {
+  // ... your existing config
+};
+
+module.exports = withUniwindConfig(wrapWithReanimatedMetroConfig(config), {
+  cssEntryFile: './global.css',
+  dtsFile: './src/uniwind.d.ts',
+  extraThemes: ['ocean-light', 'ocean-dark'],
+});
+
+```
+
+在应用中切换主题：
+
+```tsx
+import { Uniwind } from 'uniwind';
+import { Button } from 'heroui-native';
+
+function App() {
+  return (
+    <Button onPress={() => Uniwind.setTheme('ocean-light')}>
+      <Button.Label>Ocean Theme</Button.Label>
+    </Button>
+  );
+}
+
+```
+
+## 添加自定义颜色
+
+在主题中加入自定义语义色：
+
+```css
+@layer theme {
+  @variant light {
+    --info: oklch(0.6 0.15 210);
+    --info-foreground: oklch(0.98 0 0);
+  }
+
+  @variant dark {
+    --info: oklch(0.7 0.12 210);
+    --info-foreground: oklch(0.15 0 0);
+  }
+}
+
+/* 让颜色可被 Tailwind 使用 */
+@theme inline {
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+}
+
+```
+
+在组件中使用：
+
+```tsx
+import { View, Text } from 'react-native';
+
+<View className="bg-info p-4 rounded-lg">
+  <Text className="text-info-foreground">Info message</Text>
+</View>;
+
+```
+
+## 自定义字体
+
+要在应用中使用自定义字体，需要先加载字体，再覆盖字体相关的 CSS 变量。
+
+### 1. 在应用中加载字体
+
+先加载字体（例如使用 Expo 的 `useFonts`）：
+
+```tsx
+import { useFonts } from 'expo-font';
+import { HeroUINativeProvider } from 'heroui-native';
+import {
+  YourFont_400Regular,
+  YourFont_500Medium,
+  YourFont_600SemiBold,
+} from '@expo-google-fonts/your-font';
+
+export default function App() {
+  const [fontsLoaded] = useFonts({
+    YourFont_400Regular,
+    YourFont_500Medium,
+    YourFont_600SemiBold,
+  });
+
+  if (!fontsLoaded) {
+    return null; // Or return a loading screen
+  }
+
+  return <HeroUINativeProvider>{/* Your app content */}</HeroUINativeProvider>;
+}
+
+```
+
+### 2. 配置字体 CSS 变量
+
+加载完成后，在 `global.css` 中覆盖字体变量：
+
+```css
+@theme {
+  --font-normal: 'YourFont-400Regular';
+  --font-medium: 'YourFont-500Medium';
+  --font-semibold: 'YourFont-600SemiBold';
+}
+
+```
+
+**说明：** CSS 变量中的字体名应与已加载字体的 PostScript 名称一致。请查阅字体包文档，或直接使用 `useFonts` 中出现的名称。
+
+所有 HeroUI Native 组件会自动使用这些字体变量，以保持排版一致。
+
+## 变量参考
+
+HeroUI 定义三类变量：
+
+1. **基础变量** — 如 `--white`、`--black` 等不随主题切换的值
+2. **主题变量** — 随明暗主题切换的颜色
+3. **计算变量** — 自动生成的按压态（hover）与尺寸变体等
+
+完整参考：[颜色文档](/docs/native/getting-started/colors)、[默认主题变量](https://github.com/heroui-inc/heroui-native/blob/main/src/styles/variables.css)、[共享主题工具](https://github.com/heroui-inc/heroui-native/blob/main/src/styles/theme.css)
+
+**计算变量（Tailwind）：**
+
+我们通过 Tailwind 的 `@theme` 指令自动生成按压态与圆角等计算变量，定义见 [theme.css](https://github.com/heroui-inc/heroui-native/blob/main/src/styles/theme.css)：
+
+```css
+  @theme inline static {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-surface: var(--surface);
+  --color-surface-foreground: var(--surface-foreground);
+  --color-surface-hover: color-mix(in oklab, var(--surface) 92%, var(--surface-foreground) 8%);
+
+  --color-surface-secondary: var(--surface-secondary);
+  --color-surface-secondary-foreground: var(--surface-secondary-foreground);
+
+  --color-surface-tertiary: var(--surface-tertiary);
+  --color-surface-tertiary-foreground: var(--surface-tertiary-foreground);
+
+  --color-overlay: var(--overlay);
+  --color-overlay-foreground: var(--overlay-foreground);
+  --color-backdrop: var(--backdrop);
+  
+
+  --color-muted: var(--muted);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-segment: var(--segment);
+  --color-segment-foreground: var(--segment-foreground);
+
+  --color-border: var(--border);
+  --color-separator: var(--separator);
+  --color-focus: var(--focus);
+  --color-link: var(--link);
+
+  --color-default: var(--default);
+  --color-default-foreground: var(--default-foreground);
+
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+
+  --color-danger: var(--danger);
+  --color-danger-foreground: var(--danger-foreground);
+
+  /* Form Field Tokens */
+  --color-field: var(--field-background, var(--default));
+  --color-field-foreground: var(--field-foreground, var(--foreground));
+  --color-field-placeholder: var(--field-placeholder, var(--muted));
+  --color-field-border: var(--field-border, var(--border));
+  --radius-field: var(--field-radius, var(--radius-xl));
+  --border-width-field: var(--field-border-width, var(--border-width));
+
+  --shadow-surface: var(--surface-shadow);
+  --shadow-overlay: var(--overlay-shadow);
+  --shadow-field: var(--field-shadow);
+
+  /* Calculated Variables */
+
+  /* Colors */
+
+  /* --- background shades --- */
+  --color-background-secondary: color-mix(in oklab, var(--background) 96%, var(--foreground) 4%);
+  --color-background-tertiary: color-mix(in oklab, var(--background) 92%, var(--foreground) 8%);
+  --color-background-inverse: var(--foreground);
+
+  /* ------------------------- */
+  --color-default-hover: color-mix(in oklab, var(--default) 96%, var(--default-foreground) 4%);
+  --color-accent-hover: color-mix(in oklab, var(--accent) 90%, var(--accent-foreground) 10%);
+  --color-success-hover: color-mix(in oklab, var(--success) 90%, var(--success-foreground) 10%);
+  --color-warning-hover: color-mix(in oklab, var(--warning) 90%, var(--warning-foreground) 10%);
+  --color-danger-hover: color-mix(in oklab, var(--danger) 90%, var(--danger-foreground) 10%);
+
+  /* Form Field Colors */ 
+  --color-field-hover: color-mix(in oklab, var(--field-background, var(--default)) 90%, var(--field-foreground, var(--foreground)) 2%);
+  --color-field-focus: var(--field-background, var(--default));
+  --color-field-border-hover: color-mix(in oklab, var(--field-border, var(--border)) 88%, var(--field-foreground, var(--foreground)) 10%);
+  --color-field-border-focus: color-mix(in oklab, var(--field-border, var(--border)) 74%, var(--field-foreground, var(--foreground)) 22%);
+
+  /* Soft Colors */
+  --color-accent-soft: color-mix(in oklab, var(--accent) 15%, transparent);
+  --color-accent-soft-foreground: var(--accent);
+  --color-accent-soft-hover: color-mix(in oklab, var(--accent) 20%, transparent);
+
+  --color-danger-soft: color-mix(in oklab, var(--danger) 15%, transparent);
+  --color-danger-soft-foreground: var(--danger);
+  --color-danger-soft-hover: color-mix(in oklab, var(--danger) 20%, transparent);
+
+  --color-warning-soft: color-mix(in oklab, var(--warning) 15%, transparent);
+  --color-warning-soft-foreground: var(--warning);
+  --color-warning-soft-hover: color-mix(in oklab, var(--warning) 20%, transparent);
+
+  --color-success-soft: color-mix(in oklab, var(--success) 15%, transparent);
+  --color-success-soft-foreground: var(--success);
+  --color-success-soft-hover: color-mix(in oklab, var(--success) 20%, transparent);
+
+  /* Separator Colors - Levels */
+  --color-separator-secondary: color-mix(in oklab, var(--surface) 85%, var(--surface-foreground) 15%);
+  --color-separator-tertiary: color-mix(in oklab, var(--surface) 81%, var(--surface-foreground) 19%);
+
+  /* Border Colors - Levels (progressive contrast: default → secondary → tertiary) */
+  /* Light mode: lighter → darker | Dark mode: darker → lighter */
+  --color-border-secondary: color-mix(in oklab, var(--surface) 78%, var(--surface-foreground) 22%);
+  --color-border-tertiary: color-mix(in oklab, var(--surface) 66%, var(--surface-foreground) 34%);
+
+  /* Radius and default sizes - defaults can change by just changing the --radius */
+  --radius-xs: calc(var(--radius) * 0.25); /* 0.125rem (2px) */
+  --radius-sm: calc(var(--radius) * 0.5); /* 0.25rem (4px) */
+  --radius-md: calc(var(--radius) * 0.75); /* 0.375rem (6px) */
+  --radius-lg: calc(var(--radius) * 1); /* 0.5rem (8px) */
+  --radius-xl: calc(var(--radius) * 1.5); /* 0.75rem (12px) */
+  --radius-2xl: calc(var(--radius) * 2); /* 1rem (16px) */
+  --radius-3xl: calc(var(--radius) * 3); /* 1.5rem (24px) */
+  --radius-4xl: calc(var(--radius) * 4); /* 2rem (32px) */
+}
+
+```
+
+表单控件依赖 `--field-*` 变量及其计算出的 hover/focus 变体。在主题中调整它们即可重塑输入框、复选框、单选与 OTP 等，而不会影响按钮、卡片等 Surface 组件的观感。
+
+## 鲜亮配色
+
+默认情况下，HeroUI Native 使用可读性更好的柔和前景色，即将语义色与前景色按比例混合，以在 soft 背景上获得更佳对比度。如果你偏好饱和度更高、更鲜亮的柔和前景色，可以在引入基础样式之后，额外导入可选的 `heroui-native/styles/vibrant` 样式：
+
+```css
+/* global.css */
+@import "heroui-native/styles";
+@import "heroui-native/styles/vibrant"; /* [!code highlight] */
+
+```
+
+这会将所有 `*-soft-foreground` 变量（accent、success、warning、danger）切换为「语义色 92% + 前景色 8%」的混合配方——更贴近原始色调，但仍带有轻微的对比度增强。[Alert](/docs/native/components/alert)、[Avatar](/docs/native/components/avatar)、[Button](/docs/native/components/button)、[Chip](/docs/native/components/chip)、[Toast](/docs/native/components/toast) 等组件会自动在其 soft 变体上使用新的柔和前景色——无需修改任何组件属性。
+
+| 模式      | 可读性优先（默认）                                    | 鲜亮                                    |
+| ------- | -------------------------------------------- | ------------------------------------- |
+| Soft 前景 | `color-mix(color 70-80%, foreground 30-40%)` | `color-mix(color 92%, foreground 8%)` |
+
+<Callout type="warning">
+  鲜亮配色优先考虑视觉饱和度而非对比度。对某些颜色组合（尤其是更浅的强调色），它可能不满足 WCAG 无障碍准则。
+</Callout>
+
+<Callout type="info">
+  可选的鲜亮配色自 [v1.0.4](/docs/native/releases/v1-0-4) 起提供。
+</Callout>
+
+## 相关资源
+
+* [颜色](/docs/native/getting-started/colors)
+* [样式指南](/docs/native/getting-started/styling)
+* [Tailwind CSS v4 主题](https://tailwindcss.com/docs/theme)
+* [OKLCH 调色工具](https://oklch.com)
+
+</page>
+
+<page url="/cn/docs/native/getting-started/design-principles">
+# 设计原则
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/design-principles
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(overview)/design-principles.mdx
+> 指导 HeroUI Native 设计与开发的核心理念
+
+
+HeroUI Native 遵循 9 条核心原则，强调清晰、无障碍、可定制与开发者体验。
+
+## 核心原则
+
+### 1. 语义意图优先于视觉样式
+
+使用语义化命名（primary、secondary、tertiary）而非纯视觉描述（solid、flat、bordered）。受 [Uber Base 设计系统](https://base.uber.com/6d2425e9f/p/756216-button) 启发，变体形成清晰层级：
+
+
+
+```tsx
+// ✅ 语义变体传达层级
+<Button variant="primary">Save</Button>
+<Button variant="secondary">Edit</Button>
+<Button variant="tertiary">Cancel</Button>
+
+```
+
+| 变体            | 用途        | 使用建议        |
+| ------------- | --------- | ----------- |
+| **Primary**   | 推进流程的主操作  | 同一上下文通常 1 个 |
+| **Secondary** | 备选操作      | 可多个         |
+| **Tertiary**  | 取消、跳过等弱操作 | 谨慎使用        |
+| **Danger**    | 破坏性操作     | 按需使用        |
+
+### 2. 无障碍作为基础
+
+遵循移动端无障碍最佳实践，内置合理的触控可达性、焦点管理与读屏支持。所有组件提供适当的无障碍标签与语义结构，以支持 VoiceOver（iOS）与 TalkBack（Android）。
+
+```tsx
+import { Tabs } from 'heroui-native';
+
+<Tabs value="profile" onValueChange={setActiveTab}>
+  <Tabs.List>
+    <Tabs.Indicator />
+    <Tabs.Trigger value="profile">
+      <Tabs.Label>Profile</Tabs.Label>
+    </Tabs.Trigger>
+    <Tabs.Trigger value="security">
+      <Tabs.Label>Security</Tabs.Label>
+    </Tabs.Trigger>
+  </Tabs.List>
+  <Tabs.Content value="profile">Content</Tabs.Content>
+  <Tabs.Content value="security">Content</Tabs.Content>
+</Tabs>
+
+```
+
+### 3. 组合优于配置
+
+复合组件可按需重排、定制或省略子部件，通过点记法精确拼装。
+
+```tsx
+// 组合子部件得到所需结构
+import { Accordion } from 'heroui-native';
+
+<Accordion>
+  <Accordion.Item value="1">
+    <Accordion.Trigger>
+      Question Text
+      <Accordion.Indicator />
+    </Accordion.Trigger>
+    <Accordion.Content>Answer content</Accordion.Content>
+  </Accordion.Item>
+</Accordion>
+
+```
+
+### 4. 渐进式披露
+
+从简单开始，仅在需要时增加复杂度。组件在最少配置下即可工作，并随需求增长而扩展。
+
+```tsx
+import { Button, Spinner } from 'heroui-native';
+import { Feather } from '@expo/vector-icons';
+
+// Level 1: Minimal
+<Button>Click me</Button>
+
+// Level 2: Enhanced
+<Button variant="primary" size="lg">
+  <Feather name="check" size={20} />
+  <Button.Label>Submit</Button.Label>
+</Button>
+
+// Level 3: Advanced
+<Button variant="primary" isDisabled={isLoading}>
+  {isLoading ? (
+    <>
+      <Spinner size="sm" />
+      <Button.Label>Loading...</Button.Label>
+    </>
+  ) : (
+    <Button.Label>Submit</Button.Label>
+  )}
+</Button>
+
+```
+
+### 5. 可预测的行为
+
+跨组件保持一致：`sm` / `md` / `lg` 尺寸、变体体系与 `className` 支持。API 一致，行为一致。
+
+```tsx
+import { Button, Chip, Avatar } from 'heroui-native';
+
+// All components follow the same patterns
+<Button size="lg" variant="primary" className="custom">
+  <Button.Label>Click me</Button.Label>
+</Button>
+<Chip size="lg" color="success" className="custom">
+  <Chip.Label>Success</Chip.Label>
+</Chip>
+<Avatar size="lg" className="custom">
+  <Avatar.Fallback>JD</Avatar.Fallback>
+</Avatar>
+
+```
+
+### 6. 类型安全优先
+
+完整的 TypeScript 支持：智能提示、自动补全与编译期检查。可为自定义组件扩展类型。
+
+```tsx
+import type { ButtonRootProps } from 'heroui-native';
+
+// Type-safe props and event handlers
+<Button
+  variant="primary"  // Autocomplete: primary | secondary | tertiary | ghost | danger | danger-soft
+  size="md"          // Type checked: sm | md | lg
+  onPress={() => {   // Properly typed press handler
+    console.log('Button pressed');
+  }}
+>
+  <Button.Label>Click me</Button.Label>
+</Button>
+
+// Extend types for custom components
+interface CustomButtonProps extends Omit<ButtonRootProps, 'variant'> {
+  intent: 'save' | 'cancel' | 'delete';
+}
+
+```
+
+### 7. 卓越的开发者体验
+
+清晰的 API、可读的错误信息、智能提示，以及对 AI 友好的 Markdown 文档。
+
+### 8. 完整可定制
+
+默认即美观；也可通过 CSS 变量与 [Uniwind 主题系统](https://docs.uniwind.dev/theming/basics) 整体换肤。每个插槽都可定制。
+
+```css
+/* Custom colors using Uniwind's theme layer */
+@layer theme {
+  @variant light {
+    --accent: oklch(0.65 0.25 270); /* Custom indigo accent */
+    --background: oklch(0.98 0 0);  /* Custom background */
+  }
+
+  @variant dark {
+    --accent: oklch(0.65 0.25 270);
+    --background: oklch(0.15 0 0);
+  }
+}
+
+/* Radius customization */
+@theme {
+  --radius: 0.75rem; /* Increase for rounder components */
+}
+
+```
+
+### 9. 开放与可扩展
+
+可包装、扩展与定制组件以匹配产品需求；也可用 `className` 应用自定义样式。
+
+```tsx
+import { Button } from 'heroui-native';
+import type { ButtonRootProps } from 'heroui-native';
+
+// Custom wrapper component
+interface CTAButtonProps extends Omit<ButtonRootProps, 'variant'> {
+  intent?: 'primary-cta' | 'secondary-cta' | 'minimal';
+}
+
+const CTAButton = ({
+  intent = 'primary-cta',
+  children,
+  ...props
+}: CTAButtonProps) => {
+  const variantMap = {
+    'primary-cta': 'primary',
+    'secondary-cta': 'secondary',
+    'minimal': 'ghost'
+  } as const;
+
+  return (
+    <Button variant={variantMap[intent]} {...props}>
+      <Button.Label>{children}</Button.Label>
+    </Button>
+  );
+};
+
+// Usage
+<CTAButton intent="primary-cta">Get Started</CTAButton>
+<CTAButton intent="secondary-cta">Learn More</CTAButton>
+
+```
+
+**结合 tailwind-variants 扩展：**
+
+```tsx
+import { Button } from 'heroui-native';
+import { tv } from 'tailwind-variants';
+
+// Extend button styles with custom variants
+const myButtonVariants = tv({
+  base: 'px-4 py-2 rounded-lg',
+  variants: {
+    variant: {
+      'primary-cta': 'bg-accent px-8 py-4 shadow-lg',
+      'secondary-cta': 'border-2 border-accent px-6 py-3',
+    }
+  },
+  defaultVariants: {
+    variant: 'primary-cta',
+  }
+});
+
+// Label variants for text colors (must be applied to Button.Label)
+const myLabelVariants = tv({
+  base: '',
+  variants: {
+    variant: {
+      'primary-cta': 'text-accent-foreground',
+      'secondary-cta': 'text-accent',
+    }
+  },
+  defaultVariants: {
+    variant: 'primary-cta',
+  }
+});
+
+// Use the custom variants
+function CustomButton({ variant, className, labelClassName, children, ...props }) {
+  return (
+    <Button className={myButtonVariants({ variant, className })} {...props}>
+      <Button.Label className={myLabelVariants({ variant, className: labelClassName })}>
+        {children}
+      </Button.Label>
+    </Button>
+  );
+}
+
+// Usage
+<CustomButton variant="primary-cta">Get Started</CustomButton>
+<CustomButton variant="secondary-cta">Learn More</CustomButton>
+
+```
+
+</page>
+
+<page url="/cn/docs/native/getting-started/quick-start">
+# 快速开始
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/quick-start
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(overview)/quick-start.mdx
+> 几分钟内上手 HeroUI Native
+
+
+## 入门
+
+### 1. 安装 HeroUI Native
+
+<Tabs items={["npm", "pnpm", "yarn", "bun"]}>
+  <Tab value="npm">
+    ```bash
+    npm install heroui-native
+    ```
+  </Tab>
+
+  <Tab value="pnpm">
+    ```bash
+    pnpm add heroui-native
+    ```
+  </Tab>
+
+  <Tab value="yarn">
+    ```bash
+    yarn add heroui-native
+    ```
+  </Tab>
+
+  <Tab value="bun">
+    ```bash
+    bun add heroui-native
+    ```
+  </Tab>
+</Tabs>
+
+### 2. 安装必需的 peer 依赖
+
+<Tabs items={["npm", "pnpm", "yarn", "bun"]}>
+  <Tab value="npm">
+    ```bash
+    npm install react-native-reanimated@^4.1.1 react-native-gesture-handler@^2.28.0 react-native-worklets@^0.5.1 react-native-safe-area-context@^5.6.0 react-native-svg@^15.12.1 tailwind-variants@^3.2.2 tailwind-merge@^3.4.0
+    ```
+  </Tab>
+
+  <Tab value="pnpm">
+    ```bash
+    pnpm add react-native-reanimated@^4.1.1 react-native-gesture-handler@^2.28.0 react-native-worklets@^0.5.1 react-native-safe-area-context@^5.6.0 react-native-svg@^15.12.1 tailwind-variants@^3.2.2 tailwind-merge@^3.4.0
+    ```
+  </Tab>
+
+  <Tab value="yarn">
+    ```bash
+    yarn add react-native-reanimated@^4.1.1 react-native-gesture-handler@^2.28.0 react-native-worklets@^0.5.1 react-native-safe-area-context@^5.6.0 react-native-svg@^15.12.1 tailwind-variants@^3.2.2 tailwind-merge@^3.4.0
+    ```
+  </Tab>
+
+  <Tab value="bun">
+    ```bash
+    bun add react-native-reanimated@^4.1.1 react-native-gesture-handler@^2.28.0 react-native-worklets@^0.5.1 react-native-safe-area-context@^5.6.0 react-native-svg@^15.12.1 tailwind-variants@^3.2.2 tailwind-merge@^3.4.0
+    ```
+  </Tab>
+</Tabs>
+
+<Callout type="warning">
+  建议使用上文列出的确切版本，以避免兼容性问题。版本不一致可能导致难以预期的缺陷。
+</Callout>
+
+### 3. 可选依赖
+
+仅在用到对应组件或能力时需要安装：
+
+| Package                | Version   | 用途                                                                     |
+| ---------------------- | --------- | ---------------------------------------------------------------------- |
+| `react-native-screens` | `^4.16.0` | BottomSheet、Dialog、Menu、Popover、Select、Toast                           |
+| `@gorhom/bottom-sheet` | `^5.2.9`  | BottomSheet；Menu / Popover / Select 使用 `presentation="bottom-sheet"` 时 |
+
+### 4. 配置 Uniwind
+
+请按 [Uniwind 安装指南](https://docs.uniwind.dev/quickstart) 为 React Native 接入 Tailwind CSS。
+
+若从 NativeWind 迁移，参见 [迁移指南](https://docs.uniwind.dev/migration-from-nativewind)。
+
+### 5. 配置 global.css
+
+在 `global.css` 中加入以下导入：
+
+```css
+@import 'tailwindcss';
+@import 'uniwind';
+
+@import 'heroui-native/styles';
+
+/* Path to the heroui-native lib inside node_modules relative to global.css */
+/* Examples:
+ *   - If global.css is at project root: ./node_modules/heroui-native/lib
+ *   - If global.css is in app/: ../node_modules/heroui-native/lib
+ *   - If global.css is in src/styles/: ../../node_modules/heroui-native/lib
+ */
+@source './node_modules/heroui-native/lib';
+
+```
+
+### 6. 使用 Provider 包裹应用
+
+使用 `HeroUINativeProvider` 包裹应用，并务必外层再包一层 `GestureHandlerRootView`：
+
+```tsx
+import { HeroUINativeProvider } from 'heroui-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
+export default function App() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <HeroUINativeProvider>{/* Your app content */}</HeroUINativeProvider>
+    </GestureHandlerRootView>
+  );
+}
+
+```
+
+> **说明：** 关于文本属性、动画、Toast 等高级配置，请参阅 [Provider 文档](/docs/native/getting-started/provider)。
+
+### 7. 使用第一个组件
+
+```tsx
+import { Button } from 'heroui-native';
+import { View } from 'react-native';
+
+export default function MyComponent() {
+  return (
+    <View className="flex-1 justify-center items-center bg-background">
+      <Button onPress={() => console.log('Pressed!')}>Get Started</Button>
+    </View>
+  );
+}
+
+```
+
+### 8. 通过细粒度导出减小包体
+
+若希望减小包体、仅引入用到的组件，可使用细粒度导出：
+
+```tsx
+// Granular imports - use when you need only a few components
+import { HeroUINativeProvider } from "heroui-native/provider";
+import { Button } from "heroui-native/button";
+import { Card } from "heroui-native/card";
+
+// General import - imports the whole library, use when you're using many components
+import { Button, Card } from "heroui-native";
+
+```
+
+细粒度导入适合只用少量组件的场景，有助于控制包体。从 `heroui-native` 整体导入会包含完整库，适合在应用中广泛使用多组件时采用。
+
+**可用的细粒度入口：**
+
+* `heroui-native/provider` — Provider
+* `heroui-native/provider-raw` — 轻量 Provider（最小依赖起点）
+* `heroui-native/[component-name]` — 单个组件
+* `heroui-native/portal` — Portal 工具
+* `heroui-native/toast` — Toast Provider 与工具
+* `heroui-native/utils` — 工具函数
+* `heroui-native/hooks` — 自定义 Hooks
+
+<Callout type="warning">
+  **重要：** 为控制包体，请**始终**坚持使用细粒度导入策略。只要存在一处从 `heroui-native` 的整体导入，就可能使上述优化失效。
+</Callout>
+
+> **提示：** 若需要更强控制，可使用 [`HeroUINativeProviderRaw`](/docs/native/getting-started/provider#raw-provider) — 轻量 Provider，不包含 `ToastProvider` 与 `PortalHost`。
+
+## 接下来
+
+* [HeroUI Native Provider](/docs/native/getting-started/provider)
+* [样式指南](/docs/native/getting-started/styling)
+* [主题文档](/docs/native/getting-started/theming)
+
+## 在 Web（Expo）上运行
+
+<Callout type="warning">
+  HeroUI Native **目前不建议用于 Web**。我们优先聚焦 iOS 与 Android。Web 开发请使用 [HeroUI React](/docs/react/getting-started/quick-start)。
+</Callout>
+
+</page>
+
+<page url="/cn/docs/native/getting-started/agent-skills">
+# Agent Skills
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/agent-skills
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/agent-skills.mdx
+> 让 AI 助手使用 HeroUI Native 组件构建移动端界面
+
+
+HeroUI Native Skills 为 AI 助手提供组件、模式与 React Native 最佳实践等系统化知识。
+
+
+
+### 安装
+
+```bash
+curl -fsSL https://heroui.com/install | bash -s heroui-native
+
+```
+
+或使用 skills 包：
+
+```bash
+npx skills add heroui-inc/heroui
+
+```
+
+<span className="text-sm text-muted">
+  支持 Claude Code、Cursor、OpenCode 等。
+</span>
+
+### 用法
+
+Skills 会被 AI **自动发现**，也可通过 `/heroui-native` 显式调用。
+
+你可以让助手：
+
+* 使用 HeroUI Native 搭建移动组件
+* 用 HeroUI Native 创建页面
+* 定制主题与样式
+* 查阅组件文档
+
+<Callout>
+  更复杂的场景可配合 [MCP 服务器](/docs/native/getting-started/mcp-server)，以实时访问组件文档与源码。
+</Callout>
+
+### 包含内容
+
+* HeroUI Native 安装指南
+* 全部组件的 props、示例与用法模式
+* 基于 Uniwind 的主题与样式指南
+* 设计原则与组合模式
+
+### 目录结构
+
+```
+
+skills/heroui-native/
+├── SKILL.md              # 主说明
+├── LICENSE.txt           # Apache License 2.0
+└── scripts/              # 工具脚本
+    ├── list_components.mjs
+    ├── get_component_docs.mjs
+    ├── get_theme.mjs
+    └── get_docs.mjs
+
+```
+
+### 相关文档
+
+* [Agent Skills 规范](https://agentskills.io/home)
+* [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+* [Cursor Skills](https://cursor.com/docs/context/skills)
+* [OpenCode Skills](https://opencode.ai/docs/skills)
+
+</page>
+
+<page url="/cn/docs/native/getting-started/agents-md">
+# AGENTS.md
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/agents-md
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/agents-md.mdx
+> 将 HeroUI Native 文档下载到项目中，供 AI 编程助手引用
+
+
+可将 HeroUI Native 文档直接下载到项目内，供 AI 助手本地引用。
+
+<Callout>
+  **说明：** `agents-md` 命令专用于 **HeroUI React v3** 与 **HeroUI Native**。其他 CLI 命令（如 `add`、`init`、`upgrade` 等）目前仍面向 HeroUI v2。
+</Callout>
+
+
+
+### 用法
+
+```bash
+npx heroui-cli@latest agents-md --native
+
+```
+
+指定输出文件：
+
+```bash
+npx heroui-cli@latest agents-md --native --output AGENTS.md
+
+```
+
+### 作用
+
+* 将最新 HeroUI Native 文档下载到 `.heroui-docs/native/`
+* 在 `AGENTS.md` 或 `CLAUDE.md` 中生成索引
+* 自动将 `.heroui-docs/` 加入 `.gitignore`
+
+### 选项
+
+* `--native` — 仅下载 Native 文档
+* `--output <files...>` — 输出文件（如 `AGENTS.md` 或 `AGENTS.md CLAUDE.md`）
+* `--ssh` — 使用 SSH 进行 git clone
+
+### 要求
+
+* Tailwind CSS >= v4（通过 Uniwind）
+
+### 相关文档
+
+* [AGENTS.md](https://agents.md/) — AGENTS.md 格式说明
+* [CLAUDE.md](https://code.claude.com/docs/en/best-practices#write-an-effective-claude-md) — Claude 侧的等价物
+* [AGENTS.md vs Skills](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals) — 评测相关讨论
+
+</page>
+
+<page url="/cn/docs/native/getting-started/llms-txt">
+# LLMs.txt
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/llms-txt
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/llms-txt.mdx
+> 让 Claude、Cursor、Windsurf 等 AI 助手理解 HeroUI Native 文档
+
+
+我们提供 [LLMs.txt](https://llmstxt.org/) 文件，便于 AI 编程助手读取 HeroUI Native 文档。
+
+## 可用文件
+
+**核心文档：**
+
+* [/native/llms.txt](/native/llms.txt) — Native 文档快速索引
+* [/native/llms-full.txt](/native/llms-full.txt) — HeroUI Native 完整文档
+
+**上下文窗口较小时：**
+
+* [/native/llms-components.txt](/native/llms-components.txt) — 仅组件文档
+* [/native/llms-patterns.txt](/native/llms-patterns.txt) — 常见模式与配方
+
+**全平台：**
+
+* [/llms.txt](/llms.txt) — 快速索引（React + Native）
+* [/llms-full.txt](/llms-full.txt) — 完整文档（React + Native）
+* [/llms-components.txt](/llms-components.txt) — 全部组件文档
+* [/llms-patterns.txt](/llms-patterns.txt) — 全部模式与配方
+
+## 接入方式
+
+**Claude Code：** 让 Claude 引用文档，例如：
+
+```
+Use HeroUI Native documentation from https://heroui.com/native/llms.txt
+
+```
+
+或在项目的 `.claude` 中配置以自动加载。
+
+**Cursor：** 使用 `@Docs`：
+
+```
+
+@Docs https://heroui.com/native/llms-full.txt
+
+```
+
+[了解更多](https://docs.cursor.com/context/@-symbols/@-docs)
+
+**Windsurf：** 写入 `.windsurfrules`：
+
+```
+
+#docs https://heroui.com/native/llms-full.txt
+
+```
+
+[了解更多](https://docs.codeium.com/windsurf/memories#memories-and-rules)
+
+**其他 AI 工具：** 多数助手支持通过 URL 引用文档，直接提供：
+
+```
+
+https://heroui.com/native/llms.txt
+
+```
+
+**仅组件文档：**
+
+```
+
+https://heroui.com/native/llms-components.txt
+
+```
+
+**模式与最佳实践：**
+
+```
+
+https://heroui.com/native/llms-patterns.txt
+
+```
+
+## 参与改进
+
+若 AI 生成代码有问题，欢迎在 [GitHub](https://github.com/heroui-inc/heroui) 上协助改进 LLMs.txt 文件。
+
+</page>
+
+<page url="/cn/docs/native/getting-started/mcp-server">
+# MCP 服务器
+
+**Category**: native
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/mcp-server
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/mcp-server.mdx
+> 在 AI 助手中直接访问 HeroUI Native 文档
+
+
+HeroUI MCP 服务器让 AI 助手直接读取 HeroUI Native 组件文档，便于在 AI 驱动的开发流程中使用 HeroUI。
+
+
+
+当前 MCP 服务器支持 **heroui-native** 与 [stdio 传输](https://modelcontextprotocol.io/specification/2025-06-18/basic/transports#stdio)。npm 包名为 `@heroui/native-mcp`。源码见 [GitHub](https://github.com/heroui-inc/heroui-mcp)。
+
+<Callout>
+  随着 HeroUI Native 组件增加，MCP 中的可用内容也会同步扩展。
+</Callout>
+
+## 快速配置
+
+**Cursor：**
+
+<div className="flex items-center gap-3 mb-4">
+  <a href="https://link.heroui.com/native-mcp-cursor-install" className="button button--tertiary button--sm no-underline">
+    <svg viewBox="0 0 466.73 532.09" className="w-5 h-5 fill-current">
+      <path d="M457.43,125.94L244.42,2.96c-6.84-3.95-15.28-3.95-22.12,0L9.3,125.94c-5.75,3.32-9.3,9.46-9.3,16.11v247.99c0,6.65,3.55,12.79,9.3,16.11l213.01,122.98c6.84,3.95,15.28,3.95,22.12,0l213.01-122.98c5.75-3.32,9.3-9.46,9.3-16.11v-247.99c0-6.65-3.55-12.79-9.3-16.11h-.01ZM444.05,151.99l-205.63,356.16c-1.39,2.4-5.06,1.42-5.06-1.36v-233.21c0-4.66-2.49-8.97-6.53-11.31L24.87,145.67c-2.4-1.39-1.42-5.06,1.36-5.06h411.26c5.84,0,9.49,6.33,6.57,11.39h-.01Z" />
+    </svg>
+
+    <span>在 Cursor 中安装</span>
+  </a>
+</div>
+
+或手动添加到 **Cursor 设置** → **Tools** → **MCP Servers**：
+
+```json title=".cursor/mcp.json"
+{
+  "mcpServers": {
+    "heroui-native": {
+      "command": "npx",
+      "args": ["-y", "@heroui/native-mcp@latest"]
+    }
+  }
+}
+
+```
+
+也可将以下内容加入 `~/.cursor/mcp.json`。详见 [Cursor 文档](https://cursor.com/docs/context/mcp)。
+
+**Claude Code：** 在终端执行：
+
+```bash
+claude mcp add heroui-native -- npx -y @heroui/native-mcp@latest
+
+```
+
+或手动写入项目的 `.mcp.json`：
+
+```json title=".mcp.json"
+{
+  "mcpServers": {
+    "heroui-native": {
+      "command": "npx",
+      "args": ["-y", "@heroui/native-mcp@latest"]
+    }
+  }
+}
+
+```
+
+添加配置后重启 Claude Code，运行 `/mcp` 查看列表；若显示 **Connected** 即可使用。
+
+更多说明见 [Claude Code MCP 文档](https://docs.claude.com/en/docs/claude-code/mcp)。
+
+**Windsurf：** 在项目 `.windsurf/mcp.json` 中加入：
+
+```json title=".windsurf/mcp.json"
+{
+  "mcpServers": {
+    "heroui-native": {
+      "command": "npx",
+      "args": ["-y", "@heroui/native-mcp@latest"]
+    }
+  }
+}
+
+```
+
+保存后重启 Windsurf 以生效。
+
+详见 [Windsurf MCP 文档](https://docs.windsurf.com/windsurf/cascade/mcp)。
+
+**Zed：** 在 `settings.json` 中配置（命令面板 `zed: open settings` 或 `Cmd-,` / `Ctrl-,`）：
+
+```json title="settings.json"
+{
+  "context_servers": {
+    "heroui-native": {
+      "command": "npx",
+      "args": ["-y", "@heroui/native-mcp@latest"],
+      "env": {}
+    }
+  }
+}
+
+```
+
+重启 Zed 后，在 Agent 面板设置中确认 heroui-native 旁指示点为绿色，提示为「Server is active」。
+
+详见 [Zed MCP 文档](https://zed.dev/docs/ai/mcp)。
+
+**VS Code：** 若配合 GitHub Copilot 使用 MCP，在项目 `.vscode/mcp.json` 中添加：
+
+```json title=".vscode/mcp.json"
+{
+  "servers": {
+    "heroui-native": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@heroui/native-mcp@latest"]
+    }
+  }
+}
+
+```
+
+打开 `.vscode/mcp.json`，在 heroui-native 旁点击 **Start**。
+
+详见 [VS Code MCP 文档](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)。
+
+**Codex：** 写入 `~/.codex/config.toml` 或项目内 `.codex/config.toml`：
+
+```toml title="config.toml"
+[mcp_servers.heroui-native]
+command = "npx"
+args = ["-y", "@heroui/native-mcp@latest"]
+
+```
+
+重启 Codex，在 TUI 中运行 `/mcp` 校验服务器已激活。
+
+详见 [Codex MCP 文档](https://developers.openai.com/codex/mcp)。
+
+**OpenCode：** 在项目 `opencode.json` 中添加：
+
+```json title="opencode.json"
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "heroui-native": {
+      "type": "local",
+      "command": ["npx", "-y", "@heroui/native-mcp@latest"]
+    }
+  }
+}
+
+```
+
+重启 OpenCode 后生效。
+
+详见 [OpenCode MCP 文档](https://open-code.ai/docs/en/mcp-servers)。
+
+## 用法
+
+配置完成后，可向 AI 提问，例如：
+
+* "Help me install HeroUI Native in my Expo app"
+* "Show me all HeroUI Native components"
+* "What props does the Button component have?"
+* "Give me an example of using the Card component"
+* "What are the theme variables for dark mode?"
+
+### 自动升级
+
+MCP 也可协助将 HeroUI Native 升级到最新版本，例如：
+
+```bash
+"Hey Cursor, update HeroUI Native to the latest version"
+
+```
+
+助手通常会：
+
+* 对比当前版本与最新发布
+* 阅读变更日志中的破坏性变更
+* 在项目中应用必要的代码更新
+
+适用于升级到最新稳定版或预发布版本。
+
+## 可用工具
+
+MCP 向 AI 暴露以下工具：
+
+| 工具                    | 说明                                                                                 |
+| --------------------- | ---------------------------------------------------------------------------------- |
+| `list_components`     | 列出全部 HeroUI Native 组件                                                              |
+| `get_component_docs`  | 获取一个或多个组件的完整文档（结构、props、示例与用法模式）                                                   |
+| `get_theme_variables` | 读取颜色、排版、间距等主题变量，支持明暗模式                                                             |
+| `get_docs`            | 浏览 HeroUI Native 全部文档（指南与原则等）；安装说明可使用路径 `/docs/native/getting-started/quick-start` |
+
+## 故障排除
+
+**环境要求：** Node.js 22 及以上。使用 `npx` 时会自动下载包。
+
+**需要帮助？** [GitHub Issues](https://github.com/heroui-inc/heroui-mcp/issues) | [Discord 社区](https://discord.gg/heroui)
+
+## 链接
+
+* [npm 包](https://www.npmjs.com/package/@heroui/native-mcp)
+* [GitHub 仓库](https://github.com/heroui-inc/heroui-mcp)
+* [贡献指南](https://github.com/heroui-inc/heroui-mcp/blob/main/CONTRIBUTING.md)
+
+</page>

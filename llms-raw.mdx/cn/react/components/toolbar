@@ -1,0 +1,297 @@
+<page url="/cn/docs/react/components/toolbar">
+# Toolbar 工具栏
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/toolbar
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(layout)/toolbar.mdx
+> 用于承载可交互控件的容器，并支持方向键导航。
+
+
+***
+
+## 引入
+
+```tsx
+import { Toolbar } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Bold, Copy, Italic, Scissors, Underline} from "@gravity-ui/icons";
+import {
+  Button,
+  ButtonGroup,
+  Separator,
+  ToggleButton,
+  ToggleButtonGroup,
+  Toolbar,
+} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <Toolbar aria-label="文本格式">
+      <ToggleButtonGroup aria-label="文本样式" selectionMode="multiple">
+        <ToggleButton isIconOnly aria-label="粗体" id="bold">
+          <Bold />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="斜体" id="italic">
+          <ToggleButtonGroup.Separator />
+          <Italic />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="下划线" id="underline">
+          <ToggleButtonGroup.Separator />
+          <Underline />
+        </ToggleButton>
+      </ToggleButtonGroup>
+      <Separator />
+      <ButtonGroup variant="tertiary">
+        <Button isIconOnly aria-label="复制">
+          <Copy />
+        </Button>
+        <Button isIconOnly aria-label="剪切">
+          <ButtonGroup.Separator />
+          <Scissors />
+        </Button>
+      </ButtonGroup>
+    </Toolbar>
+  );
+}
+
+```
+
+### 垂直方向
+
+```tsx
+import {ArrowUturnCcwLeft, ArrowUturnCwRight, Bold, Italic, Underline} from "@gravity-ui/icons";
+import {
+  Button,
+  ButtonGroup,
+  Separator,
+  ToggleButton,
+  ToggleButtonGroup,
+  Toolbar,
+} from "@heroui/react";
+
+export function Vertical() {
+  return (
+    <Toolbar aria-label="工具" orientation="vertical">
+      <ToggleButtonGroup aria-label="文本样式" selectionMode="multiple">
+        <ToggleButton isIconOnly aria-label="粗体" id="bold">
+          <Bold />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="斜体" id="italic">
+          <ToggleButtonGroup.Separator />
+          <Italic />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="下划线" id="underline">
+          <ToggleButtonGroup.Separator />
+          <Underline />
+        </ToggleButton>
+      </ToggleButtonGroup>
+      <Separator />
+      <ButtonGroup variant="tertiary">
+        <Button isIconOnly aria-label="撤销">
+          <ArrowUturnCcwLeft />
+        </Button>
+        <Button isIconOnly aria-label="重做">
+          <ButtonGroup.Separator />
+          <ArrowUturnCwRight />
+        </Button>
+      </ButtonGroup>
+    </Toolbar>
+  );
+}
+
+```
+
+### 与 ButtonGroup 组合
+
+```tsx
+import {
+  ArrowUturnCcwLeft,
+  ArrowUturnCwRight,
+  Bold,
+  Italic,
+  TextAlignCenter,
+  TextAlignLeft,
+  TextAlignRight,
+  Underline,
+} from "@gravity-ui/icons";
+import {
+  Button,
+  ButtonGroup,
+  Separator,
+  ToggleButton,
+  ToggleButtonGroup,
+  Toolbar,
+} from "@heroui/react";
+
+export function WithButtonGroup() {
+  return (
+    <Toolbar aria-label="编辑器工具栏">
+      <ButtonGroup variant="tertiary">
+        <Button>
+          <ArrowUturnCcwLeft />
+          撤销
+        </Button>
+        <Button>
+          <ButtonGroup.Separator />
+          <ArrowUturnCwRight />
+          重做
+        </Button>
+      </ButtonGroup>
+      <Separator />
+      <ToggleButtonGroup aria-label="文本样式" selectionMode="multiple">
+        <ToggleButton isIconOnly aria-label="粗体" id="bold">
+          <Bold />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="斜体" id="italic">
+          <ToggleButtonGroup.Separator />
+          <Italic />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="下划线" id="underline">
+          <ToggleButtonGroup.Separator />
+          <Underline />
+        </ToggleButton>
+      </ToggleButtonGroup>
+      <Separator />
+      <ButtonGroup variant="tertiary">
+        <Button isIconOnly aria-label="左对齐">
+          <TextAlignLeft />
+        </Button>
+        <Button isIconOnly aria-label="居中">
+          <ButtonGroup.Separator />
+          <TextAlignCenter />
+        </Button>
+        <Button isIconOnly aria-label="右对齐">
+          <ButtonGroup.Separator />
+          <TextAlignRight />
+        </Button>
+      </ButtonGroup>
+    </Toolbar>
+  );
+}
+
+```
+
+### Attached
+
+```tsx
+import {Bold, Copy, Italic, Scissors, Underline} from "@gravity-ui/icons";
+import {
+  Button,
+  ButtonGroup,
+  Separator,
+  ToggleButton,
+  ToggleButtonGroup,
+  Toolbar,
+} from "@heroui/react";
+
+export function Attached() {
+  return (
+    <Toolbar isAttached aria-label="文本格式">
+      <ToggleButtonGroup aria-label="文本样式" selectionMode="multiple">
+        <ToggleButton isIconOnly aria-label="粗体" id="bold">
+          <Bold />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="斜体" id="italic">
+          <ToggleButtonGroup.Separator />
+          <Italic />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="下划线" id="underline">
+          <ToggleButtonGroup.Separator />
+          <Underline />
+        </ToggleButton>
+      </ToggleButtonGroup>
+      <Separator />
+      <ButtonGroup variant="tertiary">
+        <Button isIconOnly aria-label="复制">
+          <Copy />
+        </Button>
+        <Button isIconOnly aria-label="剪切">
+          <ButtonGroup.Separator />
+          <Scissors />
+        </Button>
+      </ButtonGroup>
+    </Toolbar>
+  );
+}
+
+```
+
+## Related Components
+
+- **ButtonGroup**: Group related buttons together
+- **ToggleButtonGroup**: Group multiple toggle buttons into a unified control
+- **Separator**: Visual divider between content
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { Toolbar } from '@heroui/react';
+
+function CustomToolbar() {
+  return (
+    <Toolbar
+      aria-label="Actions"
+      className="rounded-xl border border-default bg-surface p-2"
+    >
+      {/* toolbar content */}
+    </Toolbar>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Toolbar 的组件类名，可使用 `@layer components` 指令。
+<br/>[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .toolbar {
+    @apply gap-4 rounded-lg bg-surface p-3;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于定制。
+
+### CSS 类
+
+Toolbar 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/toolbar.css)）：
+
+- `.toolbar` - 基础容器
+- `.toolbar--horizontal` - 水平方向（默认）
+- `.toolbar--vertical` - 垂直方向
+- `.toolbar--attached` - Attached 变体：surface 背景与完全圆角
+
+## API 参考
+
+### Toolbar Props
+
+继承 [React Aria Toolbar](https://react-spectrum.adobe.com/react-aria/Toolbar.html)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `isAttached` | `boolean` | `false` | Toolbar 是否使用带完全圆角的 surface 背景 |
+| `orientation` | `"horizontal" \| "vertical"` | `"horizontal"` | Toolbar 的方向 |
+| `aria-label` | `string` | - | Toolbar 的无障碍标签 |
+| `aria-labelledby` | `string` | - | 用于标注该 Toolbar 的元素 id |
+| `children` | `React.ReactNode \| (values: ToolbarRenderProps) => React.ReactNode` | - | 内容或渲染 prop |
+| `className` | `string \| (values: ToolbarRenderProps) => string` | - | 额外的 CSS 类名 |
+
+### ToolbarRenderProps
+
+使用渲染 prop 模式时，会提供以下值：
+
+| Prop | 类型 | 描述 |
+|------|------|------|
+| `orientation` | `"horizontal" \| "vertical"` | 当前 Toolbar 的方向 |
+</page>

@@ -1,0 +1,247 @@
+<page url="/cn/docs/react/components/alert">
+# Alert 警告
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/alert
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(feedback)/alert.mdx
+> 向用户展示重要消息与通知，并提供状态指示。
+
+
+## 引入
+
+```tsx
+import { Alert } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Alert, Button, CloseButton, Spinner} from "@heroui/react";
+import React from "react";
+
+export function Basic() {
+  return (
+    <div className="grid w-full max-w-xl gap-4">
+      {/* 默认 — 一般信息 */}
+      <Alert>
+        <Alert.Indicator />
+        <Alert.Content>
+          <Alert.Title>新功能已上线</Alert.Title>
+          <Alert.Description>
+            查看我们的最新更新，包括深色模式支持与改进的无障碍体验。
+          </Alert.Description>
+        </Alert.Content>
+      </Alert>
+
+      {/* 强调 — 重要信息含操作 */}
+      <Alert status="accent">
+        <Alert.Indicator />
+        <Alert.Content>
+          <Alert.Title>有可用更新</Alert.Title>
+          <Alert.Description>
+            应用有新版本可用。请刷新页面以获取最新功能与问题修复。
+          </Alert.Description>
+          <Button className="mt-2 sm:hidden" size="sm" variant="primary">
+            刷新
+          </Button>
+        </Alert.Content>
+        <Button className="hidden sm:block" size="sm" variant="primary">
+          刷新
+        </Button>
+      </Alert>
+
+      {/* 危险 — 错误与排查步骤 */}
+      <Alert status="danger">
+        <Alert.Indicator />
+        <Alert.Content>
+          <Alert.Title>无法连接到服务器</Alert.Title>
+          <Alert.Description>
+            当前遇到连接问题，请尝试以下操作：
+            <ul className="mt-2 list-inside list-disc space-y-1 text-sm">
+              <li>检查网络连接</li>
+              <li>刷新页面</li>
+              <li>清除浏览器缓存</li>
+            </ul>
+          </Alert.Description>
+          <Button className="mt-2 sm:hidden" size="sm" variant="danger">
+            重试
+          </Button>
+        </Alert.Content>
+        <Button className="hidden sm:block" size="sm" variant="danger">
+          重试
+        </Button>
+      </Alert>
+
+      {/* 无描述 */}
+      <Alert status="success">
+        <Alert.Indicator />
+        <Alert.Content>
+          <Alert.Title>个人资料已更新</Alert.Title>
+        </Alert.Content>
+        <CloseButton />
+      </Alert>
+
+      {/* 自定义指示器 — 加载中 */}
+      <Alert status="accent">
+        <Alert.Indicator>
+          <Spinner size="sm" />
+        </Alert.Indicator>
+        <Alert.Content>
+          <Alert.Title>正在处理你的请求</Alert.Title>
+          <Alert.Description>正在同步你的数据，请稍候，这可能需要一点时间。</Alert.Description>
+        </Alert.Content>
+      </Alert>
+
+      {/* 无关闭按钮 */}
+      <Alert status="warning">
+        <Alert.Indicator />
+        <Alert.Content>
+          <Alert.Title>计划维护</Alert.Title>
+          <Alert.Description>
+            我们将于 UTC 时间 3 月 15 日（周日）凌晨 2:00 至上午 6:00
+            进行计划维护，期间服务将暂时不可用。
+          </Alert.Description>
+        </Alert.Content>
+      </Alert>
+    </div>
+  );
+}
+
+```
+
+### 组件结构
+
+导入 Alert 组件后，可通过点语法访问所有子部分。
+
+```tsx
+import { Alert } from '@heroui/react';
+
+export default () => (
+  <Alert>
+    <Alert.Indicator />
+    <Alert.Content>
+      <Alert.Title />
+      <Alert.Description />
+    </Alert.Content>
+  </Alert>
+)
+
+```
+
+## Related Components
+
+* **CloseButton**: Button for dismissing overlays
+* **Button**: Allows a user to perform an action
+* **Spinner**: Loading indicator
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { Alert } from "@heroui/react";
+
+function CustomAlert() {
+  return (
+    <Alert className="border-2 border-blue-500 rounded-xl" status="accent">
+      <Alert.Indicator className="text-blue-600" />
+      <Alert.Content className="gap-1">
+        <Alert.Title className="font-bold text-lg">Custom Alert</Alert.Title>
+        <Alert.Description className="text-sm opacity-80">
+          This alert has custom styling applied
+        </Alert.Description>
+      </Alert.Content>
+    </Alert>
+  );
+}
+
+```
+
+### 自定义组件类
+
+要自定义 Alert 的组件类，可使用 `@layer components` 指令。
+<br />[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .alert {
+    @apply rounded-2xl shadow-lg;
+  }
+
+  .alert__title {
+    @apply font-bold text-lg;
+  }
+
+  .alert--danger {
+    @apply border-l-4 border-red-600;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+Alert 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/alert.css)）：
+
+#### 基础类
+
+* `.alert` — Alert 根容器
+* `.alert__indicator` — 图标/指示器容器
+* `.alert__content` — 包裹标题与说明的内容容器
+* `.alert__title` — Alert 标题文本
+* `.alert__description` — Alert 说明文本
+
+#### 状态变体类
+
+* `.alert--default` — 默认灰色状态
+* `.alert--accent` — 强调蓝色状态
+* `.alert--success` — 成功绿色状态
+* `.alert--warning` — 警告黄/橙色状态
+* `.alert--danger` — 危险红色状态
+
+### 交互状态
+
+Alert 主要用于信息展示，基础组件本身通常没有交互状态；但它可以包含按钮或关闭按钮等交互元素。
+
+## API 参考
+
+### Alert Props
+
+| Prop        | 类型                                                            | 默认值         | 描述          |
+| ----------- | ------------------------------------------------------------- | ----------- | ----------- |
+| `status`    | `"default" \| "accent" \| "success" \| "warning" \| "danger"` | `"default"` | Alert 的视觉状态 |
+| `className` | `string`                                                      | -           | 附加的 CSS 类   |
+| `children`  | `ReactNode`                                                   | -           | Alert 内容    |
+
+### Alert.Indicator Props
+
+| Prop        | 类型          | 默认值 | 描述                |
+| ----------- | ----------- | --- | ----------------- |
+| `className` | `string`    | -   | 附加的 CSS 类         |
+| `children`  | `ReactNode` | -   | 自定义指示图标（默认显示状态图标） |
+
+### Alert.Content Props
+
+| Prop        | 类型          | 默认值 | 描述                          |
+| ----------- | ----------- | --- | --------------------------- |
+| `className` | `string`    | -   | 附加的 CSS 类                   |
+| `children`  | `ReactNode` | -   | 内容（通常为 Title 与 Description） |
+
+### Alert.Title Props
+
+| Prop        | 类型          | 默认值 | 描述         |
+| ----------- | ----------- | --- | ---------- |
+| `className` | `string`    | -   | 附加的 CSS 类  |
+| `children`  | `ReactNode` | -   | Alert 标题文本 |
+
+### Alert.Description Props
+
+| Prop        | 类型          | 默认值 | 描述         |
+| ----------- | ----------- | --- | ---------- |
+| `className` | `string`    | -   | 附加的 CSS 类  |
+| `children`  | `ReactNode` | -   | Alert 说明文本 |
+
+</page>

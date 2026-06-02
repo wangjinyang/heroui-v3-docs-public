@@ -1,0 +1,6 @@
+:HL["/heroui-v3-docs-public/_next/static/chunks/0ig04rqqn~eig.css","style"]
+:HL["/heroui-v3-docs-public/_next/static/chunks/17a6c2wxjw..~.css","style"]
+:HL["/heroui-v3-docs-public/_next/static/media/Inter_Bold-s.p.0libujw.zovmv.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
+:HL["/heroui-v3-docs-public/_next/static/media/Inter_Medium-s.p.01t4y7zkof.7b.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
+:HL["/heroui-v3-docs-public/_next/static/media/Inter_Regular-s.p.01~_0bgegu-en.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"FDgGPBxbbYQR9B_va9PfG"}

@@ -1,0 +1,299 @@
+<page url="/cn/docs/react/components/color-swatch">
+# ColorSwatch 颜色色块
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/color-swatch
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-swatch.mdx
+> 颜色值的视觉预览，并提供无障碍支持。
+
+
+## 引入
+
+```tsx
+import { ColorSwatch } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {ColorSwatch} from "@heroui/react";
+
+export function ColorSwatchBasic() {
+  return (
+    <div className="flex items-center gap-3">
+      <ColorSwatch aria-label="蓝色" color="#0485F7" />
+      <ColorSwatch aria-label="红色" color="#EF4444" />
+      <ColorSwatch aria-label="琥珀色" color="#F59E0B" />
+      <ColorSwatch aria-label="绿色" color="#10B981" />
+      <ColorSwatch aria-label="品红" color="#D946EF" />
+    </div>
+  );
+}
+
+```
+
+### Sizes
+
+```tsx
+import {ColorSwatch} from "@heroui/react";
+
+export function ColorSwatchSizes() {
+  return (
+    <div className="flex items-center gap-3">
+      <ColorSwatch color="#0485F7" size="xs" />
+      <ColorSwatch color="#EF4444" size="sm" />
+      <ColorSwatch color="#F59E0B" size="md" />
+      <ColorSwatch color="#10B981" size="lg" />
+      <ColorSwatch color="#D946EF" size="xl" />
+    </div>
+  );
+}
+
+```
+
+### Shapes
+
+```tsx
+import {ColorSwatch} from "@heroui/react";
+
+export function ColorSwatchShapes() {
+  return (
+    <div className="flex items-center gap-3">
+      <ColorSwatch color="#0485F7" shape="circle" />
+      <ColorSwatch color="#0485F7" shape="square" />
+    </div>
+  );
+}
+
+```
+
+### Transparency
+
+```tsx
+import {ColorSwatch} from "@heroui/react";
+
+export function ColorSwatchTransparency() {
+  return (
+    <div className="flex items-center gap-3">
+      <ColorSwatch aria-label="100% 不透明度" color="rgba(4, 133, 247, 1)" />
+      <ColorSwatch aria-label="75% 不透明度" color="rgba(4, 133, 247, 0.75)" />
+      <ColorSwatch aria-label="50% 不透明度" color="rgba(4, 133, 247, 0.5)" />
+      <ColorSwatch aria-label="25% 不透明度" color="rgba(4, 133, 247, 0.25)" />
+      <ColorSwatch aria-label="0% 不透明度" color="rgba(4, 133, 247, 0)" />
+    </div>
+  );
+}
+
+```
+
+### Custom Styles with Render Props
+
+你可以使用 `style` 渲染 prop 来读取颜色值并创建自定义视觉效果。
+
+```tsx
+"use client";
+
+import {ColorSwatch} from "@heroui/react";
+
+export function ColorSwatchCustomStyles() {
+  const colors = ["#0485F7", "#EF4444", "#F59E0B", "#10B981", "#D946EF"];
+
+  return (
+    <div className="flex flex-col gap-8">
+      {/* 发光效果 */}
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">发光效果</span>
+        <div className="flex items-center gap-4">
+          {colors.map((color) => (
+            <ColorSwatch
+              key={color}
+              color={color}
+              size="xl"
+              style={() => ({
+                boxShadow: `0 0 20px 2px ${color}`,
+              })}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* 渐变色块 */}
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">渐变</span>
+        <div className="flex items-center gap-4">
+          {colors.map((color) => (
+            <ColorSwatch
+              key={color}
+              color={color}
+              size="xl"
+              style={({color: c}) => ({
+                background: `linear-gradient(135deg, ${c.toString("css")}, white)`,
+              })}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### Accessibility
+
+使用 `colorName` 为颜色提供自定义可访问名称，并使用 `aria-label` 补充颜色用途的上下文。
+
+```tsx
+import {ColorSwatch} from "@heroui/react";
+
+export function ColorSwatchAccessibility() {
+  return (
+    <div className="flex items-center gap-3">
+      <ColorSwatch aria-label="主品牌色" color="#0485F7" colorName="海洋蓝" />
+      <ColorSwatch aria-label="错误状态色" color="#EF4444" colorName="珊瑚红" />
+      <ColorSwatch aria-label="警告色" color="#F59E0B" colorName="落日橙" />
+    </div>
+  );
+}
+
+```
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {ColorSwatch} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <div className="flex items-center gap-3">
+      <ColorSwatch
+        aria-label="蓝色"
+        color="#0485F7"
+        render={(props) => <div {...props} data-custom="blue" />}
+      />
+      <ColorSwatch
+        aria-label="红色"
+        color="#EF4444"
+        render={(props) => <div {...props} data-custom="red" />}
+      />
+      <ColorSwatch
+        aria-label="琥珀色"
+        color="#F59E0B"
+        render={(props) => <div {...props} data-custom="amber" />}
+      />
+      <ColorSwatch
+        aria-label="绿色"
+        color="#10B981"
+        render={(props) => <div {...props} data-custom="green" />}
+      />
+      <ColorSwatch
+        aria-label="品红"
+        color="#D946EF"
+        render={(props) => <div {...props} data-custom="fuchsia" />}
+      />
+    </div>
+  );
+}
+
+```
+
+## Related Components
+
+* **ColorSwatchPicker**: Color swatch selection from a list of colors
+* **ColorField**: Input for entering color values with hex format
+* **ColorArea**: 2D color picker for selecting colors from a gradient area
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import {ColorSwatch} from '@heroui/react';
+
+function CustomColorSwatch() {
+  return (
+    <ColorSwatch
+      className="size-12 rounded-lg"
+      color="#0485F7"
+    />
+  );
+}
+
+```
+
+### 自定义组件类
+
+要自定义 ColorSwatch 的组件类，可使用 `@layer components` 指令。
+<br />[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .color-swatch {
+    @apply border-2 border-white;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，以确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+ColorSwatch 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/color-swatch.css)）：
+
+#### 基础类
+
+* `.color-swatch` - 基础 swatch（色板）样式，透明区域使用棋盘格背景
+
+#### 形状类
+
+* `.color-swatch--circle` - 圆形（默认）
+* `.color-swatch--square` - 圆角方形
+
+#### 尺寸类
+
+* `.color-swatch--xs` - 特小（16px）
+* `.color-swatch--sm` - 小（24px）
+* `.color-swatch--md` - 中（32px，默认）
+* `.color-swatch--lg` - 大（36px）
+* `.color-swatch--xl` - 特大（40px）
+
+## API 参考
+
+### ColorSwatch Props
+
+| Prop         | 类型                                                                             | 默认值        | 描述                       |
+| ------------ | ------------------------------------------------------------------------------ | ---------- | ------------------------ |
+| `color`      | `string \| Color`                                                              | -          | 要展示的颜色值（hex、rgb、hsl 等）   |
+| `colorName`  | `string`                                                                       | -          | 颜色的可访问名称（会覆盖自动生成的描述）     |
+| `className`  | `string`                                                                       | -          | 额外的 CSS 类                |
+| `shape`      | `"circle" \| "square"`                                                         | `"circle"` | swatch（色板）形状             |
+| `size`       | `"xs" \| "sm" \| "md" \| "lg" \| "xl"`                                         | `"md"`     | swatch（色板）尺寸             |
+| `style`      | `CSSProperties \| ((renderProps) => CSSProperties)`                            | -          | 行内样式，或带颜色访问能力的渲染 prop 函数 |
+| `aria-label` | `string`                                                                       | -          | swatch 的无障碍标签            |
+| `render`     | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, ColorSwatchRenderProps>` | -          | 使用自定义渲染函数覆盖默认 DOM 元素。    |
+
+### Style Render Props
+
+当把 `style` 作为函数传入时，你会获得包含颜色对象在内的渲染参数：
+
+```tsx
+<ColorSwatch
+  color="#0485F7"
+  style={({ color }) => ({
+    boxShadow: `0 4px 14px ${color.toString("css")}80`,
+  })}
+/>
+
+```
+
+`color` 对象提供例如：
+
+* `color.toString("css")` - 返回 CSS 颜色字符串
+* `color.toString("hex")` - 返回十六进制颜色字符串
+* `color.getChannelValue("alpha")` - 返回 alpha 通道数值
+
+</page>

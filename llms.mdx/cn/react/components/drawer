@@ -1,0 +1,705 @@
+<page url="/cn/docs/react/components/drawer">
+# Drawer 抽屉
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/drawer
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(overlays)/drawer.mdx
+> 用于补充内容与操作的侧滑面板。
+
+
+## 引入
+
+```tsx
+import { Drawer, Button } from "@heroui/react";
+
+```
+
+### 用法
+
+```tsx
+import {Button, Drawer} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <Drawer>
+      <Button variant="secondary">打开抽屉</Button>
+      <Drawer.Backdrop>
+        <Drawer.Content placement="right">
+          <Drawer.Dialog>
+            <Drawer.Header>
+              <Drawer.Heading>抽屉标题</Drawer.Heading>
+            </Drawer.Header>
+            <Drawer.Body>
+              <p>
+                这是一个基于 React Aria Modal 组件构建的抽屉。它会从屏幕边缘滑入，并通过流畅的 CSS
+                过渡呈现动画效果。
+              </p>
+            </Drawer.Body>
+            <Drawer.Footer>
+              <Button slot="close" variant="secondary">
+                取消
+              </Button>
+              <Button slot="close">确认</Button>
+            </Drawer.Footer>
+          </Drawer.Dialog>
+        </Drawer.Content>
+      </Drawer.Backdrop>
+    </Drawer>
+  );
+}
+
+```
+
+### 组件结构
+
+```tsx
+import { Drawer, Button } from "@heroui/react";
+
+export default () => (
+  <Drawer>
+    <Button>Open Drawer</Button>
+    <Drawer.Backdrop>
+      <Drawer.Content>
+        <Drawer.Dialog>
+          <Drawer.Handle /> {/* Optional: Drag handle */}
+          <Drawer.CloseTrigger /> {/* Optional: Close button */}
+          <Drawer.Header>
+            <Drawer.Heading />
+          </Drawer.Header>
+          <Drawer.Body />
+          <Drawer.Footer />
+        </Drawer.Dialog>
+      </Drawer.Content>
+    </Drawer.Backdrop>
+  </Drawer>
+);
+
+```
+
+### 位置
+
+```tsx
+import {Button, Drawer} from "@heroui/react";
+
+const PLACEMENT_LABELS = {
+  bottom: "底部",
+  left: "左侧",
+  right: "右侧",
+  top: "顶部",
+} as const;
+
+export function Placements() {
+  const placements = ["bottom", "top", "left", "right"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {placements.map((placement) => (
+        <Drawer key={placement}>
+          <Button variant="secondary">{PLACEMENT_LABELS[placement]}</Button>
+          <Drawer.Backdrop>
+            <Drawer.Content placement={placement}>
+              <Drawer.Dialog>
+                <Drawer.CloseTrigger />
+                {placement === "bottom" && <Drawer.Handle />}
+                <Drawer.Header>
+                  <Drawer.Heading>{PLACEMENT_LABELS[placement]}抽屉</Drawer.Heading>
+                </Drawer.Header>
+                <Drawer.Body>
+                  <p>
+                    此抽屉从屏幕<strong>{PLACEMENT_LABELS[placement]}</strong>边缘滑入。
+                  </p>
+                </Drawer.Body>
+                <Drawer.Footer>
+                  <Button slot="close" variant="secondary">
+                    取消
+                  </Button>
+                  <Button slot="close">完成</Button>
+                </Drawer.Footer>
+                {placement === "top" && <Drawer.Handle />}
+              </Drawer.Dialog>
+            </Drawer.Content>
+          </Drawer.Backdrop>
+        </Drawer>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 遮罩变体
+
+```tsx
+import {Button, Drawer} from "@heroui/react";
+
+const VARIANT_LABELS = {
+  blur: "模糊",
+  opaque: "不透明",
+  transparent: "透明",
+} as const;
+
+export function BackdropVariants() {
+  const variants = ["opaque", "blur", "transparent"] as const;
+
+  return (
+    <div className="flex flex-wrap gap-4">
+      {variants.map((variant) => (
+        <Drawer key={variant}>
+          <Button variant="secondary">{VARIANT_LABELS[variant]}</Button>
+          <Drawer.Backdrop variant={variant}>
+            <Drawer.Content>
+              <Drawer.Dialog>
+                <Drawer.Handle />
+                <Drawer.CloseTrigger />
+                <Drawer.Header>
+                  <Drawer.Heading>背景：{VARIANT_LABELS[variant]}</Drawer.Heading>
+                </Drawer.Header>
+                <Drawer.Body>
+                  <p>
+                    此抽屉使用 <code>{variant}</code> 背景变体。
+                  </p>
+                </Drawer.Body>
+                <Drawer.Footer>
+                  <Button className="w-full" slot="close">
+                    关闭
+                  </Button>
+                </Drawer.Footer>
+              </Drawer.Dialog>
+            </Drawer.Content>
+          </Drawer.Backdrop>
+        </Drawer>
+      ))}
+    </div>
+  );
+}
+
+```
+
+### 不可关闭
+
+在 `Drawer.Backdrop` 上设置 `isDismissable={false}`，可阻止通过点击外部或拖动关闭。用户必须与抽屉内的操作按钮交互才能关闭。
+
+```tsx
+import {Button, Drawer} from "@heroui/react";
+
+export function NonDismissable() {
+  return (
+    <Drawer>
+      <Button variant="secondary">重要操作</Button>
+      <Drawer.Backdrop isDismissable={false}>
+        <Drawer.Content>
+          <Drawer.Dialog>
+            <Drawer.Header>
+              <Drawer.Heading>确认操作</Drawer.Heading>
+            </Drawer.Header>
+            <Drawer.Body>
+              <p>此抽屉无法通过点击外部或拖拽关闭。你必须使用下方按钮之一来完成操作。</p>
+            </Drawer.Body>
+            <Drawer.Footer>
+              <Button slot="close" variant="secondary">
+                取消
+              </Button>
+              <Button slot="close">确认</Button>
+            </Drawer.Footer>
+          </Drawer.Dialog>
+        </Drawer.Content>
+      </Drawer.Backdrop>
+    </Drawer>
+  );
+}
+
+```
+
+### 可滚动内容
+
+`Drawer.Body` 会使用原生滚动处理溢出。为避免与滚动冲突，拖拽关闭不会在 body 区域生效。
+
+```tsx
+import {Button, Drawer} from "@heroui/react";
+
+export function ScrollableContent() {
+  return (
+    <Drawer>
+      <Button variant="secondary">条款与条件</Button>
+      <Drawer.Backdrop>
+        <Drawer.Content>
+          <Drawer.Dialog>
+            <Drawer.Handle />
+            <Drawer.CloseTrigger />
+            <Drawer.Header>
+              <Drawer.Heading>条款与条件</Drawer.Heading>
+            </Drawer.Header>
+            <Drawer.Body>
+              {Array.from({length: 20}).map((_, i) => (
+                <p key={i} className="mb-3">
+                  段落 {i + 1}：Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                  pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit
+                  risus, sed porttitor quam.
+                </p>
+              ))}
+            </Drawer.Body>
+            <Drawer.Footer>
+              <Button slot="close" variant="secondary">
+                拒绝
+              </Button>
+              <Button slot="close">接受</Button>
+            </Drawer.Footer>
+          </Drawer.Dialog>
+        </Drawer.Content>
+      </Drawer.Backdrop>
+    </Drawer>
+  );
+}
+
+```
+
+### 受控状态
+
+```tsx
+"use client";
+
+import {Button, Drawer, useOverlayState} from "@heroui/react";
+import React from "react";
+
+export function Controlled() {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const state = useOverlayState();
+
+  return (
+    <div className="flex max-w-md flex-col gap-8">
+      <div className="flex flex-col gap-3">
+        <h3 className="text-lg font-semibold text-foreground">配合 React.useState()</h3>
+        <p className="text-sm leading-relaxed text-pretty text-muted">
+          使用 React 的 <code className="text-foreground">useState</code>{" "}
+          管理抽屉开关，适合简单场景。
+        </p>
+        <div className="flex flex-col items-start gap-3 rounded-2xl bg-surface p-4 shadow-sm">
+          <div className="flex w-full items-center justify-between">
+            <p className="text-xs text-muted">
+              状态：{" "}
+              <span className="font-mono font-medium text-foreground">
+                {isOpen ? "打开" : "关闭"}
+              </span>
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <Button size="sm" variant="secondary" onPress={() => setIsOpen(true)}>
+              打开抽屉
+            </Button>
+            <Button size="sm" variant="tertiary" onPress={() => setIsOpen(!isOpen)}>
+              切换
+            </Button>
+          </div>
+        </div>
+
+        <Drawer.Backdrop isOpen={isOpen} onOpenChange={setIsOpen}>
+          <Drawer.Content placement="right">
+            <Drawer.Dialog>
+              <Drawer.CloseTrigger />
+              <Drawer.Header>
+                <Drawer.Heading>由 useState() 控制</Drawer.Heading>
+              </Drawer.Header>
+              <Drawer.Body>
+                <p>
+                  该抽屉由 React 的 <code>useState</code> 控制。将 <code>isOpen</code> 与{" "}
+                  <code>onOpenChange</code> 传入即可在外部管理状态。
+                </p>
+              </Drawer.Body>
+              <Drawer.Footer>
+                <Button slot="close" variant="secondary">
+                  关闭
+                </Button>
+              </Drawer.Footer>
+            </Drawer.Dialog>
+          </Drawer.Content>
+        </Drawer.Backdrop>
+      </div>
+
+      <div className="flex flex-col gap-3">
+        <h3 className="text-lg font-semibold text-foreground">配合 useOverlayState()</h3>
+        <p className="text-sm leading-relaxed text-pretty text-muted">
+          使用 <code className="text-foreground">useOverlayState</code> 获得更简洁的 API，内置{" "}
+          <code>open()</code>、<code>close()</code>、<code>toggle()</code> 等方法。
+        </p>
+        <div className="flex flex-col items-start gap-3 rounded-2xl bg-surface p-4 shadow-sm">
+          <div className="flex w-full items-center justify-between">
+            <p className="text-xs text-muted">
+              状态：{" "}
+              <span className="font-mono font-medium text-foreground">
+                {state.isOpen ? "打开" : "关闭"}
+              </span>
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <Button size="sm" variant="secondary" onPress={state.open}>
+              打开抽屉
+            </Button>
+            <Button size="sm" variant="tertiary" onPress={state.toggle}>
+              切换
+            </Button>
+          </div>
+        </div>
+
+        <Drawer.Backdrop isOpen={state.isOpen} onOpenChange={state.setOpen}>
+          <Drawer.Content placement="right">
+            <Drawer.Dialog>
+              <Drawer.CloseTrigger />
+              <Drawer.Header>
+                <Drawer.Heading>由 useOverlayState() 控制</Drawer.Heading>
+              </Drawer.Header>
+              <Drawer.Body>
+                <p>
+                  <code>useOverlayState</code> 为常见操作提供专用方法，无需手写回调，直接使用{" "}
+                  <code>state.open()</code>、<code>state.close()</code> 或{" "}
+                  <code>state.toggle()</code> 即可。
+                </p>
+              </Drawer.Body>
+              <Drawer.Footer>
+                <Button slot="close" variant="secondary">
+                  关闭
+                </Button>
+              </Drawer.Footer>
+            </Drawer.Dialog>
+          </Drawer.Content>
+        </Drawer.Backdrop>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 带表单
+
+```tsx
+import {Button, Drawer, Input, Label, TextField} from "@heroui/react";
+
+export function WithForm() {
+  return (
+    <Drawer>
+      <Button variant="secondary">编辑资料</Button>
+      <Drawer.Backdrop>
+        <Drawer.Content placement="right">
+          <Drawer.Dialog>
+            <Drawer.CloseTrigger />
+            <Drawer.Header>
+              <Drawer.Heading>编辑资料</Drawer.Heading>
+            </Drawer.Header>
+            <Drawer.Body>
+              <form className="flex flex-col gap-4">
+                <TextField className="w-full" name="name" type="text">
+                  <Label>姓名</Label>
+                  <Input placeholder="输入你的姓名" variant="secondary" />
+                </TextField>
+                <TextField className="w-full" name="email" type="email">
+                  <Label>邮箱</Label>
+                  <Input placeholder="输入你的邮箱" variant="secondary" />
+                </TextField>
+                <TextField className="w-full" name="bio">
+                  <Label>简介</Label>
+                  <Input placeholder="介绍一下你自己" variant="secondary" />
+                </TextField>
+              </form>
+            </Drawer.Body>
+            <Drawer.Footer>
+              <Button slot="close" variant="secondary">
+                取消
+              </Button>
+              <Button slot="close">保存更改</Button>
+            </Drawer.Footer>
+          </Drawer.Dialog>
+        </Drawer.Content>
+      </Drawer.Backdrop>
+    </Drawer>
+  );
+}
+
+```
+
+### 导航抽屉
+
+```tsx
+import type {ComponentType, SVGProps} from "react";
+
+import {Bars, Bell, Envelope, Gear, House, Magnifier, Person} from "@gravity-ui/icons";
+import {Button, Drawer} from "@heroui/react";
+
+export function Navigation() {
+  const navItems: {icon: ComponentType<SVGProps<SVGSVGElement>>; label: string}[] = [
+    {icon: House, label: "首页"},
+    {icon: Magnifier, label: "搜索"},
+    {icon: Bell, label: "通知"},
+    {icon: Envelope, label: "消息"},
+    {icon: Person, label: "个人资料"},
+    {icon: Gear, label: "设置"},
+  ];
+
+  return (
+    <Drawer>
+      <Button variant="secondary">
+        <Bars />
+        菜单
+      </Button>
+      <Drawer.Backdrop>
+        <Drawer.Content placement="left">
+          <Drawer.Dialog>
+            <Drawer.CloseTrigger />
+            <Drawer.Header>
+              <Drawer.Heading>导航</Drawer.Heading>
+            </Drawer.Header>
+            <Drawer.Body>
+              <nav className="flex flex-col gap-1">
+                {navItems.map((item) => (
+                  <button
+                    key={item.label}
+                    className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-foreground transition-colors hover:bg-default"
+                    type="button"
+                  >
+                    <item.icon className="size-5 text-muted" />
+                    {item.label}
+                  </button>
+                ))}
+              </nav>
+            </Drawer.Body>
+          </Drawer.Dialog>
+        </Drawer.Content>
+      </Drawer.Backdrop>
+    </Drawer>
+  );
+}
+
+```
+
+## Related Components
+
+* **Modal**: Displays content in a modal overlay
+* **Button**: Allows a user to perform an action
+* **CloseButton**: Button for dismissing overlays
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { Drawer, Button } from "@heroui/react";
+
+function CustomDrawer() {
+  return (
+    <Drawer>
+      <Button>Open Drawer</Button>
+      <Drawer.Backdrop className="bg-black/80">
+        <Drawer.Content>
+          <Drawer.Dialog className="bg-linear-to-br from-purple-500 to-pink-500 text-white">
+            <Drawer.CloseTrigger />
+            <Drawer.Header>
+              <Drawer.Heading>Custom Styled Drawer</Drawer.Heading>
+            </Drawer.Header>
+            <Drawer.Body>
+              <p>This drawer has custom styling applied via Tailwind classes.</p>
+            </Drawer.Body>
+            <Drawer.Footer>
+              <Button slot="close">Close</Button>
+            </Drawer.Footer>
+          </Drawer.Dialog>
+        </Drawer.Content>
+      </Drawer.Backdrop>
+    </Drawer>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 Drawer 组件类，可以使用 `@layer components` 指令。
+
+<br />
+
+[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes)。
+
+```css
+@layer components {
+  .drawer__backdrop {
+    @apply bg-gradient-to-br from-black/50 to-black/70;
+  }
+
+  .drawer__dialog {
+    @apply rounded-2xl border border-white/10 shadow-2xl;
+  }
+
+  .drawer__header {
+    @apply text-center;
+  }
+
+  .drawer__close-trigger {
+    @apply rounded-full bg-white/10 hover:bg-white/20;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+Drawer 组件使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/drawer.css)）：
+
+#### 基础类
+
+* `.drawer__trigger` - 打开 Drawer 的触发元素
+* `.drawer__backdrop` - Drawer 背后的遮罩
+* `.drawer__content` - Drawer 面板的定位包裹层
+* `.drawer__dialog` - Drawer 面板本体
+* `.drawer__header` - 表头区域
+* `.drawer__heading` - 主标题文本
+* `.drawer__body` - 可滚动主体内容区域
+* `.drawer__footer` - 表底操作区域
+* `.drawer__handle` - 视觉拖拽把手
+* `.drawer__close-trigger` - 关闭按钮元素
+
+#### 遮罩变体
+
+* `.drawer__backdrop--opaque` - 不透明有色遮罩（默认）
+* `.drawer__backdrop--blur` - 带玻璃效果的模糊遮罩
+* `.drawer__backdrop--transparent` - 透明遮罩（无叠加层）
+
+#### 位置变体
+
+* `.drawer__content--bottom` - 自底边上滑（默认）
+* `.drawer__content--top` - 自顶边下滑
+* `.drawer__content--left` - 自左侧滑入
+* `.drawer__content--right` - 自右侧滑入
+
+#### 对话框变体
+
+* `.drawer__dialog--top` - 自顶边下滑
+* `.drawer__dialog--bottom` - 自底边上滑
+* `.drawer__dialog--left` - 自左侧滑入
+* `.drawer__dialog--right` - 自右侧滑入
+
+### 交互状态
+
+该组件支持以下交互状态：
+
+* **聚焦**：`:focus-visible` 或 `[data-focus-visible="true"]` — 应用于触发器与关闭按钮
+* **悬停**：`:hover` 或 `[data-hovered="true"]` — 关闭按钮悬停时应用
+* **激活**：`:active` 或 `[data-pressed="true"]` — 触发器与关闭按钮被按压时应用
+* **进入**：`[data-entering]` — Drawer 打开动画期间应用
+* **离开**：`[data-exiting]` — Drawer 关闭动画期间应用
+* **位置**：`[data-placement="*"]` — 根据 Drawer 位置应用（top、bottom、left、right）
+
+## API 参考
+
+### Drawer
+
+| Prop       | Type                    | 默认值 | 描述         |
+| ---------- | ----------------------- | --- | ---------- |
+| `children` | `ReactNode`             | -   | 触发器与遮罩子元素。 |
+| `state`    | `UseOverlayStateReturn` | -   | 受控的叠加层状态。  |
+
+### Drawer.Trigger
+
+| Prop        | Type        | 默认值 | 描述       |
+| ----------- | ----------- | --- | -------- |
+| `children`  | `ReactNode` | -   | 自定义触发内容。 |
+| `className` | `string`    | -   | CSS 类。   |
+
+### Drawer.Backdrop
+
+| Prop                        | Type                                  | 默认值        | 描述              |
+| --------------------------- | ------------------------------------- | ---------- | --------------- |
+| `variant`                   | `"opaque" \| "blur" \| "transparent"` | `"opaque"` | 遮罩叠加样式。         |
+| `isDismissable`             | `boolean`                             | `true`     | 点击遮罩是否关闭。       |
+| `isKeyboardDismissDisabled` | `boolean`                             | `false`    | 是否禁用 ESC 关闭。    |
+| `isOpen`                    | `boolean`                             | -          | 受控打开状态。         |
+| `onOpenChange`              | `(isOpen: boolean) => void`           | -          | 打开状态变化时的事件处理函数。 |
+| `className`                 | `string \| (values) => string`        | -          | 遮罩 CSS 类。       |
+
+### Drawer.Content
+
+| Prop        | Type                                     | 默认值        | 描述             |
+| ----------- | ---------------------------------------- | ---------- | -------------- |
+| `placement` | `"top" \| "bottom" \| "left" \| "right"` | `"bottom"` | Drawer 从哪一侧滑入。 |
+| `className` | `string \| (values) => string`           | -          | Content CSS 类。 |
+
+### Drawer.Dialog
+
+| Prop              | Type        | 默认值        | 描述         |
+| ----------------- | ----------- | ---------- | ---------- |
+| `children`        | `ReactNode` | -          | 对话框内容。     |
+| `className`       | `string`    | -          | CSS 类。     |
+| `role`            | `string`    | `"dialog"` | ARIA role。 |
+| `aria-label`      | `string`    | -          | 无障碍标签。     |
+| `aria-labelledby` | `string`    | -          | 标签元素 ID。   |
+
+### Drawer.Header
+
+| Prop        | Type        | 默认值 | 描述     |
+| ----------- | ----------- | --- | ------ |
+| `children`  | `ReactNode` | -   | 表头内容。  |
+| `className` | `string`    | -   | CSS 类。 |
+
+### Drawer.Heading
+
+| Prop        | Type        | 默认值 | 描述     |
+| ----------- | ----------- | --- | ------ |
+| `children`  | `ReactNode` | -   | 标题文本。  |
+| `className` | `string`    | -   | CSS 类。 |
+
+### Drawer.Body
+
+| Prop        | Type        | 默认值 | 描述     |
+| ----------- | ----------- | --- | ------ |
+| `children`  | `ReactNode` | -   | 主体内容。  |
+| `className` | `string`    | -   | CSS 类。 |
+
+### Drawer.Footer
+
+| Prop        | Type        | 默认值 | 描述     |
+| ----------- | ----------- | --- | ------ |
+| `children`  | `ReactNode` | -   | 表底内容。  |
+| `className` | `string`    | -   | CSS 类。 |
+
+### Drawer.Handle
+
+| Prop        | Type     | 默认值 | 描述     |
+| ----------- | -------- | --- | ------ |
+| `className` | `string` | -   | CSS 类。 |
+
+### Drawer.CloseTrigger
+
+| Prop        | Type                           | 默认值 | 描述       |
+| ----------- | ------------------------------ | --- | -------- |
+| `children`  | `ReactNode`                    | -   | 自定义关闭按钮。 |
+| `className` | `string \| (values) => string` | -   | CSS 类。   |
+
+### useOverlayState Hook
+
+```tsx
+import { useOverlayState } from "@heroui/react";
+
+const state = useOverlayState({
+  defaultOpen: false,
+  onOpenChange: (isOpen) => console.log(isOpen),
+});
+
+state.isOpen; // Current state
+state.open(); // Open drawer
+state.close(); // Close drawer
+state.toggle(); // Toggle state
+state.setOpen(); // Set state directly
+
+```
+
+## 无障碍
+
+实现 [WAI-ARIA Dialog 模式](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)：
+
+* **焦点陷阱**：打开时将焦点锁定在 Drawer 内
+* **键盘**：可关闭时 `ESC` 关闭，`Tab` 在可聚焦元素间循环
+* **屏幕阅读器**：通过 React Aria 提供合适的 ARIA 属性
+* **滚动锁定**：打开时禁用 body 滚动
+* **拖拽关闭**：支持在把手、表头与表底等区域的指针拖拽手势
+
+</page>

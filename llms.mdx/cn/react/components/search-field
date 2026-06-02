@@ -1,0 +1,791 @@
+<page url="/cn/docs/react/components/search-field">
+# SearchField 搜索框
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/search-field
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/search-field.mdx
+> 搜索输入字段，包含清除按钮与搜索图标。
+
+
+## 引入
+
+```tsx
+import { SearchField } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Label, SearchField} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <SearchField name="search">
+      <Label>搜索</Label>
+      <SearchField.Group>
+        <SearchField.SearchIcon />
+        <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+        <SearchField.ClearButton />
+      </SearchField.Group>
+    </SearchField>
+  );
+}
+
+```
+
+### 组件结构
+
+```tsx
+import {SearchField, Label, Description, FieldError} from '@heroui/react';
+
+export default () => (
+  <SearchField>
+    <Label />
+    <SearchField.Group>
+      <SearchField.SearchIcon />
+      <SearchField.Input />
+      <SearchField.ClearButton />
+    </SearchField.Group>
+    <Description />
+    <FieldError />
+  </SearchField>
+)
+
+```
+
+> **SearchField** 允许用户输入并清空搜索关键词。它包含搜索图标，并提供可选的清除按钮以便快速重置。
+
+### 带说明
+
+```tsx
+import {Description, Label, SearchField} from "@heroui/react";
+
+export function WithDescription() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField name="search">
+        <Label>搜索产品</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索产品…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>输入关键词进行搜索 for products</Description>
+      </SearchField>
+      <SearchField name="search-users">
+        <Label>搜索用户</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索用户…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>按姓名、邮箱或用户名搜索</Description>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 必填字段
+
+```tsx
+import {Description, Label, SearchField} from "@heroui/react";
+
+export function Required() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField isRequired name="search">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+      </SearchField>
+      <SearchField isRequired name="search-query">
+        <Label>搜索内容</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="输入搜索内容…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>至少需要 3 个字符</Description>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 校验
+
+将 `isInvalid` 与 `FieldError` 配合使用，以展示校验信息。
+
+```tsx
+import {FieldError, Label, SearchField} from "@heroui/react";
+
+export function Validation() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField isInvalid isRequired name="search" value="ab">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <FieldError>搜索内容至少需要 3 个字符</FieldError>
+      </SearchField>
+      <SearchField isInvalid name="search-invalid">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" value="invalid@query" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <FieldError>搜索内容包含无效字符</FieldError>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 禁用状态
+
+```tsx
+import {Description, Label, SearchField} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField isDisabled name="search" value="已禁用的搜索">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>此搜索框已禁用</Description>
+      </SearchField>
+      <SearchField isDisabled name="search-empty">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>此搜索框已禁用</Description>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 受控
+
+控制值以与其他组件同步，或执行自定义格式化。
+
+```tsx
+"use client";
+
+import {Button, Description, Label, SearchField} from "@heroui/react";
+import React from "react";
+
+export function Controlled() {
+  const [value, setValue] = React.useState("");
+
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField name="search" value={value} onChange={setValue}>
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>当前值： {value || "（空）"}</Description>
+      </SearchField>
+      <div className="flex gap-2">
+        <Button variant="tertiary" onPress={() => setValue("")}>
+          Clear
+        </Button>
+        <Button variant="tertiary" onPress={() => setValue("示例查询")}>
+          设置示例
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 带校验
+
+在受控数值的基础上实现自定义校验逻辑。
+
+```tsx
+"use client";
+
+import {Description, FieldError, Label, SearchField} from "@heroui/react";
+import React from "react";
+
+export function WithValidation() {
+  const [value, setValue] = React.useState("");
+  const isInvalid = value.length > 0 && value.length < 3;
+
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField isRequired isInvalid={isInvalid} name="search" value={value} onChange={setValue}>
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        {isInvalid ? (
+          <FieldError>搜索内容至少需要 3 个字符</FieldError>
+        ) : (
+          <Description>请输入至少 3 个字符后再搜索</Description>
+        )}
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 自定义图标
+
+自定义搜索图标与清除按钮图标。
+
+```tsx
+import {Description, Label, SearchField} from "@heroui/react";
+
+export function CustomIcons() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField name="search-custom">
+        <Label>搜索（自定义图标）</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon>
+            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                clipRule="evenodd"
+                d="M12.5 4c0 .174-.071.513-.885.888S9.538 5.5 8 5.5s-2.799-.237-3.615-.612C3.57 4.513 3.5 4.174 3.5 4s.071-.513.885-.888S6.462 2.5 8 2.5s2.799.237 3.615.612c.814.375.885.714.885.888m-1.448 2.66C10.158 6.888 9.115 7 8 7s-2.158-.113-3.052-.34l1.98 2.905c.21.308.322.672.322 1.044v3.37q.088.02.25.021c.422 0 .749-.14.95-.316c.185-.162.3-.38.3-.684v-2.39c0-.373.112-.737.322-1.045zM8 1c3.314 0 6 1 6 3a3.24 3.24 0 0 1-.563 1.826l-3.125 4.584a.35.35 0 0 0-.062.2V13c0 1.5-1.25 2.5-2.75 2.5s-1.75-1-1.75-1v-3.89a.35.35 0 0 0-.061-.2L2.563 5.826A3.24 3.24 0 0 1 2 4c0-2 2.686-3 6-3m-.88 12.936q-.015-.008-.013-.01z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </SearchField.SearchIcon>
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton>
+            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                clipRule="evenodd"
+                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14M6.53 5.47a.75.75 0 0 0-1.06 1.06L6.94 8L5.47 9.47a.75.75 0 1 0 1.06 1.06L8 9.06l1.47 1.47a.75.75 0 1 0 1.06-1.06L9.06 8l1.47-1.47a.75.75 0 1 0-1.06-1.06L8 6.94z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </SearchField.ClearButton>
+        </SearchField.Group>
+        <Description>自定义图标子元素</Description>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 全宽
+
+```tsx
+import {Label, SearchField} from "@heroui/react";
+
+export function FullWidth() {
+  return (
+    <div className="w-[400px] space-y-4">
+      <SearchField fullWidth name="search">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 变体
+
+SearchField 支持两种视觉变体：
+
+* **`primary`**（默认）— 带阴影的标准样式，适用于大多数场景
+* **`secondary`** — 低强调、无阴影的变体，适合用在 Surface 组件内
+
+```tsx
+import {Label, SearchField} from "@heroui/react";
+
+export function Variants() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SearchField name="primary-search" variant="primary">
+        <Label>主要变体</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+      </SearchField>
+      <SearchField name="secondary-search" variant="secondary">
+        <Label>次要变体</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+      </SearchField>
+    </div>
+  );
+}
+
+```
+
+### 在 Surface 内
+
+在 [Surface](/docs/components/surface) 内使用时，请使用 `variant="secondary"`，以应用适合表面背景的低强调变体。
+
+```tsx
+import {Description, Label, SearchField, Surface} from "@heroui/react";
+
+export function OnSurface() {
+  return (
+    <Surface className="flex w-full max-w-sm flex-col gap-4 rounded-3xl p-6">
+      <SearchField name="search" variant="secondary">
+        <Label>搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-full" placeholder="搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>输入关键词进行搜索</Description>
+      </SearchField>
+      <SearchField name="search-2" variant="secondary">
+        <Label>高级搜索</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-full" placeholder="高级搜索…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        <Description>使用筛选条件细化搜索</Description>
+      </SearchField>
+    </Surface>
+  );
+}
+
+```
+
+### 表单示例
+
+包含校验与提交处理的完整表单集成示例。
+
+```tsx
+"use client";
+
+import {Button, Description, FieldError, Form, Label, SearchField, Spinner} from "@heroui/react";
+import React from "react";
+
+export function FormExample() {
+  const [value, setValue] = React.useState("");
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const MIN_LENGTH = 3;
+  const isInvalid = value.length > 0 && value.length < MIN_LENGTH;
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (value.length < MIN_LENGTH) {
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    // Simulate API call
+    setTimeout(() => {
+      console.log("Search submitted:", {query: value});
+      setValue("");
+      setIsSubmitting(false);
+    }, 1500);
+  };
+
+  return (
+    <Form className="flex w-[280px] flex-col gap-4" onSubmit={handleSubmit}>
+      <SearchField isRequired isInvalid={isInvalid} name="search" value={value} onChange={setValue}>
+        <Label>搜索产品</Label>
+        <SearchField.Group>
+          <SearchField.SearchIcon />
+          <SearchField.Input className="w-full" placeholder="搜索产品…" />
+          <SearchField.ClearButton />
+        </SearchField.Group>
+        {isInvalid ? (
+          <FieldError>搜索内容至少需要 {MIN_LENGTH} 个字符</FieldError>
+        ) : (
+          <Description>请输入至少 {MIN_LENGTH} 个字符后再搜索</Description>
+        )}
+      </SearchField>
+      <Button
+        className="w-full"
+        isDisabled={value.length < MIN_LENGTH}
+        isPending={isSubmitting}
+        type="submit"
+        variant="primary"
+      >
+        {isSubmitting ? (
+          <>
+            <Spinner color="current" size="sm" />
+            搜索中…
+          </>
+        ) : (
+          "搜索"
+        )}
+      </Button>
+    </Form>
+  );
+}
+
+```
+
+### 键盘快捷键
+
+添加快捷键以快速聚焦搜索字段。
+
+```tsx
+"use client";
+
+import {Description, Kbd, Label, SearchField} from "@heroui/react";
+import React from "react";
+
+export function WithKeyboardShortcut() {
+  const inputRef = React.useRef<HTMLInputElement>(null);
+  const [value, setValue] = React.useState("");
+
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Check for Shift+S
+      if (e.shiftKey && e.key === "S" && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        e.preventDefault();
+        inputRef.current?.focus();
+      }
+      // Check for ESC key to blur the input
+      if (e.key === "Escape" && document.activeElement === inputRef.current) {
+        inputRef.current?.blur();
+      }
+    };
+
+    // Add global event listener
+    window.addEventListener("keydown", handleKeyDown);
+
+    // Cleanup on unmount
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div>
+        <SearchField name="search" value={value} onChange={setValue}>
+          <Label>搜索</Label>
+          <SearchField.Group>
+            <SearchField.SearchIcon />
+            <SearchField.Input ref={inputRef} className="w-[280px]" placeholder="搜索…" />
+            <SearchField.ClearButton />
+          </SearchField.Group>
+          <Description>使用键盘快捷键快速聚焦此输入框</Description>
+        </SearchField>
+      </div>
+      <div className="text-default-500 flex items-center gap-2 text-sm">
+        <span>按</span>
+        <Kbd>
+          <Kbd.Abbr keyValue="shift" />
+          <Kbd.Content>S</Kbd.Content>
+        </Kbd>
+        <span>聚焦搜索框</span>
+      </div>
+    </div>
+  );
+}
+
+```
+
+## Related Components
+
+* **Label**: Accessible label for form controls
+* **Description**: Helper text for form fields
+* **FieldError**: Inline validation messages for form fields
+
+
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {Label, SearchField} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <SearchField name="search" render={(props) => <div {...props} data-custom="foo" />}>
+      <Label>搜索</Label>
+      <SearchField.Group>
+        <SearchField.SearchIcon />
+        <SearchField.Input className="w-[280px]" placeholder="搜索…" />
+        <SearchField.ClearButton />
+      </SearchField.Group>
+    </SearchField>
+  );
+}
+
+```
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import {SearchField, Label} from '@heroui/react';
+
+function CustomSearchField() {
+  return (
+    <SearchField className="gap-2">
+      <Label className="text-sm font-semibold">Search</Label>
+      <SearchField.Group className="rounded-xl border-2">
+        <SearchField.SearchIcon className="text-blue-500" />
+        <SearchField.Input className="text-center font-bold" />
+        <SearchField.ClearButton className="text-red-500" />
+      </SearchField.Group>
+    </SearchField>
+  );
+}
+
+```
+
+### 自定义组件类
+
+SearchField 使用可自定义的 CSS 类。你可以覆盖这些类名以匹配自己的设计系统。
+
+```css
+@layer components {
+  .search-field {
+    @apply flex flex-col gap-1;
+  }
+
+  /* When invalid, the description is hidden automatically */
+  .search-field[data-invalid],
+  .search-field[aria-invalid] {
+    [data-slot="description"] {
+      @apply hidden;
+    }
+  }
+
+  .search-field__group {
+    @apply bg-field text-field-foreground shadow-field rounded-field inline-flex h-9 items-center overflow-hidden border;
+  }
+
+  .search-field__input {
+    @apply flex-1 rounded-none border-0 bg-transparent px-3 py-2 shadow-none outline-none;
+  }
+
+  .search-field__search-icon {
+    @apply text-field-placeholder pointer-events-none shrink-0 ml-3 mr-0 size-4;
+  }
+
+  .search-field__clear-button {
+    @apply mr-1 shrink-0;
+  }
+}
+
+```
+
+### CSS 类
+
+* `.search-field` – 根容器，样式非常克制（`flex flex-col gap-1`）
+* `.search-field__group` – 搜索图标、输入框与清除按钮的容器，包含边框与背景样式
+* `.search-field__input` – 搜索输入字段
+* `.search-field__search-icon` – 左侧显示的搜索图标
+* `.search-field__clear-button` – 用于清空搜索字段的按钮
+* `.search-field--primary` – 带阴影的主变体（默认）
+* `.search-field--secondary` – 无阴影的次变体，适合用在 surface 上
+
+> **说明：** 子组件（[Label](/docs/components/label)、[Description](/docs/components/description)、[FieldError](/docs/components/field-error)）拥有各自的 CSS 类与样式。自定义方式请参见对应文档。
+
+### 交互状态
+
+SearchField 会根据状态自动管理以下 data 属性：
+
+* **Invalid**：`[data-invalid="true"]` 或 `[aria-invalid="true"]` – 无效时会自动隐藏 description 插槽
+* **Disabled**：`[data-disabled="true"]` – 当 `isDisabled` 为 true 时应用
+* **Focus Within**：`[data-focus-within="true"]` – 当输入框聚焦时应用
+* **Focus Visible**：`[data-focus-visible="true"]` – 当焦点可见（键盘导航）时应用
+* **Hovered**：`[data-hovered="true"]` – 当悬停在整个组合上时应用
+* **Empty**：`[data-empty="true"]` – 当字段为空时应用（会隐藏清除按钮）
+
+更多属性可通过渲染 prop 获得（见下方的 SearchFieldRenderProps）。
+
+## API 参考
+
+### SearchField Props
+
+SearchField 继承 React Aria [SearchField](https://react-spectrum.adobe.com/react-aria/SearchField.html) 组件的全部 props。
+
+#### Base Props
+
+| Prop        | 类型                                                                               | 默认值         | 描述                                                                |
+| ----------- | -------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------- |
+| `children`  | `React.ReactNode \| (values: SearchFieldRenderProps) => React.ReactNode`         | -           | 子组件（Label、Group、Input 等）或渲染函数。                                    |
+| `className` | `string \| (values: SearchFieldRenderProps) => string`                           | -           | 用于样式的 CSS 类，支持渲染 prop。                                            |
+| `style`     | `React.CSSProperties \| (values: SearchFieldRenderProps) => React.CSSProperties` | -           | 行内样式，支持渲染 prop。                                                   |
+| `fullWidth` | `boolean`                                                                        | `false`     | 搜索字段是否占满容器宽度                                                      |
+| `id`        | `string`                                                                         | -           | 元素的唯一标识符。                                                         |
+| `variant`   | `"primary" \| "secondary"`                                                       | `"primary"` | 组件的视觉变体。`primary` 为默认带阴影样式。`secondary` 为低强调、无阴影变体，适合用在 surface 上。 |
+| `render`    | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, SearchFieldRenderProps>`   | -           | 使用自定义渲染函数覆盖默认 DOM 元素。                                             |
+
+#### Value Props
+
+| Prop           | 类型                        | 默认值 | 描述             |
+| -------------- | ------------------------- | --- | -------------- |
+| `value`        | `string`                  | -   | 当前值（受控）。       |
+| `defaultValue` | `string`                  | -   | 默认值（非受控）。      |
+| `onChange`     | `(value: string) => void` | -   | 值变化时触发的事件处理函数。 |
+
+#### Validation Props
+
+| Prop                 | 类型                                                                | 默认值        | 描述                       |
+| -------------------- | ----------------------------------------------------------------- | ---------- | ------------------------ |
+| `isRequired`         | `boolean`                                                         | `false`    | 提交表单前是否要求用户输入。           |
+| `isInvalid`          | `boolean`                                                         | -          | 当前值是否无效。                 |
+| `validate`           | `(value: string) => ValidationError \| true \| null \| undefined` | -          | 自定义校验函数。                 |
+| `validationBehavior` | `'native' \| 'aria'`                                              | `'native'` | 使用原生 HTML 表单校验或 ARIA 属性。 |
+| `validationErrors`   | `string[]`                                                        | -          | 服务端校验错误。                 |
+
+#### State Props
+
+| Prop         | 类型        | 默认值 | 描述          |
+| ------------ | --------- | --- | ----------- |
+| `isDisabled` | `boolean` | -   | 是否禁用输入。     |
+| `isReadOnly` | `boolean` | -   | 是否可选中但不可修改。 |
+
+#### Form Props
+
+| Prop        | 类型        | 默认值 | 描述                        |
+| ----------- | --------- | --- | ------------------------- |
+| `name`      | `string`  | -   | input 元素的名称，用于 HTML 表单提交。 |
+| `autoFocus` | `boolean` | -   | 元素渲染后是否应获得焦点。             |
+
+#### Event Props
+
+| Prop       | 类型                        | 默认值 | 描述                       |
+| ---------- | ------------------------- | --- | ------------------------ |
+| `onSubmit` | `(value: string) => void` | -   | 用户提交搜索（Enter）时触发的事件处理函数。 |
+| `onClear`  | `() => void`              | -   | 按下清除按钮时触发的事件处理函数。        |
+
+#### Accessibility Props
+
+| Prop               | 类型       | 默认值 | 描述             |
+| ------------------ | -------- | --- | -------------- |
+| `aria-label`       | `string` | -   | 没有可见标签时的无障碍标签。 |
+| `aria-labelledby`  | `string` | -   | 用于标注该字段的元素 ID。 |
+| `aria-describedby` | `string` | -   | 用于描述该字段的元素 ID。 |
+| `aria-details`     | `string` | -   | 包含更多详情的元素 ID。  |
+
+### Composition Components
+
+SearchField 需要与以下独立组件组合使用，请分别导入并直接使用：
+
+* **SearchField.Group** – 搜索图标、输入框与清除按钮的容器
+* **SearchField.Input** – 搜索输入字段
+* **SearchField.SearchIcon** – 左侧显示的搜索图标
+* **SearchField.ClearButton** – 用于清空搜索字段的按钮
+* **Label** – 字段标签组件（`@heroui/react`）
+* **Description** – 辅助说明文本组件（`@heroui/react`）
+* **FieldError** – 校验错误信息组件（`@heroui/react`）
+
+这些组件各自拥有 props API。请直接在 SearchField 内组合使用：
+
+```tsx
+<SearchField isRequired isInvalid={hasError} value={value} onChange={setValue}>
+  <Label>Search</Label>
+  <SearchField.Group>
+    <SearchField.SearchIcon />
+    <SearchField.Input placeholder="Search..." />
+    <SearchField.ClearButton />
+  </SearchField.Group>
+  <Description>Enter keywords to search</Description>
+  <FieldError>Search query is required</FieldError>
+</SearchField>
+
+```
+
+#### SearchField.Group Props
+
+SearchField.Group 继承 React Aria [Group](https://react-spectrum.adobe.com/react-aria/Group.html) 组件的 props。
+
+| Prop        | 类型                                                                 | 默认值 | 描述                                      |
+| ----------- | ------------------------------------------------------------------ | --- | --------------------------------------- |
+| `children`  | `React.ReactNode \| (values: GroupRenderProps) => React.ReactNode` | -   | 子组件（SearchIcon、Input、ClearButton）或渲染函数。 |
+| `className` | `string \| (values: GroupRenderProps) => string`                   | -   | 用于样式的 CSS 类。                            |
+
+#### SearchField.Input Props
+
+SearchField.Input 继承 React Aria [Input](https://react-spectrum.adobe.com/react-aria/Input.html) 组件的 props。
+
+| Prop          | 类型                         | 默认值         | 描述                                                                |
+| ------------- | -------------------------- | ----------- | ----------------------------------------------------------------- |
+| `className`   | `string`                   | -           | 用于样式的 CSS 类。                                                      |
+| `variant`     | `"primary" \| "secondary"` | `"primary"` | 输入的视觉变体。`primary` 为默认带阴影样式。`secondary` 为低强调、无阴影变体，适合用在 surface 上。 |
+| `placeholder` | `string`                   | -           | 输入为空时显示的占位符文本。                                                    |
+| `type`        | `string`                   | `"search"`  | 输入类型（会自动设置为 `"search"`）。                                          |
+
+#### SearchField.SearchIcon Props
+
+SearchField.SearchIcon 是一个用于渲染搜索图标的自定义组件。
+
+| Prop        | 类型                | 默认值              | 描述               |
+| ----------- | ----------------- | ---------------- | ---------------- |
+| `children`  | `React.ReactNode` | `<IconSearch />` | 自定义图标元素。默认为搜索图标。 |
+| `className` | `string`          | -                | 用于样式的 CSS 类。     |
+
+#### SearchField.ClearButton Props
+
+SearchField.ClearButton 继承 React Aria [Button](https://react-spectrum.adobe.com/react-aria/Button.html) 组件的 props。
+
+| Prop        | 类型                | 默认值                    | 描述                      |
+| ----------- | ----------------- | ---------------------- | ----------------------- |
+| `children`  | `React.ReactNode` | `<CloseButton icon />` | 按钮的图标或内容。默认为关闭图标。       |
+| `className` | `string`          | -                      | 用于样式的 CSS 类。            |
+| `slot`      | `"clear"`         | `"clear"`              | 必须设置为 `"clear"`（会自动设置）。 |
+
+### SearchFieldRenderProps
+
+在 `className`、`style` 或 `children` 上使用渲染 prop 时，可使用以下值：
+
+| Prop             | 类型        | 描述                               |
+| ---------------- | --------- | -------------------------------- |
+| `isDisabled`     | `boolean` | 字段是否禁用。                          |
+| `isInvalid`      | `boolean` | 字段当前是否无效。                        |
+| `isReadOnly`     | `boolean` | 字段是否只读。                          |
+| `isRequired`     | `boolean` | 字段是否必填。                          |
+| `isFocused`      | `boolean` | 字段是否聚焦（已弃用，请使用 `isFocusWithin`）。 |
+| `isFocusWithin`  | `boolean` | 是否有任意子元素聚焦。                      |
+| `isFocusVisible` | `boolean` | 是否为可见焦点（键盘导航）。                   |
+| `value`          | `string`  | 当前值。                             |
+| `isEmpty`        | `boolean` | 字段是否为空。                          |
+
+</page>

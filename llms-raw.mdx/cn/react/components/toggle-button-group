@@ -1,0 +1,594 @@
+<page url="/cn/docs/react/components/toggle-button-group">
+# ToggleButtonGroup 切换按钮组
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/toggle-button-group
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(buttons)/toggle-button-group.mdx
+> 将多个 ToggleButton 组合为统一控件，允许用户选择单个或多个选项。
+
+
+***
+
+## 引入
+
+```tsx
+import { ToggleButtonGroup, ToggleButton } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {Bold, Italic, Strikethrough, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <ToggleButtonGroup selectionMode="multiple">
+      <ToggleButton isIconOnly aria-label="粗体" id="bold">
+        <Bold />
+      </ToggleButton>
+      <ToggleButton isIconOnly aria-label="斜体" id="italic">
+        <ToggleButtonGroup.Separator />
+        <Italic />
+      </ToggleButton>
+      <ToggleButton isIconOnly aria-label="下划线" id="underline">
+        <ToggleButtonGroup.Separator />
+        <Underline />
+      </ToggleButton>
+      <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+        <ToggleButtonGroup.Separator />
+        <Strikethrough />
+      </ToggleButton>
+    </ToggleButtonGroup>
+  );
+}
+
+```
+
+### 组件结构
+
+导入 ToggleButtonGroup 组件，并通过点语法访问所有子部分。
+
+```tsx
+import { ToggleButtonGroup, ToggleButton } from '@heroui/react';
+
+export default () => (
+  <ToggleButtonGroup selectionMode="multiple">
+    <ToggleButton id="first">First</ToggleButton>
+    <ToggleButton id="second">
+      <ToggleButtonGroup.Separator />
+      Second
+    </ToggleButton>
+    <ToggleButton id="third">
+      <ToggleButtonGroup.Separator />
+      Third
+    </ToggleButton>
+  </ToggleButtonGroup>
+);
+
+```
+
+### 尺寸
+
+```tsx
+import {Bold, Italic, Strikethrough, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function Sizes() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">小</span>
+        <ToggleButtonGroup selectionMode="multiple" size="sm">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+            <ToggleButtonGroup.Separator />
+            <Strikethrough />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">中（默认）</span>
+        <ToggleButtonGroup selectionMode="multiple" size="md">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+            <ToggleButtonGroup.Separator />
+            <Strikethrough />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">大</span>
+        <ToggleButtonGroup selectionMode="multiple" size="lg">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+            <ToggleButtonGroup.Separator />
+            <Strikethrough />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 方向
+
+```tsx
+import {Bold, Italic, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function Orientation() {
+  return (
+    <div className="flex items-start gap-8">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">水平</span>
+        <ToggleButtonGroup orientation="horizontal" selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">垂直</span>
+        <ToggleButtonGroup orientation="vertical" selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 分离模式
+
+使用 `isDetached` 让按钮之间留出间隔，而不是彼此连接。
+
+```tsx
+import {Bold, Italic, Strikethrough, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function Attached() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">附着（默认）</span>
+        <ToggleButtonGroup selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+            <ToggleButtonGroup.Separator />
+            <Strikethrough />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">分离</span>
+        <ToggleButtonGroup isDetached selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <Underline />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+            <Strikethrough />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 全宽
+
+```tsx
+import {
+  Bold,
+  Italic,
+  Strikethrough,
+  TextAlignCenter,
+  TextAlignLeft,
+  TextAlignRight,
+  Underline,
+} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function FullWidth() {
+  return (
+    <div className="w-full max-w-md space-y-3">
+      <ToggleButtonGroup fullWidth selectionMode="multiple">
+        <ToggleButton isIconOnly aria-label="粗体" id="bold">
+          <Bold />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="斜体" id="italic">
+          <ToggleButtonGroup.Separator />
+          <Italic />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="下划线" id="underline">
+          <ToggleButtonGroup.Separator />
+          <Underline />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+          <ToggleButtonGroup.Separator />
+          <Strikethrough />
+        </ToggleButton>
+      </ToggleButtonGroup>
+      <ToggleButtonGroup fullWidth selectionMode="single">
+        <ToggleButton id="left">
+          <TextAlignLeft />
+          左对齐
+        </ToggleButton>
+        <ToggleButton id="center">
+          <ToggleButtonGroup.Separator />
+          <TextAlignCenter />
+          居中
+        </ToggleButton>
+        <ToggleButton id="right">
+          <ToggleButtonGroup.Separator />
+          <TextAlignRight />
+          右对齐
+        </ToggleButton>
+      </ToggleButtonGroup>
+    </div>
+  );
+}
+
+```
+
+### 选择模式
+
+使用 `selectionMode="single"` 实现互斥选择，或使用 `selectionMode="multiple"` 实现独立切换。
+
+```tsx
+import {
+  Bold,
+  Italic,
+  Strikethrough,
+  TextAlignCenter,
+  TextAlignLeft,
+  TextAlignRight,
+  Underline,
+} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function SelectionMode() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">单选</span>
+        <ToggleButtonGroup defaultSelectedKeys={["center"]} selectionMode="single">
+          <ToggleButton id="left">
+            <TextAlignLeft />
+            左对齐
+          </ToggleButton>
+          <ToggleButton id="center">
+            <ToggleButtonGroup.Separator />
+            <TextAlignCenter />
+            居中
+          </ToggleButton>
+          <ToggleButton id="right">
+            <ToggleButtonGroup.Separator />
+            <TextAlignRight />
+            右对齐
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">多选</span>
+        <ToggleButtonGroup defaultSelectedKeys={["bold", "underline"]} selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+            <ToggleButtonGroup.Separator />
+            <Strikethrough />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 受控
+
+```tsx
+"use client";
+
+import type {Key} from "@heroui/react";
+
+import {Bold, Italic, Strikethrough, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+import {useState} from "react";
+
+export function Controlled() {
+  const [selectedKeys, setSelectedKeys] = useState(new Set<Key>(["bold"]));
+
+  return (
+    <div className="flex flex-col gap-4">
+      <ToggleButtonGroup
+        selectedKeys={selectedKeys}
+        selectionMode="multiple"
+        onSelectionChange={setSelectedKeys}
+      >
+        <ToggleButton isIconOnly aria-label="粗体" id="bold">
+          <Bold />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="斜体" id="italic">
+          <ToggleButtonGroup.Separator />
+          <Italic />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="下划线" id="underline">
+          <ToggleButtonGroup.Separator />
+          <Underline />
+        </ToggleButton>
+        <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+          <ToggleButtonGroup.Separator />
+          <Strikethrough />
+        </ToggleButton>
+      </ToggleButtonGroup>
+      <p className="text-sm text-muted">
+        已选：
+        <span className="font-medium">
+          {selectedKeys.size > 0 ? [...selectedKeys].join(", ") : "无"}
+        </span>
+      </p>
+    </div>
+  );
+}
+
+```
+
+### 禁用
+
+```tsx
+import {Bold, Italic, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">全部按钮已禁用</span>
+        <ToggleButtonGroup isDisabled selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">单个按钮已禁用</span>
+        <ToggleButtonGroup selectionMode="multiple">
+          <ToggleButton isIconOnly aria-label="粗体" id="bold">
+            <Bold />
+          </ToggleButton>
+          <ToggleButton isDisabled isIconOnly aria-label="斜体" id="italic">
+            <ToggleButtonGroup.Separator />
+            <Italic />
+          </ToggleButton>
+          <ToggleButton isIconOnly aria-label="下划线" id="underline">
+            <ToggleButtonGroup.Separator />
+            <Underline />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 无分隔线
+
+在按钮中直接省略 `<ToggleButtonGroup.Separator />` 组件即可。
+
+```tsx
+import {Bold, Italic, Strikethrough, Underline} from "@gravity-ui/icons";
+import {ToggleButton, ToggleButtonGroup} from "@heroui/react";
+
+export function WithoutSeparator() {
+  return (
+    <ToggleButtonGroup selectionMode="multiple">
+      <ToggleButton isIconOnly aria-label="粗体" id="bold">
+        <Bold />
+      </ToggleButton>
+      <ToggleButton isIconOnly aria-label="斜体" id="italic">
+        <Italic />
+      </ToggleButton>
+      <ToggleButton isIconOnly aria-label="下划线" id="underline">
+        <Underline />
+      </ToggleButton>
+      <ToggleButton isIconOnly aria-label="删除线" id="strikethrough">
+        <Strikethrough />
+      </ToggleButton>
+    </ToggleButtonGroup>
+  );
+}
+
+```
+
+## Related Components
+
+- **ToggleButton**: Interactive toggle control for on/off states
+- **ButtonGroup**: Group related buttons together
+- **Button**: Allows a user to perform an action
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { ToggleButtonGroup, ToggleButton } from '@heroui/react';
+
+function CustomToggleButtonGroup() {
+  return (
+    <ToggleButtonGroup className="bg-purple-100" selectionMode="single">
+      <ToggleButton id="a">Option A</ToggleButton>
+      <ToggleButton id="b">
+        <ToggleButtonGroup.Separator />
+        Option B
+      </ToggleButton>
+    </ToggleButtonGroup>
+  );
+}
+
+```
+
+### 自定义组件类
+
+若要自定义 ToggleButtonGroup 组件类，可以使用 `@layer components` 指令。
+<br/>[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes).
+
+```css
+@layer components {
+  .toggle-button-group {
+    @apply rounded-lg;
+  }
+
+  .toggle-button-group__separator {
+    @apply opacity-25;
+  }
+
+  .toggle-button-group--full-width {
+    @apply w-full;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+ToggleButtonGroup 组件使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/toggle-button-group.css)）：
+
+#### 基础与布局类
+
+- `.toggle-button-group` - 容器基础样式
+- `.toggle-button-group--horizontal` - 水平方向
+- `.toggle-button-group--vertical` - 垂直方向
+- `.toggle-button-group--full-width` - 全宽修饰符
+- `.toggle-button-group__separator` - 按钮之间的分隔线元素
+
+#### 修饰符类
+
+- `.toggle-button-group--detached` - 分离模式（按钮间有间隔）
+
+## API 参考
+
+### ToggleButtonGroup Props
+
+继承自 [React Aria ToggleButtonGroup](https://react-aria.adobe.com/ToggleButtonGroup)。
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `selectionMode` | `"single" \| "multiple"` | `"single"` | 是否允许选中一个或多个按钮 |
+| `selectedKeys` | `Iterable<Key>` | - | 受控的选中状态 |
+| `defaultSelectedKeys` | `Iterable<Key>` | - | 默认选中 key（非受控） |
+| `onSelectionChange` | `(keys: Set<Key>) => void` | - | 选中变化时调用 |
+| `disallowEmptySelection` | `boolean` | `false` | 是否禁止清空所有选中 |
+| `orientation` | `"horizontal" \| "vertical"` | `"horizontal"` | 布局方向 |
+| `size` | `"sm" \| "md" \| "lg"` | `"md"` | 传递给子 ToggleButton 的尺寸 |
+| `isDetached` | `boolean` | `false` | 按钮是否以间隔分离显示 |
+| `fullWidth` | `boolean` | `false` | 按钮组是否占满可用宽度 |
+| `isDisabled` | `boolean` | `false` | 是否禁用组内全部按钮 |
+| `className` | `string` | - | 额外的 CSS 类 |
+
+### ToggleButtonGroup.Separator Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类 |
+
+### 说明
+
+- ToggleButtonGroup 使用 React Context 将 `size` 传递给所有子 ToggleButton 组件
+- 每个 ToggleButton 都必须有唯一 `id` prop，并与 `selectedKeys` / `defaultSelectedKeys` 中使用的 key 对应
+- `isDisabled` prop 由 React Aria 原生处理，会禁用所有子 ToggleButton；单个按钮可通过设置 `isDisabled={false}` 覆盖
+- 组件会自动处理按钮之间的圆角
+- 在每个 ToggleButton（第一个除外）内添加 `<ToggleButtonGroup.Separator />`，可在按钮之间显示分隔线
+- 将 `disallowEmptySelection` 与 `selectionMode="single"` 一起使用，可确保始终有一个选项被选中
+</page>

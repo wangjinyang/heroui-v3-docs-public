@@ -1,0 +1,896 @@
+<page url="/cn/docs/react/components/date-picker">
+# DatePicker 日期选择器
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/date-picker
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(date-and-time)/date-picker.mdx
+> 可组合的日期选择器，基于 React Aria DatePicker，通过 DateField 与 Calendar 组合实现。
+
+
+## 引入
+
+```tsx
+import { DatePicker, DateField, Calendar, Label } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+"use client";
+
+import {Calendar, DateField, DatePicker, Label} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <DatePicker className="w-64" name="date">
+      <Label>日期</Label>
+      <DateField.Group fullWidth>
+        <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+        <DateField.Suffix>
+          <DatePicker.Trigger>
+            <DatePicker.TriggerIndicator />
+          </DatePicker.Trigger>
+        </DateField.Suffix>
+      </DateField.Group>
+      <DatePicker.Popover>
+        <Calendar aria-label="活动日期">
+          <Calendar.Header>
+            <Calendar.YearPickerTrigger>
+              <Calendar.YearPickerTriggerHeading />
+              <Calendar.YearPickerTriggerIndicator />
+            </Calendar.YearPickerTrigger>
+            <Calendar.NavButton slot="previous" />
+            <Calendar.NavButton slot="next" />
+          </Calendar.Header>
+          <Calendar.Grid>
+            <Calendar.GridHeader>
+              {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+            </Calendar.GridHeader>
+            <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+          </Calendar.Grid>
+          <Calendar.YearPickerGrid>
+            <Calendar.YearPickerGridBody>
+              {({year}) => <Calendar.YearPickerCell year={year} />}
+            </Calendar.YearPickerGridBody>
+          </Calendar.YearPickerGrid>
+        </Calendar>
+      </DatePicker.Popover>
+    </DatePicker>
+  );
+}
+
+```
+
+### 组件结构
+
+`DatePicker` 采用组合优先的 API。请显式组合 `DateField` 与 `Calendar`，以便完全控制结构与样式。
+
+```tsx
+import {Calendar, DateField, DatePicker, Label} from '@heroui/react';
+
+export default () => (
+  <DatePicker>
+    <Label />
+    <DateField.Group>
+      <DateField.Input>
+        {(segment) => <DateField.Segment segment={segment} />}
+      </DateField.Input>
+      <DateField.Suffix>
+        <DatePicker.Trigger>
+          <DatePicker.TriggerIndicator />
+        </DatePicker.Trigger>
+      </DateField.Suffix>
+    </DateField.Group>
+    <DatePicker.Popover>
+      <Calendar aria-label="Choose date">
+        <Calendar.Header>
+          <Calendar.YearPickerTrigger>
+            <Calendar.YearPickerTriggerHeading />
+            <Calendar.YearPickerTriggerIndicator />
+          </Calendar.YearPickerTrigger>
+          <Calendar.NavButton slot="previous" />
+          <Calendar.NavButton slot="next" />
+        </Calendar.Header>
+        <Calendar.Grid>
+          <Calendar.GridHeader>
+            {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+          </Calendar.GridHeader>
+          <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+        </Calendar.Grid>
+      </Calendar>
+    </DatePicker.Popover>
+  </DatePicker>
+)
+
+```
+
+### 受控
+
+```tsx
+"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Button, Calendar, DateField, DatePicker, Description, Label} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+import {useState} from "react";
+
+export function Controlled() {
+  const [value, setValue] = useState<DateValue | null>(today(getLocalTimeZone()));
+
+  return (
+    <div className="flex w-64 flex-col gap-4">
+      <DatePicker name="date" value={value} onChange={setValue}>
+        <Label>日期</Label>
+        <DateField.Group fullWidth>
+          <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+          <DateField.Suffix>
+            <DatePicker.Trigger>
+              <DatePicker.TriggerIndicator />
+            </DatePicker.Trigger>
+          </DateField.Suffix>
+        </DateField.Group>
+        <DatePicker.Popover>
+          <Calendar aria-label="活动日期">
+            <Calendar.Header>
+              <Calendar.YearPickerTrigger>
+                <Calendar.YearPickerTriggerHeading />
+                <Calendar.YearPickerTriggerIndicator />
+              </Calendar.YearPickerTrigger>
+              <Calendar.NavButton slot="previous" />
+              <Calendar.NavButton slot="next" />
+            </Calendar.Header>
+            <Calendar.Grid>
+              <Calendar.GridHeader>
+                {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+              </Calendar.GridHeader>
+              <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+            </Calendar.Grid>
+            <Calendar.YearPickerGrid>
+              <Calendar.YearPickerGridBody>
+                {({year}) => <Calendar.YearPickerCell year={year} />}
+              </Calendar.YearPickerGridBody>
+            </Calendar.YearPickerGrid>
+          </Calendar>
+        </DatePicker.Popover>
+      </DatePicker>
+      <Description>当前值：{value ? value.toString() : "（空）"}</Description>
+      <div className="flex gap-2">
+        <Button variant="tertiary" onPress={() => setValue(today(getLocalTimeZone()))}>
+          设为今天
+        </Button>
+        <Button variant="tertiary" onPress={() => setValue(null)}>
+          清空
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 校验
+
+```tsx
+"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {Calendar, DateField, DatePicker, FieldError, Label} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+import {useState} from "react";
+
+export function WithValidation() {
+  const [value, setValue] = useState<DateValue | null>(null);
+  const currentDate = today(getLocalTimeZone());
+  const isInvalid = value != null && value.compare(currentDate) < 0;
+
+  return (
+    <DatePicker
+      isRequired
+      className="w-64"
+      isInvalid={isInvalid}
+      minValue={currentDate}
+      name="date"
+      value={value}
+      onChange={setValue}
+    >
+      <Label>预约日期</Label>
+      <DateField.Group fullWidth>
+        <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+        <DateField.Suffix>
+          <DatePicker.Trigger>
+            <DatePicker.TriggerIndicator />
+          </DatePicker.Trigger>
+        </DateField.Suffix>
+      </DateField.Group>
+      <FieldError>日期须为今天或将来。</FieldError>
+      <DatePicker.Popover>
+        <Calendar aria-label="活动日期">
+          <Calendar.Header>
+            <Calendar.YearPickerTrigger>
+              <Calendar.YearPickerTriggerHeading />
+              <Calendar.YearPickerTriggerIndicator />
+            </Calendar.YearPickerTrigger>
+            <Calendar.NavButton slot="previous" />
+            <Calendar.NavButton slot="next" />
+          </Calendar.Header>
+          <Calendar.Grid>
+            <Calendar.GridHeader>
+              {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+            </Calendar.GridHeader>
+            <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+          </Calendar.Grid>
+          <Calendar.YearPickerGrid>
+            <Calendar.YearPickerGridBody>
+              {({year}) => <Calendar.YearPickerCell year={year} />}
+            </Calendar.YearPickerGridBody>
+          </Calendar.YearPickerGrid>
+        </Calendar>
+      </DatePicker.Popover>
+    </DatePicker>
+  );
+}
+
+```
+
+### 格式选项
+
+使用 `granularity`、`hourCycle`、`hideTimeZone`、`shouldForceLeadingZeros` 等 props 控制 DatePicker 值的展示方式。
+
+```tsx
+"use client";
+
+import type {TimeValue} from "@heroui/react";
+import type {DateValue} from "@internationalized/date";
+
+import {
+  Calendar,
+  DateField,
+  DatePicker,
+  Label,
+  ListBox,
+  Select,
+  Switch,
+  TimeField,
+} from "@heroui/react";
+import {getLocalTimeZone, parseDate, parseZonedDateTime} from "@internationalized/date";
+import {useMemo, useState} from "react";
+
+type Granularity = "day" | "hour" | "minute" | "second";
+type HourCycle = 12 | 24;
+const granularityOptions: {label: string; value: Granularity}[] = [
+  {label: "日", value: "day"},
+  {label: "时", value: "hour"},
+  {label: "分", value: "minute"},
+  {label: "秒", value: "second"},
+];
+const hourCycleOptions: {label: string; value: HourCycle}[] = [
+  {label: "12 小时制", value: 12},
+  {label: "24 小时制", value: 24},
+];
+
+export function FormatOptions() {
+  const [granularity, setGranularity] = useState<Granularity>("minute");
+  const [hourCycle, setHourCycle] = useState<HourCycle>(12);
+  const [hideTimeZone, setHideTimeZone] = useState(false);
+  const [shouldForceLeadingZeros, setShouldForceLeadingZeros] = useState(false);
+  const timeGranularity = granularity !== "day" ? granularity : undefined;
+  const showTimeField = !!timeGranularity;
+  const defaultValue = useMemo<DateValue>(() => {
+    const localTimeZone = getLocalTimeZone();
+
+    if (granularity === "day") {
+      return parseDate("2026-02-03");
+    }
+
+    return parseZonedDateTime(`2026-02-03T08:45:00[${localTimeZone}]`);
+  }, [granularity]);
+
+  return (
+    <div className="flex flex-col gap-4">
+      <DatePicker
+        key={granularity}
+        className="w-fit min-w-64"
+        defaultValue={defaultValue}
+        granularity={granularity}
+        hideTimeZone={hideTimeZone}
+        hourCycle={hourCycle}
+        name="date"
+        shouldForceLeadingZeros={shouldForceLeadingZeros}
+      >
+        {({state}) => (
+          <>
+            <Label>日期和时间</Label>
+            <DateField.Group fullWidth>
+              <DateField.Input>
+                {(segment) => <DateField.Segment segment={segment} />}
+              </DateField.Input>
+              <DateField.Suffix>
+                <DatePicker.Trigger>
+                  <DatePicker.TriggerIndicator />
+                </DatePicker.Trigger>
+              </DateField.Suffix>
+            </DateField.Group>
+            <DatePicker.Popover className="flex flex-col gap-3">
+              <Calendar aria-label="活动日期">
+                <Calendar.Header>
+                  <Calendar.YearPickerTrigger>
+                    <Calendar.YearPickerTriggerHeading />
+                    <Calendar.YearPickerTriggerIndicator />
+                  </Calendar.YearPickerTrigger>
+                  <Calendar.NavButton slot="previous" />
+                  <Calendar.NavButton slot="next" />
+                </Calendar.Header>
+                <Calendar.Grid>
+                  <Calendar.GridHeader>
+                    {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+                  </Calendar.GridHeader>
+                  <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+                </Calendar.Grid>
+                <Calendar.YearPickerGrid>
+                  <Calendar.YearPickerGridBody>
+                    {({year}) => <Calendar.YearPickerCell year={year} />}
+                  </Calendar.YearPickerGridBody>
+                </Calendar.YearPickerGrid>
+              </Calendar>
+              {!!showTimeField && (
+                <div className="flex items-center justify-between">
+                  <Label>时间</Label>
+                  <TimeField
+                    aria-label="时间"
+                    granularity={timeGranularity}
+                    hideTimeZone={hideTimeZone}
+                    hourCycle={hourCycle}
+                    name="time"
+                    shouldForceLeadingZeros={shouldForceLeadingZeros}
+                    value={state.timeValue}
+                    onChange={(v) => state.setTimeValue(v as TimeValue)}
+                  >
+                    <TimeField.Group variant="secondary">
+                      <TimeField.Input>
+                        {(segment) => <TimeField.Segment segment={segment} />}
+                      </TimeField.Input>
+                    </TimeField.Group>
+                  </TimeField>
+                </div>
+              )}
+            </DatePicker.Popover>
+          </>
+        )}
+      </DatePicker>
+
+      <div className="flex flex-wrap gap-4">
+        <div className="flex flex-col gap-1">
+          <Select
+            className="w-[120px]"
+            value={granularity}
+            variant="secondary"
+            onChange={(value) => setGranularity(value as Granularity)}
+          >
+            <Label>粒度</Label>
+            <Select.Trigger>
+              <Select.Value />
+              <Select.Indicator />
+            </Select.Trigger>
+            <Select.Popover>
+              <ListBox>
+                {granularityOptions.map((option) => (
+                  <ListBox.Item key={option.value} id={option.value} textValue={option.label}>
+                    {option.label}
+                    <ListBox.ItemIndicator />
+                  </ListBox.Item>
+                ))}
+              </ListBox>
+            </Select.Popover>
+          </Select>
+        </div>
+
+        <div className="flex flex-col gap-1">
+          <Select
+            className="w-[120px]"
+            value={hourCycle}
+            variant="secondary"
+            onChange={(value) => setHourCycle(Number(value) as HourCycle)}
+          >
+            <Label>小时制</Label>
+            <Select.Trigger>
+              <Select.Value />
+              <Select.Indicator />
+            </Select.Trigger>
+            <Select.Popover>
+              <ListBox>
+                {hourCycleOptions.map((option) => (
+                  <ListBox.Item key={option.value} id={option.value} textValue={option.label}>
+                    {option.label}
+                    <ListBox.ItemIndicator />
+                  </ListBox.Item>
+                ))}
+              </ListBox>
+            </Select.Popover>
+          </Select>
+        </div>
+      </div>
+
+      <div className="flex min-w-80 flex-col gap-2">
+        <Switch isSelected={hideTimeZone} onChange={setHideTimeZone}>
+          <Switch.Control>
+            <Switch.Thumb />
+          </Switch.Control>
+          <Label className="text-sm">隐藏时区</Label>
+        </Switch>
+        <Switch isSelected={shouldForceLeadingZeros} onChange={setShouldForceLeadingZeros}>
+          <Switch.Control>
+            <Switch.Thumb />
+          </Switch.Control>
+          <Label className="text-sm">强制前导零</Label>
+        </Switch>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 禁用
+
+```tsx
+"use client";
+
+import {Calendar, DateField, DatePicker, Description, Label} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+
+export function Disabled() {
+  return (
+    <DatePicker isDisabled className="w-64" name="date" value={today(getLocalTimeZone())}>
+      <Label>日期</Label>
+      <DateField.Group fullWidth>
+        <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+        <DateField.Suffix>
+          <DatePicker.Trigger>
+            <DatePicker.TriggerIndicator />
+          </DatePicker.Trigger>
+        </DateField.Suffix>
+      </DateField.Group>
+      <Description>该日期选择器已禁用。</Description>
+      <DatePicker.Popover>
+        <Calendar aria-label="活动日期">
+          <Calendar.Header>
+            <Calendar.YearPickerTrigger>
+              <Calendar.YearPickerTriggerHeading />
+              <Calendar.YearPickerTriggerIndicator />
+            </Calendar.YearPickerTrigger>
+            <Calendar.NavButton slot="previous" />
+            <Calendar.NavButton slot="next" />
+          </Calendar.Header>
+          <Calendar.Grid>
+            <Calendar.GridHeader>
+              {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+            </Calendar.GridHeader>
+            <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+          </Calendar.Grid>
+          <Calendar.YearPickerGrid>
+            <Calendar.YearPickerGridBody>
+              {({year}) => <Calendar.YearPickerCell year={year} />}
+            </Calendar.YearPickerGridBody>
+          </Calendar.YearPickerGrid>
+        </Calendar>
+      </DatePicker.Popover>
+    </DatePicker>
+  );
+}
+
+```
+
+### 自定义指示器
+
+未提供子节点时，`DatePicker.TriggerIndicator` 会渲染默认的 `IconCalendar`。传入子节点即可替换。
+
+```tsx
+"use client";
+
+import {Calendar, DateField, DatePicker, Description, Label} from "@heroui/react";
+import {Icon} from "@iconify/react";
+
+export function WithCustomIndicator() {
+  return (
+    <DatePicker className="w-64" name="date">
+      <Label>日期</Label>
+      <DateField.Group fullWidth>
+        <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+        <DateField.Suffix>
+          <DatePicker.Trigger>
+            <DatePicker.TriggerIndicator>
+              <Icon className="size-4" icon="gravity-ui:chevron-down" />
+            </DatePicker.TriggerIndicator>
+          </DatePicker.Trigger>
+        </DateField.Suffix>
+      </DateField.Group>
+      <Description>通过传入自定义子元素替换默认日历图标。</Description>
+      <DatePicker.Popover>
+        <Calendar aria-label="活动日期">
+          <Calendar.Header>
+            <Calendar.YearPickerTrigger>
+              <Calendar.YearPickerTriggerHeading />
+              <Calendar.YearPickerTriggerIndicator />
+            </Calendar.YearPickerTrigger>
+            <Calendar.NavButton slot="previous" />
+            <Calendar.NavButton slot="next" />
+          </Calendar.Header>
+          <Calendar.Grid>
+            <Calendar.GridHeader>
+              {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+            </Calendar.GridHeader>
+            <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+          </Calendar.Grid>
+          <Calendar.YearPickerGrid>
+            <Calendar.YearPickerGridBody>
+              {({year}) => <Calendar.YearPickerCell year={year} />}
+            </Calendar.YearPickerGridBody>
+          </Calendar.YearPickerGrid>
+        </Calendar>
+      </DatePicker.Popover>
+    </DatePicker>
+  );
+}
+
+```
+
+### 表单示例
+
+```tsx
+"use client";
+
+import type {DateValue} from "@internationalized/date";
+
+import {
+  Button,
+  Calendar,
+  DateField,
+  DatePicker,
+  Description,
+  FieldError,
+  Form,
+  Label,
+} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+import {useState} from "react";
+
+export function FormExample() {
+  const [value, setValue] = useState<DateValue | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const currentDate = today(getLocalTimeZone());
+  const isInvalid = value != null && value.compare(currentDate) < 0;
+
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+
+    if (!value || isInvalid) {
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    setTimeout(() => {
+      setValue(null);
+      setIsSubmitting(false);
+    }, 1200);
+  };
+
+  return (
+    <Form className="flex w-64 flex-col gap-3" onSubmit={handleSubmit}>
+      <DatePicker
+        isRequired
+        isInvalid={isInvalid}
+        minValue={currentDate}
+        name="appointmentDate"
+        value={value}
+        onChange={setValue}
+      >
+        <Label>预约日期</Label>
+        <DateField.Group fullWidth>
+          <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+          <DateField.Suffix>
+            <DatePicker.Trigger>
+              <DatePicker.TriggerIndicator />
+            </DatePicker.Trigger>
+          </DateField.Suffix>
+        </DateField.Group>
+        {isInvalid ? (
+          <FieldError>日期须为今天或将来。</FieldError>
+        ) : (
+          <Description>请选择有效的预约日期。</Description>
+        )}
+        <DatePicker.Popover>
+          <Calendar aria-label="活动日期">
+            <Calendar.Header>
+              <Calendar.YearPickerTrigger>
+                <Calendar.YearPickerTriggerHeading />
+                <Calendar.YearPickerTriggerIndicator />
+              </Calendar.YearPickerTrigger>
+              <Calendar.NavButton slot="previous" />
+              <Calendar.NavButton slot="next" />
+            </Calendar.Header>
+            <Calendar.Grid>
+              <Calendar.GridHeader>
+                {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+              </Calendar.GridHeader>
+              <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+            </Calendar.Grid>
+            <Calendar.YearPickerGrid>
+              <Calendar.YearPickerGridBody>
+                {({year}) => <Calendar.YearPickerCell year={year} />}
+              </Calendar.YearPickerGridBody>
+            </Calendar.YearPickerGrid>
+          </Calendar>
+        </DatePicker.Popover>
+      </DatePicker>
+      <Button
+        className="w-full"
+        isDisabled={!value || isInvalid}
+        isPending={isSubmitting}
+        type="submit"
+      >
+        {isSubmitting ? "提交中…" : "提交"}
+      </Button>
+    </Form>
+  );
+}
+
+```
+
+### 国际化历法
+
+默认情况下，DatePicker 会使用用户语言环境对应的历法显示日期。你可以使用 `I18nProvider` 包裹 DatePicker，并通过 [Unicode 历法语言扩展](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/calendar#adding_a_calendar_in_the_locale_string) 覆盖。
+
+下方示例展示印度历法系统：
+
+```tsx
+"use client";
+
+import {Calendar, DateField, DatePicker, Label} from "@heroui/react";
+import {getLocalTimeZone, today} from "@internationalized/date";
+import {I18nProvider} from "react-aria-components";
+
+export function InternationalCalendar() {
+  return (
+    <I18nProvider locale="hi-IN-u-ca-indian">
+      <DatePicker
+        className="w-64"
+        defaultValue={today(getLocalTimeZone())}
+        name="international-date"
+      >
+        <Label>活动日期</Label>
+        <DateField.Group fullWidth>
+          <DateField.Input>{(segment) => <DateField.Segment segment={segment} />}</DateField.Input>
+          <DateField.Suffix>
+            <DatePicker.Trigger>
+              <DatePicker.TriggerIndicator />
+            </DatePicker.Trigger>
+          </DateField.Suffix>
+        </DateField.Group>
+        <DatePicker.Popover>
+          <Calendar aria-label="活动日期">
+            <Calendar.Header>
+              <Calendar.YearPickerTrigger>
+                <Calendar.YearPickerTriggerHeading />
+                <Calendar.YearPickerTriggerIndicator />
+              </Calendar.YearPickerTrigger>
+              <Calendar.NavButton slot="previous" />
+              <Calendar.NavButton slot="next" />
+            </Calendar.Header>
+            <Calendar.Grid>
+              <Calendar.GridHeader>
+                {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+              </Calendar.GridHeader>
+              <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+            </Calendar.Grid>
+            <Calendar.YearPickerGrid>
+              <Calendar.YearPickerGridBody>
+                {({year}) => <Calendar.YearPickerCell year={year} />}
+              </Calendar.YearPickerGridBody>
+            </Calendar.YearPickerGrid>
+          </Calendar>
+        </DatePicker.Popover>
+      </DatePicker>
+    </I18nProvider>
+  );
+}
+
+```
+
+**说明：** `onChange` 事件返回的日期始终与 `value` 或 `defaultValue` 使用同一历法系统（未提供值时为公历），与界面展示的本地化格式无关。这能确保应用逻辑在单一历法系统下保持一致，同时仍可按用户偏好展示日期。
+
+支持的历法系统及其标识符完整列表见：
+
+* [React Aria Calendar Implementations](https://react-aria.adobe.com/internationalized/date/Calendar#implementations)
+* [React Aria International Calendars](https://react-aria.adobe.com/Calendar#international-calendars)
+
+### 自定义渲染函数
+
+```tsx
+"use client";
+
+import {Calendar, DateField, DatePicker, Label} from "@heroui/react";
+
+export function CustomRenderFunction() {
+  return (
+    <DatePicker
+      className="w-64"
+      name="date"
+      render={(props) => <div {...props} data-custom="date-picker" />}
+    >
+      <Label render={(props) => <span {...props} data-custom="date-picker-label" />}>日期</Label>
+      <DateField.Group
+        fullWidth
+        render={(props) => <div {...props} data-custom="date-field-group" />}
+      >
+        <DateField.Input render={(props) => <div {...props} data-custom="date-field-input" />}>
+          {(segment) => (
+            <DateField.Segment
+              render={(props) => <span {...props} data-custom="date-field-segment" />}
+              segment={segment}
+            />
+          )}
+        </DateField.Input>
+        <DateField.Suffix>
+          <DatePicker.Trigger
+            render={(props) => <button {...props} data-custom="date-picker-trigger" />}
+          >
+            <DatePicker.TriggerIndicator />
+          </DatePicker.Trigger>
+        </DateField.Suffix>
+      </DateField.Group>
+      <DatePicker.Popover>
+        <Calendar aria-label="活动日期">
+          <Calendar.Header>
+            <Calendar.YearPickerTrigger>
+              <Calendar.YearPickerTriggerHeading />
+              <Calendar.YearPickerTriggerIndicator />
+            </Calendar.YearPickerTrigger>
+            <Calendar.NavButton slot="previous" />
+            <Calendar.NavButton slot="next" />
+          </Calendar.Header>
+          <Calendar.Grid>
+            <Calendar.GridHeader>
+              {(day) => <Calendar.HeaderCell>{day}</Calendar.HeaderCell>}
+            </Calendar.GridHeader>
+            <Calendar.GridBody>{(date) => <Calendar.Cell date={date} />}</Calendar.GridBody>
+          </Calendar.Grid>
+          <Calendar.YearPickerGrid>
+            <Calendar.YearPickerGridBody>
+              {({year}) => <Calendar.YearPickerCell year={year} />}
+            </Calendar.YearPickerGridBody>
+          </Calendar.YearPickerGrid>
+        </Calendar>
+      </DatePicker.Popover>
+    </DatePicker>
+  );
+}
+
+```
+
+## Related Components
+
+* **Calendar**: Interactive month grid for selecting dates
+* **RangeCalendar**: Interactive month grid for selecting date ranges
+* **DateField**: Date input field with labels, descriptions, and validation
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+你可以分别为各个组合部分添加样式：
+
+```tsx
+import {Calendar, DateField, DatePicker, Label} from '@heroui/react';
+
+function CustomDatePicker() {
+  return (
+    <DatePicker className="w-[320px] gap-2">
+      <Label className="text-sm font-semibold">Date</Label>
+      <DateField.Group className="rounded-xl border border-border/60 bg-surface" fullWidth variant="secondary">
+        <DateField.Input>
+          {(segment) => <DateField.Segment segment={segment} />}
+        </DateField.Input>
+        <DateField.Suffix>
+          <DatePicker.Trigger className="w-full">
+            <DatePicker.TriggerIndicator className="text-default-600" />
+          </DatePicker.Trigger>
+        </DateField.Suffix>
+      </DateField.Group>
+      <DatePicker.Popover className="rounded-xl p-2">
+        <Calendar aria-label="Custom date picker calendar">
+          {/* Calendar parts */}
+        </Calendar>
+      </DatePicker.Popover>
+    </DatePicker>
+  );
+}
+
+```
+
+### 自定义组件类
+
+要自定义 DatePicker 的基础类，请使用 `@layer components`。
+
+```css
+@layer components {
+  .date-picker {
+    @apply inline-flex flex-col gap-1;
+  }
+
+  .date-picker__trigger {
+    @apply inline-flex items-center justify-between;
+  }
+
+  .date-picker__trigger-indicator {
+    @apply text-muted;
+  }
+
+  .date-picker__popover {
+    @apply min-w-[var(--trigger-width)] p-0;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 命名，便于复写与定制。
+
+### CSS 类
+
+DatePicker 在 `packages/styles/components/date-picker.css` 中使用以下类：
+
+* `.date-picker` - 根包裹层。
+* `.date-picker__trigger` - 打开弹出层的触发区域。
+* `.date-picker__trigger-indicator` - 默认或自定义指示器插槽。
+* `.date-picker__popover` - 弹出层内容包裹。
+
+### 交互状态
+
+DatePicker 支持 React Aria 的 data 属性与伪类状态：
+
+* **展开**：触发器上的 `[data-open="true"]`。
+* **禁用**：触发器上的 `[data-disabled="true"]` 或 `[aria-disabled="true"]`。
+* **焦点可见**：触发器上的 `:focus-visible` 或 `[data-focus-visible="true"]`。
+* **悬停**：触发器上的 `:hover` 或 `[data-hovered="true"]`。
+
+## API 参考
+
+### DatePicker Props
+
+DatePicker 继承 React Aria [DatePicker](https://react-aria.adobe.com/DatePicker.md) 的全部 props。
+
+| Prop           | 类型                                                                            | 默认值     | 描述                    |
+| -------------- | ----------------------------------------------------------------------------- | ------- | --------------------- |
+| `value`        | `DateValue \| null`                                                           | -       | 受控的选中日期值。             |
+| `defaultValue` | `DateValue \| null`                                                           | -       | 非受控模式下的默认选中值。         |
+| `onChange`     | `(value: DateValue \| null) => void`                                          | -       | 选中日期变化时调用。            |
+| `isOpen`       | `boolean`                                                                     | -       | 受控的弹出层打开状态。           |
+| `defaultOpen`  | `boolean`                                                                     | `false` | 弹出层初始打开状态。            |
+| `onOpenChange` | `(isOpen: boolean) => void`                                                   | -       | 弹出层打开状态变化时调用。         |
+| `isDisabled`   | `boolean`                                                                     | `false` | 禁用日期选择与触发器交互。         |
+| `isInvalid`    | `boolean`                                                                     | -       | 将字段标记为无效以呈现校验状态。      |
+| `minValue`     | `DateValue`                                                                   | -       | 可选择的最小日期。             |
+| `maxValue`     | `DateValue`                                                                   | -       | 可选择的最大日期。             |
+| `name`         | `string`                                                                      | -       | HTML 表单提交使用的 name。    |
+| `children`     | `ReactNode \| (values: DatePickerRenderProps) => ReactNode`                   | -       | 组合内容或渲染函数。            |
+| `render`       | `DOMRenderFunction<keyof React.JSX.IntrinsicElements, DatePickerRenderProps>` | -       | 使用自定义渲染函数覆盖默认 DOM 元素。 |
+
+### 组合部件
+
+| 组件                            | 描述                               |
+| ----------------------------- | -------------------------------- |
+| `DatePicker.Root`             | 根日期选择器容器与状态持有者。                  |
+| `DatePicker.Trigger`          | 触发按钮，通常渲染在 `DateField.Suffix` 内。 |
+| `DatePicker.TriggerIndicator` | 带默认日历图标的指示器插槽。                   |
+| `DatePicker.Popover`          | 包裹 `Calendar` 内容的弹出层。            |
+
+### 相关包
+
+* [`@internationalized/date`](https://react-aria.adobe.com/internationalized/date/) — 所有日期组件共用的日期类型（`CalendarDate`、`CalendarDateTime`、`ZonedDateTime`）与工具函数
+* [`I18nProvider`](https://react-aria.adobe.com/I18nProvider) — 为子树覆盖语言环境
+* [`useLocale`](https://react-aria.adobe.com/useLocale) — 读取当前语言环境与布局方向
+
+</page>

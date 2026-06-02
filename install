@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+set -eu
+BASE_URL="https://wangjinyang.github.io/heroui-v3-docs-public"
+echo "HeroUI static export install helper"
+echo "Install the MCP package directly:"
+echo "  npx -y @heroui/react-mcp@latest"
+echo "Docs base URL:"
+echo "  ${BASE_URL}"

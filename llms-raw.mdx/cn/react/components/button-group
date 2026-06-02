@@ -1,0 +1,705 @@
+<page url="/cn/docs/react/components/button-group">
+# ButtonGroup 按钮组
+
+**Category**: react
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/button-group
+**Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(buttons)/button-group.mdx
+> 将相关按钮组合在一起，并提供一致的样式与间距。
+
+
+***
+
+## 引入
+
+```tsx
+import { ButtonGroup, Button } from '@heroui/react';
+
+```
+
+### 用法
+
+```tsx
+import {
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  CodeFork,
+  Ellipsis,
+  Picture,
+  Pin,
+  QrCode,
+  Star,
+  TextAlignCenter,
+  TextAlignJustify,
+  TextAlignLeft,
+  TextAlignRight,
+  ThumbsDown,
+  ThumbsUp,
+  Video,
+} from "@gravity-ui/icons";
+import {Button, ButtonGroup, Chip, Description, Dropdown, Label} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <div className="flex flex-col items-start gap-6">
+      {/* 单个按钮与下拉菜单 */}
+      <div className="flex flex-col gap-2">
+        <ButtonGroup>
+          <Button>合并拉取请求</Button>
+          <Dropdown>
+            <Button isIconOnly aria-label="更多选项">
+              <ButtonGroup.Separator />
+              <ChevronDown />
+            </Button>
+            <Dropdown.Popover className="max-w-[290px]" placement="bottom end">
+              <Dropdown.Menu>
+                <Dropdown.Item
+                  className="flex flex-col items-start gap-1"
+                  id="merge"
+                  textValue="创建合并提交"
+                >
+                  <Label>创建合并提交</Label>
+                  <Description>此分支上的所有提交都将加入基础分支</Description>
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="flex flex-col items-start gap-1"
+                  id="squash-and-merge"
+                  textValue="压缩并合并"
+                >
+                  <Label>压缩并合并</Label>
+                  <Description>此分支上的 14 个提交将合并为一次提交并加入基础分支</Description>
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="flex flex-col items-start gap-1"
+                  id="rebase-and-merge"
+                  textValue="变基并合并"
+                >
+                  <Label>变基并合并</Label>
+                  <Description>此分支上的 14 个提交将变基后加入基础分支</Description>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown.Popover>
+          </Dropdown>
+        </ButtonGroup>
+      </div>
+
+      {/* 独立按钮 */}
+      <div className="flex flex-col gap-2">
+        <div className="flex flex-wrap gap-x-2 gap-y-4">
+          <ButtonGroup variant="tertiary">
+            <Button>
+              <CodeFork className="size-3.5" />
+              复刻
+              <Chip color="accent" size="sm" variant="soft">
+                24
+              </Chip>
+            </Button>
+            <Button isIconOnly>
+              <ButtonGroup.Separator />
+              <ChevronDown />
+            </Button>
+          </ButtonGroup>
+          <ButtonGroup variant="tertiary">
+            <Button isIconOnly>
+              <QrCode />
+            </Button>
+            <Button>
+              <ButtonGroup.Separator />
+              扫码支付
+            </Button>
+          </ButtonGroup>
+          <ButtonGroup variant="tertiary">
+            <Button>
+              <ThumbsUp />
+              <span className="text-xs font-semibold">2.4K</span>
+            </Button>
+            <Button isIconOnly>
+              <ButtonGroup.Separator />
+              <ThumbsDown />
+            </Button>
+          </ButtonGroup>
+          <ButtonGroup variant="tertiary">
+            <Button>
+              <Star className="size-3.5" />
+              星标
+            </Button>
+            <Button className="px-2">
+              <ButtonGroup.Separator />
+              <Chip color="accent" size="sm" variant="soft">
+                104
+              </Chip>
+            </Button>
+          </ButtonGroup>
+          <ButtonGroup variant="tertiary">
+            <Button>
+              <Pin />
+              已置顶
+            </Button>
+            <Button isIconOnly>
+              <ButtonGroup.Separator />
+              <ChevronDown />
+            </Button>
+          </ButtonGroup>
+        </div>
+      </div>
+
+      {/* 上一页 / 下一页 */}
+      <div className="flex flex-col gap-2">
+        <ButtonGroup variant="tertiary">
+          <Button>
+            <ChevronLeft />
+            上一页
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            下一页
+            <ChevronRight />
+          </Button>
+        </ButtonGroup>
+      </div>
+
+      {/* 内容类型选择 */}
+      <div className="flex flex-col gap-2">
+        <ButtonGroup variant="tertiary">
+          <Button>
+            <Picture />
+            照片
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            <Video />
+            视频
+          </Button>
+          <Button isIconOnly aria-label="更多选项">
+            <ButtonGroup.Separator />
+            <Ellipsis />
+          </Button>
+        </ButtonGroup>
+      </div>
+
+      {/* 文本对齐 */}
+      <div className="flex flex-col gap-2">
+        <ButtonGroup variant="tertiary">
+          <Button>左对齐</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            居中
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            右对齐
+          </Button>
+        </ButtonGroup>
+      </div>
+
+      {/* 仅图标：对齐 */}
+      <div className="flex flex-col gap-2">
+        <ButtonGroup variant="tertiary">
+          <Button isIconOnly>
+            <TextAlignLeft />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignCenter />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignRight />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignJustify />
+          </Button>
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 组件结构
+
+导入 ButtonGroup 组件后，可通过点语法访问所有子部分。
+
+```tsx
+import { ButtonGroup, Button } from '@heroui/react';
+
+export default () => (
+  <ButtonGroup>
+    <Button>First</Button>
+    <Button>
+      <ButtonGroup.Separator />
+      Second
+    </Button>
+    <Button>
+      <ButtonGroup.Separator />
+      Third
+    </Button>
+  </ButtonGroup>
+);
+
+```
+
+> **ButtonGroup** 将多个 Button 组件包裹在一起，应用一致的样式、间距以及自动圆角处理。它使用 React Context 将 `size`、`variant` 与 `isDisabled` props 传递给所有子按钮。
+
+### 变体
+
+```tsx
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function Variants() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted">主要</p>
+        <ButtonGroup variant="primary">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted">次要</p>
+        <ButtonGroup variant="secondary">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted">第三</p>
+        <ButtonGroup variant="tertiary">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted">线框</p>
+        <ButtonGroup variant="outline">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted">幽灵</p>
+        <ButtonGroup variant="ghost">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted">危险</p>
+        <ButtonGroup variant="danger">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 尺寸
+
+```tsx
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function Sizes() {
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">小</p>
+        <ButtonGroup size="sm" variant="secondary">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">中（默认）</p>
+        <ButtonGroup size="md" variant="secondary">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">大</p>
+        <ButtonGroup size="lg" variant="secondary">
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 方向
+
+使用 `orientation` prop 将按钮按水平或垂直方向排列。
+
+```tsx
+import {TextAlignCenter, TextAlignJustify, TextAlignLeft, TextAlignRight} from "@gravity-ui/icons";
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function Orientation() {
+  return (
+    <div className="flex items-start gap-8">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">横向</span>
+        <ButtonGroup orientation="horizontal" variant="tertiary">
+          <Button isIconOnly>
+            <TextAlignLeft />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignCenter />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignRight />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignJustify />
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm text-muted">纵向</span>
+        <ButtonGroup orientation="vertical" variant="tertiary">
+          <Button isIconOnly>
+            <TextAlignLeft />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignCenter />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignRight />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TextAlignJustify />
+          </Button>
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 带图标
+
+```tsx
+import {Globe, Plus, TrashBin} from "@gravity-ui/icons";
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function WithIcons() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">带图标</p>
+        <ButtonGroup variant="secondary">
+          <Button>
+            <Globe />
+            搜索
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            <Plus />
+            添加
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            <TrashBin />
+            删除
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">仅图标按钮</p>
+        <ButtonGroup variant="tertiary">
+          <Button isIconOnly>
+            <Globe />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <Plus />
+          </Button>
+          <Button isIconOnly>
+            <ButtonGroup.Separator />
+            <TrashBin />
+          </Button>
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 全宽
+
+```tsx
+import {TextAlignCenter, TextAlignLeft, TextAlignRight} from "@gravity-ui/icons";
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function FullWidth() {
+  return (
+    <div className="w-[400px] space-y-3">
+      <ButtonGroup fullWidth>
+        <Button>第一项</Button>
+        <Button>
+          <ButtonGroup.Separator />
+          第二项
+        </Button>
+        <Button>
+          <ButtonGroup.Separator />
+          第三项
+        </Button>
+      </ButtonGroup>
+      <ButtonGroup fullWidth>
+        <Button isIconOnly>
+          <TextAlignLeft />
+        </Button>
+        <Button isIconOnly>
+          <ButtonGroup.Separator />
+          <TextAlignCenter />
+        </Button>
+        <Button isIconOnly>
+          <ButtonGroup.Separator />
+          <TextAlignRight />
+        </Button>
+      </ButtonGroup>
+    </div>
+  );
+}
+
+```
+
+### 禁用状态
+
+```tsx
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function Disabled() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">全部禁用</p>
+        <ButtonGroup isDisabled>
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第三项
+          </Button>
+        </ButtonGroup>
+      </div>
+      <div className="flex flex-col items-start gap-2">
+        <p className="text-sm text-muted">组已禁用，但单个按钮可覆盖</p>
+        <ButtonGroup isDisabled>
+          <Button>第一项</Button>
+          <Button>
+            <ButtonGroup.Separator />
+            第二项
+          </Button>
+          <Button isDisabled={false}>
+            <ButtonGroup.Separator />
+            第三项（可用）
+          </Button>
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
+```
+
+### 无分隔线
+
+直接在按钮中省略 `<ButtonGroup.Separator />` 组件即可。
+
+```tsx
+import {Button, ButtonGroup} from "@heroui/react";
+
+export function WithoutSeparator() {
+  return (
+    <ButtonGroup>
+      <Button>第一项</Button>
+      <Button>第二项</Button>
+      <Button>第三项</Button>
+    </ButtonGroup>
+  );
+}
+
+```
+
+## Related Components
+
+- **Button**: Allows a user to perform an action
+- **Dropdown**: Context menu with actions and options
+- **Chip**: Compact elements for tags and filters
+
+## 样式
+
+### 传入 Tailwind CSS 类
+
+```tsx
+import { ButtonGroup, Button } from '@heroui/react';
+
+function CustomButtonGroup() {
+  return (
+    <ButtonGroup className="gap-2">
+      <Button>First</Button>
+      <Button>
+        <ButtonGroup.Separator />
+        Second
+      </Button>
+      <Button>
+        <ButtonGroup.Separator />
+        Third
+      </Button>
+    </ButtonGroup>
+  );
+}
+
+```
+
+### 自定义组件类
+
+要自定义 ButtonGroup 的组件类，可使用 `@layer components` 指令。
+<br/>[了解更多](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes).
+
+```css
+@layer components {
+  .button-group {
+    @apply gap-2 rounded-lg;
+  }
+
+  .button-group__separator {
+    @apply opacity-25;
+  }
+}
+
+```
+
+HeroUI 遵循 [BEM](https://getbem.com/) 方法论，确保组件变体与状态可复用且易于自定义。
+
+### CSS 类
+
+ButtonGroup 使用以下 CSS 类（[查看源码样式](https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/button-group.css)）：
+
+#### 基础类
+
+- `.button-group` - 按钮组容器的基础样式
+- `.button-group--full-width` - 全宽修饰符
+- `.button-group__separator` - 按钮之间的分隔线元素
+
+ButtonGroup 会自动为按钮处理圆角：
+
+- 第一个按钮获得左侧/起始侧圆角
+- 最后一个按钮获得右侧/结束侧圆角
+- 中间按钮不带圆角
+- 仅有一个按钮时，四边都会应用完整圆角
+
+在每个 Button（第一个除外）内部添加 `<ButtonGroup.Separator />`，即可在按钮之间显示分隔线。
+
+## API 参考
+
+### ButtonGroup Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `variant` | `'primary' \| 'secondary' \| 'tertiary' \| 'ghost' \| 'danger'` | - | 应用于组内所有按钮的视觉变体 |
+| `size` | `'sm' \| 'md' \| 'lg'` | - | 应用于组内所有按钮的尺寸 |
+| `orientation` | `'horizontal' \| 'vertical'` | `'horizontal'` | 按钮组的排列方向 |
+| `fullWidth` | `boolean` | `false` | 按钮组是否占满容器宽度 |
+| `isDisabled` | `boolean` | `false` | 是否禁用组内全部按钮（可在单个按钮上覆盖） |
+| `className` | `string` | - | 额外的 CSS 类 |
+| `children` | `React.ReactNode` | - | 需要组合在一起的按钮组件 |
+
+### ButtonGroup.Separator Props
+
+| Prop | 类型 | 默认值 | 描述 |
+|------|------|--------|------|
+| `className` | `string` | - | 额外的 CSS 类 |
+
+### 说明
+
+- ButtonGroup 使用 React Context 将 `size`、`variant` 与 `isDisabled` props 传递给所有子 Button 组件
+- **只有直接子级按钮会接收 ButtonGroup 的 props**：即使某个按钮是 ButtonGroup 的后代，只要它嵌套在其他组件（如 Modal、Dropdown）中，就不会继承组级 props
+- 单个 Button 可通过设置 `isDisabled={false}` 覆盖组级别的 `isDisabled`
+- 组件会自动处理按钮之间的圆角
+- 在每个 Button（第一个除外）中添加 `<ButtonGroup.Separator />` 可显示分隔线
+- 按钮组中的按钮会移除激活/按压时的缩放变换，以获得更统一的视觉效果
+</page>

@@ -1,0 +1,1560 @@
+1:"$Sreact.fragment"
+2:I[353266,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsPage"]
+3:I[353266,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsTitle"]
+4:I[959182,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"default"]
+5:I[302559,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"ViewOptions"]
+6:I[353266,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsDescription"]
+7:I[483689,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"ComponentLinks"]
+8:I[353266,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"DocsBody"]
+9:I[494157,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Heading"]
+a:I[192506,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"FumadocsCustomCodeblock"]
+71:I[144324,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Pre"]
+72:I[3108,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"LiveComponentPlayground"]
+74:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableRoot"]
+75:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableScrollContainer"]
+76:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableContent"]
+77:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableHeader"]
+78:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableColumn"]
+79:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableBody"]
+7a:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableRow"]
+7b:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableCell"]
+99:I[120283,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"SelectionDemo"]
+a1:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableResizableContainer"]
+a2:I[39797,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TableColumnResizer"]
+a6:I[490085,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"EmptyStateDemo"]
+a9:I[942449,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"LocaleLink"]
+ab:I[593949,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Virtualization"]
+ae:"$Sreact.suspense"
+af:I[605435,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"RelatedComponents"]
+d5:I[897367,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js"],"OutletBoundary"]
+d7:I[881812,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"Sorting"]
+d8:I[882909,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"CustomCells"]
+d9:I[496840,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"ExpandableRows"]
+da:I[522712,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"PaginationDemo"]
+db:I[243451,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"ChipRoot"]
+dc:I[503010,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"AsyncLoading"]
+dd:I[667455,["/heroui-v3-docs-public/_next/static/chunks/0x.73w57rn4ou.js","/heroui-v3-docs-public/_next/static/chunks/0h8ea52.j.8fg.js","/heroui-v3-docs-public/_next/static/chunks/1375bqqe5_zho.js","/heroui-v3-docs-public/_next/static/chunks/04ia8otbul2w9.js","/heroui-v3-docs-public/_next/static/chunks/033h1w54eedv7.js","/heroui-v3-docs-public/_next/static/chunks/159gmix3k~hib.js","/heroui-v3-docs-public/_next/static/chunks/0j82w1dy7v~yr.js","/heroui-v3-docs-public/_next/static/chunks/0z8sb9540w-ac.js","/heroui-v3-docs-public/_next/static/chunks/0g7yee3y3dvo8.js","/heroui-v3-docs-public/_next/static/chunks/0gdenpo8.gwl4.js","/heroui-v3-docs-public/_next/static/chunks/03jjeeu219qjd.js","/heroui-v3-docs-public/_next/static/chunks/063xksbjf_hi0.js","/heroui-v3-docs-public/_next/static/chunks/0ntlk2xyxwoee.js","/heroui-v3-docs-public/_next/static/chunks/06pxd1ptgs50k.js","/heroui-v3-docs-public/_next/static/chunks/0ewzxiinw6lsg.js","/heroui-v3-docs-public/_next/static/chunks/0l3e2ob8hxlmc.js","/heroui-v3-docs-public/_next/static/chunks/0~9vk4q0ofi8a.js","/heroui-v3-docs-public/_next/static/chunks/0bcjw.~buwpao.js","/heroui-v3-docs-public/_next/static/chunks/0s-oqlgy_oz07.js","/heroui-v3-docs-public/_next/static/chunks/0cv_9y2vepjxs.js","/heroui-v3-docs-public/_next/static/chunks/151.xr6.fqwx5.js","/heroui-v3-docs-public/_next/static/chunks/0s78uslia0q-q.js","/heroui-v3-docs-public/_next/static/chunks/0mngcfhq-hqa-.js","/heroui-v3-docs-public/_next/static/chunks/0utta9f2-7gk9.js","/heroui-v3-docs-public/_next/static/chunks/0x~_tmj7tnmmx.js","/heroui-v3-docs-public/_next/static/chunks/0~1dbx6vn.837.js","/heroui-v3-docs-public/_next/static/chunks/0hffhpsx_x.s-.js","/heroui-v3-docs-public/_next/static/chunks/0vjau8erp5b9h.js","/heroui-v3-docs-public/_next/static/chunks/03r4ff1prlgx4.js","/heroui-v3-docs-public/_next/static/chunks/0xrm9x5uly_dk.js","/heroui-v3-docs-public/_next/static/chunks/0dcujmdk6t.zu.js","/heroui-v3-docs-public/_next/static/chunks/0hjcacl3~bgeb.js","/heroui-v3-docs-public/_next/static/chunks/0sdun2pm7sc1h.js","/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js"],"TanstackTable"]
+b:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#import","title":"Import"},{"depth":3,"url":"#usage","title":"Usage"},{"depth":3,"url":"#anatomy","title":"Anatomy"},{"depth":3,"url":"#secondary-variant","title":"Secondary Variant"},{"depth":3,"url":"#sorting","title":"Sorting"},{"depth":3,"url":"#selection","title":"Selection"},{"depth":3,"url":"#custom-cells","title":"Custom Cells"},{"depth":3,"url":"#expandable-rows","title":"Expandable Rows"},{"depth":3,"url":"#pagination","title":"Pagination"},{"depth":3,"url":"#column-resizing","title":"Column Resizing"},{"depth":3,"url":"#empty-state","title":"Empty State"},{"depth":3,"url":"#async-loading","title":"Async Loading"},{"depth":3,"url":"#virtualization","title":"Virtualization"},{"depth":3,"url":"#tanstack-table","title":"TanStack Table"},{"depth":2,"url":"#styling","title":"Styling"},{"depth":3,"url":"#passing-tailwind-css-classes","title":"Passing Tailwind CSS classes"},{"depth":3,"url":"#customizing-the-component-classes","title":"Customizing the component classes"},{"depth":3,"url":"#css-classes","title":"CSS Classes"},{"depth":4,"url":"#base-classes","title":"Base Classes"},{"depth":4,"url":"#advanced-classes","title":"Advanced Classes"},{"depth":4,"url":"#variant-classes","title":"Variant Classes"},{"depth":3,"url":"#interactive-states","title":"Interactive States"},{"depth":2,"url":"#api-reference","title":"API Reference"},{"depth":3,"url":"#table-props","title":"Table Props"},{"depth":3,"url":"#tablescrollcontainer-props","title":"Table.ScrollContainer Props"},{"depth":3,"url":"#tablecontent-props","title":"Table.Content Props"},{"depth":3,"url":"#tableheader-props","title":"Table.Header Props"},{"depth":3,"url":"#tablecolumn-props","title":"Table.Column Props"},{"depth":3,"url":"#tablebody-props","title":"Table.Body Props"},{"depth":3,"url":"#tablerow-props","title":"Table.Row Props"},{"depth":3,"url":"#tablecell-props","title":"Table.Cell Props"},{"depth":3,"url":"#tablefooter-props","title":"Table.Footer Props"},{"depth":3,"url":"#tablecolumnresizer-props","title":"Table.ColumnResizer Props"},{"depth":3,"url":"#tableresizablecontainer-props","title":"Table.ResizableContainer Props"},{"depth":3,"url":"#tableloadmore-props","title":"Table.LoadMore Props"},{"depth":3,"url":"#tableloadmorecontent-props","title":"Table.LoadMoreContent Props"},{"depth":3,"url":"#tablecollection-props","title":"Table.Collection Props"},{"depth":3,"url":"#tablelayout","title":"TableLayout"}],"children":[["$","section",null,{"className":"flex flex-col gap-2","children":[["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-2","children":[["$","$L3",null,{"className":"flex items-center gap-2","children":["Table",["$","$L4",null,{"className":"w-fit","status":"updated"}]]}],["$","div",null,{"className":"flex items-center gap-2","children":["$","$L5",null,{"markdownUrl":"/en/docs/react/components/table.mdx"}]}]]}],["$","$L6",null,{"className":"text-md mt-2 mb-4","children":"Tables display structured data in rows and columns with support for sorting, selection, column resizing, and infinite scrolling."}],["$","$L7",null,{"links":{"rac":"Table","source":"table/table.tsx","styles":"table.css","storybook":"Components/Data Display/Table"}}]]}],["$","$L8",null,{"className":"prose-sm","children":[["$","$L9",null,{"as":"h2","id":"import","children":"Import"}],"\n",["$","$La",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$b","children":"$Lc"}],"\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68","\n","$L69","\n","$L6a","\n","$L6b","\n","$L6c","\n","$L6d"]}]]}],["$L6e","$L6f"],"$L70"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FDgGPBxbbYQR9B_va9PfG"}
+c:["$","$L71",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Table } "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]}]}]
+d:["$","$L9",null,{"as":"h3","id":"usage","children":"Usage"}]
+73:T604,import {Table} from "@heroui/react";
+
+export function Basic() {
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content aria-label="Team members" className="min-w-[600px]">
+          <Table.Header>
+            <Table.Column isRowHeader>Name</Table.Column>
+            <Table.Column>Role</Table.Column>
+            <Table.Column>Status</Table.Column>
+            <Table.Column>Email</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>Kate Moore</Table.Cell>
+              <Table.Cell>CEO</Table.Cell>
+              <Table.Cell>Active</Table.Cell>
+              <Table.Cell>kate@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>John Smith</Table.Cell>
+              <Table.Cell>CTO</Table.Cell>
+              <Table.Cell>Active</Table.Cell>
+              <Table.Cell>john@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Sara Johnson</Table.Cell>
+              <Table.Cell>CMO</Table.Cell>
+              <Table.Cell>On Leave</Table.Cell>
+              <Table.Cell>sara@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Michael Brown</Table.Cell>
+              <Table.Cell>CFO</Table.Cell>
+              <Table.Cell>Active</Table.Cell>
+              <Table.Cell>michael@acme.com</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+e:["$","$L72",null,{"align":"center","code":"$73","isBgSolid":false,"minHeight":"320px","name":"table-basic","children":["$","$L74",null,{"children":["$","$L75",null,{"children":["$","$L76",null,{"aria-label":"Team members","className":"min-w-[600px]","children":[["$","$L77",null,{"children":[["$","$L78",null,{"isRowHeader":true,"children":"Name"}],["$","$L78",null,{"children":"Role"}],["$","$L78",null,{"children":"Status"}],["$","$L78",null,{"children":"Email"}]]}],["$","$L79",null,{"children":[["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Kate Moore"}],["$","$L7b",null,{"children":"CEO"}],["$","$L7b",null,{"children":"Active"}],["$","$L7b",null,{"children":"kate@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"John Smith"}],["$","$L7b",null,{"children":"CTO"}],["$","$L7b",null,{"children":"Active"}],["$","$L7b",null,{"children":"john@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Sara Johnson"}],["$","$L7b",null,{"children":"CMO"}],["$","$L7b",null,{"children":"On Leave"}],["$","$L7b",null,{"children":"sara@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Michael Brown"}],["$","$L7b",null,{"children":"CFO"}],["$","$L7b",null,{"children":"Active"}],["$","$L7b",null,{"children":"michael@acme.com"}]]}]]}]]}]}]}]}]
+f:["$","$L9",null,{"as":"h3","id":"anatomy","children":"Anatomy"}]
+10:["$","p",null,{"children":"Import the Table component and access all parts using dot notation."}]
+7c:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>11:["$","$La",null,{"className":"mdx-code-block docs-code-block-line-numbers shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$7c","children":["$","$L71",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],"$L7d","$L7e","$L7f","$L80"]}],"\n","$L81","\n","$L82","\n","$L83","\n","$L84","\n","$L85","\n","$L86","\n","$L87","\n","$L88","\n","$L89","\n","$L8a","\n","$L8b","\n","$L8c","\n","$L8d","\n","$L8e","\n","$L8f","\n","$L90","\n","$L91","\n","$L92","\n","$L93","\n","$L94"]}]}]}]
+12:["$","$L9",null,{"as":"h3","id":"secondary-variant","children":"Secondary Variant"}]
+95:T623,import {Table} from "@heroui/react";
+
+export function SecondaryVariant() {
+  return (
+    <Table variant="secondary">
+      <Table.ScrollContainer>
+        <Table.Content aria-label="Team members" className="min-w-[600px]">
+          <Table.Header>
+            <Table.Column isRowHeader>Name</Table.Column>
+            <Table.Column>Role</Table.Column>
+            <Table.Column>Status</Table.Column>
+            <Table.Column>Email</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>Kate Moore</Table.Cell>
+              <Table.Cell>CEO</Table.Cell>
+              <Table.Cell>Active</Table.Cell>
+              <Table.Cell>kate@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>John Smith</Table.Cell>
+              <Table.Cell>CTO</Table.Cell>
+              <Table.Cell>Active</Table.Cell>
+              <Table.Cell>john@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Sara Johnson</Table.Cell>
+              <Table.Cell>CMO</Table.Cell>
+              <Table.Cell>On Leave</Table.Cell>
+              <Table.Cell>sara@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Michael Brown</Table.Cell>
+              <Table.Cell>CFO</Table.Cell>
+              <Table.Cell>Active</Table.Cell>
+              <Table.Cell>michael@acme.com</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+13:["$","$L72",null,{"align":"center","code":"$95","isBgSolid":false,"minHeight":"320px","name":"table-secondary-variant","children":["$","$L74",null,{"variant":"secondary","children":["$","$L75",null,{"children":["$","$L76",null,{"aria-label":"Team members","className":"min-w-[600px]","children":[["$","$L77",null,{"children":[["$","$L78",null,{"isRowHeader":true,"children":"Name"}],["$","$L78",null,{"children":"Role"}],["$","$L78",null,{"children":"Status"}],["$","$L78",null,{"children":"Email"}]]}],["$","$L79",null,{"children":[["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Kate Moore"}],["$","$L7b",null,{"children":"CEO"}],["$","$L7b",null,{"children":"Active"}],["$","$L7b",null,{"children":"kate@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"John Smith"}],["$","$L7b",null,{"children":"CTO"}],["$","$L7b",null,{"children":"Active"}],["$","$L7b",null,{"children":"john@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Sara Johnson"}],["$","$L7b",null,{"children":"CMO"}],["$","$L7b",null,{"children":"On Leave"}],["$","$L7b",null,{"children":"sara@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Michael Brown"}],["$","$L7b",null,{"children":"CFO"}],["$","$L7b",null,{"children":"Active"}],["$","$L7b",null,{"children":"michael@acme.com"}]]}]]}]]}]}]}]}]
+14:["$","$L9",null,{"as":"h3","id":"sorting","children":"Sorting"}]
+15:["$","p",null,{"children":["Columns can be made sortable using the ",["$","code",null,{"children":"allowsSorting"}]," prop on ",["$","code",null,{"children":"Table.Column"}],". Use ",["$","code",null,{"children":"sortDescriptor"}]," and ",["$","code",null,{"children":"onSortChange"}]," on ",["$","code",null,{"children":"Table.Content"}]," to manage sort state."]}]
+96:Tdf8,"use client";
+
+import type {SortDescriptor} from "@heroui/react";
+
+import {Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useMemo, useState} from "react";
+
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  status: string;
+  email: string;
+}
+
+const users: User[] = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "CEO", status: "Active"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "CTO", status: "Active"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "CMO", status: "On Leave"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "CFO", status: "Active"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "Product Manager",
+    status: "Inactive",
+  },
+];
+
+function SortableColumnHeader({
+  children,
+  sortDirection,
+}: {
+  children: React.ReactNode;
+  sortDirection?: "ascending" | "descending";
+}) {
+  return (
+    <span className="flex items-center justify-between">
+      {children}
+      {!!sortDirection && (
+        <Icon
+          icon="gravity-ui:chevron-up"
+          className={cn(
+            "size-3 transform transition-transform duration-100 ease-out",
+            sortDirection === "descending" ? "rotate-180" : "",
+          )}
+        />
+      )}
+    </span>
+  );
+}
+
+export function Sorting() {
+  const [sortDescriptor, setSortDescriptor] = useState<SortDescriptor>({
+    column: "name",
+    direction: "ascending",
+  });
+
+  const sortedUsers = useMemo(() => {
+    return [...users].sort((a, b) => {
+      const col = sortDescriptor.column as keyof User;
+      const first = String(a[col]);
+      const second = String(b[col]);
+      let cmp = first.localeCompare(second);
+
+      if (sortDescriptor.direction === "descending") {
+        cmp *= -1;
+      }
+
+      return cmp;
+    });
+  }, [sortDescriptor]);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="Sortable table"
+          className="min-w-[600px]"
+          sortDescriptor={sortDescriptor}
+          onSortChange={setSortDescriptor}
+        >
+          <Table.Header>
+            <Table.Column allowsSorting isRowHeader id="name">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Name</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="role">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Role</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="status">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Status</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="email">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Email</SortableColumnHeader>
+              )}
+            </Table.Column>
+          </Table.Header>
+          <Table.Body>
+            {sortedUsers.map((user) => (
+              <Table.Row key={user.id} id={user.id}>
+                <Table.Cell>{user.name}</Table.Cell>
+                <Table.Cell>{user.role}</Table.Cell>
+                <Table.Cell>{user.status}</Table.Cell>
+                <Table.Cell>{user.email}</Table.Cell>
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+16:["$","$L72",null,{"align":"center","code":"$96","isBgSolid":false,"minHeight":"380px","name":"table-sorting","children":"$L97"}]
+17:["$","$L9",null,{"as":"h3","id":"selection","children":"Selection"}]
+18:["$","p",null,{"children":["Enable row selection with ",["$","code",null,{"children":"selectionMode"}]," on ",["$","code",null,{"children":"Table.Content"}],". Use ",["$","code",null,{"children":"Checkbox"}]," with ",["$","code",null,{"children":"slot=\"selection\""}]," for select-all and per-row checkboxes."]}]
+98:Tac4,"use client";
+
+import type {Selection} from "@heroui/react";
+
+import {Checkbox, Table} from "@heroui/react";
+import {useState} from "react";
+
+const users = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "CEO", status: "Active"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "CTO", status: "Active"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "CMO", status: "On Leave"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "CFO", status: "Active"},
+];
+
+export function SelectionDemo() {
+  const [selectedKeys, setSelectedKeys] = useState<Selection>(new Set());
+
+  return (
+    <div className="flex flex-col gap-3">
+      <Table>
+        <Table.ScrollContainer>
+          <Table.Content
+            aria-label="Table with selection"
+            className="min-w-[600px]"
+            selectedKeys={selectedKeys}
+            selectionMode="multiple"
+            onSelectionChange={setSelectedKeys}
+          >
+            <Table.Header>
+              <Table.Column className="pr-0">
+                <Checkbox aria-label="Select all" slot="selection">
+                  <Checkbox.Control>
+                    <Checkbox.Indicator />
+                  </Checkbox.Control>
+                </Checkbox>
+              </Table.Column>
+              <Table.Column isRowHeader>Name</Table.Column>
+              <Table.Column>Role</Table.Column>
+              <Table.Column>Status</Table.Column>
+              <Table.Column>Email</Table.Column>
+            </Table.Header>
+            <Table.Body>
+              {users.map((user) => (
+                <Table.Row key={user.id} id={user.id}>
+                  <Table.Cell className="pr-0">
+                    <Checkbox
+                      aria-label={`Select ${user.name}`}
+                      slot="selection"
+                      variant="secondary"
+                    >
+                      <Checkbox.Control>
+                        <Checkbox.Indicator />
+                      </Checkbox.Control>
+                    </Checkbox>
+                  </Table.Cell>
+                  <Table.Cell>{user.name}</Table.Cell>
+                  <Table.Cell>{user.role}</Table.Cell>
+                  <Table.Cell>{user.status}</Table.Cell>
+                  <Table.Cell>{user.email}</Table.Cell>
+                </Table.Row>
+              ))}
+            </Table.Body>
+          </Table.Content>
+        </Table.ScrollContainer>
+      </Table>
+      <p className="text-sm text-muted">
+        Selected:{" "}
+        <span className="font-medium">
+          {selectedKeys === "all"
+            ? "All"
+            : selectedKeys.size > 0
+              ? Array.from(selectedKeys).join(", ")
+              : "None"}
+        </span>
+      </p>
+    </div>
+  );
+}
+19:["$","$L72",null,{"align":"center","code":"$98","isBgSolid":false,"minHeight":"380px","name":"table-selection","children":["$","$L99",null,{}]}]
+1a:["$","$L9",null,{"as":"h3","id":"custom-cells","children":"Custom Cells"}]
+9a:T1c64,"use client";
+
+import type {Selection, SortDescriptor} from "@heroui/react";
+
+import {Avatar, Button, Checkbox, Chip, Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useMemo, useState} from "react";
+
+interface User {
+  id: number;
+  name: string;
+  image_url: string;
+  role: string;
+  status: "Active" | "Inactive" | "On Leave";
+  email: string;
+}
+
+const statusColorMap: Record<string, "success" | "danger" | "warning"> = {
+  Active: "success",
+  Inactive: "danger",
+  "On Leave": "warning",
+};
+
+const users: User[] = [
+  {
+    email: "kate@acme.com",
+    id: 4586932,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/red.jpg",
+    name: "Kate Moore",
+    role: "Chief Executive Officer",
+    status: "Active",
+  },
+  {
+    email: "john@acme.com",
+    id: 5273849,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/green.jpg",
+    name: "John Smith",
+    role: "Chief Technology Officer",
+    status: "Active",
+  },
+  {
+    email: "sara@acme.com",
+    id: 7492836,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/blue.jpg",
+    name: "Sara Johnson",
+    role: "Chief Marketing Officer",
+    status: "On Leave",
+  },
+  {
+    email: "michael@acme.com",
+    id: 8293746,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/purple.jpg",
+    name: "Michael Brown",
+    role: "Chief Financial Officer",
+    status: "Active",
+  },
+  {
+    email: "emily@acme.com",
+    id: 1234567,
+    image_url: "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/avatars/orange.jpg",
+    name: "Emily Davis",
+    role: "Product Manager",
+    status: "Inactive",
+  },
+];
+
+function SortableColumnHeader({
+  children,
+  sortDirection,
+}: {
+  children: React.ReactNode;
+  sortDirection?: "ascending" | "descending";
+}) {
+  return (
+    <span className="flex items-center justify-between">
+      {children}
+      {!!sortDirection && (
+        <Icon
+          icon="gravity-ui:chevron-up"
+          className={cn(
+            "size-3 transform transition-transform duration-100 ease-out",
+            sortDirection === "descending" ? "rotate-180" : "",
+          )}
+        />
+      )}
+    </span>
+  );
+}
+
+export function CustomCells() {
+  const [selectedKeys, setSelectedKeys] = useState<Selection>(new Set());
+  const [sortDescriptor, setSortDescriptor] = useState<SortDescriptor>({
+    column: "name",
+    direction: "ascending",
+  });
+
+  const sortedUsers = useMemo(() => {
+    return [...users].sort((a, b) => {
+      const col = sortDescriptor.column as keyof User;
+      const first = String(a[col]);
+      const second = String(b[col]);
+      let cmp = first.localeCompare(second);
+
+      if (sortDescriptor.direction === "descending") {
+        cmp *= -1;
+      }
+
+      return cmp;
+    });
+  }, [sortDescriptor]);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="Table with custom cells"
+          className="min-w-[800px]"
+          selectedKeys={selectedKeys}
+          selectionMode="multiple"
+          sortDescriptor={sortDescriptor}
+          onSelectionChange={setSelectedKeys}
+          onSortChange={setSortDescriptor}
+        >
+          <Table.Header>
+            <Table.Column className="pr-0">
+              <Checkbox aria-label="Select all" slot="selection">
+                <Checkbox.Control>
+                  <Checkbox.Indicator />
+                </Checkbox.Control>
+              </Checkbox>
+            </Table.Column>
+            <Table.Column allowsSorting isRowHeader className="after:hidden" id="id">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Worker ID</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="name">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Member</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="role">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Role</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column allowsSorting id="status">
+              {({sortDirection}) => (
+                <SortableColumnHeader sortDirection={sortDirection}>Status</SortableColumnHeader>
+              )}
+            </Table.Column>
+            <Table.Column className="text-end">Actions</Table.Column>
+          </Table.Header>
+          <Table.Body>
+            {sortedUsers.map((user) => (
+              <Table.Row key={user.id} id={user.id}>
+                <Table.Cell className="pr-0">
+                  <Checkbox aria-label={`Select ${user.name}`} slot="selection" variant="secondary">
+                    <Checkbox.Control>
+                      <Checkbox.Indicator />
+                    </Checkbox.Control>
+                  </Checkbox>
+                </Table.Cell>
+                <Table.Cell className="font-medium">
+                  <div className="flex items-center gap-2">
+                    #{user.id.toString()}{" "}
+                    <Button isIconOnly size="sm" variant="ghost">
+                      <Icon className="size-4 text-muted" icon="gravity-ui:copy" />
+                    </Button>
+                  </div>
+                </Table.Cell>
+                <Table.Cell>
+                  <div className="flex items-center gap-3">
+                    <Avatar size="sm">
+                      <Avatar.Image src={user.image_url} />
+                      <Avatar.Fallback>
+                        {user.name
+                          .split(" ")
+                          .map((n) => n[0])
+                          .join("")}
+                      </Avatar.Fallback>
+                    </Avatar>
+                    <div className="flex flex-col">
+                      <span className="text-xs">{user.name}</span>
+                      <span className="text-xs text-muted">{user.email}</span>
+                    </div>
+                  </div>
+                </Table.Cell>
+                <Table.Cell className="min-w-52">{user.role}</Table.Cell>
+                <Table.Cell className="min-w-25">
+                  <Chip color={statusColorMap[user.status]} size="sm" variant="soft">
+                    {user.status}
+                  </Chip>
+                </Table.Cell>
+                <Table.Cell>
+                  <div className="flex items-center gap-1">
+                    <Button isIconOnly size="sm" variant="tertiary">
+                      <Icon className="size-4" icon="gravity-ui:eye" />
+                    </Button>
+                    <Button isIconOnly size="sm" variant="tertiary">
+                      <Icon className="size-4" icon="gravity-ui:pencil" />
+                    </Button>
+                    <Button isIconOnly size="sm" variant="danger-soft">
+                      <Icon className="size-4" icon="gravity-ui:trash-bin" />
+                    </Button>
+                  </div>
+                </Table.Cell>
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+1b:["$","$L72",null,{"align":"center","code":"$9a","isBgSolid":false,"minHeight":"420px","name":"table-custom-cells","children":"$L9b"}]
+1c:["$","$L9",null,{"as":"h3","id":"expandable-rows","children":"Expandable Rows"}]
+1d:["$","p",null,{"children":["Rows can be nested to display hierarchical data. Use the ",["$","code",null,{"children":"treeColumn"}]," prop to designate a column, and render a ",["$","code",null,{"children":"Button"}]," with ",["$","code",null,{"children":"slot=\"chevron\""}]," in that column’s cells so users can expand and collapse the row. Use the ",["$","code",null,{"children":"expandedKeys"}]," prop to control which rows are expanded."]}]
+9c:Tc49,"use client";
+
+import type {Selection} from "@heroui/react";
+
+import {Button, Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {useState} from "react";
+
+export function ExpandableRows() {
+  type Row = {
+    children: Row[];
+    date: string;
+    id: string;
+    title: string;
+    type: string;
+  };
+
+  const data: Row[] = [
+    {
+      children: [
+        {
+          children: [
+            {children: [], date: "7/10/2025", id: "3", title: "Weekly Report", type: "File"},
+            {children: [], date: "8/20/2025", id: "4", title: "Budget", type: "File"},
+          ],
+          date: "8/2/2025",
+          id: "2",
+          title: "Project",
+          type: "Directory",
+        },
+      ],
+      date: "10/20/2025",
+      id: "1",
+      title: "Documents",
+      type: "Directory",
+    },
+    {
+      children: [
+        {children: [], date: "1/23/2026", id: "6", title: "Image 1", type: "File"},
+        {children: [], date: "2/3/2026", id: "7", title: "Image 2", type: "File"},
+      ],
+      date: "2/3/2026",
+      id: "5",
+      title: "Photos",
+      type: "Directory",
+    },
+  ];
+
+  const [expandedKeys, setExpandedKeys] = useState<Selection>(() => new Set(["1"]));
+
+  const renderExpandableRow = (item: Row) => {
+    return (
+      <Table.Row id={item.id} textValue={item.title}>
+        <Table.Cell textValue={item.title}>
+          {({hasChildItems, isDisabled, isExpanded, isTreeColumn}) => (
+            <span className="flex items-center gap-1">
+              {hasChildItems && isTreeColumn ? (
+                <Button
+                  isIconOnly
+                  aria-label="Toggle row"
+                  isDisabled={isDisabled}
+                  size="sm"
+                  slot="chevron"
+                  variant="ghost"
+                >
+                  <Icon
+                    aria-hidden
+                    icon="gravity-ui:chevron-right"
+                    className={cn(
+                      "size-4 text-muted transition-transform duration-150",
+                      isExpanded ? "rotate-90" : "",
+                    )}
+                  />
+                </Button>
+              ) : null}
+              <span>{item.title}</span>
+            </span>
+          )}
+        </Table.Cell>
+        <Table.Cell>{item.type}</Table.Cell>
+        <Table.Cell>{item.date}</Table.Cell>
+        <Table.Collection items={item.children}>{renderExpandableRow}</Table.Collection>
+      </Table.Row>
+    );
+  };
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="Files"
+          className="min-w-[520px]"
+          expandedKeys={expandedKeys}
+          treeColumn="name"
+          onExpandedChange={setExpandedKeys}
+        >
+          <Table.Header>
+            <Table.Column isRowHeader id="name">
+              Name
+            </Table.Column>
+            <Table.Column id="type">Type</Table.Column>
+            <Table.Column id="date">Date Modified</Table.Column>
+          </Table.Header>
+          <Table.Body items={data}>{renderExpandableRow}</Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+1e:["$","$L72",null,{"align":"center","code":"$9c","isBgSolid":false,"minHeight":"420px","name":"table-expandable-rows","children":"$L9d"}]
+1f:["$","$L9",null,{"as":"h3","id":"pagination","children":"Pagination"}]
+20:["$","p",null,{"children":["Use ",["$","code",null,{"children":"Table.Footer"}]," to add a pagination component below the table."]}]
+9e:Tde6,"use client";
+
+import {Pagination, Table} from "@heroui/react";
+import {useMemo, useState} from "react";
+
+const columns = [
+  {id: "name", name: "Name"},
+  {id: "role", name: "Role"},
+  {id: "status", name: "Status"},
+  {id: "email", name: "Email"},
+];
+
+const users = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "CEO", status: "Active"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "CTO", status: "Active"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "CMO", status: "On Leave"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "CFO", status: "Active"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "Product Manager",
+    status: "Inactive",
+  },
+  {email: "davis@acme.com", id: 6, name: "Davis Wilson", role: "Lead Designer", status: "Active"},
+  {
+    email: "olivia@acme.com",
+    id: 7,
+    name: "Olivia Martinez",
+    role: "Frontend Engineer",
+    status: "Active",
+  },
+  {
+    email: "james@acme.com",
+    id: 8,
+    name: "James Taylor",
+    role: "Backend Engineer",
+    status: "Active",
+  },
+];
+
+const ROWS_PER_PAGE = 4;
+
+export function PaginationDemo() {
+  const [page, setPage] = useState(1);
+  const totalPages = Math.ceil(users.length / ROWS_PER_PAGE);
+  const pages = Array.from({length: totalPages}, (_, i) => i + 1);
+
+  const paginatedItems = useMemo(() => {
+    const start = (page - 1) * ROWS_PER_PAGE;
+
+    return users.slice(start, start + ROWS_PER_PAGE);
+  }, [page]);
+
+  const start = (page - 1) * ROWS_PER_PAGE + 1;
+  const end = Math.min(page * ROWS_PER_PAGE, users.length);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content aria-label="Table with pagination" className="min-w-[600px]">
+          <Table.Header columns={columns}>
+            {(column) => (
+              <Table.Column isRowHeader={column.id === "name"}>{column.name}</Table.Column>
+            )}
+          </Table.Header>
+          <Table.Body items={paginatedItems}>
+            {(user) => (
+              <Table.Row>
+                <Table.Collection items={columns}>
+                  {(column) => <Table.Cell>{user[column.id as keyof typeof user]}</Table.Cell>}
+                </Table.Collection>
+              </Table.Row>
+            )}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+      <Table.Footer>
+        <Pagination size="sm">
+          <Pagination.Summary>
+            {start} to {end} of {users.length} results
+          </Pagination.Summary>
+          <Pagination.Content>
+            <Pagination.Item>
+              <Pagination.Previous
+                isDisabled={page === 1}
+                onPress={() => setPage((p) => Math.max(1, p - 1))}
+              >
+                <Pagination.PreviousIcon />
+                Prev
+              </Pagination.Previous>
+            </Pagination.Item>
+            {pages.map((p) => (
+              <Pagination.Item key={p}>
+                <Pagination.Link isActive={p === page} onPress={() => setPage(p)}>
+                  {p}
+                </Pagination.Link>
+              </Pagination.Item>
+            ))}
+            <Pagination.Item>
+              <Pagination.Next
+                isDisabled={page === totalPages}
+                onPress={() => setPage((p) => Math.min(totalPages, p + 1))}
+              >
+                Next
+                <Pagination.NextIcon />
+              </Pagination.Next>
+            </Pagination.Item>
+          </Pagination.Content>
+        </Pagination>
+      </Table.Footer>
+    </Table>
+  );
+}
+21:["$","$L72",null,{"align":"center","code":"$9e","isBgSolid":false,"minHeight":"400px","name":"table-pagination","children":"$L9f"}]
+22:["$","$L9",null,{"as":"h3","id":"column-resizing","children":"Column Resizing"}]
+23:["$","p",null,{"children":["Wrap the table in ",["$","code",null,{"children":"Table.ResizableContainer"}]," and add ",["$","code",null,{"children":"Table.ColumnResizer"}]," inside each resizable column."]}]
+a0:Tb20,import {Chip, Table} from "@heroui/react";
+
+export function ColumnResizing() {
+  return (
+    <Table>
+      <Table.ResizableContainer>
+        <Table.Content aria-label="Table with resizable columns" className="min-w-[700px]">
+          <Table.Header>
+            <Table.Column isRowHeader defaultWidth="1fr" id="name" minWidth={160}>
+              Name
+              <Table.ColumnResizer />
+            </Table.Column>
+            <Table.Column defaultWidth="1fr" id="role" minWidth={220}>
+              Role
+              <Table.ColumnResizer />
+            </Table.Column>
+            <Table.Column defaultWidth="1fr" id="status" minWidth={100}>
+              Status
+              <Table.ColumnResizer />
+            </Table.Column>
+            <Table.Column defaultWidth="1fr" id="email" minWidth={200}>
+              Email
+            </Table.Column>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>Kate Moore</Table.Cell>
+              <Table.Cell>CEO</Table.Cell>
+              <Table.Cell>
+                <Chip color="success" size="sm" variant="soft">
+                  Active
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>kate@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>John Smith</Table.Cell>
+              <Table.Cell>CTO</Table.Cell>
+              <Table.Cell>
+                <Chip color="success" size="sm" variant="soft">
+                  Active
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>john@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Sara Johnson</Table.Cell>
+              <Table.Cell>CMO</Table.Cell>
+              <Table.Cell>
+                <Chip color="warning" size="sm" variant="soft">
+                  On Leave
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>sara@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Michael Brown</Table.Cell>
+              <Table.Cell>CFO</Table.Cell>
+              <Table.Cell>
+                <Chip color="success" size="sm" variant="soft">
+                  Active
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>michael@acme.com</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>Emily Davis</Table.Cell>
+              <Table.Cell>Product Manager</Table.Cell>
+              <Table.Cell>
+                <Chip color="danger" size="sm" variant="soft">
+                  Inactive
+                </Chip>
+              </Table.Cell>
+              <Table.Cell>emily@acme.com</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+        </Table.Content>
+      </Table.ResizableContainer>
+    </Table>
+  );
+}
+24:["$","$L72",null,{"align":"center","code":"$a0","isBgSolid":false,"minHeight":"420px","name":"table-column-resizing","children":["$","$L74",null,{"children":["$","$La1",null,{"children":["$","$L76",null,{"aria-label":"Table with resizable columns","className":"min-w-[700px]","children":[["$","$L77",null,{"children":[["$","$L78",null,{"isRowHeader":true,"defaultWidth":"1fr","id":"name","minWidth":160,"children":["Name",["$","$La2",null,{}]]}],["$","$L78",null,{"defaultWidth":"1fr","id":"role","minWidth":220,"children":["Role",["$","$La2",null,{}]]}],["$","$L78",null,{"defaultWidth":"1fr","id":"status","minWidth":100,"children":["Status",["$","$La2",null,{}]]}],"$La3"]}],"$La4"]}]}]}]}]
+25:["$","$L9",null,{"as":"h3","id":"empty-state","children":"Empty State"}]
+26:["$","p",null,{"children":["Use ",["$","code",null,{"children":"renderEmptyState"}]," on ",["$","code",null,{"children":"Table.Body"}]," to display a custom message when the table has no data."]}]
+a5:T418,"use client";
+
+import {EmptyState, Table} from "@heroui/react";
+import {Icon} from "@iconify/react";
+
+export function EmptyStateDemo() {
+  return (
+    <Table className="min-h-[200px]">
+      <Table.ScrollContainer>
+        <Table.Content aria-label="Empty table" className="h-full min-w-[600px]">
+          <Table.Header>
+            <Table.Column isRowHeader>Name</Table.Column>
+            <Table.Column>Role</Table.Column>
+            <Table.Column>Status</Table.Column>
+            <Table.Column>Email</Table.Column>
+          </Table.Header>
+          <Table.Body
+            renderEmptyState={() => (
+              <EmptyState className="flex h-full w-full flex-col items-center justify-center gap-4 text-center">
+                <Icon className="size-6 text-muted" icon="gravity-ui:tray" />
+                <span className="text-sm text-muted">No results found</span>
+              </EmptyState>
+            )}
+          >
+            {[]}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+27:["$","$L72",null,{"align":"center","code":"$a5","isBgSolid":false,"minHeight":"300px","name":"table-empty-state","children":["$","$La6",null,{}]}]
+28:["$","$L9",null,{"as":"h3","id":"async-loading","children":"Async Loading"}]
+29:["$","p",null,{"children":["Use ",["$","code",null,{"children":"Table.LoadMore"}]," for infinite scrolling. It renders a sentinel row that triggers ",["$","code",null,{"children":"onLoadMore"}]," when scrolled into view."]}]
+a7:T1249,"use client";
+
+import {Chip, Spinner, Table} from "@heroui/react";
+import {useCallback, useRef, useState} from "react";
+
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  status: string;
+  email: string;
+}
+
+const statusColorMap: Record<string, "success" | "danger" | "warning"> = {
+  Active: "success",
+  Inactive: "danger",
+  "On Leave": "warning",
+};
+
+const allUsers: User[] = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "CEO", status: "Active"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "CTO", status: "Active"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "CMO", status: "On Leave"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "CFO", status: "Active"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "Product Manager",
+    status: "Inactive",
+  },
+  {email: "davis@acme.com", id: 6, name: "Davis Wilson", role: "Lead Designer", status: "Active"},
+  {
+    email: "olivia@acme.com",
+    id: 7,
+    name: "Olivia Martinez",
+    role: "Frontend Engineer",
+    status: "Active",
+  },
+  {
+    email: "james@acme.com",
+    id: 8,
+    name: "James Taylor",
+    role: "Backend Engineer",
+    status: "Active",
+  },
+  {
+    email: "sophia@acme.com",
+    id: 9,
+    name: "Sophia Anderson",
+    role: "QA Engineer",
+    status: "On Leave",
+  },
+  {email: "liam@acme.com", id: 10, name: "Liam Thomas", role: "DevOps Engineer", status: "Active"},
+  {
+    email: "lucas@acme.com",
+    id: 11,
+    name: "Lucas Martinez",
+    role: "Product Manager",
+    status: "Active",
+  },
+  {
+    email: "emma@acme.com",
+    id: 12,
+    name: "Emma Johnson",
+    role: "Frontend Engineer",
+    status: "Active",
+  },
+  {email: "noah@acme.com", id: 13, name: "Noah Davis", role: "Backend Engineer", status: "Active"},
+  {email: "ava@acme.com", id: 14, name: "Ava Wilson", role: "Lead Designer", status: "Active"},
+  {
+    email: "oliver@acme.com",
+    id: 15,
+    name: "Oliver Martinez",
+    role: "Frontend Engineer",
+    status: "Active",
+  },
+  {
+    email: "isabella@acme.com",
+    id: 16,
+    name: "Isabella Johnson",
+    role: "Backend Engineer",
+    status: "Active",
+  },
+  {email: "mia@acme.com", id: 17, name: "Mia Davis", role: "Lead Designer", status: "Active"},
+  {
+    email: "william@acme.com",
+    id: 18,
+    name: "William Wilson",
+    role: "Frontend Engineer",
+    status: "Active",
+  },
+];
+
+const ITEMS_PER_PAGE = 6;
+
+const columns = [
+  {id: "name", name: "Name"},
+  {id: "role", name: "Role"},
+  {id: "status", name: "Status"},
+  {id: "email", name: "Email"},
+];
+
+export function AsyncLoading() {
+  const [items, setItems] = useState<User[]>(() => allUsers.slice(0, ITEMS_PER_PAGE));
+  const [isLoading, setIsLoading] = useState(false);
+  const isLoadingRef = useRef(false);
+  const hasMore = items.length < allUsers.length;
+
+  const loadMore = useCallback(() => {
+    if (!hasMore || isLoadingRef.current) return;
+    isLoadingRef.current = true;
+    setIsLoading(true);
+    setTimeout(() => {
+      setItems((prev) => allUsers.slice(0, prev.length + ITEMS_PER_PAGE));
+      setIsLoading(false);
+      requestAnimationFrame(() => {
+        isLoadingRef.current = false;
+      });
+    }, 1500);
+  }, [hasMore]);
+
+  return (
+    <Table>
+      <Table.ScrollContainer className="h-[280px] overflow-y-auto">
+        <Table.Content aria-label="Async loading table" className="min-w-[600px]">
+          <Table.Header className="sticky top-0 z-10 bg-surface-secondary">
+            {columns.map((col) => (
+              <Table.Column key={col.id} id={col.id} isRowHeader={col.id === "name"}>
+                {col.name}
+              </Table.Column>
+            ))}
+          </Table.Header>
+          <Table.Body>
+            <Table.Collection items={items}>
+              {(user) => (
+                <Table.Row>
+                  <Table.Cell>{user.name}</Table.Cell>
+                  <Table.Cell>{user.role}</Table.Cell>
+                  <Table.Cell>
+                    <Chip color={statusColorMap[user.status]} size="sm" variant="soft">
+                      {user.status}
+                    </Chip>
+                  </Table.Cell>
+                  <Table.Cell>{user.email}</Table.Cell>
+                </Table.Row>
+              )}
+            </Table.Collection>
+            {!!hasMore && (
+              <Table.LoadMore isLoading={isLoading} scrollOffset={0} onLoadMore={loadMore}>
+                <Table.LoadMoreContent>
+                  <Spinner size="md" />
+                </Table.LoadMoreContent>
+              </Table.LoadMore>
+            )}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+    </Table>
+  );
+}
+2a:["$","$L72",null,{"align":"center","code":"$a7","isBgSolid":false,"minHeight":"380px","name":"table-async-loading","children":"$La8"}]
+2b:["$","$L9",null,{"as":"h3","id":"virtualization","children":"Virtualization"}]
+2c:["$","p",null,{"children":["Table supports virtualization through ",["$","$La9",null,{"href":"https://react-aria.adobe.com/Virtualizer","children":"Virtualizer"}],", enabling efficient rendering of large datasets by displaying only the rows visible within the viewport."]}]
+aa:Tb19,"use client";
+
+import {Table, TableLayout, Virtualizer} from "@heroui/react";
+
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  email: string;
+}
+
+export function Virtualization() {
+  const roles = [
+    "Software Engineer",
+    "Senior Engineer",
+    "Staff Engineer",
+    "Product Manager",
+    "Designer",
+    "Data Analyst",
+    "QA Engineer",
+    "DevOps Engineer",
+    "Marketing Manager",
+    "Sales Representative",
+  ];
+
+  const firstNames = [
+    "Emma",
+    "Liam",
+    "Olivia",
+    "Noah",
+    "Ava",
+    "James",
+    "Sophia",
+    "Oliver",
+    "Isabella",
+    "Lucas",
+    "Mia",
+    "Ethan",
+    "Charlotte",
+    "Mason",
+    "Amelia",
+    "Logan",
+    "Harper",
+    "Alexander",
+    "Ella",
+    "Benjamin",
+  ];
+
+  const lastNames = [
+    "Smith",
+    "Johnson",
+    "Williams",
+    "Brown",
+    "Jones",
+    "Garcia",
+    "Miller",
+    "Davis",
+    "Rodriguez",
+    "Martinez",
+    "Anderson",
+    "Taylor",
+    "Thomas",
+    "Jackson",
+    "White",
+    "Harris",
+    "Clark",
+    "Lewis",
+    "Robinson",
+    "Walker",
+  ];
+
+  function generateUsers(count: number): User[] {
+    const users: User[] = [];
+
+    for (let i = 0; i < count; i++) {
+      const firstName = firstNames[i % firstNames.length];
+      const lastName = lastNames[Math.floor(i / firstNames.length) % lastNames.length];
+      const name = `${firstName} ${lastName}`;
+
+      users.push({
+        email: `${firstName?.toLowerCase()}.${lastName?.toLowerCase()}@acme.com`,
+        id: i + 1,
+        name,
+        role: roles[i % roles.length] || "",
+      });
+    }
+
+    return users;
+  }
+
+  const virtualizedUsers = generateUsers(1000);
+
+  return (
+    <Virtualizer
+      layout={TableLayout}
+      layoutOptions={{
+        headingHeight: 42,
+        rowHeight: 42,
+      }}
+    >
+      <Table>
+        <Table.ScrollContainer>
+          <Table.Content
+            aria-label="Virtualized table with 1000 rows"
+            className="h-[300px] min-w-[700px] overflow-auto"
+          >
+            <Table.Header className="h-full w-full">
+              <Table.Column isRowHeader id="name" minWidth={160}>
+                Name
+              </Table.Column>
+              <Table.Column id="role" minWidth={220}>
+                Role
+              </Table.Column>
+              <Table.Column id="email" minWidth={240}>
+                Email
+              </Table.Column>
+            </Table.Header>
+            <Table.Body items={virtualizedUsers}>
+              {(user) => (
+                <Table.Row>
+                  <Table.Cell>{user.name}</Table.Cell>
+                  <Table.Cell>{user.role}</Table.Cell>
+                  <Table.Cell>{user.email}</Table.Cell>
+                </Table.Row>
+              )}
+            </Table.Body>
+          </Table.Content>
+        </Table.ScrollContainer>
+      </Table>
+    </Virtualizer>
+  );
+}
+2d:["$","$L72",null,{"align":"center","code":"$aa","isBgSolid":false,"minHeight":"380px","name":"table-virtualization","children":["$","$Lab",null,{}]}]
+2e:["$","$L9",null,{"as":"h3","id":"tanstack-table","children":"TanStack Table"}]
+2f:["$","p",null,{"children":["HeroUI's Table works as a rendering layer on top of headless table libraries.\nThis example uses ",["$","$La9",null,{"href":"https://tanstack.com/table","children":"TanStack Table"}]," for column\ndefinitions, sorting, and pagination — while HeroUI handles styling and\naccessibility."]}]
+ac:T1b23,"use client";
+
+import type {SortDescriptor} from "@heroui/react";
+import type {SortingState} from "@tanstack/react-table";
+
+import {Chip, Pagination, Table, cn} from "@heroui/react";
+import {Icon} from "@iconify/react";
+import {
+  createColumnHelper,
+  flexRender,
+  getCoreRowModel,
+  getPaginationRowModel,
+  getSortedRowModel,
+  useReactTable,
+} from "@tanstack/react-table";
+import {useMemo, useState} from "react";
+
+// --- Data -----------------------------------------------------------------
+interface User {
+  id: number;
+  name: string;
+  role: string;
+  status: "Active" | "Inactive" | "On Leave";
+  email: string;
+}
+
+const statusColorMap: Record<string, "success" | "danger" | "warning"> = {
+  Active: "success",
+  Inactive: "danger",
+  "On Leave": "warning",
+};
+
+const users: User[] = [
+  {email: "kate@acme.com", id: 1, name: "Kate Moore", role: "CEO", status: "Active"},
+  {email: "john@acme.com", id: 2, name: "John Smith", role: "CTO", status: "Active"},
+  {email: "sara@acme.com", id: 3, name: "Sara Johnson", role: "CMO", status: "On Leave"},
+  {email: "michael@acme.com", id: 4, name: "Michael Brown", role: "CFO", status: "Active"},
+  {
+    email: "emily@acme.com",
+    id: 5,
+    name: "Emily Davis",
+    role: "Product Manager",
+    status: "Inactive",
+  },
+  {email: "davis@acme.com", id: 6, name: "Davis Wilson", role: "Lead Designer", status: "Active"},
+  {
+    email: "olivia@acme.com",
+    id: 7,
+    name: "Olivia Martinez",
+    role: "Frontend Engineer",
+    status: "Active",
+  },
+  {
+    email: "james@acme.com",
+    id: 8,
+    name: "James Taylor",
+    role: "Backend Engineer",
+    status: "Active",
+  },
+];
+
+// --- TanStack Column Definitions ------------------------------------------
+const columnHelper = createColumnHelper<User>();
+
+const columns = [
+  columnHelper.accessor("name", {header: "Name"}),
+  columnHelper.accessor("role", {header: "Role"}),
+  columnHelper.accessor("status", {
+    cell: (info) => (
+      <Chip color={statusColorMap[info.getValue()]} size="sm" variant="soft">
+        {info.getValue()}
+      </Chip>
+    ),
+    header: "Status",
+  }),
+  columnHelper.accessor("email", {header: "Email"}),
+];
+
+// --- Sorting Bridge -------------------------------------------------------
+// Convert TanStack SortingState → React Aria SortDescriptor
+function toSortDescriptor(sorting: SortingState): SortDescriptor | undefined {
+  const first = sorting[0];
+
+  if (!first) return undefined;
+
+  return {
+    column: first.id,
+    direction: first.desc ? "descending" : "ascending",
+  };
+}
+
+// Convert React Aria SortDescriptor → TanStack SortingState
+function toSortingState(descriptor: SortDescriptor): SortingState {
+  return [{desc: descriptor.direction === "descending", id: descriptor.column as string}];
+}
+
+// --- Sort Header ----------------------------------------------------------
+function SortableColumnHeader({
+  children,
+  sortDirection,
+}: {
+  children: React.ReactNode;
+  sortDirection?: "ascending" | "descending";
+}) {
+  return (
+    <span className="flex items-center justify-between">
+      {children}
+      {!!sortDirection && (
+        <Icon
+          icon="gravity-ui:chevron-up"
+          className={cn(
+            "size-3 transform transition-transform duration-100 ease-out",
+            sortDirection === "descending" ? "rotate-180" : "",
+          )}
+        />
+      )}
+    </span>
+  );
+}
+
+// --- Component ------------------------------------------------------------
+const PAGE_SIZE = 4;
+
+export function TanstackTable() {
+  const [sorting, setSorting] = useState<SortingState>([]);
+
+  // eslint-disable-next-line react-hooks/incompatible-library
+  const table = useReactTable({
+    columns,
+    data: users,
+    getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+    initialState: {pagination: {pageSize: PAGE_SIZE}},
+    onSortingChange: setSorting,
+    state: {sorting},
+  });
+
+  const sortDescriptor = useMemo(() => toSortDescriptor(sorting), [sorting]);
+
+  const {pageIndex} = table.getState().pagination;
+  const pageCount = table.getPageCount();
+  const pages = Array.from({length: pageCount}, (_, i) => i + 1);
+  const start = pageIndex * PAGE_SIZE + 1;
+  const end = Math.min((pageIndex + 1) * PAGE_SIZE, users.length);
+
+  return (
+    <Table>
+      <Table.ScrollContainer>
+        <Table.Content
+          aria-label="TanStack Table example"
+          className="min-w-[600px]"
+          sortDescriptor={sortDescriptor}
+          onSortChange={(d) => setSorting(toSortingState(d))}
+        >
+          <Table.Header>
+            {table.getHeaderGroups()[0]!.headers.map((header) => (
+              <Table.Column
+                key={header.id}
+                allowsSorting={header.column.getCanSort()}
+                id={header.id}
+                isRowHeader={header.id === "name"}
+              >
+                {({sortDirection}) => (
+                  <SortableColumnHeader sortDirection={sortDirection}>
+                    {flexRender(header.column.columnDef.header, header.getContext())}
+                  </SortableColumnHeader>
+                )}
+              </Table.Column>
+            ))}
+          </Table.Header>
+          <Table.Body>
+            {table.getRowModel().rows.map((row) => (
+              <Table.Row key={row.id} id={row.id}>
+                {row.getVisibleCells().map((cell) => (
+                  <Table.Cell key={cell.id}>
+                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  </Table.Cell>
+                ))}
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table.Content>
+      </Table.ScrollContainer>
+      <Table.Footer>
+        <Pagination size="sm">
+          <Pagination.Summary>
+            {start} to {end} of {users.length} results
+          </Pagination.Summary>
+          <Pagination.Content>
+            <Pagination.Item>
+              <Pagination.Previous
+                isDisabled={!table.getCanPreviousPage()}
+                onPress={() => table.previousPage()}
+              >
+                <Pagination.PreviousIcon />
+                Prev
+              </Pagination.Previous>
+            </Pagination.Item>
+            {pages.map((p) => (
+              <Pagination.Item key={p}>
+                <Pagination.Link
+                  isActive={p === pageIndex + 1}
+                  onPress={() => table.setPageIndex(p - 1)}
+                >
+                  {p}
+                </Pagination.Link>
+              </Pagination.Item>
+            ))}
+            <Pagination.Item>
+              <Pagination.Next
+                isDisabled={!table.getCanNextPage()}
+                onPress={() => table.nextPage()}
+              >
+                Next
+                <Pagination.NextIcon />
+              </Pagination.Next>
+            </Pagination.Item>
+          </Pagination.Content>
+        </Pagination>
+      </Table.Footer>
+    </Table>
+  );
+}
+30:["$","$L72",null,{"align":"center","code":"$ac","isBgSolid":false,"minHeight":"420px","name":"table-tanstack-table","children":"$Lad"}]
+31:["$","$ae",null,{"fallback":null,"children":["$","$Laf",null,{"component":"table"}]}]
+32:["$","$L9",null,{"as":"h2","id":"styling","children":"Styling"}]
+33:["$","$L9",null,{"as":"h3","id":"passing-tailwind-css-classes","children":"Passing Tailwind CSS classes"}]
+34:["$","p",null,{"children":"You can customize individual Table parts:"}]
+b0:Tb41,<svg viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" /></svg>35:["$","$La",null,{"className":"mdx-code-block shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"$b0","children":["$","$L71",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"import"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Table } "}],"$Lb1","$Lb2","$Lb3"]}],"\n","$Lb4","\n","$Lb5","\n","$Lb6","\n","$Lb7","\n","$Lb8","\n","$Lb9","\n","$Lba","\n","$Lbb","\n","$Lbc","\n","$Lbd","\n","$Lbe","\n","$Lbf","\n","$Lc0","\n","$Lc1","\n","$Lc2","\n","$Lc3","\n","$Lc4","\n","$Lc5","\n","$Lc6"]}]}]}]
+36:["$","$L9",null,{"as":"h3","id":"customizing-the-component-classes","children":"Customizing the component classes"}]
+37:["$","p",null,{"children":["To customize the Table component classes, you can use the ",["$","code",null,{"children":"@layer components"}]," directive.\n",["$","br",null,{}],["$","$La9",null,{"href":"https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes","children":"Learn more"}],"."]}]
+38:["$","$La",null,{"className":"mdx-code-block docs-code-block-line-numbers shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L71",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"@layer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" components {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .table-root"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" relative"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" grid"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" w-full"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" overflow-clip"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .table__header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" bg-gray-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"100;"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .table__column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" px-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"4 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"py-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"2.5 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"text-left"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-xs"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" font-medium"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" text-gray-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"600;"}]]}],"\n","$Lc7","\n","$Lc8","\n","$Lc9","\n","$Lca","\n","$Lcb","\n","$Lcc","\n","$Lcd","\n","$Lce","\n","$Lcf","\n","$Ld0","\n","$Ld1","\n","$Ld2","\n","$Ld3","\n","$Ld4"]}]}]}]
+39:["$","p",null,{"children":["HeroUI follows the ",["$","$La9",null,{"href":"https://getbem.com/","children":"BEM"}]," methodology to ensure component variants and states are reusable and easy to customize."]}]
+3a:["$","$L9",null,{"as":"h3","id":"css-classes","children":"CSS Classes"}]
+3b:["$","p",null,{"children":["The Table component uses these CSS classes (",["$","$La9",null,{"href":"https://github.com/heroui-inc/heroui/blob/v3/packages/styles/components/table.css","children":"View source styles"}],"):"]}]
+3c:["$","$L9",null,{"as":"h4","id":"base-classes","children":"Base Classes"}]
+3d:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".table-root"}]," - Root container (named ",["$","code",null,{"children":"table-root"}]," instead of ",["$","code",null,{"children":"table"}]," because ",["$","code",null,{"children":"table"}]," is a built-in Tailwind CSS utility class for ",["$","code",null,{"children":"display: table"}],")"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__scroll-container"}]," - Horizontal scroll wrapper with custom scrollbar"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__content"}]," - The ",["$","code",null,{"children":"<table>"}]," element"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__header"}]," - Header row (",["$","code",null,{"children":"<thead>"}],")"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__column"}]," - Column header cell (",["$","code",null,{"children":"<th>"}],")"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__body"}]," - Body section (",["$","code",null,{"children":"<tbody>"}],")"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__row"}]," - Row element (",["$","code",null,{"children":"<tr>"}],")"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__cell"}]," - Data cell (",["$","code",null,{"children":"<td>"}],")"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__footer"}]," - Footer container (outside table)"]}],"\n"]}]
+3e:["$","$L9",null,{"as":"h4","id":"advanced-classes","children":"Advanced Classes"}]
+3f:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".table__column-resizer"}]," - Drag handle for column resizing"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__resizable-container"}]," - Wrapper enabling column resizing"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__load-more"}]," - Sentinel row for infinite scrolling"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table__load-more-content"}]," - Styled container for the loading indicator"]}],"\n"]}]
+40:["$","$L9",null,{"as":"h4","id":"variant-classes","children":"Variant Classes"}]
+41:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":".table-root--primary"}]," - Gray background container with card-style body (default)"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":".table-root--secondary"}]," - No background, standalone rounded headers"]}],"\n"]}]
+42:["$","$L9",null,{"as":"h3","id":"interactive-states","children":"Interactive States"}]
+43:["$","p",null,{"children":"The Table supports both CSS pseudo-classes and data attributes for flexibility:"}]
+44:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Hover"}],": ",["$","code",null,{"children":":hover"}]," or ",["$","code",null,{"children":"[data-hovered=\"true\"]"}]," (row background change)"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Selected"}],": ",["$","code",null,{"children":"[data-selected=\"true\"]"}]," (row highlight)"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Focus"}],": ",["$","code",null,{"children":":focus-visible"}]," or ",["$","code",null,{"children":"[data-focus-visible=\"true\"]"}]," (inset focus ring on rows, columns, and cells)"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Disabled"}],": ",["$","code",null,{"children":":disabled"}]," or ",["$","code",null,{"children":"[aria-disabled=\"true\"]"}]," (reduced opacity)"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Sortable"}],": ",["$","code",null,{"children":"[data-allows-sorting=\"true\"]"}]," (interactive cursor on columns)"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Dragging"}],": ",["$","code",null,{"children":"[data-dragging=\"true\"]"}]," (reduced opacity)"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Drop Target"}],": ",["$","code",null,{"children":"[data-drop-target=\"true\"]"}]," (accent background)"]}],"\n"]}]
+45:["$","$L9",null,{"as":"h2","id":"api-reference","children":"API Reference"}]
+46:["$","$L9",null,{"as":"h3","id":"table-props","children":"Table Props"}]
+47:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"variant"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"primary\" | \"secondary\""}]}],["$","td",null,{"children":["$","code",null,{"children":"\"primary\""}]}],["$","td",null,{"children":"Visual variant. Primary has a gray background container; secondary is flat with transparent rows."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes for the root container"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Table content (ScrollContainer, Footer, etc.)"}]]}]]}]]}]}]
+48:["$","$L9",null,{"as":"h3","id":"tablescrollcontainer-props","children":"Table.ScrollContainer Props"}]
+49:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Table.Content element"}]]}]]}]]}]}]
+4a:["$","$L9",null,{"as":"h3","id":"tablecontent-props","children":"Table.Content Props"}]
+4b:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html","children":"React Aria Table"}],"."]}]
+4c:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"aria-label"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Accessible label for the table"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"selectionMode"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"none\" | \"single\" | \"multiple\""}]}],["$","td",null,{"children":["$","code",null,{"children":"\"none\""}]}],["$","td",null,{"children":"Selection behavior"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"selectedKeys"}]}],["$","td",null,{"children":["$","code",null,{"children":"Selection"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Controlled selected keys"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onSelectionChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(keys: Selection) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Selection change handler"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"sortDescriptor"}]}],["$","td",null,{"children":["$","code",null,{"children":"SortDescriptor"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Current sort state"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onSortChange"}]}],["$","td",null,{"children":["$","code",null,{"children":"(descriptor: SortDescriptor) => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Sort change handler"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}]]}]]}]}]
+4d:["$","$L9",null,{"as":"h3","id":"tableheader-props","children":"Table.Header Props"}]
+4e:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#tableheader","children":"React Aria TableHeader"}],"."]}]
+4f:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"columns"}]}],["$","td",null,{"children":["$","code",null,{"children":"T[]"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Dynamic column data for render prop pattern"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode | (column: T) => React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Static columns or render prop"}]]}]]}]]}]}]
+50:["$","$L9",null,{"as":"h3","id":"tablecolumn-props","children":"Table.Column Props"}]
+51:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#column","children":"React Aria Column"}],"."]}]
+52:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"id"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Column identifier"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"allowsSorting"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether the column is sortable"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isRowHeader"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether this column is a row header"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"defaultWidth"}]}],["$","td",null,{"children":["$","code",null,{"children":"string | number"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Default width for resizable columns"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"minWidth"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Minimum width for resizable columns"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode | (values: ColumnRenderProps) => React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Column content or render prop with sort direction"}]]}]]}]]}]}]
+53:["$","$L9",null,{"as":"h3","id":"tablebody-props","children":"Table.Body Props"}]
+54:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#tablebody","children":"React Aria TableBody"}],"."]}]
+55:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"items"}]}],["$","td",null,{"children":["$","code",null,{"children":"T[]"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Dynamic row data for render prop pattern"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"renderEmptyState"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Content to display when the table is empty"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode | (item: T) => React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Static rows or render prop"}]]}]]}]]}]}]
+56:["$","$L9",null,{"as":"h3","id":"tablerow-props","children":"Table.Row Props"}]
+57:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#row","children":"React Aria Row"}],"."]}]
+58:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"id"}]}],["$","td",null,{"children":["$","code",null,{"children":"string | number"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Row identifier"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Row cells"}]]}]]}]]}]}]
+59:["$","$L9",null,{"as":"h3","id":"tablecell-props","children":"Table.Cell Props"}]
+5a:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#cell","children":"React Aria Cell"}],"."]}]
+5b:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Cell content"}]]}]]}]]}]}]
+5c:["$","$L9",null,{"as":"h3","id":"tablefooter-props","children":"Table.Footer Props"}]
+5d:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Footer content (e.g., pagination)"}]]}]]}]]}]}]
+5e:["$","$L9",null,{"as":"h3","id":"tablecolumnresizer-props","children":"Table.ColumnResizer Props"}]
+5f:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#columnresizer","children":"React Aria ColumnResizer"}],"."]}]
+60:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}]}]]}]}]
+61:["$","$L9",null,{"as":"h3","id":"tableresizablecontainer-props","children":"Table.ResizableContainer Props"}]
+62:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html#resizabletablecontainer","children":"React Aria ResizableTableContainer"}],"."]}]
+63:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Table.Content element"}]]}]]}]]}]}]
+64:["$","$L9",null,{"as":"h3","id":"tableloadmore-props","children":"Table.LoadMore Props"}]
+65:["$","p",null,{"children":["Inherits from ",["$","$La9",null,{"href":"https://react-spectrum.adobe.com/react-aria/Table.html","children":"React Aria TableLoadMoreItem"}],"."]}]
+66:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"isLoading"}]}],["$","td",null,{"children":["$","code",null,{"children":"boolean"}]}],["$","td",null,{"children":["$","code",null,{"children":"false"}]}],["$","td",null,{"children":"Whether data is currently loading"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"onLoadMore"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => void"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Handler called when the sentinel row is visible"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Loading indicator content"}]]}]]}]]}]}]
+67:["$","$L9",null,{"as":"h3","id":"tableloadmorecontent-props","children":"Table.LoadMoreContent Props"}]
+68:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"className"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Additional CSS classes"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Loading indicator content (e.g., Spinner)"}]]}]]}]]}]}]
+69:["$","$L9",null,{"as":"h3","id":"tablecollection-props","children":"Table.Collection Props"}]
+6a:["$","p",null,{"children":["Re-exported from React Aria ",["$","code",null,{"children":"Collection"}],". Used to render dynamic cells within rows alongside static cells (e.g., checkboxes)."]}]
+6b:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"items"}]}],["$","td",null,{"children":["$","code",null,{"children":"T[]"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Collection items"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"children"}]}],["$","td",null,{"children":["$","code",null,{"children":"(item: T) => React.ReactNode"}]}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"Render prop for each item"}]]}]]}]]}]}]
+6c:["$","$L9",null,{"as":"h3","id":"tablelayout","children":"TableLayout"}]
+6d:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Name"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Default"}],["$","th",null,{"children":"Description"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"rowHeight"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"48"}],["$","td",null,{"children":"The fixed height of a row in px."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"estimatedRowHeight"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"—"}],["$","td",null,{"children":"The estimated height of a row, when row heights are variable."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"headingHeight"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"48"}],["$","td",null,{"children":"The fixed height of a section header in px."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"estimatedHeadingHeight"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"—"}],["$","td",null,{"children":"The estimated height of a section header, when the height is variable."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"loaderHeight"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"48"}],["$","td",null,{"children":"The fixed height of a loader element in px. This loader is specifically for \"load more\" elements rendered when loading more rows at the root level or inside nested row/sections."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"dropIndicatorThickness"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"2"}],["$","td",null,{"children":"The thickness of the drop indicator."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"gap"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"0"}],["$","td",null,{"children":"The gap between items."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"padding"}]}],["$","td",null,{"children":["$","code",null,{"children":"number | undefined"}]}],["$","td",null,{"children":"0"}],["$","td",null,{"children":"The padding around the list."}]]}]]}]]}]}]
+6e:["$","script","script-0",{"src":"/heroui-v3-docs-public/_next/static/chunks/0t4u~w9_c__7i.js","async":true}]
+6f:["$","script","script-1",{"src":"/heroui-v3-docs-public/_next/static/chunks/0z-r2uz5n7mxn.js","async":true}]
+70:["$","$Ld5",null,{"children":["$","$ae",null,{"name":"Next.MetadataOutlet","children":"$@d6"}]}]
+7d:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { Table } "}]
+7e:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+7f:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+80:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+81:["$","span",null,{"className":"line"}]
+82:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"export"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" default"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" () "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"=>"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+83:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+84:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.ScrollContainer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+85:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Content"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" aria-label"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Example table\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+86:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+87:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Name</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+88:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Role</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+89:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Body"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Row"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Kate Moore</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">CEO</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Row"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+8f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Body"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+90:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+91:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.ScrollContainer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+92:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Footer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">{"}],["$","span",null,{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"/* Optional footer content */"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Footer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+93:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+94:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":");"}]}]
+97:["$","$Ld7",null,{}]
+9b:["$","$Ld8",null,{}]
+9d:["$","$Ld9",null,{}]
+9f:["$","$Lda",null,{}]
+a3:["$","$L78",null,{"defaultWidth":"1fr","id":"email","minWidth":200,"children":"Email"}]
+a4:["$","$L79",null,{"children":[["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Kate Moore"}],["$","$L7b",null,{"children":"CEO"}],["$","$L7b",null,{"children":["$","$Ldb",null,{"color":"success","size":"sm","variant":"soft","children":"Active"}]}],["$","$L7b",null,{"children":"kate@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"John Smith"}],["$","$L7b",null,{"children":"CTO"}],["$","$L7b",null,{"children":["$","$Ldb",null,{"color":"success","size":"sm","variant":"soft","children":"Active"}]}],["$","$L7b",null,{"children":"john@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Sara Johnson"}],["$","$L7b",null,{"children":"CMO"}],["$","$L7b",null,{"children":["$","$Ldb",null,{"color":"warning","size":"sm","variant":"soft","children":"On Leave"}]}],["$","$L7b",null,{"children":"sara@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Michael Brown"}],["$","$L7b",null,{"children":"CFO"}],["$","$L7b",null,{"children":["$","$Ldb",null,{"color":"success","size":"sm","variant":"soft","children":"Active"}]}],["$","$L7b",null,{"children":"michael@acme.com"}]]}],["$","$L7a",null,{"children":[["$","$L7b",null,{"children":"Emily Davis"}],["$","$L7b",null,{"children":"Product Manager"}],["$","$L7b",null,{"children":["$","$Ldb",null,{"color":"danger","size":"sm","variant":"soft","children":"Inactive"}]}],["$","$L7b",null,{"children":"emily@acme.com"}]]}]]}]
+a8:["$","$Ldc",null,{}]
+ad:["$","$Ldd",null,{}]
+b1:["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"from"}]
+b2:["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" '@heroui/react'"}]
+b3:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]
+b4:["$","span",null,{"className":"line"}]
+b5:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"function"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" CustomTable"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"() {"}]]}]
+b6:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"  return"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ("}]]}]
+b7:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"border border-purple-200\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b8:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.ScrollContainer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+b9:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Content"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" aria-label"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"Custom styled table\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+ba:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Header"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"bg-purple-50\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bb:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Name</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Column"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bc:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Header"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bd:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Body"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+be:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Row"}],["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":" className"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"hover:bg-purple-50\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+bf:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"              <"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">Kate Moore</"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c0:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"            </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Row"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c1:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"          </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Body"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c2:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"        </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.Content"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c3:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"      </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table.ScrollContainer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c4:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    </"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Table"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":">"}]]}]
+c5:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  );"}]}]
+c6:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]
+c7:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}]
+c8:["$","span",null,{"className":"line"}]
+c9:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .table__row"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}]
+ca:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" bg-white"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" border-b"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" border-gray-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"200;"}]]}]
+cb:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}]
+cc:["$","span",null,{"className":"line"}]
+cd:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .table__cell"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}]
+ce:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" px-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"4 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"py-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"3 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"text-sm"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":";"}]]}]
+cf:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}]
+d0:["$","span",null,{"className":"line"}]
+d1:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"  .table__footer"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" {"}]]}]
+d2:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"    @"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"apply"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" flex"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" items-center"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" px-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"4 "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"py-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"2.5;"}]]}]
+d3:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"  }"}]}]
+d4:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"}"}]}]
+d6:null
