@@ -4,7 +4,7 @@ Allow: /
 Content-Signal: ai-train=yes, search=yes, ai-input=yes
 
 # Host
-Host: https://heroui.com
+Host: https://wangjinyang.github.io/heroui-v3-docs-public
 
 # Sitemaps
-Sitemap: https://heroui.com/sitemap.xml
+Sitemap: https://wangjinyang.github.io/heroui-v3-docs-public/sitemap.xml

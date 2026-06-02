@@ -2,7 +2,7 @@
 # RC 2
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/rc-2
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/rc-2
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/rc-2.mdx
 > SearchField、ListGroup、Slider 组件，Select 多选模式，Button 反馈 API 重构，放宽对等依赖约束
 

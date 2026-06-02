@@ -2,7 +2,7 @@
 # TextField
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/text-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/text-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/text-field.mdx
 > A text input component with label, description, and error handling for collecting user input.
 

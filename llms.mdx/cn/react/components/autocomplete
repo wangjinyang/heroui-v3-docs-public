@@ -2,7 +2,7 @@
 # Autocomplete 自动完成
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/autocomplete
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/autocomplete
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(pickers)/autocomplete.mdx
 > 自动完成将选择与过滤结合，让用户可以搜索并从选项列表中选择。
 

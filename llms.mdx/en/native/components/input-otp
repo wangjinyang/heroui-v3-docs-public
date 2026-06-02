@@ -2,7 +2,7 @@
 # InputOTP
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/input-otp
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/input-otp
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/input-otp.mdx
 > Input component for entering one-time passwords (OTP) with individual character slots, animations, and validation support.
 

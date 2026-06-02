@@ -2,7 +2,7 @@
 # Surface
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/surface
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/surface
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(layout)/surface.mdx
 > Container component that provides elevation and background styling.
 

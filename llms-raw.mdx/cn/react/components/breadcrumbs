@@ -2,7 +2,7 @@
 # Breadcrumbs 面包屑
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/breadcrumbs
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/breadcrumbs
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/breadcrumbs.mdx
 > 面包屑导航，用于展示当前页面在层级结构中的位置。
 

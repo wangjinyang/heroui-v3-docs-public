@@ -2,7 +2,7 @@
 # Badge 徽标
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/badge
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/badge
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(data-display)/badge.mdx
 > 展示相对其他元素定位的小型指示器，常用于未读数、状态点与标签等场景。
 

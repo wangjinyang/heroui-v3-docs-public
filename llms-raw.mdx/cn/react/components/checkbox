@@ -2,7 +2,7 @@
 # Checkbox 复选框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/checkbox
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/checkbox
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/checkbox.mdx
 > 复选框允许用户从多个独立选项中选择多项，或将单个独立选项标记为已选。
 

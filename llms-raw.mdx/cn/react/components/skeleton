@@ -2,7 +2,7 @@
 # Skeleton 骨架屏
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/skeleton
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/skeleton
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(feedback)/skeleton.mdx
 > Skeleton 用于展示加载状态，并预览组件的预期形状。
 

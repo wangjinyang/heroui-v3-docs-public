@@ -2,7 +2,7 @@
 # Beta 10
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/beta-10
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/beta-10
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/beta-10.mdx
 > Bottom Sheet 组件、PressableFeedback 重构、动画 API 的 State 扩展、use-theme-color 多色选取与问题修复
 

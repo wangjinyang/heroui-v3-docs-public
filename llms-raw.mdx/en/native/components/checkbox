@@ -2,7 +2,7 @@
 # Checkbox
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/checkbox
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/checkbox
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/checkbox.mdx
 > A selectable control that allows users to toggle between checked and unchecked states.
 

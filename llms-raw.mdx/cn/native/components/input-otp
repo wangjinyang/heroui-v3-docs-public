@@ -2,7 +2,7 @@
 # InputOTP 一次性密码输入框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/input-otp
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/input-otp
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/input-otp.mdx
 > 用于输入一次性验证码（OTP）的输入组件，支持分格、动画与校验。
 

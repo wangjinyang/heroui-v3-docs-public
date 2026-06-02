@@ -2,7 +2,7 @@
 # Select
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/select
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/select
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/select.mdx
 > Displays a list of options for the user to pick from — triggered by a button.
 

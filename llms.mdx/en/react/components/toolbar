@@ -2,7 +2,7 @@
 # Toolbar
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/toolbar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/toolbar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(layout)/toolbar.mdx
 > A container for interactive controls with arrow key navigation.
 

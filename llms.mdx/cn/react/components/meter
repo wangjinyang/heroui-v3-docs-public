@@ -2,7 +2,7 @@
 # Meter 计量条
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/meter
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/meter
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(feedback)/meter.mdx
 > Meter 表示已知范围内的数量，或一个比例值。
 

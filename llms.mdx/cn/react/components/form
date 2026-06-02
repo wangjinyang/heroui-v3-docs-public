@@ -2,7 +2,7 @@
 # Form 表单
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/form
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/form
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/form.mdx
 > 用于表单校验与提交处理的包装组件。
 

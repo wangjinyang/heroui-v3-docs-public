@@ -2,7 +2,7 @@
 # PressableFeedback 按压反馈
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/pressable-feedback
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/pressable-feedback
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(utilities)/pressable-feedback.mdx
 > 为按压交互提供视觉反馈的容器组件，内置缩放动画。
 

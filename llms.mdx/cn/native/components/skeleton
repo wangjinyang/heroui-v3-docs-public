@@ -2,7 +2,7 @@
 # Skeleton 骨架屏
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/skeleton
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/skeleton
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(feedback)/skeleton.mdx
 > 展示加载占位，支持微光（shimmer）或脉冲（pulse）等动画效果。
 

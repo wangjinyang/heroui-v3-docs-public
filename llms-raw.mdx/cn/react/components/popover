@@ -2,7 +2,7 @@
 # Popover 弹出框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/popover
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/popover
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(overlays)/popover.mdx
 > 在由按钮或任意自定义元素触发后，于 portal 中展示丰富内容。
 

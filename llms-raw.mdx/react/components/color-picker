@@ -2,7 +2,7 @@
 # ColorPicker
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/color-picker
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/color-picker
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(colors)/color-picker.mdx
 > A composable color picker that synchronizes color value between multiple color components
 

@@ -2,7 +2,7 @@
 # Chip 标签
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/chip
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/chip
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(data-display)/chip.mdx
 > 用于展示标签、状态与分类等信息的小型徽标。
 

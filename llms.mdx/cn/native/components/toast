@@ -2,7 +2,7 @@
 # Toast 轻提示
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/toast
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/toast
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(overlays)/toast.mdx
 > 在屏幕顶部或底部展示的临时通知消息。
 

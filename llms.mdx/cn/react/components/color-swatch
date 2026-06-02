@@ -2,7 +2,7 @@
 # ColorSwatch 颜色色块
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/color-swatch
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/color-swatch
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-swatch.mdx
 > 颜色值的视觉预览，并提供无障碍支持。
 

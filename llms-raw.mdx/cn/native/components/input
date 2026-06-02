@@ -2,7 +2,7 @@
 # Input 输入框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/input
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/input
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/input.mdx
 > 单行文本输入，带样式边框与背景，用于收集用户输入。
 

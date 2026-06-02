@@ -2,7 +2,7 @@
 # ProgressBar 进度条
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/progress-bar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/progress-bar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(feedback)/progress-bar.mdx
 > 进度条用于展示某项操作随时间变化的确定或不确定进度。
 

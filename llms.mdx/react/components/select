@@ -2,7 +2,7 @@
 # Select
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/select
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/select
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(pickers)/select.mdx
 > A select displays a collapsible list of options and allows a user to select one of them
 

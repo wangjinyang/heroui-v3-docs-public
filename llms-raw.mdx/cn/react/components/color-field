@@ -2,7 +2,7 @@
 # ColorField 颜色输入框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/color-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/color-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-field.mdx
 > 基于 React Aria ColorField 的颜色输入字段，包含标签、说明与校验能力。
 

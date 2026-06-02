@@ -2,7 +2,7 @@
 # InputGroup 输入框组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/input-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/input-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/input-group.mdx
 > 将相关输入控件与前后缀元素组合，以增强表单字段。
 

@@ -2,7 +2,7 @@
 # ToggleButtonGroup 切换按钮组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/toggle-button-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/toggle-button-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(buttons)/toggle-button-group.mdx
 > 将多个 ToggleButton 组合为统一控件，允许用户选择单个或多个选项。
 

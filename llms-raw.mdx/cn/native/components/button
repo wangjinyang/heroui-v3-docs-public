@@ -2,7 +2,7 @@
 # Button 按钮
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/button
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/button
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(buttons)/button.mdx
 > 按下时触发操作的交互组件。
 

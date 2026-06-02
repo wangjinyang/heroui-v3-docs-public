@@ -2,7 +2,7 @@
 # Table
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/table
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/table
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(data-display)/table.mdx
 > Tables display structured data in rows and columns with support for sorting, selection, column resizing, and infinite scrolling.
 

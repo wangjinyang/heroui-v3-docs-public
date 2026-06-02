@@ -2,7 +2,7 @@
 # CheckboxGroup 复选框组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/checkbox-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/checkbox-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/checkbox-group.mdx
 > 用于管理多项复选框选择的 CheckboxGroup 组件。
 

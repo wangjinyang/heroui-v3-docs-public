@@ -2,7 +2,7 @@
 # Menu
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/menu
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/menu
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(collections)/menu.mdx
 > A floating context menu with positioning, selection groups, and multiple presentation modes.
 

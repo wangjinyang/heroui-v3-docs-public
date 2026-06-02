@@ -2,7 +2,7 @@
 # Slider 滑块
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/slider
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/slider
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(controls)/slider.mdx
 > 在有限区间内通过拖拽选择单个值或区间的输入控件。
 

@@ -2,7 +2,7 @@
 # Popover
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/popover
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/popover
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(overlays)/popover.mdx
 > Displays a floating content panel anchored to a trigger element with placement and alignment options.
 

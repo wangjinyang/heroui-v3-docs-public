@@ -2,7 +2,7 @@
 # TextField 文本输入框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/text-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/text-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/text-field.mdx
 > 带标签、说明与错误处理的文本输入，用于收集用户输入。
 

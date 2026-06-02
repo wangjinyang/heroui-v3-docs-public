@@ -2,7 +2,7 @@
 # Pagination 分页
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/pagination
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/pagination
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/pagination.mdx
 > 分页导航：可组合的页码链接、上一页/下一页按钮与省略号指示器。
 

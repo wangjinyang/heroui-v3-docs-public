@@ -2,7 +2,7 @@
 # AlertDialog 警告对话框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/alert-dialog
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/alert-dialog
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(overlays)/alert-dialog.mdx
 > 用于关键确认的模态对话框，需要用户关注并执行明确操作。
 

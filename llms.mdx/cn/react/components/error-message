@@ -2,7 +2,7 @@
 # ErrorMessage 错误信息
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/error-message
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/error-message
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/error-message.mdx
 > 用于展示错误信息的底层组件。
 

@@ -2,7 +2,7 @@
 # Typography
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/typography
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/typography
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(typography)/typography.mdx
 > A semantic typography primitive for headings, body copy, and inline code built on React Aria Components Text.
 

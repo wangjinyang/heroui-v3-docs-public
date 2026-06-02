@@ -2,7 +2,7 @@
 # ColorSwatchPicker
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/color-swatch-picker
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/color-swatch-picker
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(colors)/color-swatch-picker.mdx
 > A list of color swatches that allows users to select a color from a predefined palette.
 

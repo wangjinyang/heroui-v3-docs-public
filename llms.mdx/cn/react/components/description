@@ -2,7 +2,7 @@
 # Description 描述
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/description
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/description
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/description.mdx
 > 为表单字段及其他组件提供补充说明文字。
 

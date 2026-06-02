@@ -2,7 +2,7 @@
 # TagGroup
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/tag-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/tag-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(collections)/tag-group.mdx
 > A compound component for displaying and managing selectable tags with optional removal.
 

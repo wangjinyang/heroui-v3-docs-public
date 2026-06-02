@@ -2,7 +2,7 @@
 # TagGroup 标签组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/tag-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/tag-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(collections)/tag-group.mdx
 > 可聚焦的标签列表，支持键盘导航、选择与移除。
 

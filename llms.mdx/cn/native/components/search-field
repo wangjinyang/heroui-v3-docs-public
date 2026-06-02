@@ -2,7 +2,7 @@
 # SearchField 搜索框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/search-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/search-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/search-field.mdx
 > 用于筛选与查询的复合搜索输入框。
 

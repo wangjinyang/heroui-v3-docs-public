@@ -2,7 +2,7 @@
 # Chip 标签
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/chip
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/chip
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(data-display)/chip.mdx
 > 以胶囊形态展示的小型元素。
 

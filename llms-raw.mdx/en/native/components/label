@@ -2,7 +2,7 @@
 # Label
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/label
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/label
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/label.mdx
 > Text component for labeling form fields and other UI elements with support for required indicators and validation states.
 

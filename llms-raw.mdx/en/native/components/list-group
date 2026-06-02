@@ -2,7 +2,7 @@
 # ListGroup
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/list-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/list-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(navigation)/list-group.mdx
 > A Surface-based container that groups related list items with consistent layout and spacing.
 

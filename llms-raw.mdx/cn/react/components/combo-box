@@ -2,7 +2,7 @@
 # ComboBox 组合框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/combo-box
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/combo-box
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(pickers)/combo-box.mdx
 > 将文本输入与 ListBox 结合，用户可通过输入查询把选项列表过滤为匹配项。
 

@@ -2,7 +2,7 @@
 # ColorArea 颜色区域
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/color-area
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/color-area
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-area.mdx
 > 二维颜色选择器，用户可在渐变区域内选取颜色。
 

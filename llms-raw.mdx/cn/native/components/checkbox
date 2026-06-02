@@ -2,7 +2,7 @@
 # Checkbox 复选框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/checkbox
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/checkbox
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/checkbox.mdx
 > 可在选中与未选中之间切换的可选控件。
 

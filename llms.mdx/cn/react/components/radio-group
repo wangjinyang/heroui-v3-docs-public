@@ -2,7 +2,7 @@
 # RadioGroup 单选框组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/radio-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/radio-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/radio-group.mdx
 > 用于从列表中选择单个选项的单选组。
 

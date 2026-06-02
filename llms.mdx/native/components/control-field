@@ -2,7 +2,7 @@
 # ControlField
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/control-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/control-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/control-field.mdx
 > A field component that combines a label, description (or other content), and a control component (Switch or Checkbox) into a single pressable area.
 

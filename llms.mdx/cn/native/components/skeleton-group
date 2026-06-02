@@ -2,7 +2,7 @@
 # SkeletonGroup 骨架屏组
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/skeleton-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/skeleton-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(feedback)/skeleton-group.mdx
 > 协调多个骨架屏占位，并提供统一的动画与加载态控制。
 

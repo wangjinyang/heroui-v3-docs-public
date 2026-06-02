@@ -2,7 +2,7 @@
 # Toolbar 工具栏
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/toolbar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/toolbar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(layout)/toolbar.mdx
 > 用于承载可交互控件的容器，并支持方向键导航。
 

@@ -2,7 +2,7 @@
 # ToggleButtonGroup
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/toggle-button-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/toggle-button-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(buttons)/toggle-button-group.mdx
 > Groups multiple ToggleButtons into a unified control, allowing users to select one or multiple options.
 

@@ -2,7 +2,7 @@
 # ProgressBar
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/progress-bar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/progress-bar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(feedback)/progress-bar.mdx
 > A progress bar shows either determinate or indeterminate progress of an operation over time.
 

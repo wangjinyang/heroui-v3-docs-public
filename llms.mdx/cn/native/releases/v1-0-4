@@ -2,7 +2,7 @@
 # v1.0.4
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/v1-0-4
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/v1-0-4
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/v1-0-4.mdx
 > Typography 组件替代 Text、调整后的柔和前景色主题令牌与可选鲜亮配色、iOS 原生模态偏移说明、示例应用升级至 Expo 56 / React Native 0.85
 

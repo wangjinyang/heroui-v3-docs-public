@@ -2,7 +2,7 @@
 # Link 链接
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/link
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/link
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/link.mdx
 > 用于导航的样式化锚点组件，内置图标支持。
 

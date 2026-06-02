@@ -2,7 +2,7 @@
 # InputGroup 输入框组
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/input-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/input-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/input-group.mdx
 > 复合布局组件，将输入框与可选的前后缀装饰组合在一起。
 

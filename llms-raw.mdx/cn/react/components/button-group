@@ -2,7 +2,7 @@
 # ButtonGroup 按钮组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/button-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/button-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(buttons)/button-group.mdx
 > 将相关按钮组合在一起，并提供一致的样式与间距。
 

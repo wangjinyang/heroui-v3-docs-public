@@ -2,7 +2,7 @@
 # TextArea 多行文本框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/text-area
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/text-area
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/text-area.mdx
 > 原语级多行文本输入组件，可接受标准 HTML 属性。
 

@@ -2,7 +2,7 @@
 # SkeletonGroup
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/skeleton-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/skeleton-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(feedback)/skeleton-group.mdx
 > Coordinates multiple skeleton loading placeholders with centralized animation control.
 

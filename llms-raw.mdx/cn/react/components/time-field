@@ -2,7 +2,7 @@
 # TimeField 时间字段
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/time-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/time-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(date-and-time)/time-field.mdx
 > 基于 React Aria TimeField 的时间输入字段，包含标签、说明与校验。
 

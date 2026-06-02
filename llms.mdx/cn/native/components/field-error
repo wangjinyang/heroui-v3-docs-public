@@ -2,7 +2,7 @@
 # FieldError 字段错误
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/field-error
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/field-error
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/field-error.mdx
 > 展示校验错误信息，并带有平滑动画。
 

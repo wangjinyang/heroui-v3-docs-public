@@ -2,7 +2,7 @@
 # Disclosure 折叠面板
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/disclosure
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/disclosure
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/disclosure.mdx
 > Disclosure 是一种可折叠区域：头部包含标题与触发按钮，面板包裹正文内容。
 

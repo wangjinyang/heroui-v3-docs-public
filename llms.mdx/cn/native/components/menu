@@ -2,7 +2,7 @@
 # Menu 菜单
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/menu
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/menu
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(collections)/menu.mdx
 > 浮动上下文菜单，支持定位、选择分组与多种呈现方式。
 

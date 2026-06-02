@@ -2,7 +2,7 @@
 # Typography 文本
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/text
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/text
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(typography)/text.mdx
 > 用于渲染带语义类型变体的样式化文本的排版基元组件。
 

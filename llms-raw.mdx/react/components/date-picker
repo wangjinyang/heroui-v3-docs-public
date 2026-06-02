@@ -2,7 +2,7 @@
 # DatePicker
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/date-picker
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/date-picker
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(date-and-time)/date-picker.mdx
 > Composable date picker built on React Aria DatePicker with DateField and Calendar composition
 

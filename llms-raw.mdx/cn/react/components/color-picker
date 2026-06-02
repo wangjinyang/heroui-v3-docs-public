@@ -2,7 +2,7 @@
 # ColorPicker 颜色选择器
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/color-picker
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/color-picker
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-picker.mdx
 > 可组合的 ColorPicker，在多个颜色组件之间同步颜色值。
 

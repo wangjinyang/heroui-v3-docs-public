@@ -2,7 +2,7 @@
 # RadioGroup 单选框组
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/radio-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/radio-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/radio-group.mdx
 > 单选按钮组，同一时间只能选中一个选项。
 

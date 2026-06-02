@@ -2,7 +2,7 @@
 # v1.0.3
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/v1-0-3
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/v1-0-3
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/v1-0-3.mdx
 > 全新 Text 排版组件、ScrollShadow 反向列表支持、Tabs RTL 指示器修复、Avatar alt 属性可选化、Select 指示器统一、表单字段样式微调
 

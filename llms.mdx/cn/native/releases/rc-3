@@ -2,7 +2,7 @@
 # RC 3
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/rc-3
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/rc-3
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/rc-3.mdx
 > TagGroup、Menu、InputGroup 组件，Bottom Sheet Android 返回键修复，Expo 55 兼容
 

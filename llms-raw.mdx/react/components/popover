@@ -2,7 +2,7 @@
 # Popover
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/popover
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/popover
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(overlays)/popover.mdx
 > Displays rich content in a portal triggered by a button or any custom element
 

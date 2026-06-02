@@ -2,7 +2,7 @@
 # Skeleton
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/skeleton
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/skeleton
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(feedback)/skeleton.mdx
 > Displays a loading placeholder with shimmer or pulse animation effects.
 

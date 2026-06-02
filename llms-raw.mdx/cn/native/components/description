@@ -2,7 +2,7 @@
 # Description 描述
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/description
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/description
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/description.mdx
 > 用于为表单字段等提供无障碍说明与辅助文案的文本组件。
 

@@ -2,7 +2,7 @@
 # InputOTP 一次性密码输入框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/input-otp
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/input-otp
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/input-otp.mdx
 > 用于验证码与安全认证等场景的一次性密码输入组件。
 

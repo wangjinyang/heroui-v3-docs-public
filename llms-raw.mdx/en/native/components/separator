@@ -2,7 +2,7 @@
 # Separator
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/separator
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/separator
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(layout)/separator.mdx
 > A simple line to separate content visually.
 

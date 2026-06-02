@@ -2,7 +2,7 @@
 # DateRangePicker
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/date-range-picker
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/date-range-picker
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(date-and-time)/date-range-picker.mdx
 > Composable date range picker built on React Aria DateRangePicker with DateField and RangeCalendar composition
 

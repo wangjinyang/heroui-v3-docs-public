@@ -2,7 +2,7 @@
 # Button 按钮
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/button
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/button
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(buttons)/button.mdx
 > 可点击的按钮组件，支持多种变体与状态。
 

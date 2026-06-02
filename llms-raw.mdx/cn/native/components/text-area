@@ -2,7 +2,7 @@
 # TextArea 多行文本框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/text-area
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/text-area
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/text-area.mdx
 > 多行文本输入，带样式边框与背景，用于收集较长内容。
 

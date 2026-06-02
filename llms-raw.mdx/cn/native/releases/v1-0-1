@@ -2,7 +2,7 @@
 # v1.0.1
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/v1-0-1
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/v1-0-1
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/v1-0-1.mdx
 > Toast 竞态修复、使用 disabled 修饰符的禁用态样式、背景层样式变量 backdrop
 

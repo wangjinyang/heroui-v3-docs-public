@@ -2,7 +2,7 @@
 # BottomSheet
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/bottom-sheet
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/bottom-sheet
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(overlays)/bottom-sheet.mdx
 > Displays a bottom sheet that slides up from the bottom with animated transitions and swipe-to-dismiss gestures.
 

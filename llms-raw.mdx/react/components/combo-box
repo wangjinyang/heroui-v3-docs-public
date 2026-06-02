@@ -2,7 +2,7 @@
 # ComboBox
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/combo-box
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/combo-box
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(pickers)/combo-box.mdx
 > A combo box combines a text input with a listbox, allowing users to filter a list of options to items matching a query
 

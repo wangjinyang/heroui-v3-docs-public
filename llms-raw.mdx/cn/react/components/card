@@ -2,7 +2,7 @@
 # Card 卡片
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/card
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/card
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(layout)/card.mdx
 > 用于分组相关内容与操作的灵活容器组件。
 

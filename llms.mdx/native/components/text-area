@@ -2,7 +2,7 @@
 # TextArea
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/text-area
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/text-area
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/text-area.mdx
 > A multiline text input component with styled border and background for collecting longer user input.
 

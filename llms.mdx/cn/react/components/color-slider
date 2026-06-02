@@ -2,7 +2,7 @@
 # ColorSlider 颜色滑块
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/color-slider
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/color-slider
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(colors)/color-slider.mdx
 > ColorSlider 允许用户调整颜色值的单个通道。
 

@@ -2,7 +2,7 @@
 # Accordion 手风琴
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/accordion
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/accordion
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/accordion.mdx
 > 用于在紧凑空间中组织信息的可折叠内容面板。
 

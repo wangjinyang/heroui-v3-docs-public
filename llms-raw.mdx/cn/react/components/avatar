@@ -2,7 +2,7 @@
 # Avatar 头像
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/avatar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/avatar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(media)/avatar.mdx
 > 展示用户头像图片，并提供可定制的回退内容。
 

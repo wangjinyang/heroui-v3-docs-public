@@ -2,7 +2,7 @@
 # Switch 开关
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/switch
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/switch
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(controls)/switch.mdx
 > 在开与关两种状态之间切换的拨动控件。
 

@@ -2,7 +2,7 @@
 # Toast 轻提示
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/toast
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/toast
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(overlays)/toast.mdx
 > 向用户展示临时通知与消息，支持自动消失与可定制的放置位置。
 

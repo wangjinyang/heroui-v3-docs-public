@@ -2,7 +2,7 @@
 # ToggleButton 切换按钮
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/toggle-button
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/toggle-button
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(buttons)/toggle-button.mdx
 > 用于在开启/关闭或已选中/未选中状态之间切换的交互式切换控件。
 

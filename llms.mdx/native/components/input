@@ -2,7 +2,7 @@
 # Input
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/input
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/input
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(forms)/input.mdx
 > A text input component with styled border and background for collecting user input.
 

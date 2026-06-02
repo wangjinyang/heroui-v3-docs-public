@@ -2,7 +2,7 @@
 # Label 标签
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/label
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/label
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/label.mdx
 > 用于标注表单字段等 UI 的文本组件，支持必填标记与校验状态。
 

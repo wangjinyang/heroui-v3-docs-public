@@ -2,7 +2,7 @@
 # Beta 12
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/beta-12
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/beta-12
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/beta-12.mdx
 > InputOTP、Label、Description 组件，Popover 关闭修复，受控状态改进，圆角修复，以及变体样式属性支持
 

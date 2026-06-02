@@ -2,7 +2,7 @@
 # DateField 日期字段
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/date-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/date-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(date-and-time)/date-field.mdx
 > 基于 React Aria DateField 的日期输入字段，包含标签、说明与校验。
 

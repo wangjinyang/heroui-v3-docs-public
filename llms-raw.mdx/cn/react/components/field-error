@@ -2,7 +2,7 @@
 # FieldError 字段错误
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/field-error
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/field-error
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/field-error.mdx
 > 用于展示表单字段的校验错误信息。
 

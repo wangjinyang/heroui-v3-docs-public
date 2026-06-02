@@ -2,7 +2,7 @@
 # ScrollShadow
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/scroll-shadow
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/scroll-shadow
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(utilities)/scroll-shadow.mdx
 > Apply visual shadows to indicate scrollable content overflow with automatic detection of scroll position.
 

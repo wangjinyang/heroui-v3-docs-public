@@ -2,7 +2,7 @@
 # Spinner 加载指示器
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/spinner
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/spinner
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(feedback)/spinner.mdx
 > 展示旋转加载动画。
 

@@ -2,7 +2,7 @@
 # Tabs 标签页
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/tabs
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/tabs
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/tabs.mdx
 > Tabs 将内容组织为多个区块，并允许用户在它们之间导航。
 

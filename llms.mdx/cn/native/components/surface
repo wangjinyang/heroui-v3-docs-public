@@ -2,7 +2,7 @@
 # Surface 表面
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/surface
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/surface
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(layout)/surface.mdx
 > 提供层级与背景样式的容器组件。
 

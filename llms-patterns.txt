@@ -2,7 +2,7 @@
 # 动画
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/animation
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/animation
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/animation.mdx
 > 为 HeroUI Native 组件添加流畅动画与过渡
 
@@ -223,7 +223,7 @@ import {Switch} from 'heroui-native';
 # 颜色
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/colors
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/colors
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/colors.mdx
 > HeroUI Native 的调色板与主题系统
 
@@ -705,7 +705,7 @@ const [accent, accentForeground, success, danger] = useThemeColor([
 # 组合
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/composition
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/composition
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/composition.mdx
 > 用组件组合模式搭建灵活 UI
 
@@ -916,7 +916,7 @@ export function CustomButton({
 # Portal
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/portal
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/portal
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/portal.mdx
 
 
@@ -1067,7 +1067,7 @@ function DialogFormContent({ onClose }: { onClose: () => void }) {
 # Provider
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/provider
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/provider
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/provider.mdx
 > 配置 HeroUI Native 的文本、动画与 Toast 等全局能力
 
@@ -1540,7 +1540,7 @@ const config: HeroUINativeConfig = {
 # 样式
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/styling
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/styling
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/styling.mdx
 > 使用 Tailwind 或 StyleSheet API 为 HeroUI Native 组件编写样式
 
@@ -1927,7 +1927,7 @@ useThemeColor(themeColor: ThemeColor[]): string[]
 # 主题
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/theming
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/theming
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(handbook)/theming.mdx
 > 使用 CSS 变量与全局样式定制 HeroUI Native 设计系统
 
@@ -2440,7 +2440,7 @@ HeroUI 定义三类变量：
 # 设计原则
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/design-principles
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/design-principles
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(overview)/design-principles.mdx
 > 指导 HeroUI Native 设计与开发的核心理念
 
@@ -2712,7 +2712,7 @@ function CustomButton({ variant, className, labelClassName, children, ...props }
 # 快速开始
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/quick-start
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/quick-start
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(overview)/quick-start.mdx
 > 几分钟内上手 HeroUI Native
 
@@ -2901,7 +2901,7 @@ import { Button, Card } from "heroui-native";
 # Agent Skills
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/agent-skills
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/agent-skills
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/agent-skills.mdx
 > 让 AI 助手使用 HeroUI Native 组件构建移动端界面
 
@@ -2978,7 +2978,7 @@ skills/heroui-native/
 # AGENTS.md
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/agents-md
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/agents-md
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/agents-md.mdx
 > 将 HeroUI Native 文档下载到项目中，供 AI 编程助手引用
 
@@ -3033,7 +3033,7 @@ npx heroui-cli@latest agents-md --native --output AGENTS.md
 # LLMs.txt
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/llms-txt
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/llms-txt
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/llms-txt.mdx
 > 让 Claude、Cursor、Windsurf 等 AI 助手理解 HeroUI Native 文档
 
@@ -3124,7 +3124,7 @@ https://heroui.com/native/llms-patterns.txt
 # MCP 服务器
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/getting-started/mcp-server
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/getting-started/mcp-server
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/getting-started/(ui-for-agents)/mcp-server.mdx
 > 在 AI 助手中直接访问 HeroUI Native 文档
 

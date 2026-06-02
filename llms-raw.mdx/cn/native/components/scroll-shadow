@@ -2,7 +2,7 @@
 # ScrollShadow 滚动阴影
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/scroll-shadow
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/scroll-shadow
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(utilities)/scroll-shadow.mdx
 > 根据滚动位置与溢出情况，为可滚动内容添加动态渐变边缘阴影。
 

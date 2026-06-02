@@ -2,7 +2,7 @@
 # ListGroup 列表组
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/list-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/list-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(navigation)/list-group.mdx
 > 基于 Surface 的容器，用于分组展示列表项并保持一致的布局与间距。
 

@@ -2,7 +2,7 @@
 # DisclosureGroup 折叠面板组
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/disclosure-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/disclosure-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(navigation)/disclosure-group.mdx
 > 管理多个 Disclosure 的容器，用于协调展开状态。
 

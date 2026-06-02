@@ -2,7 +2,7 @@
 # v1.0.0
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/v1-0-0
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/v1-0-0
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/v1-0-0.mdx
 > LinkButton 组件、子菜单冲突处理、可选的 @gorhom/bottom-sheet 对等依赖、ThemeColorValue 品牌类型
 

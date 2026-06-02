@@ -2,7 +2,7 @@
 # Popover 弹出框
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/popover
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/popover
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(overlays)/popover.mdx
 > 锚定在触发器上的浮动内容面板，支持方位与对齐选项。
 

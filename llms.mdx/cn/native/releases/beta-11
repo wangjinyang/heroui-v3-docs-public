@@ -2,7 +2,7 @@
 # Beta 11
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/beta-11
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/beta-11
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/beta-11.mdx
 > Bottom Sheet 关闭协同增强、Dialog 侧滑关闭修复、TextField 改进，以及面向高级场景的 PortalHost 导出
 

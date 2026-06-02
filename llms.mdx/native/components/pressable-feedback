@@ -2,7 +2,7 @@
 # PressableFeedback
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/pressable-feedback
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/pressable-feedback
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(utilities)/pressable-feedback.mdx
 > Container component that provides visual feedback for press interactions with automatic scale animation.
 

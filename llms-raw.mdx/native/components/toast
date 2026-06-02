@@ -2,7 +2,7 @@
 # Toast
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/toast
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/toast
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(overlays)/toast.mdx
 > Displays temporary notification messages that appear at the top or bottom of the screen.
 

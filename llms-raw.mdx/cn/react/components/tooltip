@@ -2,7 +2,7 @@
 # Tooltip 工具提示
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/tooltip
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/tooltip
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(overlays)/tooltip.mdx
 > 当用户悬停或聚焦某个元素时，展示提示性文本。
 

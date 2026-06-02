@@ -2,7 +2,7 @@
 # ScrollShadow 滚动阴影
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/scroll-shadow
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/scroll-shadow
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(utilities)/scroll-shadow.mdx
 > 通过阴影提示可滚动溢出内容，并根据滚动位置自动检测显示或隐藏。
 

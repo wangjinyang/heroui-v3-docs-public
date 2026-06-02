@@ -2,7 +2,7 @@
 # ProgressCircle 环形进度条
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/progress-circle
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/progress-circle
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(feedback)/progress-circle.mdx
 > 环形进度指示器，用于展示确定或不确定的进度。
 

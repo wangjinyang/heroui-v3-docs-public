@@ -2,7 +2,7 @@
 # Select 选择器
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/select
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/select
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(pickers)/select.mdx
 > Select 展示可折叠的选项列表，并允许用户从中选择一项。
 

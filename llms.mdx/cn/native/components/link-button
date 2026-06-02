@@ -2,7 +2,7 @@
 # LinkButton 链接按钮
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/link-button
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/link-button
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(buttons)/link-button.mdx
 > 幽灵样式按钮，无高亮按压反馈，适合行内链接式交互。
 

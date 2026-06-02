@@ -2,7 +2,7 @@
 # ListBox 列表框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/list-box
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/list-box
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(collections)/list-box.mdx
 > 列表框展示一组选项，并允许用户选择一个或多个。
 

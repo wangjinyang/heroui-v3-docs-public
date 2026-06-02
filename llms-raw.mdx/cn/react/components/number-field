@@ -2,7 +2,7 @@
 # NumberField 数字输入框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/number-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/number-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/number-field.mdx
 > 数字输入字段，包含增减按钮、校验与国际化格式化能力。
 

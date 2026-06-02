@@ -2,7 +2,7 @@
 # Checkbox
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/checkbox
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/checkbox
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(forms)/checkbox.mdx
 > Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.
 

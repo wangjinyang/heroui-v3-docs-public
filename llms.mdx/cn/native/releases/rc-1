@@ -2,7 +2,7 @@
 # RC 1
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/releases/rc-1
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/releases/rc-1
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/releases/rc-1.mdx
 > Alert 组件、独立 Radio 组件、Select TriggerIndicator、HeroUINativeProviderRaw、disableFullWindowOverlay、styles 属性扩展、主题 surface 重构
 

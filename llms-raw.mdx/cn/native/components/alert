@@ -2,7 +2,7 @@
 # Alert 警告
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/alert
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/alert
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(feedback)/alert.mdx
 > 向用户展示重要消息与通知，并带有状态指示。
 

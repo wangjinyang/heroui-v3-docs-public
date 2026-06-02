@@ -2,7 +2,7 @@
 # Avatar 头像
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/avatar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/avatar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(media)/avatar.mdx
 > 展示用户头像，支持图片、文字首字母或回退图标。
 

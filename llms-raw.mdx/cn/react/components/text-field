@@ -2,7 +2,7 @@
 # TextField 文本输入框
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/text-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/text-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(forms)/text-field.mdx
 > 便于组合的文本字段，包含标签、说明与内联校验。
 

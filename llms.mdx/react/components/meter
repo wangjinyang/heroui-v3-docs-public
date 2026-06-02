@@ -2,7 +2,7 @@
 # Meter
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/meter
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/meter
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(feedback)/meter.mdx
 > A meter represents a quantity within a known range, or a fractional value.
 

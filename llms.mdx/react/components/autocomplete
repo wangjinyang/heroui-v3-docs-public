@@ -2,7 +2,7 @@
 # Autocomplete
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/autocomplete
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/autocomplete
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(pickers)/autocomplete.mdx
 > An autocomplete combines a select with filtering, allowing users to search and select from a list of options
 

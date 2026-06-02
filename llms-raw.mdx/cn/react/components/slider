@@ -2,7 +2,7 @@
 # Slider 滑块
 
 **Category**: react
-**URL**: http://localhost:3000/cn/docs/react/components/slider
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/react/components/slider
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/react/components/(controls)/slider.mdx
 > Slider 允许用户在范围内选择一个或多个值。
 

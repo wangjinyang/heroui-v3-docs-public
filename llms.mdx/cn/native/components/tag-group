@@ -2,7 +2,7 @@
 # TagGroup 标签组
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/tag-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/tag-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(collections)/tag-group.mdx
 > 用于展示与管理可选标签的复合组件，支持可选移除。
 

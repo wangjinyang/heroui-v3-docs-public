@@ -2,7 +2,7 @@
 # Avatar
 
 **Category**: native
-**URL**: http://localhost:3000/en/docs/native/components/avatar
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/native/components/avatar
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/native/components/(media)/avatar.mdx
 > Displays a user avatar with support for images, text initials, or fallback icons.
 

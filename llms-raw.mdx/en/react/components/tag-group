@@ -2,7 +2,7 @@
 # TagGroup
 
 **Category**: react
-**URL**: http://localhost:3000/en/docs/react/components/tag-group
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/en/docs/react/components/tag-group
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/en/react/components/(collections)/tag-group.mdx
 > A focusable list of tags with support for keyboard navigation, selection, and removal
 

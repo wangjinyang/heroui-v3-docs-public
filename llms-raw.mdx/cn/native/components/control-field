@@ -2,7 +2,7 @@
 # ControlField 控件字段
 
 **Category**: native
-**URL**: http://localhost:3000/cn/docs/native/components/control-field
+**URL**: https://wangjinyang.github.io/heroui-v3-docs-public/cn/docs/native/components/control-field
 **Source**: https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/content/docs/cn/native/components/(forms)/control-field.mdx
 > 将标签、说明（或其他内容）与控件（Switch 或 Checkbox）组合为单一可按压区域的字段组件。
 
